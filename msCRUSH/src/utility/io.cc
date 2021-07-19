@@ -1,4 +1,6 @@
 #include "io.h"
+
+
 namespace Utility {
 
 
@@ -30,6 +32,7 @@ void IO::ReadSpectraFromMGF(vector<Spectrum*>* indexed_spectra,
     float max_mz, float precision, int topK, int bin_size,
     bool peak_normalized, bool remove_precursor, bool verbose) {
 
+  std::ios::sync_with_stdio(false);
   ifstream reader(file);
   if (!reader.is_open()) {
     cout << "Error! file not open!" << endl;
@@ -60,7 +63,13 @@ void IO::ReadSpectraFromMGF(vector<Spectrum*>* indexed_spectra,
   Reset(&intensity, &precursor_mz, &charge, &i_peak, &peptide, &protein,
         &title, NA, &filtered_peaks);
 
+  double mgf_read_time = 0.0;
+  double preprocess_time = 0.0;
+  
   while (getline(reader, line)) {
+    // cout<<"String length: \t"<<line.length()<<endl;
+    auto start_time = chrono::high_resolution_clock::now();
+
     // Handle text.
     if (line.empty() || line[0] == '#') {
       continue;
@@ -135,6 +144,13 @@ void IO::ReadSpectraFromMGF(vector<Spectrum*>* indexed_spectra,
 
     } while(getline(reader, line));
 
+    auto end_time = chrono::high_resolution_clock::now();
+    mgf_read_time += chrono::duration_cast<std::chrono::duration<double>>(
+      end_time - start_time).count();
+    
+
+    start_time = chrono::high_resolution_clock::now();
+
     BinTopKPeak(&filtered_peaks, raw_peaks, i_peak, topK, bin_size);
     RemoveAdjacentPeaks(&filtered_peaks, precision);
     Normalize(&filtered_peaks, scale);
@@ -166,12 +182,18 @@ void IO::ReadSpectraFromMGF(vector<Spectrum*>* indexed_spectra,
     Reset(&intensity, &precursor_mz, &charge, &i_peak, &peptide, &protein,
           &title, NA, &filtered_peaks);
 
+    end_time = chrono::high_resolution_clock::now();
+    preprocess_time += chrono::duration_cast<std::chrono::duration<double>>(
+      end_time - start_time).count();
   }
   //cout << "read #spectra: " << spectra_cnt << endl;
 
   (*spectra_size) = spectra_cnt;
   //cout << "read #spectra: " << spectra_cnt << ", from: " << file << endl;
   reader.close();
+
+  cout << "Loading spectra takes sec:\t" << mgf_read_time << "\n";
+  cout << "Preprocessing spectra takes sec:\t" << preprocess_time << "\n";
 }
 
 void IO::Reset(float* intensity, float* precursor_mz,

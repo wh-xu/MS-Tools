@@ -1,0 +1,3833 @@
+Architecture:          x86_64
+CPU op-mode(s):        32-bit, 64-bit
+Byte Order:            Little Endian
+CPU(s):                16
+On-line CPU(s) list:   0-15
+Thread(s) per core:    2
+Core(s) per socket:    8
+Socket(s):             1
+NUMA node(s):          1
+Vendor ID:             GenuineIntel
+CPU family:            6
+Model:                 79
+Model name:            Intel(R) Xeon(R) CPU E5-1680 v4 @ 3.40GHz
+Stepping:              1
+CPU MHz:               3385.799
+CPU max MHz:           4000.0000
+CPU min MHz:           1200.0000
+BogoMIPS:              6795.48
+Virtualization:        VT-x
+L1d cache:             32K
+L1i cache:             32K
+L2 cache:              256K
+L3 cache:              20480K
+NUMA node0 CPU(s):     0-15
+Flags:                 fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb cat_l3 cdp_l3 invpcid_single pti intel_ppin ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm rdt_a rdseed adx smap intel_pt xsaveopt cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts md_clear flush_l1d
+--Output HyperParams Begins--
+<bool> peak intensity log normalized: Yes
+<bool> remove precursor peak: Yes
+<float> precursor mass tolerance(Da): 0.05
+<float> max peak mz: 2000
+<float> min peak mz: 200
+<float> min cosine sim for clustering: 0.65
+<float> mz scale after nomrlization: 1000
+<float> fragment precision: 0.8
+<float> shared peak mz eps: 0.2
+<int> clustering iteration: 100
+<int> hash functions per hash table: 15
+<int> hash function dimension: 2251
+<int> topK strongest peaks per bin: 5
+<int> threads to use: 40
+<int> window(bin) size: 100
+<string> consensus spectra file prefix: consensus
+<string> clustering result file prefix: ../clusters/clusters
+--Output HyperParams Ends--
+
+Delimiter to separate MS2 titles: |
+Loading spectra...
+Loading spectra from file: [1/18]
+file name: /home/user/bio/ms-dataset/PXD001197/OrbiElite04549.mgf
+Loading spectra takes sec:	61.8073
+Preprocessing spectra takes sec:	1.06989
+Loading spectra from file: [2/18]
+file name: /home/user/bio/ms-dataset/PXD001197/OrbiElite04550.mgf
+Loading spectra takes sec:	7.76089
+Preprocessing spectra takes sec:	0.95584
+Loading spectra from file: [3/18]
+file name: /home/user/bio/ms-dataset/PXD001197/OrbiElite04551.mgf
+Loading spectra takes sec:	7.75426
+Preprocessing spectra takes sec:	0.981841
+Loading spectra from file: [4/18]
+file name: /home/user/bio/ms-dataset/PXD001197/OrbiElite04552.mgf
+Loading spectra takes sec:	7.40068
+Preprocessing spectra takes sec:	0.950108
+Loading spectra from file: [5/18]
+file name: /home/user/bio/ms-dataset/PXD001197/OrbiElite04553.mgf
+Loading spectra takes sec:	7.66352
+Preprocessing spectra takes sec:	0.958053
+Loading spectra from file: [6/18]
+file name: /home/user/bio/ms-dataset/PXD001197/OrbiElite04554.mgf
+Loading spectra takes sec:	7.6556
+Preprocessing spectra takes sec:	0.978654
+Loading spectra from file: [7/18]
+file name: /home/user/bio/ms-dataset/PXD001197/OrbiElite04555.mgf
+Loading spectra takes sec:	7.40453
+Preprocessing spectra takes sec:	0.9463
+Loading spectra from file: [8/18]
+file name: /home/user/bio/ms-dataset/PXD001197/OrbiElite04556.mgf
+Loading spectra takes sec:	7.7435
+Preprocessing spectra takes sec:	0.97333
+Loading spectra from file: [9/18]
+file name: /home/user/bio/ms-dataset/PXD001197/OrbiElite04557.mgf
+Loading spectra takes sec:	7.76132
+Preprocessing spectra takes sec:	0.979605
+Loading spectra from file: [10/18]
+file name: /home/user/bio/ms-dataset/PXD001197/OrbiElite04778.mgf
+Loading spectra takes sec:	7.46788
+Preprocessing spectra takes sec:	0.930019
+Loading spectra from file: [11/18]
+file name: /home/user/bio/ms-dataset/PXD001197/OrbiElite04779.mgf
+Loading spectra takes sec:	7.51644
+Preprocessing spectra takes sec:	0.92943
+Loading spectra from file: [12/18]
+file name: /home/user/bio/ms-dataset/PXD001197/OrbiElite04780.mgf
+Loading spectra takes sec:	7.53004
+Preprocessing spectra takes sec:	0.936
+Loading spectra from file: [13/18]
+file name: /home/user/bio/ms-dataset/PXD001197/OrbiElite04781.mgf
+Loading spectra takes sec:	7.21454
+Preprocessing spectra takes sec:	0.899522
+Loading spectra from file: [14/18]
+file name: /home/user/bio/ms-dataset/PXD001197/OrbiElite04782.mgf
+Loading spectra takes sec:	7.41479
+Preprocessing spectra takes sec:	0.922042
+Loading spectra from file: [15/18]
+file name: /home/user/bio/ms-dataset/PXD001197/OrbiElite04783.mgf
+Loading spectra takes sec:	7.55955
+Preprocessing spectra takes sec:	0.936222
+Loading spectra from file: [16/18]
+file name: /home/user/bio/ms-dataset/PXD001197/OrbiElite04784.mgf
+Loading spectra takes sec:	7.1292
+Preprocessing spectra takes sec:	0.892001
+Loading spectra from file: [17/18]
+file name: /home/user/bio/ms-dataset/PXD001197/OrbiElite04785.mgf
+Loading spectra takes sec:	7.34814
+Preprocessing spectra takes sec:	1.16629
+Loading spectra from file: [18/18]
+file name: /home/user/bio/ms-dataset/PXD001197/OrbiElite04786.mgf
+Loading spectra takes sec:	7.54811
+Preprocessing spectra takes sec:	0.937857
+Loading spectra takes secs:	212.585
+Now we have #unknown spectra: 1196703
+15 charge: 1
+12 charge: 57
+13 charge: 59
+22 charge: 1
+18 charge: 2
+11 charge: 68
+5 charge: 39875
+4 charge: 149179
+2 charge: 533312
+3 charge: 460890
+14 charge: 9
+6 charge: 10062
+8 charge: 659
+7 charge: 2143
+10 charge: 102
+9 charge: 284
+Cluster on spectra of charge +2
+Load spectra with charge +2: 533312
+Load spectra with no charge(+0): 0
+Starting to cluster.
+Iteration:	1, cos sim threshold:	0.8975
+hashing takes secs:	0.0847734, clustering takes secs:	0.0180496
+#spectra after clustering: 532054
+
+Iteration:	2, cos sim threshold:	0.895
+hashing takes secs:	0.128622, clustering takes secs:	0.0202974
+#spectra after clustering: 530769
+
+Iteration:	3, cos sim threshold:	0.8925
+hashing takes secs:	0.142649, clustering takes secs:	0.0193601
+#spectra after clustering: 529549
+
+Iteration:	4, cos sim threshold:	0.89
+hashing takes secs:	0.111343, clustering takes secs:	0.0137602
+#spectra after clustering: 528284
+
+Iteration:	5, cos sim threshold:	0.8875
+hashing takes secs:	0.100162, clustering takes secs:	0.024117
+#spectra after clustering: 526976
+
+Iteration:	6, cos sim threshold:	0.885
+hashing takes secs:	0.147748, clustering takes secs:	0.0244582
+#spectra after clustering: 525731
+
+Iteration:	7, cos sim threshold:	0.8825
+hashing takes secs:	0.101397, clustering takes secs:	0.0229041
+#spectra after clustering: 524383
+
+Iteration:	8, cos sim threshold:	0.88
+hashing takes secs:	0.136113, clustering takes secs:	0.0290586
+#spectra after clustering: 522911
+
+Iteration:	9, cos sim threshold:	0.8775
+hashing takes secs:	0.0977279, clustering takes secs:	0.0162921
+#spectra after clustering: 521504
+
+Iteration:	10, cos sim threshold:	0.875
+hashing takes secs:	0.144143, clustering takes secs:	0.0191485
+#spectra after clustering: 520021
+
+Iteration:	11, cos sim threshold:	0.8725
+hashing takes secs:	0.101101, clustering takes secs:	0.0176741
+#spectra after clustering: 518492
+
+Iteration:	12, cos sim threshold:	0.87
+hashing takes secs:	0.0989972, clustering takes secs:	0.0209686
+#spectra after clustering: 516820
+
+Iteration:	13, cos sim threshold:	0.8675
+hashing takes secs:	0.139164, clustering takes secs:	0.0170994
+#spectra after clustering: 515154
+
+Iteration:	14, cos sim threshold:	0.865
+hashing takes secs:	0.0946948, clustering takes secs:	0.0218467
+#spectra after clustering: 513446
+
+Iteration:	15, cos sim threshold:	0.8625
+hashing takes secs:	0.0951629, clustering takes secs:	0.0173318
+#spectra after clustering: 511647
+
+Iteration:	16, cos sim threshold:	0.86
+hashing takes secs:	0.128533, clustering takes secs:	0.0193921
+#spectra after clustering: 509614
+
+Iteration:	17, cos sim threshold:	0.8575
+hashing takes secs:	0.11128, clustering takes secs:	0.0191665
+#spectra after clustering: 507682
+
+Iteration:	18, cos sim threshold:	0.855
+hashing takes secs:	0.0939601, clustering takes secs:	0.0169011
+#spectra after clustering: 505608
+
+Iteration:	19, cos sim threshold:	0.8525
+hashing takes secs:	0.0968668, clustering takes secs:	0.026682
+#spectra after clustering: 503450
+
+Iteration:	20, cos sim threshold:	0.85
+hashing takes secs:	0.131047, clustering takes secs:	0.0243434
+#spectra after clustering: 501134
+
+Iteration:	21, cos sim threshold:	0.8475
+hashing takes secs:	0.0923258, clustering takes secs:	0.0203479
+#spectra after clustering: 498640
+
+Iteration:	22, cos sim threshold:	0.845
+hashing takes secs:	0.0939296, clustering takes secs:	0.0250354
+#spectra after clustering: 496060
+
+Iteration:	23, cos sim threshold:	0.8425
+hashing takes secs:	0.132315, clustering takes secs:	0.0268193
+#spectra after clustering: 493406
+
+Iteration:	24, cos sim threshold:	0.84
+hashing takes secs:	0.0984114, clustering takes secs:	0.019389
+#spectra after clustering: 490865
+
+Iteration:	25, cos sim threshold:	0.8375
+hashing takes secs:	0.0928153, clustering takes secs:	0.0184919
+#spectra after clustering: 488160
+
+Iteration:	26, cos sim threshold:	0.835
+hashing takes secs:	0.136799, clustering takes secs:	0.0162188
+#spectra after clustering: 485524
+
+Iteration:	27, cos sim threshold:	0.8325
+hashing takes secs:	0.105575, clustering takes secs:	0.0158432
+#spectra after clustering: 482691
+
+Iteration:	28, cos sim threshold:	0.83
+hashing takes secs:	0.09209, clustering takes secs:	0.0178129
+#spectra after clustering: 479761
+
+Iteration:	29, cos sim threshold:	0.8275
+hashing takes secs:	0.0924419, clustering takes secs:	0.0265566
+#spectra after clustering: 476896
+
+Iteration:	30, cos sim threshold:	0.825
+hashing takes secs:	0.130815, clustering takes secs:	0.0194788
+#spectra after clustering: 473832
+
+Iteration:	31, cos sim threshold:	0.8225
+hashing takes secs:	0.0962116, clustering takes secs:	0.0190068
+#spectra after clustering: 470655
+
+Iteration:	32, cos sim threshold:	0.82
+hashing takes secs:	0.0915353, clustering takes secs:	0.0215411
+#spectra after clustering: 467486
+
+Iteration:	33, cos sim threshold:	0.8175
+hashing takes secs:	0.0913664, clustering takes secs:	0.0288168
+#spectra after clustering: 464335
+
+Iteration:	34, cos sim threshold:	0.815
+hashing takes secs:	0.12708, clustering takes secs:	0.0168528
+#spectra after clustering: 461175
+
+Iteration:	35, cos sim threshold:	0.8125
+hashing takes secs:	0.0952442, clustering takes secs:	0.0198552
+#spectra after clustering: 457792
+
+Iteration:	36, cos sim threshold:	0.81
+hashing takes secs:	0.0967309, clustering takes secs:	0.0172414
+#spectra after clustering: 454538
+
+Iteration:	37, cos sim threshold:	0.8075
+hashing takes secs:	0.0871907, clustering takes secs:	0.0379647
+#spectra after clustering: 451032
+
+Iteration:	38, cos sim threshold:	0.805
+hashing takes secs:	0.123775, clustering takes secs:	0.0213397
+#spectra after clustering: 447660
+
+Iteration:	39, cos sim threshold:	0.8025
+hashing takes secs:	0.0953258, clustering takes secs:	0.0190045
+#spectra after clustering: 444041
+
+Iteration:	40, cos sim threshold:	0.8
+hashing takes secs:	0.092628, clustering takes secs:	0.0176456
+#spectra after clustering: 440718
+
+Iteration:	41, cos sim threshold:	0.7975
+hashing takes secs:	0.086998, clustering takes secs:	0.0279687
+#spectra after clustering: 437088
+
+Iteration:	42, cos sim threshold:	0.795
+hashing takes secs:	0.122867, clustering takes secs:	0.0159503
+#spectra after clustering: 433525
+
+Iteration:	43, cos sim threshold:	0.7925
+hashing takes secs:	0.0992419, clustering takes secs:	0.0242539
+#spectra after clustering: 429806
+
+Iteration:	44, cos sim threshold:	0.79
+hashing takes secs:	0.0830063, clustering takes secs:	0.0201507
+#spectra after clustering: 426106
+
+Iteration:	45, cos sim threshold:	0.7875
+hashing takes secs:	0.0903482, clustering takes secs:	0.017282
+#spectra after clustering: 422513
+
+Iteration:	46, cos sim threshold:	0.785
+hashing takes secs:	0.0824206, clustering takes secs:	0.0354857
+#spectra after clustering: 418586
+
+Iteration:	47, cos sim threshold:	0.7825
+hashing takes secs:	0.0867473, clustering takes secs:	0.0221347
+#spectra after clustering: 414967
+
+Iteration:	48, cos sim threshold:	0.78
+hashing takes secs:	0.121528, clustering takes secs:	0.0175443
+#spectra after clustering: 411020
+
+Iteration:	49, cos sim threshold:	0.7775
+hashing takes secs:	0.09261, clustering takes secs:	0.0195125
+#spectra after clustering: 407393
+
+Iteration:	50, cos sim threshold:	0.775
+hashing takes secs:	0.0838942, clustering takes secs:	0.016992
+#spectra after clustering: 403854
+
+Iteration:	51, cos sim threshold:	0.7725
+hashing takes secs:	0.0857278, clustering takes secs:	0.0194409
+#spectra after clustering: 400382
+
+Iteration:	52, cos sim threshold:	0.77
+hashing takes secs:	0.0971787, clustering takes secs:	0.0273675
+#spectra after clustering: 396712
+
+Iteration:	53, cos sim threshold:	0.7675
+hashing takes secs:	0.0794709, clustering takes secs:	0.0227368
+#spectra after clustering: 393154
+
+Iteration:	54, cos sim threshold:	0.765
+hashing takes secs:	0.110664, clustering takes secs:	0.0191141
+#spectra after clustering: 389641
+
+Iteration:	55, cos sim threshold:	0.7625
+hashing takes secs:	0.0920634, clustering takes secs:	0.0211062
+#spectra after clustering: 385879
+
+Iteration:	56, cos sim threshold:	0.76
+hashing takes secs:	0.0908986, clustering takes secs:	0.0262911
+#spectra after clustering: 382276
+
+Iteration:	57, cos sim threshold:	0.7575
+hashing takes secs:	0.0862574, clustering takes secs:	0.023664
+#spectra after clustering: 378553
+
+Iteration:	58, cos sim threshold:	0.755
+hashing takes secs:	0.0802188, clustering takes secs:	0.0173422
+#spectra after clustering: 375018
+
+Iteration:	59, cos sim threshold:	0.7525
+hashing takes secs:	0.0813952, clustering takes secs:	0.0213302
+#spectra after clustering: 371318
+
+Iteration:	60, cos sim threshold:	0.75
+hashing takes secs:	0.0860142, clustering takes secs:	0.0255579
+#spectra after clustering: 367743
+
+Iteration:	61, cos sim threshold:	0.7475
+hashing takes secs:	0.0793765, clustering takes secs:	0.0235072
+#spectra after clustering: 364307
+
+Iteration:	62, cos sim threshold:	0.745
+hashing takes secs:	0.0785968, clustering takes secs:	0.0197702
+#spectra after clustering: 361076
+
+Iteration:	63, cos sim threshold:	0.7425
+hashing takes secs:	0.0721059, clustering takes secs:	0.0326683
+#spectra after clustering: 357504
+
+Iteration:	64, cos sim threshold:	0.74
+hashing takes secs:	0.0750998, clustering takes secs:	0.0210627
+#spectra after clustering: 354028
+
+Iteration:	65, cos sim threshold:	0.7375
+hashing takes secs:	0.0892736, clustering takes secs:	0.0173886
+#spectra after clustering: 350489
+
+Iteration:	66, cos sim threshold:	0.735
+hashing takes secs:	0.0835016, clustering takes secs:	0.0159852
+#spectra after clustering: 347201
+
+Iteration:	67, cos sim threshold:	0.7325
+hashing takes secs:	0.0778706, clustering takes secs:	0.0173903
+#spectra after clustering: 344018
+
+Iteration:	68, cos sim threshold:	0.73
+hashing takes secs:	0.0666545, clustering takes secs:	0.0270723
+#spectra after clustering: 340433
+
+Iteration:	69, cos sim threshold:	0.7275
+hashing takes secs:	0.0727866, clustering takes secs:	0.0215226
+#spectra after clustering: 337064
+
+Iteration:	70, cos sim threshold:	0.725
+hashing takes secs:	0.0720093, clustering takes secs:	0.0253544
+#spectra after clustering: 333866
+
+Iteration:	71, cos sim threshold:	0.7225
+hashing takes secs:	0.0798152, clustering takes secs:	0.0166534
+#spectra after clustering: 330633
+
+Iteration:	72, cos sim threshold:	0.72
+hashing takes secs:	0.0825322, clustering takes secs:	0.0165596
+#spectra after clustering: 327526
+
+Iteration:	73, cos sim threshold:	0.7175
+hashing takes secs:	0.070711, clustering takes secs:	0.0215419
+#spectra after clustering: 324443
+
+Iteration:	74, cos sim threshold:	0.715
+hashing takes secs:	0.070195, clustering takes secs:	0.0134228
+#spectra after clustering: 321460
+
+Iteration:	75, cos sim threshold:	0.7125
+hashing takes secs:	0.0776021, clustering takes secs:	0.0133158
+#spectra after clustering: 318324
+
+Iteration:	76, cos sim threshold:	0.71
+hashing takes secs:	0.0781283, clustering takes secs:	0.0168901
+#spectra after clustering: 315394
+
+Iteration:	77, cos sim threshold:	0.7075
+hashing takes secs:	0.0778079, clustering takes secs:	0.0190386
+#spectra after clustering: 312239
+
+Iteration:	78, cos sim threshold:	0.705
+hashing takes secs:	0.0749911, clustering takes secs:	0.013875
+#spectra after clustering: 309253
+
+Iteration:	79, cos sim threshold:	0.7025
+hashing takes secs:	0.080063, clustering takes secs:	0.014958
+#spectra after clustering: 306427
+
+Iteration:	80, cos sim threshold:	0.7
+hashing takes secs:	0.0801274, clustering takes secs:	0.0162625
+#spectra after clustering: 303415
+
+Iteration:	81, cos sim threshold:	0.6975
+hashing takes secs:	0.0870518, clustering takes secs:	0.0154805
+#spectra after clustering: 300595
+
+Iteration:	82, cos sim threshold:	0.695
+hashing takes secs:	0.0722915, clustering takes secs:	0.0160244
+#spectra after clustering: 297779
+
+Iteration:	83, cos sim threshold:	0.6925
+hashing takes secs:	0.0643494, clustering takes secs:	0.0157066
+#spectra after clustering: 294701
+
+Iteration:	84, cos sim threshold:	0.69
+hashing takes secs:	0.0648879, clustering takes secs:	0.0158822
+#spectra after clustering: 291787
+
+Iteration:	85, cos sim threshold:	0.6875
+hashing takes secs:	0.065377, clustering takes secs:	0.0140031
+#spectra after clustering: 289091
+
+Iteration:	86, cos sim threshold:	0.685
+hashing takes secs:	0.0645187, clustering takes secs:	0.0151387
+#spectra after clustering: 286422
+
+Iteration:	87, cos sim threshold:	0.6825
+hashing takes secs:	0.0765151, clustering takes secs:	0.0156498
+#spectra after clustering: 283835
+
+Iteration:	88, cos sim threshold:	0.68
+hashing takes secs:	0.0744631, clustering takes secs:	0.01549
+#spectra after clustering: 281420
+
+Iteration:	89, cos sim threshold:	0.6775
+hashing takes secs:	0.0798916, clustering takes secs:	0.0170604
+#spectra after clustering: 278925
+
+Iteration:	90, cos sim threshold:	0.675
+hashing takes secs:	0.0740371, clustering takes secs:	0.0161057
+#spectra after clustering: 276501
+
+Iteration:	91, cos sim threshold:	0.6725
+hashing takes secs:	0.0770209, clustering takes secs:	0.0129668
+#spectra after clustering: 274146
+
+Iteration:	92, cos sim threshold:	0.67
+hashing takes secs:	0.0610948, clustering takes secs:	0.0136481
+#spectra after clustering: 271778
+
+Iteration:	93, cos sim threshold:	0.6675
+hashing takes secs:	0.0715123, clustering takes secs:	0.0145696
+#spectra after clustering: 269498
+
+Iteration:	94, cos sim threshold:	0.665
+hashing takes secs:	0.0603839, clustering takes secs:	0.0151292
+#spectra after clustering: 267011
+
+Iteration:	95, cos sim threshold:	0.6625
+hashing takes secs:	0.0617728, clustering takes secs:	0.0130733
+#spectra after clustering: 264701
+
+Iteration:	96, cos sim threshold:	0.66
+hashing takes secs:	0.0741441, clustering takes secs:	0.012639
+#spectra after clustering: 262428
+
+Iteration:	97, cos sim threshold:	0.6575
+hashing takes secs:	0.07339, clustering takes secs:	0.0112929
+#spectra after clustering: 260213
+
+Iteration:	98, cos sim threshold:	0.655
+hashing takes secs:	0.0569471, clustering takes secs:	0.012097
+#spectra after clustering: 257929
+
+Iteration:	99, cos sim threshold:	0.6525
+hashing takes secs:	0.0568109, clustering takes secs:	0.0118446
+#spectra after clustering: 255736
+
+Iteration:	100, cos sim threshold:	0.65
+hashing takes secs:	0.0653759, clustering takes secs:	0.0107209
+#spectra after clustering: 253725
+
+msCRUSH algorithm hash+cluster takes (secs): 11.2222
+Saving cluster results starts: 
+Save cluster results takes secs: 0.518291
+Releasing memory starts.
+Releasing memory takes: 0.332707
+msCRUSH algorithm in total takes (secs): 12.0732
+Cluster on spectra of charge +3
+Load spectra with charge +3: 460890
+Load spectra with no charge(+0): 0
+Starting to cluster.
+Iteration:	1, cos sim threshold:	0.8975
+hashing takes secs:	0.120892, clustering takes secs:	0.0117077
+#spectra after clustering: 460625
+
+Iteration:	2, cos sim threshold:	0.895
+hashing takes secs:	0.111136, clustering takes secs:	0.0170648
+#spectra after clustering: 460356
+
+Iteration:	3, cos sim threshold:	0.8925
+hashing takes secs:	0.140364, clustering takes secs:	0.0100553
+#spectra after clustering: 460121
+
+Iteration:	4, cos sim threshold:	0.89
+hashing takes secs:	0.101865, clustering takes secs:	0.0139885
+#spectra after clustering: 459852
+
+Iteration:	5, cos sim threshold:	0.8875
+hashing takes secs:	0.118907, clustering takes secs:	0.0123329
+#spectra after clustering: 459549
+
+Iteration:	6, cos sim threshold:	0.885
+hashing takes secs:	0.13091, clustering takes secs:	0.012722
+#spectra after clustering: 459324
+
+Iteration:	7, cos sim threshold:	0.8825
+hashing takes secs:	0.104043, clustering takes secs:	0.0111117
+#spectra after clustering: 459104
+
+Iteration:	8, cos sim threshold:	0.88
+hashing takes secs:	0.101869, clustering takes secs:	0.0152993
+#spectra after clustering: 458831
+
+Iteration:	9, cos sim threshold:	0.8775
+hashing takes secs:	0.137868, clustering takes secs:	0.0112205
+#spectra after clustering: 458552
+
+Iteration:	10, cos sim threshold:	0.875
+hashing takes secs:	0.111356, clustering takes secs:	0.0129874
+#spectra after clustering: 458276
+
+Iteration:	11, cos sim threshold:	0.8725
+hashing takes secs:	0.105266, clustering takes secs:	0.016223
+#spectra after clustering: 457973
+
+Iteration:	12, cos sim threshold:	0.87
+hashing takes secs:	0.142674, clustering takes secs:	0.0117547
+#spectra after clustering: 457672
+
+Iteration:	13, cos sim threshold:	0.8675
+hashing takes secs:	0.0982336, clustering takes secs:	0.0117645
+#spectra after clustering: 457308
+
+Iteration:	14, cos sim threshold:	0.865
+hashing takes secs:	0.106786, clustering takes secs:	0.0097119
+#spectra after clustering: 456975
+
+Iteration:	15, cos sim threshold:	0.8625
+hashing takes secs:	0.13035, clustering takes secs:	0.0121943
+#spectra after clustering: 456608
+
+Iteration:	16, cos sim threshold:	0.86
+hashing takes secs:	0.122656, clustering takes secs:	0.0129691
+#spectra after clustering: 456228
+
+Iteration:	17, cos sim threshold:	0.8575
+hashing takes secs:	0.0998845, clustering takes secs:	0.0134118
+#spectra after clustering: 455871
+
+Iteration:	18, cos sim threshold:	0.855
+hashing takes secs:	0.0929991, clustering takes secs:	0.0301612
+#spectra after clustering: 455503
+
+Iteration:	19, cos sim threshold:	0.8525
+hashing takes secs:	0.138571, clustering takes secs:	0.00963334
+#spectra after clustering: 455090
+
+Iteration:	20, cos sim threshold:	0.85
+hashing takes secs:	0.104443, clustering takes secs:	0.0105613
+#spectra after clustering: 454688
+
+Iteration:	21, cos sim threshold:	0.8475
+hashing takes secs:	0.100911, clustering takes secs:	0.0128614
+#spectra after clustering: 454260
+
+Iteration:	22, cos sim threshold:	0.845
+hashing takes secs:	0.145601, clustering takes secs:	0.011754
+#spectra after clustering: 453801
+
+Iteration:	23, cos sim threshold:	0.8425
+hashing takes secs:	0.106482, clustering takes secs:	0.0111869
+#spectra after clustering: 453283
+
+Iteration:	24, cos sim threshold:	0.84
+hashing takes secs:	0.0991883, clustering takes secs:	0.0116961
+#spectra after clustering: 452752
+
+Iteration:	25, cos sim threshold:	0.8375
+hashing takes secs:	0.0996203, clustering takes secs:	0.0196788
+#spectra after clustering: 452217
+
+Iteration:	26, cos sim threshold:	0.835
+hashing takes secs:	0.146665, clustering takes secs:	0.0124045
+#spectra after clustering: 451607
+
+Iteration:	27, cos sim threshold:	0.8325
+hashing takes secs:	0.0978566, clustering takes secs:	0.0113887
+#spectra after clustering: 451031
+
+Iteration:	28, cos sim threshold:	0.83
+hashing takes secs:	0.0959567, clustering takes secs:	0.0162744
+#spectra after clustering: 450323
+
+Iteration:	29, cos sim threshold:	0.8275
+hashing takes secs:	0.147737, clustering takes secs:	0.0176183
+#spectra after clustering: 449641
+
+Iteration:	30, cos sim threshold:	0.825
+hashing takes secs:	0.0980703, clustering takes secs:	0.0148749
+#spectra after clustering: 448935
+
+Iteration:	31, cos sim threshold:	0.8225
+hashing takes secs:	0.0966509, clustering takes secs:	0.0114935
+#spectra after clustering: 448246
+
+Iteration:	32, cos sim threshold:	0.82
+hashing takes secs:	0.104942, clustering takes secs:	0.0177712
+#spectra after clustering: 447571
+
+Iteration:	33, cos sim threshold:	0.8175
+hashing takes secs:	0.142789, clustering takes secs:	0.0113658
+#spectra after clustering: 446895
+
+Iteration:	34, cos sim threshold:	0.815
+hashing takes secs:	0.0977952, clustering takes secs:	0.0122674
+#spectra after clustering: 446149
+
+Iteration:	35, cos sim threshold:	0.8125
+hashing takes secs:	0.105155, clustering takes secs:	0.0118272
+#spectra after clustering: 445426
+
+Iteration:	36, cos sim threshold:	0.81
+hashing takes secs:	0.139229, clustering takes secs:	0.0138419
+#spectra after clustering: 444619
+
+Iteration:	37, cos sim threshold:	0.8075
+hashing takes secs:	0.104745, clustering takes secs:	0.0132325
+#spectra after clustering: 443810
+
+Iteration:	38, cos sim threshold:	0.805
+hashing takes secs:	0.0946874, clustering takes secs:	0.0140566
+#spectra after clustering: 442892
+
+Iteration:	39, cos sim threshold:	0.8025
+hashing takes secs:	0.100932, clustering takes secs:	0.0181327
+#spectra after clustering: 442011
+
+Iteration:	40, cos sim threshold:	0.8
+hashing takes secs:	0.142026, clustering takes secs:	0.0131062
+#spectra after clustering: 441007
+
+Iteration:	41, cos sim threshold:	0.7975
+hashing takes secs:	0.100867, clustering takes secs:	0.0129179
+#spectra after clustering: 440017
+
+Iteration:	42, cos sim threshold:	0.795
+hashing takes secs:	0.0962174, clustering takes secs:	0.010743
+#spectra after clustering: 439036
+
+Iteration:	43, cos sim threshold:	0.7925
+hashing takes secs:	0.0977834, clustering takes secs:	0.0265457
+#spectra after clustering: 437920
+
+Iteration:	44, cos sim threshold:	0.79
+hashing takes secs:	0.134565, clustering takes secs:	0.0134147
+#spectra after clustering: 436864
+
+Iteration:	45, cos sim threshold:	0.7875
+hashing takes secs:	0.0973805, clustering takes secs:	0.0126317
+#spectra after clustering: 435825
+
+Iteration:	46, cos sim threshold:	0.785
+hashing takes secs:	0.105621, clustering takes secs:	0.0154571
+#spectra after clustering: 434754
+
+Iteration:	47, cos sim threshold:	0.7825
+hashing takes secs:	0.0954524, clustering takes secs:	0.0195792
+#spectra after clustering: 433674
+
+Iteration:	48, cos sim threshold:	0.78
+hashing takes secs:	0.13713, clustering takes secs:	0.0147137
+#spectra after clustering: 432553
+
+Iteration:	49, cos sim threshold:	0.7775
+hashing takes secs:	0.0970163, clustering takes secs:	0.0118071
+#spectra after clustering: 431412
+
+Iteration:	50, cos sim threshold:	0.775
+hashing takes secs:	0.0993202, clustering takes secs:	0.0177509
+#spectra after clustering: 430112
+
+Iteration:	51, cos sim threshold:	0.7725
+hashing takes secs:	0.0941916, clustering takes secs:	0.0255983
+#spectra after clustering: 428765
+
+Iteration:	52, cos sim threshold:	0.77
+hashing takes secs:	0.132754, clustering takes secs:	0.013458
+#spectra after clustering: 427530
+
+Iteration:	53, cos sim threshold:	0.7675
+hashing takes secs:	0.096851, clustering takes secs:	0.0161236
+#spectra after clustering: 426194
+
+Iteration:	54, cos sim threshold:	0.765
+hashing takes secs:	0.0983539, clustering takes secs:	0.0150679
+#spectra after clustering: 424980
+
+Iteration:	55, cos sim threshold:	0.7625
+hashing takes secs:	0.09202, clustering takes secs:	0.0273314
+#spectra after clustering: 423617
+
+Iteration:	56, cos sim threshold:	0.76
+hashing takes secs:	0.13236, clustering takes secs:	0.0150024
+#spectra after clustering: 422187
+
+Iteration:	57, cos sim threshold:	0.7575
+hashing takes secs:	0.0932355, clustering takes secs:	0.0138068
+#spectra after clustering: 420747
+
+Iteration:	58, cos sim threshold:	0.755
+hashing takes secs:	0.102475, clustering takes secs:	0.0128479
+#spectra after clustering: 419321
+
+Iteration:	59, cos sim threshold:	0.7525
+hashing takes secs:	0.0936626, clustering takes secs:	0.0212297
+#spectra after clustering: 417797
+
+Iteration:	60, cos sim threshold:	0.75
+hashing takes secs:	0.122854, clustering takes secs:	0.0167133
+#spectra after clustering: 416306
+
+Iteration:	61, cos sim threshold:	0.7475
+hashing takes secs:	0.111335, clustering takes secs:	0.0121637
+#spectra after clustering: 414792
+
+Iteration:	62, cos sim threshold:	0.745
+hashing takes secs:	0.097824, clustering takes secs:	0.0140467
+#spectra after clustering: 413353
+
+Iteration:	63, cos sim threshold:	0.7425
+hashing takes secs:	0.100814, clustering takes secs:	0.0191445
+#spectra after clustering: 411943
+
+Iteration:	64, cos sim threshold:	0.74
+hashing takes secs:	0.137105, clustering takes secs:	0.0193238
+#spectra after clustering: 410369
+
+Iteration:	65, cos sim threshold:	0.7375
+hashing takes secs:	0.122768, clustering takes secs:	0.0162479
+#spectra after clustering: 408766
+
+Iteration:	66, cos sim threshold:	0.735
+hashing takes secs:	0.125743, clustering takes secs:	0.0173459
+#spectra after clustering: 407133
+
+Iteration:	67, cos sim threshold:	0.7325
+hashing takes secs:	0.112935, clustering takes secs:	0.0157796
+#spectra after clustering: 405538
+
+Iteration:	68, cos sim threshold:	0.73
+hashing takes secs:	0.0914976, clustering takes secs:	0.013455
+#spectra after clustering: 403979
+
+Iteration:	69, cos sim threshold:	0.7275
+hashing takes secs:	0.0903402, clustering takes secs:	0.0152769
+#spectra after clustering: 402167
+
+Iteration:	70, cos sim threshold:	0.725
+hashing takes secs:	0.131136, clustering takes secs:	0.0139345
+#spectra after clustering: 400436
+
+Iteration:	71, cos sim threshold:	0.7225
+hashing takes secs:	0.10641, clustering takes secs:	0.0131879
+#spectra after clustering: 398712
+
+Iteration:	72, cos sim threshold:	0.72
+hashing takes secs:	0.0929109, clustering takes secs:	0.0124956
+#spectra after clustering: 396927
+
+Iteration:	73, cos sim threshold:	0.7175
+hashing takes secs:	0.0998932, clustering takes secs:	0.0169665
+#spectra after clustering: 395111
+
+Iteration:	74, cos sim threshold:	0.715
+hashing takes secs:	0.0924069, clustering takes secs:	0.0144747
+#spectra after clustering: 393189
+
+Iteration:	75, cos sim threshold:	0.7125
+hashing takes secs:	0.122752, clustering takes secs:	0.0145001
+#spectra after clustering: 391359
+
+Iteration:	76, cos sim threshold:	0.71
+hashing takes secs:	0.110564, clustering takes secs:	0.0181584
+#spectra after clustering: 389385
+
+Iteration:	77, cos sim threshold:	0.7075
+hashing takes secs:	0.089678, clustering takes secs:	0.0244079
+#spectra after clustering: 387617
+
+Iteration:	78, cos sim threshold:	0.705
+hashing takes secs:	0.0837804, clustering takes secs:	0.0155378
+#spectra after clustering: 385523
+
+Iteration:	79, cos sim threshold:	0.7025
+hashing takes secs:	0.0932977, clustering takes secs:	0.026968
+#spectra after clustering: 383709
+
+Iteration:	80, cos sim threshold:	0.7
+hashing takes secs:	0.108092, clustering takes secs:	0.0147549
+#spectra after clustering: 381779
+
+Iteration:	81, cos sim threshold:	0.6975
+hashing takes secs:	0.116137, clustering takes secs:	0.0135485
+#spectra after clustering: 379991
+
+Iteration:	82, cos sim threshold:	0.695
+hashing takes secs:	0.0931668, clustering takes secs:	0.0157438
+#spectra after clustering: 378090
+
+Iteration:	83, cos sim threshold:	0.6925
+hashing takes secs:	0.0880657, clustering takes secs:	0.0172144
+#spectra after clustering: 376203
+
+Iteration:	84, cos sim threshold:	0.69
+hashing takes secs:	0.0914593, clustering takes secs:	0.0158907
+#spectra after clustering: 374196
+
+Iteration:	85, cos sim threshold:	0.6875
+hashing takes secs:	0.0866967, clustering takes secs:	0.0149368
+#spectra after clustering: 372156
+
+Iteration:	86, cos sim threshold:	0.685
+hashing takes secs:	0.119975, clustering takes secs:	0.0137073
+#spectra after clustering: 370199
+
+Iteration:	87, cos sim threshold:	0.6825
+hashing takes secs:	0.106389, clustering takes secs:	0.0194474
+#spectra after clustering: 368170
+
+Iteration:	88, cos sim threshold:	0.68
+hashing takes secs:	0.0786684, clustering takes secs:	0.0141153
+#spectra after clustering: 366081
+
+Iteration:	89, cos sim threshold:	0.6775
+hashing takes secs:	0.0947606, clustering takes secs:	0.0140096
+#spectra after clustering: 364019
+
+Iteration:	90, cos sim threshold:	0.675
+hashing takes secs:	0.0918689, clustering takes secs:	0.0137806
+#spectra after clustering: 361978
+
+Iteration:	91, cos sim threshold:	0.6725
+hashing takes secs:	0.0915222, clustering takes secs:	0.0140339
+#spectra after clustering: 360014
+
+Iteration:	92, cos sim threshold:	0.67
+hashing takes secs:	0.0925059, clustering takes secs:	0.0184184
+#spectra after clustering: 357948
+
+Iteration:	93, cos sim threshold:	0.6675
+hashing takes secs:	0.0926112, clustering takes secs:	0.0162604
+#spectra after clustering: 355979
+
+Iteration:	94, cos sim threshold:	0.665
+hashing takes secs:	0.0859112, clustering takes secs:	0.0190824
+#spectra after clustering: 353937
+
+Iteration:	95, cos sim threshold:	0.6625
+hashing takes secs:	0.118935, clustering takes secs:	0.0173734
+#spectra after clustering: 351830
+
+Iteration:	96, cos sim threshold:	0.66
+hashing takes secs:	0.0892536, clustering takes secs:	0.0171453
+#spectra after clustering: 349821
+
+Iteration:	97, cos sim threshold:	0.6575
+hashing takes secs:	0.0946981, clustering takes secs:	0.0161457
+#spectra after clustering: 347892
+
+Iteration:	98, cos sim threshold:	0.655
+hashing takes secs:	0.0799918, clustering takes secs:	0.0169002
+#spectra after clustering: 345971
+
+Iteration:	99, cos sim threshold:	0.6525
+hashing takes secs:	0.0837492, clustering takes secs:	0.0165315
+#spectra after clustering: 343878
+
+Iteration:	100, cos sim threshold:	0.65
+hashing takes secs:	0.0859152, clustering takes secs:	0.0155282
+#spectra after clustering: 341812
+
+msCRUSH algorithm hash+cluster takes (secs): 12.4361
+Saving cluster results starts: 
+Save cluster results takes secs: 0.595879
+Releasing memory starts.
+Releasing memory takes: 0.495654
+msCRUSH algorithm in total takes (secs): 13.5276
+Cluster on spectra of charge +4
+Load spectra with charge +4: 149179
+Load spectra with no charge(+0): 0
+Starting to cluster.
+Iteration:	1, cos sim threshold:	0.8975
+hashing takes secs:	0.12036, clustering takes secs:	0.00329276
+#spectra after clustering: 149167
+
+Iteration:	2, cos sim threshold:	0.895
+hashing takes secs:	0.0392057, clustering takes secs:	0.00432362
+#spectra after clustering: 149153
+
+Iteration:	3, cos sim threshold:	0.8925
+hashing takes secs:	0.0404563, clustering takes secs:	0.00492805
+#spectra after clustering: 149133
+
+Iteration:	4, cos sim threshold:	0.89
+hashing takes secs:	0.0415263, clustering takes secs:	0.00401342
+#spectra after clustering: 149108
+
+Iteration:	5, cos sim threshold:	0.8875
+hashing takes secs:	0.0472743, clustering takes secs:	0.00439038
+#spectra after clustering: 149091
+
+Iteration:	6, cos sim threshold:	0.885
+hashing takes secs:	0.0400534, clustering takes secs:	0.00465646
+#spectra after clustering: 149067
+
+Iteration:	7, cos sim threshold:	0.8825
+hashing takes secs:	0.0496841, clustering takes secs:	0.00441818
+#spectra after clustering: 149052
+
+Iteration:	8, cos sim threshold:	0.88
+hashing takes secs:	0.0440393, clustering takes secs:	0.00460438
+#spectra after clustering: 149029
+
+Iteration:	9, cos sim threshold:	0.8775
+hashing takes secs:	0.0494986, clustering takes secs:	0.00480033
+#spectra after clustering: 149008
+
+Iteration:	10, cos sim threshold:	0.875
+hashing takes secs:	0.04852, clustering takes secs:	0.00415733
+#spectra after clustering: 148994
+
+Iteration:	11, cos sim threshold:	0.8725
+hashing takes secs:	0.0472261, clustering takes secs:	0.00565287
+#spectra after clustering: 148976
+
+Iteration:	12, cos sim threshold:	0.87
+hashing takes secs:	0.0430257, clustering takes secs:	0.00528861
+#spectra after clustering: 148955
+
+Iteration:	13, cos sim threshold:	0.8675
+hashing takes secs:	0.0400072, clustering takes secs:	0.00465005
+#spectra after clustering: 148938
+
+Iteration:	14, cos sim threshold:	0.865
+hashing takes secs:	0.0385941, clustering takes secs:	0.0162176
+#spectra after clustering: 148902
+
+Iteration:	15, cos sim threshold:	0.8625
+hashing takes secs:	0.0410609, clustering takes secs:	0.0045805
+#spectra after clustering: 148872
+
+Iteration:	16, cos sim threshold:	0.86
+hashing takes secs:	0.0414257, clustering takes secs:	0.0109399
+#spectra after clustering: 148836
+
+Iteration:	17, cos sim threshold:	0.8575
+hashing takes secs:	0.0458166, clustering takes secs:	0.00403357
+#spectra after clustering: 148796
+
+Iteration:	18, cos sim threshold:	0.855
+hashing takes secs:	0.0612954, clustering takes secs:	0.00478453
+#spectra after clustering: 148743
+
+Iteration:	19, cos sim threshold:	0.8525
+hashing takes secs:	0.0413395, clustering takes secs:	0.00457197
+#spectra after clustering: 148713
+
+Iteration:	20, cos sim threshold:	0.85
+hashing takes secs:	0.0468516, clustering takes secs:	0.00536663
+#spectra after clustering: 148686
+
+Iteration:	21, cos sim threshold:	0.8475
+hashing takes secs:	0.0405971, clustering takes secs:	0.00497425
+#spectra after clustering: 148653
+
+Iteration:	22, cos sim threshold:	0.845
+hashing takes secs:	0.0477494, clustering takes secs:	0.00420355
+#spectra after clustering: 148602
+
+Iteration:	23, cos sim threshold:	0.8425
+hashing takes secs:	0.0410746, clustering takes secs:	0.00407031
+#spectra after clustering: 148556
+
+Iteration:	24, cos sim threshold:	0.84
+hashing takes secs:	0.0478234, clustering takes secs:	0.00471409
+#spectra after clustering: 148517
+
+Iteration:	25, cos sim threshold:	0.8375
+hashing takes secs:	0.0402277, clustering takes secs:	0.0045584
+#spectra after clustering: 148467
+
+Iteration:	26, cos sim threshold:	0.835
+hashing takes secs:	0.0506602, clustering takes secs:	0.00512718
+#spectra after clustering: 148397
+
+Iteration:	27, cos sim threshold:	0.8325
+hashing takes secs:	0.0399373, clustering takes secs:	0.00461782
+#spectra after clustering: 148342
+
+Iteration:	28, cos sim threshold:	0.83
+hashing takes secs:	0.0500705, clustering takes secs:	0.00465044
+#spectra after clustering: 148274
+
+Iteration:	29, cos sim threshold:	0.8275
+hashing takes secs:	0.0418934, clustering takes secs:	0.00431291
+#spectra after clustering: 148204
+
+Iteration:	30, cos sim threshold:	0.825
+hashing takes secs:	0.0476285, clustering takes secs:	0.00476311
+#spectra after clustering: 148133
+
+Iteration:	31, cos sim threshold:	0.8225
+hashing takes secs:	0.0413383, clustering takes secs:	0.00449925
+#spectra after clustering: 148071
+
+Iteration:	32, cos sim threshold:	0.82
+hashing takes secs:	0.0429635, clustering takes secs:	0.00494469
+#spectra after clustering: 148004
+
+Iteration:	33, cos sim threshold:	0.8175
+hashing takes secs:	0.0403466, clustering takes secs:	0.00411874
+#spectra after clustering: 147934
+
+Iteration:	34, cos sim threshold:	0.815
+hashing takes secs:	0.0480383, clustering takes secs:	0.00521271
+#spectra after clustering: 147822
+
+Iteration:	35, cos sim threshold:	0.8125
+hashing takes secs:	0.0405297, clustering takes secs:	0.00455075
+#spectra after clustering: 147740
+
+Iteration:	36, cos sim threshold:	0.81
+hashing takes secs:	0.0464038, clustering takes secs:	0.00459436
+#spectra after clustering: 147663
+
+Iteration:	37, cos sim threshold:	0.8075
+hashing takes secs:	0.0397192, clustering takes secs:	0.00545249
+#spectra after clustering: 147571
+
+Iteration:	38, cos sim threshold:	0.805
+hashing takes secs:	0.0480898, clustering takes secs:	0.00459829
+#spectra after clustering: 147477
+
+Iteration:	39, cos sim threshold:	0.8025
+hashing takes secs:	0.0404076, clustering takes secs:	0.00437762
+#spectra after clustering: 147378
+
+Iteration:	40, cos sim threshold:	0.8
+hashing takes secs:	0.0480365, clustering takes secs:	0.00460161
+#spectra after clustering: 147260
+
+Iteration:	41, cos sim threshold:	0.7975
+hashing takes secs:	0.0394771, clustering takes secs:	0.00513672
+#spectra after clustering: 147134
+
+Iteration:	42, cos sim threshold:	0.795
+hashing takes secs:	0.051934, clustering takes secs:	0.00557612
+#spectra after clustering: 147019
+
+Iteration:	43, cos sim threshold:	0.7925
+hashing takes secs:	0.0390431, clustering takes secs:	0.00530202
+#spectra after clustering: 146899
+
+Iteration:	44, cos sim threshold:	0.79
+hashing takes secs:	0.0431684, clustering takes secs:	0.00474367
+#spectra after clustering: 146769
+
+Iteration:	45, cos sim threshold:	0.7875
+hashing takes secs:	0.0424205, clustering takes secs:	0.00523077
+#spectra after clustering: 146636
+
+Iteration:	46, cos sim threshold:	0.785
+hashing takes secs:	0.0465537, clustering takes secs:	0.00491479
+#spectra after clustering: 146501
+
+Iteration:	47, cos sim threshold:	0.7825
+hashing takes secs:	0.0425853, clustering takes secs:	0.00529927
+#spectra after clustering: 146383
+
+Iteration:	48, cos sim threshold:	0.78
+hashing takes secs:	0.0436298, clustering takes secs:	0.00500332
+#spectra after clustering: 146249
+
+Iteration:	49, cos sim threshold:	0.7775
+hashing takes secs:	0.0388093, clustering takes secs:	0.00621214
+#spectra after clustering: 146104
+
+Iteration:	50, cos sim threshold:	0.775
+hashing takes secs:	0.0451007, clustering takes secs:	0.00610348
+#spectra after clustering: 145927
+
+Iteration:	51, cos sim threshold:	0.7725
+hashing takes secs:	0.0396704, clustering takes secs:	0.00576391
+#spectra after clustering: 145757
+
+Iteration:	52, cos sim threshold:	0.77
+hashing takes secs:	0.0459573, clustering takes secs:	0.00490543
+#spectra after clustering: 145576
+
+Iteration:	53, cos sim threshold:	0.7675
+hashing takes secs:	0.0405124, clustering takes secs:	0.00495368
+#spectra after clustering: 145394
+
+Iteration:	54, cos sim threshold:	0.765
+hashing takes secs:	0.0473167, clustering takes secs:	0.00508752
+#spectra after clustering: 145222
+
+Iteration:	55, cos sim threshold:	0.7625
+hashing takes secs:	0.0398653, clustering takes secs:	0.00502074
+#spectra after clustering: 145038
+
+Iteration:	56, cos sim threshold:	0.76
+hashing takes secs:	0.0508338, clustering takes secs:	0.0056835
+#spectra after clustering: 144839
+
+Iteration:	57, cos sim threshold:	0.7575
+hashing takes secs:	0.0402387, clustering takes secs:	0.00873906
+#spectra after clustering: 144630
+
+Iteration:	58, cos sim threshold:	0.755
+hashing takes secs:	0.0454956, clustering takes secs:	0.00676513
+#spectra after clustering: 144415
+
+Iteration:	59, cos sim threshold:	0.7525
+hashing takes secs:	0.0394908, clustering takes secs:	0.00787041
+#spectra after clustering: 144216
+
+Iteration:	60, cos sim threshold:	0.75
+hashing takes secs:	0.0403733, clustering takes secs:	0.00534129
+#spectra after clustering: 143990
+
+Iteration:	61, cos sim threshold:	0.7475
+hashing takes secs:	0.0461714, clustering takes secs:	0.00690736
+#spectra after clustering: 143756
+
+Iteration:	62, cos sim threshold:	0.745
+hashing takes secs:	0.0421976, clustering takes secs:	0.00543882
+#spectra after clustering: 143527
+
+Iteration:	63, cos sim threshold:	0.7425
+hashing takes secs:	0.0555455, clustering takes secs:	0.00533079
+#spectra after clustering: 143311
+
+Iteration:	64, cos sim threshold:	0.74
+hashing takes secs:	0.0390843, clustering takes secs:	0.00691835
+#spectra after clustering: 143059
+
+Iteration:	65, cos sim threshold:	0.7375
+hashing takes secs:	0.0490802, clustering takes secs:	0.00648848
+#spectra after clustering: 142788
+
+Iteration:	66, cos sim threshold:	0.735
+hashing takes secs:	0.04279, clustering takes secs:	0.00670104
+#spectra after clustering: 142523
+
+Iteration:	67, cos sim threshold:	0.7325
+hashing takes secs:	0.0468249, clustering takes secs:	0.0073527
+#spectra after clustering: 142269
+
+Iteration:	68, cos sim threshold:	0.73
+hashing takes secs:	0.0418245, clustering takes secs:	0.00713463
+#spectra after clustering: 142002
+
+Iteration:	69, cos sim threshold:	0.7275
+hashing takes secs:	0.0479066, clustering takes secs:	0.00778942
+#spectra after clustering: 141731
+
+Iteration:	70, cos sim threshold:	0.725
+hashing takes secs:	0.0480689, clustering takes secs:	0.00638141
+#spectra after clustering: 141445
+
+Iteration:	71, cos sim threshold:	0.7225
+hashing takes secs:	0.0461129, clustering takes secs:	0.00774141
+#spectra after clustering: 141188
+
+Iteration:	72, cos sim threshold:	0.72
+hashing takes secs:	0.0457356, clustering takes secs:	0.00729145
+#spectra after clustering: 140904
+
+Iteration:	73, cos sim threshold:	0.7175
+hashing takes secs:	0.0500873, clustering takes secs:	0.00821626
+#spectra after clustering: 140595
+
+Iteration:	74, cos sim threshold:	0.715
+hashing takes secs:	0.0415727, clustering takes secs:	0.00730434
+#spectra after clustering: 140283
+
+Iteration:	75, cos sim threshold:	0.7125
+hashing takes secs:	0.0459693, clustering takes secs:	0.0103186
+#spectra after clustering: 139914
+
+Iteration:	76, cos sim threshold:	0.71
+hashing takes secs:	0.0421082, clustering takes secs:	0.00813751
+#spectra after clustering: 139621
+
+Iteration:	77, cos sim threshold:	0.7075
+hashing takes secs:	0.0418832, clustering takes secs:	0.00723993
+#spectra after clustering: 139308
+
+Iteration:	78, cos sim threshold:	0.705
+hashing takes secs:	0.0431198, clustering takes secs:	0.00793617
+#spectra after clustering: 138938
+
+Iteration:	79, cos sim threshold:	0.7025
+hashing takes secs:	0.0431859, clustering takes secs:	0.00644308
+#spectra after clustering: 138603
+
+Iteration:	80, cos sim threshold:	0.7
+hashing takes secs:	0.0418418, clustering takes secs:	0.00748339
+#spectra after clustering: 138258
+
+Iteration:	81, cos sim threshold:	0.6975
+hashing takes secs:	0.0455926, clustering takes secs:	0.0101018
+#spectra after clustering: 137851
+
+Iteration:	82, cos sim threshold:	0.695
+hashing takes secs:	0.0439133, clustering takes secs:	0.00837185
+#spectra after clustering: 137520
+
+Iteration:	83, cos sim threshold:	0.6925
+hashing takes secs:	0.038428, clustering takes secs:	0.00710089
+#spectra after clustering: 137112
+
+Iteration:	84, cos sim threshold:	0.69
+hashing takes secs:	0.0394904, clustering takes secs:	0.00693547
+#spectra after clustering: 136802
+
+Iteration:	85, cos sim threshold:	0.6875
+hashing takes secs:	0.047952, clustering takes secs:	0.00891559
+#spectra after clustering: 136456
+
+Iteration:	86, cos sim threshold:	0.685
+hashing takes secs:	0.0463485, clustering takes secs:	0.00995601
+#spectra after clustering: 136103
+
+Iteration:	87, cos sim threshold:	0.6825
+hashing takes secs:	0.0444632, clustering takes secs:	0.00923387
+#spectra after clustering: 135708
+
+Iteration:	88, cos sim threshold:	0.68
+hashing takes secs:	0.0453406, clustering takes secs:	0.00731652
+#spectra after clustering: 135330
+
+Iteration:	89, cos sim threshold:	0.6775
+hashing takes secs:	0.050615, clustering takes secs:	0.0075606
+#spectra after clustering: 134938
+
+Iteration:	90, cos sim threshold:	0.675
+hashing takes secs:	0.0482844, clustering takes secs:	0.00798951
+#spectra after clustering: 134540
+
+Iteration:	91, cos sim threshold:	0.6725
+hashing takes secs:	0.0509916, clustering takes secs:	0.00785823
+#spectra after clustering: 134117
+
+Iteration:	92, cos sim threshold:	0.67
+hashing takes secs:	0.0412628, clustering takes secs:	0.00945387
+#spectra after clustering: 133736
+
+Iteration:	93, cos sim threshold:	0.6675
+hashing takes secs:	0.0469685, clustering takes secs:	0.0101573
+#spectra after clustering: 133295
+
+Iteration:	94, cos sim threshold:	0.665
+hashing takes secs:	0.0459787, clustering takes secs:	0.00828834
+#spectra after clustering: 132853
+
+Iteration:	95, cos sim threshold:	0.6625
+hashing takes secs:	0.0468189, clustering takes secs:	0.00893265
+#spectra after clustering: 132380
+
+Iteration:	96, cos sim threshold:	0.66
+hashing takes secs:	0.0441991, clustering takes secs:	0.00949355
+#spectra after clustering: 131940
+
+Iteration:	97, cos sim threshold:	0.6575
+hashing takes secs:	0.0454159, clustering takes secs:	0.00863389
+#spectra after clustering: 131482
+
+Iteration:	98, cos sim threshold:	0.655
+hashing takes secs:	0.0450618, clustering takes secs:	0.00799067
+#spectra after clustering: 131064
+
+Iteration:	99, cos sim threshold:	0.6525
+hashing takes secs:	0.046865, clustering takes secs:	0.008014
+#spectra after clustering: 130630
+
+Iteration:	100, cos sim threshold:	0.65
+hashing takes secs:	0.0476894, clustering takes secs:	0.00865858
+#spectra after clustering: 130183
+
+msCRUSH algorithm hash+cluster takes (secs): 5.36583
+Saving cluster results starts: 
+Save cluster results takes secs: 0.210291
+Releasing memory starts.
+Releasing memory takes: 0.189278
+msCRUSH algorithm in total takes (secs): 5.76542
+Cluster on spectra of charge +5
+Load spectra with charge +5: 39875
+Load spectra with no charge(+0): 0
+Starting to cluster.
+Iteration:	1, cos sim threshold:	0.8975
+hashing takes secs:	0.091113, clustering takes secs:	0.000781873
+#spectra after clustering: 39875
+
+Iteration:	2, cos sim threshold:	0.895
+hashing takes secs:	0.013312, clustering takes secs:	0.00151761
+#spectra after clustering: 39875
+
+Iteration:	3, cos sim threshold:	0.8925
+hashing takes secs:	0.0135375, clustering takes secs:	0.00263467
+#spectra after clustering: 39875
+
+Iteration:	4, cos sim threshold:	0.89
+hashing takes secs:	0.0132734, clustering takes secs:	0.00171458
+#spectra after clustering: 39875
+
+Iteration:	5, cos sim threshold:	0.8875
+hashing takes secs:	0.012875, clustering takes secs:	0.00147963
+#spectra after clustering: 39873
+
+Iteration:	6, cos sim threshold:	0.885
+hashing takes secs:	0.0135706, clustering takes secs:	0.00171882
+#spectra after clustering: 39873
+
+Iteration:	7, cos sim threshold:	0.8825
+hashing takes secs:	0.0132349, clustering takes secs:	0.00135767
+#spectra after clustering: 39872
+
+Iteration:	8, cos sim threshold:	0.88
+hashing takes secs:	0.0365663, clustering takes secs:	0.00176541
+#spectra after clustering: 39869
+
+Iteration:	9, cos sim threshold:	0.8775
+hashing takes secs:	0.0133698, clustering takes secs:	0.00118373
+#spectra after clustering: 39869
+
+Iteration:	10, cos sim threshold:	0.875
+hashing takes secs:	0.0132883, clustering takes secs:	0.00156951
+#spectra after clustering: 39867
+
+Iteration:	11, cos sim threshold:	0.8725
+hashing takes secs:	0.0132241, clustering takes secs:	0.00150107
+#spectra after clustering: 39866
+
+Iteration:	12, cos sim threshold:	0.87
+hashing takes secs:	0.0134178, clustering takes secs:	0.00153502
+#spectra after clustering: 39864
+
+Iteration:	13, cos sim threshold:	0.8675
+hashing takes secs:	0.0322429, clustering takes secs:	0.00177501
+#spectra after clustering: 39860
+
+Iteration:	14, cos sim threshold:	0.865
+hashing takes secs:	0.0134439, clustering takes secs:	0.00152626
+#spectra after clustering: 39858
+
+Iteration:	15, cos sim threshold:	0.8625
+hashing takes secs:	0.0132596, clustering takes secs:	0.00151424
+#spectra after clustering: 39857
+
+Iteration:	16, cos sim threshold:	0.86
+hashing takes secs:	0.0134893, clustering takes secs:	0.00177988
+#spectra after clustering: 39852
+
+Iteration:	17, cos sim threshold:	0.8575
+hashing takes secs:	0.0131119, clustering takes secs:	0.00154596
+#spectra after clustering: 39848
+
+Iteration:	18, cos sim threshold:	0.855
+hashing takes secs:	0.03121, clustering takes secs:	0.00251268
+#spectra after clustering: 39844
+
+Iteration:	19, cos sim threshold:	0.8525
+hashing takes secs:	0.0135227, clustering takes secs:	0.00115987
+#spectra after clustering: 39844
+
+Iteration:	20, cos sim threshold:	0.85
+hashing takes secs:	0.0131849, clustering takes secs:	0.00161711
+#spectra after clustering: 39840
+
+Iteration:	21, cos sim threshold:	0.8475
+hashing takes secs:	0.0134748, clustering takes secs:	0.00180572
+#spectra after clustering: 39829
+
+Iteration:	22, cos sim threshold:	0.845
+hashing takes secs:	0.0137829, clustering takes secs:	0.0018025
+#spectra after clustering: 39823
+
+Iteration:	23, cos sim threshold:	0.8425
+hashing takes secs:	0.013194, clustering takes secs:	0.00140258
+#spectra after clustering: 39818
+
+Iteration:	24, cos sim threshold:	0.84
+hashing takes secs:	0.0133425, clustering takes secs:	0.00173219
+#spectra after clustering: 39814
+
+Iteration:	25, cos sim threshold:	0.8375
+hashing takes secs:	0.0130621, clustering takes secs:	0.00141261
+#spectra after clustering: 39812
+
+Iteration:	26, cos sim threshold:	0.835
+hashing takes secs:	0.0132741, clustering takes secs:	0.00151101
+#spectra after clustering: 39807
+
+Iteration:	27, cos sim threshold:	0.8325
+hashing takes secs:	0.0365198, clustering takes secs:	0.00155038
+#spectra after clustering: 39805
+
+Iteration:	28, cos sim threshold:	0.83
+hashing takes secs:	0.0132308, clustering takes secs:	0.00238196
+#spectra after clustering: 39799
+
+Iteration:	29, cos sim threshold:	0.8275
+hashing takes secs:	0.0139841, clustering takes secs:	0.00255323
+#spectra after clustering: 39795
+
+Iteration:	30, cos sim threshold:	0.825
+hashing takes secs:	0.0169796, clustering takes secs:	0.00271125
+#spectra after clustering: 39784
+
+Iteration:	31, cos sim threshold:	0.8225
+hashing takes secs:	0.0174832, clustering takes secs:	0.00281436
+#spectra after clustering: 39784
+
+Iteration:	32, cos sim threshold:	0.82
+hashing takes secs:	0.0253935, clustering takes secs:	0.00246176
+#spectra after clustering: 39781
+
+Iteration:	33, cos sim threshold:	0.8175
+hashing takes secs:	0.0159932, clustering takes secs:	0.00241565
+#spectra after clustering: 39773
+
+Iteration:	34, cos sim threshold:	0.815
+hashing takes secs:	0.0187313, clustering takes secs:	0.00285439
+#spectra after clustering: 39766
+
+Iteration:	35, cos sim threshold:	0.8125
+hashing takes secs:	0.0157398, clustering takes secs:	0.00238482
+#spectra after clustering: 39757
+
+Iteration:	36, cos sim threshold:	0.81
+hashing takes secs:	0.0272775, clustering takes secs:	0.00264289
+#spectra after clustering: 39753
+
+Iteration:	37, cos sim threshold:	0.8075
+hashing takes secs:	0.0176023, clustering takes secs:	0.00237501
+#spectra after clustering: 39744
+
+Iteration:	38, cos sim threshold:	0.805
+hashing takes secs:	0.0177052, clustering takes secs:	0.0025575
+#spectra after clustering: 39738
+
+Iteration:	39, cos sim threshold:	0.8025
+hashing takes secs:	0.0170217, clustering takes secs:	0.00266701
+#spectra after clustering: 39730
+
+Iteration:	40, cos sim threshold:	0.8
+hashing takes secs:	0.0226877, clustering takes secs:	0.00169483
+#spectra after clustering: 39724
+
+Iteration:	41, cos sim threshold:	0.7975
+hashing takes secs:	0.0133244, clustering takes secs:	0.00127953
+#spectra after clustering: 39716
+
+Iteration:	42, cos sim threshold:	0.795
+hashing takes secs:	0.0133964, clustering takes secs:	0.00151769
+#spectra after clustering: 39711
+
+Iteration:	43, cos sim threshold:	0.7925
+hashing takes secs:	0.0131629, clustering takes secs:	0.00175809
+#spectra after clustering: 39697
+
+Iteration:	44, cos sim threshold:	0.79
+hashing takes secs:	0.0133543, clustering takes secs:	0.00150034
+#spectra after clustering: 39697
+
+Iteration:	45, cos sim threshold:	0.7875
+hashing takes secs:	0.01327, clustering takes secs:	0.0172844
+#spectra after clustering: 39689
+
+Iteration:	46, cos sim threshold:	0.785
+hashing takes secs:	0.0133299, clustering takes secs:	0.00201143
+#spectra after clustering: 39683
+
+Iteration:	47, cos sim threshold:	0.7825
+hashing takes secs:	0.0132585, clustering takes secs:	0.0015752
+#spectra after clustering: 39677
+
+Iteration:	48, cos sim threshold:	0.78
+hashing takes secs:	0.0136401, clustering takes secs:	0.0017922
+#spectra after clustering: 39662
+
+Iteration:	49, cos sim threshold:	0.7775
+hashing takes secs:	0.0132974, clustering takes secs:	0.00187803
+#spectra after clustering: 39651
+
+Iteration:	50, cos sim threshold:	0.775
+hashing takes secs:	0.0393502, clustering takes secs:	0.00196208
+#spectra after clustering: 39635
+
+Iteration:	51, cos sim threshold:	0.7725
+hashing takes secs:	0.0133062, clustering takes secs:	0.00163738
+#spectra after clustering: 39626
+
+Iteration:	52, cos sim threshold:	0.77
+hashing takes secs:	0.0131265, clustering takes secs:	0.00202374
+#spectra after clustering: 39617
+
+Iteration:	53, cos sim threshold:	0.7675
+hashing takes secs:	0.0133771, clustering takes secs:	0.00212941
+#spectra after clustering: 39603
+
+Iteration:	54, cos sim threshold:	0.765
+hashing takes secs:	0.0132023, clustering takes secs:	0.0019717
+#spectra after clustering: 39593
+
+Iteration:	55, cos sim threshold:	0.7625
+hashing takes secs:	0.0282005, clustering takes secs:	0.00193438
+#spectra after clustering: 39578
+
+Iteration:	56, cos sim threshold:	0.76
+hashing takes secs:	0.0132575, clustering takes secs:	0.00199591
+#spectra after clustering: 39566
+
+Iteration:	57, cos sim threshold:	0.7575
+hashing takes secs:	0.0127051, clustering takes secs:	0.0016176
+#spectra after clustering: 39560
+
+Iteration:	58, cos sim threshold:	0.755
+hashing takes secs:	0.0131572, clustering takes secs:	0.00179382
+#spectra after clustering: 39550
+
+Iteration:	59, cos sim threshold:	0.7525
+hashing takes secs:	0.0129535, clustering takes secs:	0.00198203
+#spectra after clustering: 39534
+
+Iteration:	60, cos sim threshold:	0.75
+hashing takes secs:	0.0258658, clustering takes secs:	0.00226996
+#spectra after clustering: 39513
+
+Iteration:	61, cos sim threshold:	0.7475
+hashing takes secs:	0.0132403, clustering takes secs:	0.00235021
+#spectra after clustering: 39488
+
+Iteration:	62, cos sim threshold:	0.745
+hashing takes secs:	0.0136167, clustering takes secs:	0.00269392
+#spectra after clustering: 39454
+
+Iteration:	63, cos sim threshold:	0.7425
+hashing takes secs:	0.0131873, clustering takes secs:	0.00254557
+#spectra after clustering: 39426
+
+Iteration:	64, cos sim threshold:	0.74
+hashing takes secs:	0.0378638, clustering takes secs:	0.00198365
+#spectra after clustering: 39414
+
+Iteration:	65, cos sim threshold:	0.7375
+hashing takes secs:	0.0131999, clustering takes secs:	0.00195712
+#spectra after clustering: 39388
+
+Iteration:	66, cos sim threshold:	0.735
+hashing takes secs:	0.013325, clustering takes secs:	0.00239643
+#spectra after clustering: 39369
+
+Iteration:	67, cos sim threshold:	0.7325
+hashing takes secs:	0.0133165, clustering takes secs:	0.00221937
+#spectra after clustering: 39348
+
+Iteration:	68, cos sim threshold:	0.73
+hashing takes secs:	0.0135461, clustering takes secs:	0.00236764
+#spectra after clustering: 39326
+
+Iteration:	69, cos sim threshold:	0.7275
+hashing takes secs:	0.0254866, clustering takes secs:	0.00269054
+#spectra after clustering: 39297
+
+Iteration:	70, cos sim threshold:	0.725
+hashing takes secs:	0.0166825, clustering takes secs:	0.00264289
+#spectra after clustering: 39264
+
+Iteration:	71, cos sim threshold:	0.7225
+hashing takes secs:	0.0171615, clustering takes secs:	0.00319871
+#spectra after clustering: 39235
+
+Iteration:	72, cos sim threshold:	0.72
+hashing takes secs:	0.0169914, clustering takes secs:	0.0027983
+#spectra after clustering: 39213
+
+Iteration:	73, cos sim threshold:	0.7175
+hashing takes secs:	0.0224715, clustering takes secs:	0.00249975
+#spectra after clustering: 39190
+
+Iteration:	74, cos sim threshold:	0.715
+hashing takes secs:	0.0161844, clustering takes secs:	0.00393476
+#spectra after clustering: 39161
+
+Iteration:	75, cos sim threshold:	0.7125
+hashing takes secs:	0.0166947, clustering takes secs:	0.00291898
+#spectra after clustering: 39126
+
+Iteration:	76, cos sim threshold:	0.71
+hashing takes secs:	0.0172498, clustering takes secs:	0.00229884
+#spectra after clustering: 39099
+
+Iteration:	77, cos sim threshold:	0.7075
+hashing takes secs:	0.0178517, clustering takes secs:	0.00296358
+#spectra after clustering: 39075
+
+Iteration:	78, cos sim threshold:	0.705
+hashing takes secs:	0.0175662, clustering takes secs:	0.00349204
+#spectra after clustering: 39039
+
+Iteration:	79, cos sim threshold:	0.7025
+hashing takes secs:	0.0182505, clustering takes secs:	0.00326478
+#spectra after clustering: 39018
+
+Iteration:	80, cos sim threshold:	0.7
+hashing takes secs:	0.0168762, clustering takes secs:	0.00424226
+#spectra after clustering: 38976
+
+Iteration:	81, cos sim threshold:	0.6975
+hashing takes secs:	0.0151432, clustering takes secs:	0.00238984
+#spectra after clustering: 38941
+
+Iteration:	82, cos sim threshold:	0.695
+hashing takes secs:	0.0237545, clustering takes secs:	0.0028862
+#spectra after clustering: 38903
+
+Iteration:	83, cos sim threshold:	0.6925
+hashing takes secs:	0.0139939, clustering takes secs:	0.00244183
+#spectra after clustering: 38873
+
+Iteration:	84, cos sim threshold:	0.69
+hashing takes secs:	0.0134335, clustering takes secs:	0.00277202
+#spectra after clustering: 38838
+
+Iteration:	85, cos sim threshold:	0.6875
+hashing takes secs:	0.0131055, clustering takes secs:	0.00281995
+#spectra after clustering: 38799
+
+Iteration:	86, cos sim threshold:	0.685
+hashing takes secs:	0.0131966, clustering takes secs:	0.00285658
+#spectra after clustering: 38749
+
+Iteration:	87, cos sim threshold:	0.6825
+hashing takes secs:	0.0247003, clustering takes secs:	0.00237252
+#spectra after clustering: 38714
+
+Iteration:	88, cos sim threshold:	0.68
+hashing takes secs:	0.0131559, clustering takes secs:	0.00309714
+#spectra after clustering: 38668
+
+Iteration:	89, cos sim threshold:	0.6775
+hashing takes secs:	0.0129384, clustering takes secs:	0.00248437
+#spectra after clustering: 38626
+
+Iteration:	90, cos sim threshold:	0.675
+hashing takes secs:	0.0132278, clustering takes secs:	0.00311439
+#spectra after clustering: 38588
+
+Iteration:	91, cos sim threshold:	0.6725
+hashing takes secs:	0.0130289, clustering takes secs:	0.00294546
+#spectra after clustering: 38535
+
+Iteration:	92, cos sim threshold:	0.67
+hashing takes secs:	0.0214153, clustering takes secs:	0.00239219
+#spectra after clustering: 38505
+
+Iteration:	93, cos sim threshold:	0.6675
+hashing takes secs:	0.0128952, clustering takes secs:	0.00293468
+#spectra after clustering: 38456
+
+Iteration:	94, cos sim threshold:	0.665
+hashing takes secs:	0.0129802, clustering takes secs:	0.00312224
+#spectra after clustering: 38414
+
+Iteration:	95, cos sim threshold:	0.6625
+hashing takes secs:	0.0137662, clustering takes secs:	0.00237059
+#spectra after clustering: 38380
+
+Iteration:	96, cos sim threshold:	0.66
+hashing takes secs:	0.0132322, clustering takes secs:	0.0187462
+#spectra after clustering: 38332
+
+Iteration:	97, cos sim threshold:	0.6575
+hashing takes secs:	0.012893, clustering takes secs:	0.00304442
+#spectra after clustering: 38280
+
+Iteration:	98, cos sim threshold:	0.655
+hashing takes secs:	0.0175954, clustering takes secs:	0.00418021
+#spectra after clustering: 38214
+
+Iteration:	99, cos sim threshold:	0.6525
+hashing takes secs:	0.0186214, clustering takes secs:	0.00333691
+#spectra after clustering: 38156
+
+Iteration:	100, cos sim threshold:	0.65
+hashing takes secs:	0.0133829, clustering takes secs:	0.00377344
+#spectra after clustering: 38097
+
+msCRUSH algorithm hash+cluster takes (secs): 2.2943
+Saving cluster results starts: 
+Save cluster results takes secs: 0.0493261
+Releasing memory starts.
+Releasing memory takes: 0.0437338
+msCRUSH algorithm in total takes (secs): 2.38738
+Skip spectra of charge +1
+Cluster on spectra of charge +6
+Load spectra with charge +6: 10062
+Load spectra with no charge(+0): 0
+Starting to cluster.
+Iteration:	1, cos sim threshold:	0.8975
+hashing takes secs:	0.00514734, clustering takes secs:	0.0019023
+#spectra after clustering: 10062
+
+Iteration:	2, cos sim threshold:	0.895
+hashing takes secs:	0.00614264, clustering takes secs:	0.00215849
+#spectra after clustering: 10062
+
+Iteration:	3, cos sim threshold:	0.8925
+hashing takes secs:	0.00630158, clustering takes secs:	0.00208755
+#spectra after clustering: 10060
+
+Iteration:	4, cos sim threshold:	0.89
+hashing takes secs:	0.00766263, clustering takes secs:	0.00206359
+#spectra after clustering: 10060
+
+Iteration:	5, cos sim threshold:	0.8875
+hashing takes secs:	0.00593397, clustering takes secs:	0.00209293
+#spectra after clustering: 10060
+
+Iteration:	6, cos sim threshold:	0.885
+hashing takes secs:	0.00664747, clustering takes secs:	0.00214437
+#spectra after clustering: 10060
+
+Iteration:	7, cos sim threshold:	0.8825
+hashing takes secs:	0.00575968, clustering takes secs:	0.00198817
+#spectra after clustering: 10060
+
+Iteration:	8, cos sim threshold:	0.88
+hashing takes secs:	0.00734366, clustering takes secs:	0.00207476
+#spectra after clustering: 10060
+
+Iteration:	9, cos sim threshold:	0.8775
+hashing takes secs:	0.00565753, clustering takes secs:	0.00192986
+#spectra after clustering: 10059
+
+Iteration:	10, cos sim threshold:	0.875
+hashing takes secs:	0.00635496, clustering takes secs:	0.00232936
+#spectra after clustering: 10057
+
+Iteration:	11, cos sim threshold:	0.8725
+hashing takes secs:	0.00618783, clustering takes secs:	0.00134752
+#spectra after clustering: 10057
+
+Iteration:	12, cos sim threshold:	0.87
+hashing takes secs:	0.00770083, clustering takes secs:	0.00210024
+#spectra after clustering: 10057
+
+Iteration:	13, cos sim threshold:	0.8675
+hashing takes secs:	0.0065788, clustering takes secs:	0.00199214
+#spectra after clustering: 10057
+
+Iteration:	14, cos sim threshold:	0.865
+hashing takes secs:	0.00556951, clustering takes secs:	0.00204863
+#spectra after clustering: 10057
+
+Iteration:	15, cos sim threshold:	0.8625
+hashing takes secs:	0.00589428, clustering takes secs:	0.00201081
+#spectra after clustering: 10056
+
+Iteration:	16, cos sim threshold:	0.86
+hashing takes secs:	0.00584679, clustering takes secs:	0.00197998
+#spectra after clustering: 10056
+
+Iteration:	17, cos sim threshold:	0.8575
+hashing takes secs:	0.00703787, clustering takes secs:	0.00205584
+#spectra after clustering: 10056
+
+Iteration:	18, cos sim threshold:	0.855
+hashing takes secs:	0.00588119, clustering takes secs:	0.00197062
+#spectra after clustering: 10055
+
+Iteration:	19, cos sim threshold:	0.8525
+hashing takes secs:	0.00776008, clustering takes secs:	0.00147116
+#spectra after clustering: 10054
+
+Iteration:	20, cos sim threshold:	0.85
+hashing takes secs:	0.00419877, clustering takes secs:	0.000568751
+#spectra after clustering: 10054
+
+Iteration:	21, cos sim threshold:	0.8475
+hashing takes secs:	0.00383159, clustering takes secs:	0.000710808
+#spectra after clustering: 10051
+
+Iteration:	22, cos sim threshold:	0.845
+hashing takes secs:	0.00368817, clustering takes secs:	0.00172066
+#spectra after clustering: 10051
+
+Iteration:	23, cos sim threshold:	0.8425
+hashing takes secs:	0.00363027, clustering takes secs:	0.000568609
+#spectra after clustering: 10050
+
+Iteration:	24, cos sim threshold:	0.84
+hashing takes secs:	0.0036525, clustering takes secs:	0.000524505
+#spectra after clustering: 10050
+
+Iteration:	25, cos sim threshold:	0.8375
+hashing takes secs:	0.00624557, clustering takes secs:	0.00195042
+#spectra after clustering: 10049
+
+Iteration:	26, cos sim threshold:	0.835
+hashing takes secs:	0.00381653, clustering takes secs:	0.000608718
+#spectra after clustering: 10049
+
+Iteration:	27, cos sim threshold:	0.8325
+hashing takes secs:	0.0037389, clustering takes secs:	0.000584561
+#spectra after clustering: 10049
+
+Iteration:	28, cos sim threshold:	0.83
+hashing takes secs:	0.0037039, clustering takes secs:	0.00511112
+#spectra after clustering: 10049
+
+Iteration:	29, cos sim threshold:	0.8275
+hashing takes secs:	0.0373028, clustering takes secs:	0.00050211
+#spectra after clustering: 10049
+
+Iteration:	30, cos sim threshold:	0.825
+hashing takes secs:	0.00383395, clustering takes secs:	0.000585005
+#spectra after clustering: 10049
+
+Iteration:	31, cos sim threshold:	0.8225
+hashing takes secs:	0.00372892, clustering takes secs:	0.00203566
+#spectra after clustering: 10047
+
+Iteration:	32, cos sim threshold:	0.82
+hashing takes secs:	0.00375701, clustering takes secs:	0.000571932
+#spectra after clustering: 10045
+
+Iteration:	33, cos sim threshold:	0.8175
+hashing takes secs:	0.00375795, clustering takes secs:	0.0005469
+#spectra after clustering: 10045
+
+Iteration:	34, cos sim threshold:	0.815
+hashing takes secs:	0.00365185, clustering takes secs:	0.00065823
+#spectra after clustering: 10044
+
+Iteration:	35, cos sim threshold:	0.8125
+hashing takes secs:	0.00364551, clustering takes secs:	0.000670231
+#spectra after clustering: 10042
+
+Iteration:	36, cos sim threshold:	0.81
+hashing takes secs:	0.0037245, clustering takes secs:	0.00183177
+#spectra after clustering: 10039
+
+Iteration:	37, cos sim threshold:	0.8075
+hashing takes secs:	0.00364073, clustering takes secs:	0.000425222
+#spectra after clustering: 10039
+
+Iteration:	38, cos sim threshold:	0.805
+hashing takes secs:	0.00334881, clustering takes secs:	0.0387849
+#spectra after clustering: 10037
+
+Iteration:	39, cos sim threshold:	0.8025
+hashing takes secs:	0.00413615, clustering takes secs:	0.000630123
+#spectra after clustering: 10037
+
+Iteration:	40, cos sim threshold:	0.8
+hashing takes secs:	0.00381156, clustering takes secs:	0.00073298
+#spectra after clustering: 10036
+
+Iteration:	41, cos sim threshold:	0.7975
+hashing takes secs:	0.0037027, clustering takes secs:	0.000612458
+#spectra after clustering: 10036
+
+Iteration:	42, cos sim threshold:	0.795
+hashing takes secs:	0.00368324, clustering takes secs:	0.000666681
+#spectra after clustering: 10035
+
+Iteration:	43, cos sim threshold:	0.7925
+hashing takes secs:	0.00375198, clustering takes secs:	0.000765819
+#spectra after clustering: 10032
+
+Iteration:	44, cos sim threshold:	0.79
+hashing takes secs:	0.00366221, clustering takes secs:	0.000776407
+#spectra after clustering: 10029
+
+Iteration:	45, cos sim threshold:	0.7875
+hashing takes secs:	0.003783, clustering takes secs:	0.000613614
+#spectra after clustering: 10025
+
+Iteration:	46, cos sim threshold:	0.785
+hashing takes secs:	0.00373709, clustering takes secs:	0.000646795
+#spectra after clustering: 10022
+
+Iteration:	47, cos sim threshold:	0.7825
+hashing takes secs:	0.00881997, clustering takes secs:	0.00081863
+#spectra after clustering: 10017
+
+Iteration:	48, cos sim threshold:	0.78
+hashing takes secs:	0.031159, clustering takes secs:	0.00164518
+#spectra after clustering: 10014
+
+Iteration:	49, cos sim threshold:	0.7775
+hashing takes secs:	0.0037277, clustering takes secs:	0.00054984
+#spectra after clustering: 10013
+
+Iteration:	50, cos sim threshold:	0.775
+hashing takes secs:	0.00429532, clustering takes secs:	0.00160918
+#spectra after clustering: 10009
+
+Iteration:	51, cos sim threshold:	0.7725
+hashing takes secs:	0.0037566, clustering takes secs:	0.000886378
+#spectra after clustering: 10005
+
+Iteration:	52, cos sim threshold:	0.77
+hashing takes secs:	0.00367111, clustering takes secs:	0.00159572
+#spectra after clustering: 10003
+
+Iteration:	53, cos sim threshold:	0.7675
+hashing takes secs:	0.00367341, clustering takes secs:	0.000686762
+#spectra after clustering: 10001
+
+Iteration:	54, cos sim threshold:	0.765
+hashing takes secs:	0.00370664, clustering takes secs:	0.0020234
+#spectra after clustering: 10000
+
+Iteration:	55, cos sim threshold:	0.7625
+hashing takes secs:	0.00367404, clustering takes secs:	0.000479543
+#spectra after clustering: 10000
+
+Iteration:	56, cos sim threshold:	0.76
+hashing takes secs:	0.00367647, clustering takes secs:	0.000608215
+#spectra after clustering: 9998
+
+Iteration:	57, cos sim threshold:	0.7575
+hashing takes secs:	0.0440839, clustering takes secs:	0.0006212
+#spectra after clustering: 9995
+
+Iteration:	58, cos sim threshold:	0.755
+hashing takes secs:	0.00391487, clustering takes secs:	0.000689488
+#spectra after clustering: 9989
+
+Iteration:	59, cos sim threshold:	0.7525
+hashing takes secs:	0.00368946, clustering takes secs:	0.000757291
+#spectra after clustering: 9987
+
+Iteration:	60, cos sim threshold:	0.75
+hashing takes secs:	0.0037023, clustering takes secs:	0.000536464
+#spectra after clustering: 9987
+
+Iteration:	61, cos sim threshold:	0.7475
+hashing takes secs:	0.00369113, clustering takes secs:	0.000584255
+#spectra after clustering: 9986
+
+Iteration:	62, cos sim threshold:	0.745
+hashing takes secs:	0.00365299, clustering takes secs:	0.000711829
+#spectra after clustering: 9982
+
+Iteration:	63, cos sim threshold:	0.7425
+hashing takes secs:	0.00360328, clustering takes secs:	0.000655051
+#spectra after clustering: 9980
+
+Iteration:	64, cos sim threshold:	0.74
+hashing takes secs:	0.00371855, clustering takes secs:	0.000572171
+#spectra after clustering: 9979
+
+Iteration:	65, cos sim threshold:	0.7375
+hashing takes secs:	0.00364002, clustering takes secs:	0.000614056
+#spectra after clustering: 9977
+
+Iteration:	66, cos sim threshold:	0.735
+hashing takes secs:	0.00430811, clustering takes secs:	0.000550832
+#spectra after clustering: 9977
+
+Iteration:	67, cos sim threshold:	0.7325
+hashing takes secs:	0.0413093, clustering takes secs:	0.00125331
+#spectra after clustering: 9973
+
+Iteration:	68, cos sim threshold:	0.73
+hashing takes secs:	0.0039369, clustering takes secs:	0.000517326
+#spectra after clustering: 9972
+
+Iteration:	69, cos sim threshold:	0.7275
+hashing takes secs:	0.00366336, clustering takes secs:	0.00169707
+#spectra after clustering: 9971
+
+Iteration:	70, cos sim threshold:	0.725
+hashing takes secs:	0.00377772, clustering takes secs:	0.000694938
+#spectra after clustering: 9968
+
+Iteration:	71, cos sim threshold:	0.7225
+hashing takes secs:	0.00372214, clustering takes secs:	0.00217238
+#spectra after clustering: 9966
+
+Iteration:	72, cos sim threshold:	0.72
+hashing takes secs:	0.00378116, clustering takes secs:	0.000629483
+#spectra after clustering: 9965
+
+Iteration:	73, cos sim threshold:	0.7175
+hashing takes secs:	0.00367235, clustering takes secs:	0.000764469
+#spectra after clustering: 9962
+
+Iteration:	74, cos sim threshold:	0.715
+hashing takes secs:	0.0036396, clustering takes secs:	0.000868066
+#spectra after clustering: 9957
+
+Iteration:	75, cos sim threshold:	0.7125
+hashing takes secs:	0.00909038, clustering takes secs:	0.000796915
+#spectra after clustering: 9954
+
+Iteration:	76, cos sim threshold:	0.71
+hashing takes secs:	0.03748, clustering takes secs:	0.000609637
+#spectra after clustering: 9953
+
+Iteration:	77, cos sim threshold:	0.7075
+hashing takes secs:	0.00374981, clustering takes secs:	0.000645945
+#spectra after clustering: 9951
+
+Iteration:	78, cos sim threshold:	0.705
+hashing takes secs:	0.00368848, clustering takes secs:	0.000893727
+#spectra after clustering: 9947
+
+Iteration:	79, cos sim threshold:	0.7025
+hashing takes secs:	0.00366921, clustering takes secs:	0.000900884
+#spectra after clustering: 9940
+
+Iteration:	80, cos sim threshold:	0.7
+hashing takes secs:	0.00364694, clustering takes secs:	0.000799593
+#spectra after clustering: 9937
+
+Iteration:	81, cos sim threshold:	0.6975
+hashing takes secs:	0.00374121, clustering takes secs:	0.000698083
+#spectra after clustering: 9931
+
+Iteration:	82, cos sim threshold:	0.695
+hashing takes secs:	0.00361411, clustering takes secs:	0.000514042
+#spectra after clustering: 9927
+
+Iteration:	83, cos sim threshold:	0.6925
+hashing takes secs:	0.00361707, clustering takes secs:	0.000732194
+#spectra after clustering: 9925
+
+Iteration:	84, cos sim threshold:	0.69
+hashing takes secs:	0.00360246, clustering takes secs:	0.000687964
+#spectra after clustering: 9921
+
+Iteration:	85, cos sim threshold:	0.6875
+hashing takes secs:	0.00359813, clustering takes secs:	0.0399769
+#spectra after clustering: 9919
+
+Iteration:	86, cos sim threshold:	0.685
+hashing takes secs:	0.00381754, clustering takes secs:	0.00194118
+#spectra after clustering: 9915
+
+Iteration:	87, cos sim threshold:	0.6825
+hashing takes secs:	0.00362131, clustering takes secs:	0.000874875
+#spectra after clustering: 9908
+
+Iteration:	88, cos sim threshold:	0.68
+hashing takes secs:	0.00362416, clustering takes secs:	0.000629357
+#spectra after clustering: 9906
+
+Iteration:	89, cos sim threshold:	0.6775
+hashing takes secs:	0.00359565, clustering takes secs:	0.000996202
+#spectra after clustering: 9897
+
+Iteration:	90, cos sim threshold:	0.675
+hashing takes secs:	0.00360755, clustering takes secs:	0.000764037
+#spectra after clustering: 9893
+
+Iteration:	91, cos sim threshold:	0.6725
+hashing takes secs:	0.00382618, clustering takes secs:	0.000786845
+#spectra after clustering: 9888
+
+Iteration:	92, cos sim threshold:	0.67
+hashing takes secs:	0.00374575, clustering takes secs:	0.001251
+#spectra after clustering: 9876
+
+Iteration:	93, cos sim threshold:	0.6675
+hashing takes secs:	0.00370392, clustering takes secs:	0.000659208
+#spectra after clustering: 9871
+
+Iteration:	94, cos sim threshold:	0.665
+hashing takes secs:	0.0153318, clustering takes secs:	0.0301021
+#spectra after clustering: 9863
+
+Iteration:	95, cos sim threshold:	0.6625
+hashing takes secs:	0.00378696, clustering takes secs:	0.00125577
+#spectra after clustering: 9854
+
+Iteration:	96, cos sim threshold:	0.66
+hashing takes secs:	0.00381551, clustering takes secs:	0.000919037
+#spectra after clustering: 9846
+
+Iteration:	97, cos sim threshold:	0.6575
+hashing takes secs:	0.00368569, clustering takes secs:	0.000599625
+#spectra after clustering: 9843
+
+Iteration:	98, cos sim threshold:	0.655
+hashing takes secs:	0.00367448, clustering takes secs:	0.000592753
+#spectra after clustering: 9840
+
+Iteration:	99, cos sim threshold:	0.6525
+hashing takes secs:	0.00362963, clustering takes secs:	0.00112387
+#spectra after clustering: 9828
+
+Iteration:	100, cos sim threshold:	0.65
+hashing takes secs:	0.00356905, clustering takes secs:	0.00105579
+#spectra after clustering: 9816
+
+msCRUSH algorithm hash+cluster takes (secs): 1.11178
+Saving cluster results starts: 
+Save cluster results takes secs: 0.0119229
+Releasing memory starts.
+Releasing memory takes: 0.00968245
+msCRUSH algorithm in total takes (secs): 1.13339
+Cluster on spectra of charge +7
+Load spectra with charge +7: 2143
+Load spectra with no charge(+0): 0
+Starting to cluster.
+Iteration:	1, cos sim threshold:	0.8975
+hashing takes secs:	0.000716511, clustering takes secs:	8.7508e-05
+#spectra after clustering: 2143
+
+Iteration:	2, cos sim threshold:	0.895
+hashing takes secs:	0.000900366, clustering takes secs:	0.000145834
+#spectra after clustering: 2143
+
+Iteration:	3, cos sim threshold:	0.8925
+hashing takes secs:	0.00244211, clustering takes secs:	0.00115349
+#spectra after clustering: 2143
+
+Iteration:	4, cos sim threshold:	0.89
+hashing takes secs:	0.00087062, clustering takes secs:	0.000130688
+#spectra after clustering: 2143
+
+Iteration:	5, cos sim threshold:	0.8875
+hashing takes secs:	0.00078767, clustering takes secs:	0.000126647
+#spectra after clustering: 2143
+
+Iteration:	6, cos sim threshold:	0.885
+hashing takes secs:	0.0132742, clustering takes secs:	0.000142798
+#spectra after clustering: 2143
+
+Iteration:	7, cos sim threshold:	0.8825
+hashing takes secs:	0.000823273, clustering takes secs:	0.000118452
+#spectra after clustering: 2143
+
+Iteration:	8, cos sim threshold:	0.88
+hashing takes secs:	0.000870693, clustering takes secs:	0.000143272
+#spectra after clustering: 2143
+
+Iteration:	9, cos sim threshold:	0.8775
+hashing takes secs:	0.000818955, clustering takes secs:	0.000126378
+#spectra after clustering: 2143
+
+Iteration:	10, cos sim threshold:	0.875
+hashing takes secs:	0.000860418, clustering takes secs:	0.00013343
+#spectra after clustering: 2143
+
+Iteration:	11, cos sim threshold:	0.8725
+hashing takes secs:	0.000814794, clustering takes secs:	0.000143508
+#spectra after clustering: 2143
+
+Iteration:	12, cos sim threshold:	0.87
+hashing takes secs:	0.000840231, clustering takes secs:	0.000130285
+#spectra after clustering: 2143
+
+Iteration:	13, cos sim threshold:	0.8675
+hashing takes secs:	0.000796498, clustering takes secs:	0.000132972
+#spectra after clustering: 2143
+
+Iteration:	14, cos sim threshold:	0.865
+hashing takes secs:	0.000827837, clustering takes secs:	0.000137592
+#spectra after clustering: 2143
+
+Iteration:	15, cos sim threshold:	0.8625
+hashing takes secs:	0.000774125, clustering takes secs:	0.000129241
+#spectra after clustering: 2143
+
+Iteration:	16, cos sim threshold:	0.86
+hashing takes secs:	0.000805118, clustering takes secs:	0.000134489
+#spectra after clustering: 2143
+
+Iteration:	17, cos sim threshold:	0.8575
+hashing takes secs:	0.000796846, clustering takes secs:	0.000122689
+#spectra after clustering: 2143
+
+Iteration:	18, cos sim threshold:	0.855
+hashing takes secs:	0.00079771, clustering takes secs:	0.000133455
+#spectra after clustering: 2143
+
+Iteration:	19, cos sim threshold:	0.8525
+hashing takes secs:	0.000772018, clustering takes secs:	0.000123579
+#spectra after clustering: 2143
+
+Iteration:	20, cos sim threshold:	0.85
+hashing takes secs:	0.000809232, clustering takes secs:	0.0001342
+#spectra after clustering: 2143
+
+Iteration:	21, cos sim threshold:	0.8475
+hashing takes secs:	0.000776358, clustering takes secs:	0.000120141
+#spectra after clustering: 2143
+
+Iteration:	22, cos sim threshold:	0.845
+hashing takes secs:	0.000808743, clustering takes secs:	0.000134077
+#spectra after clustering: 2143
+
+Iteration:	23, cos sim threshold:	0.8425
+hashing takes secs:	0.000774927, clustering takes secs:	0.000125503
+#spectra after clustering: 2143
+
+Iteration:	24, cos sim threshold:	0.84
+hashing takes secs:	0.000793256, clustering takes secs:	0.000132988
+#spectra after clustering: 2143
+
+Iteration:	25, cos sim threshold:	0.8375
+hashing takes secs:	0.046565, clustering takes secs:	0.000138018
+#spectra after clustering: 2143
+
+Iteration:	26, cos sim threshold:	0.835
+hashing takes secs:	0.00210201, clustering takes secs:	0.000133492
+#spectra after clustering: 2143
+
+Iteration:	27, cos sim threshold:	0.8325
+hashing takes secs:	0.000815008, clustering takes secs:	0.000126062
+#spectra after clustering: 2143
+
+Iteration:	28, cos sim threshold:	0.83
+hashing takes secs:	0.000826863, clustering takes secs:	0.000134243
+#spectra after clustering: 2143
+
+Iteration:	29, cos sim threshold:	0.8275
+hashing takes secs:	0.000795601, clustering takes secs:	0.000136674
+#spectra after clustering: 2143
+
+Iteration:	30, cos sim threshold:	0.825
+hashing takes secs:	0.000817475, clustering takes secs:	0.000135306
+#spectra after clustering: 2143
+
+Iteration:	31, cos sim threshold:	0.8225
+hashing takes secs:	0.000815351, clustering takes secs:	0.000124875
+#spectra after clustering: 2143
+
+Iteration:	32, cos sim threshold:	0.82
+hashing takes secs:	0.000794224, clustering takes secs:	0.000124806
+#spectra after clustering: 2143
+
+Iteration:	33, cos sim threshold:	0.8175
+hashing takes secs:	0.000775951, clustering takes secs:	0.000119869
+#spectra after clustering: 2143
+
+Iteration:	34, cos sim threshold:	0.815
+hashing takes secs:	0.00078368, clustering takes secs:	0.000130144
+#spectra after clustering: 2143
+
+Iteration:	35, cos sim threshold:	0.8125
+hashing takes secs:	0.000775841, clustering takes secs:	0.000125341
+#spectra after clustering: 2143
+
+Iteration:	36, cos sim threshold:	0.81
+hashing takes secs:	0.000797817, clustering takes secs:	0.000132969
+#spectra after clustering: 2143
+
+Iteration:	37, cos sim threshold:	0.8075
+hashing takes secs:	0.000785574, clustering takes secs:	0.000130879
+#spectra after clustering: 2143
+
+Iteration:	38, cos sim threshold:	0.805
+hashing takes secs:	0.000786915, clustering takes secs:	0.000127115
+#spectra after clustering: 2143
+
+Iteration:	39, cos sim threshold:	0.8025
+hashing takes secs:	0.000796698, clustering takes secs:	0.000135599
+#spectra after clustering: 2143
+
+Iteration:	40, cos sim threshold:	0.8
+hashing takes secs:	0.000799562, clustering takes secs:	0.000133399
+#spectra after clustering: 2143
+
+Iteration:	41, cos sim threshold:	0.7975
+hashing takes secs:	0.000800183, clustering takes secs:	0.000138978
+#spectra after clustering: 2143
+
+Iteration:	42, cos sim threshold:	0.795
+hashing takes secs:	0.000788898, clustering takes secs:	0.000125851
+#spectra after clustering: 2143
+
+Iteration:	43, cos sim threshold:	0.7925
+hashing takes secs:	0.00258509, clustering takes secs:	0.000167225
+#spectra after clustering: 2143
+
+Iteration:	44, cos sim threshold:	0.79
+hashing takes secs:	0.0383236, clustering takes secs:	0.000151969
+#spectra after clustering: 2143
+
+Iteration:	45, cos sim threshold:	0.7875
+hashing takes secs:	0.00084379, clustering takes secs:	0.000131118
+#spectra after clustering: 2143
+
+Iteration:	46, cos sim threshold:	0.785
+hashing takes secs:	0.000840584, clustering takes secs:	0.000125823
+#spectra after clustering: 2143
+
+Iteration:	47, cos sim threshold:	0.7825
+hashing takes secs:	0.00102267, clustering takes secs:	0.000158169
+#spectra after clustering: 2143
+
+Iteration:	48, cos sim threshold:	0.78
+hashing takes secs:	0.000848769, clustering takes secs:	0.000129097
+#spectra after clustering: 2143
+
+Iteration:	49, cos sim threshold:	0.7775
+hashing takes secs:	0.000824442, clustering takes secs:	0.000135164
+#spectra after clustering: 2143
+
+Iteration:	50, cos sim threshold:	0.775
+hashing takes secs:	0.000830141, clustering takes secs:	0.000133345
+#spectra after clustering: 2143
+
+Iteration:	51, cos sim threshold:	0.7725
+hashing takes secs:	0.000829348, clustering takes secs:	0.000123823
+#spectra after clustering: 2143
+
+Iteration:	52, cos sim threshold:	0.77
+hashing takes secs:	0.000807602, clustering takes secs:	0.000136645
+#spectra after clustering: 2143
+
+Iteration:	53, cos sim threshold:	0.7675
+hashing takes secs:	0.00080966, clustering takes secs:	0.000128573
+#spectra after clustering: 2143
+
+Iteration:	54, cos sim threshold:	0.765
+hashing takes secs:	0.000790514, clustering takes secs:	0.000134872
+#spectra after clustering: 2143
+
+Iteration:	55, cos sim threshold:	0.7625
+hashing takes secs:	0.000813812, clustering takes secs:	0.000138117
+#spectra after clustering: 2143
+
+Iteration:	56, cos sim threshold:	0.76
+hashing takes secs:	0.000802167, clustering takes secs:	0.000134612
+#spectra after clustering: 2143
+
+Iteration:	57, cos sim threshold:	0.7575
+hashing takes secs:	0.000820796, clustering takes secs:	0.000133897
+#spectra after clustering: 2143
+
+Iteration:	58, cos sim threshold:	0.755
+hashing takes secs:	0.000814659, clustering takes secs:	0.0001415
+#spectra after clustering: 2143
+
+Iteration:	59, cos sim threshold:	0.7525
+hashing takes secs:	0.000812562, clustering takes secs:	0.000126761
+#spectra after clustering: 2143
+
+Iteration:	60, cos sim threshold:	0.75
+hashing takes secs:	0.00080277, clustering takes secs:	0.000137144
+#spectra after clustering: 2143
+
+Iteration:	61, cos sim threshold:	0.7475
+hashing takes secs:	0.00080714, clustering takes secs:	0.000128104
+#spectra after clustering: 2143
+
+Iteration:	62, cos sim threshold:	0.745
+hashing takes secs:	0.000821085, clustering takes secs:	0.000132836
+#spectra after clustering: 2143
+
+Iteration:	63, cos sim threshold:	0.7425
+hashing takes secs:	0.00080939, clustering takes secs:	0.000127928
+#spectra after clustering: 2143
+
+Iteration:	64, cos sim threshold:	0.74
+hashing takes secs:	0.000837814, clustering takes secs:	0.000130393
+#spectra after clustering: 2143
+
+Iteration:	65, cos sim threshold:	0.7375
+hashing takes secs:	0.000835691, clustering takes secs:	0.000139477
+#spectra after clustering: 2143
+
+Iteration:	66, cos sim threshold:	0.735
+hashing takes secs:	0.000811363, clustering takes secs:	0.000152026
+#spectra after clustering: 2143
+
+Iteration:	67, cos sim threshold:	0.7325
+hashing takes secs:	0.000803277, clustering takes secs:	0.000139404
+#spectra after clustering: 2143
+
+Iteration:	68, cos sim threshold:	0.73
+hashing takes secs:	0.000804747, clustering takes secs:	0.000142994
+#spectra after clustering: 2143
+
+Iteration:	69, cos sim threshold:	0.7275
+hashing takes secs:	0.000798775, clustering takes secs:	0.000127478
+#spectra after clustering: 2143
+
+Iteration:	70, cos sim threshold:	0.725
+hashing takes secs:	0.000799821, clustering takes secs:	0.000123386
+#spectra after clustering: 2143
+
+Iteration:	71, cos sim threshold:	0.7225
+hashing takes secs:	0.000804272, clustering takes secs:	0.000164846
+#spectra after clustering: 2142
+
+Iteration:	72, cos sim threshold:	0.72
+hashing takes secs:	0.000795664, clustering takes secs:	0.000126687
+#spectra after clustering: 2142
+
+Iteration:	73, cos sim threshold:	0.7175
+hashing takes secs:	0.000800797, clustering takes secs:	0.000134076
+#spectra after clustering: 2142
+
+Iteration:	74, cos sim threshold:	0.715
+hashing takes secs:	0.000789917, clustering takes secs:	0.000125983
+#spectra after clustering: 2142
+
+Iteration:	75, cos sim threshold:	0.7125
+hashing takes secs:	0.000814396, clustering takes secs:	0.000146751
+#spectra after clustering: 2142
+
+Iteration:	76, cos sim threshold:	0.71
+hashing takes secs:	0.00250209, clustering takes secs:	0.00123811
+#spectra after clustering: 2142
+
+Iteration:	77, cos sim threshold:	0.7075
+hashing takes secs:	0.0026619, clustering takes secs:	0.0023636
+#spectra after clustering: 2142
+
+Iteration:	78, cos sim threshold:	0.705
+hashing takes secs:	0.000840655, clustering takes secs:	0.000133383
+#spectra after clustering: 2142
+
+Iteration:	79, cos sim threshold:	0.7025
+hashing takes secs:	0.000836026, clustering takes secs:	0.00017366
+#spectra after clustering: 2141
+
+Iteration:	80, cos sim threshold:	0.7
+hashing takes secs:	0.00548037, clustering takes secs:	0.000133076
+#spectra after clustering: 2141
+
+Iteration:	81, cos sim threshold:	0.6975
+hashing takes secs:	0.0397878, clustering takes secs:	0.000196381
+#spectra after clustering: 2140
+
+Iteration:	82, cos sim threshold:	0.695
+hashing takes secs:	0.000860564, clustering takes secs:	0.00012988
+#spectra after clustering: 2140
+
+Iteration:	83, cos sim threshold:	0.6925
+hashing takes secs:	0.00085331, clustering takes secs:	0.000229007
+#spectra after clustering: 2139
+
+Iteration:	84, cos sim threshold:	0.69
+hashing takes secs:	0.000830958, clustering takes secs:	0.000163751
+#spectra after clustering: 2138
+
+Iteration:	85, cos sim threshold:	0.6875
+hashing takes secs:	0.000837618, clustering takes secs:	0.000134508
+#spectra after clustering: 2138
+
+Iteration:	86, cos sim threshold:	0.685
+hashing takes secs:	0.000818966, clustering takes secs:	0.000159168
+#spectra after clustering: 2137
+
+Iteration:	87, cos sim threshold:	0.6825
+hashing takes secs:	0.000824873, clustering takes secs:	0.000145439
+#spectra after clustering: 2137
+
+Iteration:	88, cos sim threshold:	0.68
+hashing takes secs:	0.000817068, clustering takes secs:	0.000123226
+#spectra after clustering: 2137
+
+Iteration:	89, cos sim threshold:	0.6775
+hashing takes secs:	0.00081559, clustering takes secs:	0.000132051
+#spectra after clustering: 2137
+
+Iteration:	90, cos sim threshold:	0.675
+hashing takes secs:	0.000784452, clustering takes secs:	0.000127429
+#spectra after clustering: 2137
+
+Iteration:	91, cos sim threshold:	0.6725
+hashing takes secs:	0.000802735, clustering takes secs:	0.000131351
+#spectra after clustering: 2137
+
+Iteration:	92, cos sim threshold:	0.67
+hashing takes secs:	0.00080919, clustering takes secs:	0.00012376
+#spectra after clustering: 2137
+
+Iteration:	93, cos sim threshold:	0.6675
+hashing takes secs:	0.000798698, clustering takes secs:	0.000153069
+#spectra after clustering: 2136
+
+Iteration:	94, cos sim threshold:	0.665
+hashing takes secs:	0.000784916, clustering takes secs:	0.000170731
+#spectra after clustering: 2135
+
+Iteration:	95, cos sim threshold:	0.6625
+hashing takes secs:	0.000795707, clustering takes secs:	0.000129765
+#spectra after clustering: 2135
+
+Iteration:	96, cos sim threshold:	0.66
+hashing takes secs:	0.000786209, clustering takes secs:	0.000137392
+#spectra after clustering: 2135
+
+Iteration:	97, cos sim threshold:	0.6575
+hashing takes secs:	0.000785431, clustering takes secs:	0.000190617
+#spectra after clustering: 2134
+
+Iteration:	98, cos sim threshold:	0.655
+hashing takes secs:	0.00119192, clustering takes secs:	0.000123396
+#spectra after clustering: 2134
+
+Iteration:	99, cos sim threshold:	0.6525
+hashing takes secs:	0.00257915, clustering takes secs:	0.000135947
+#spectra after clustering: 2134
+
+Iteration:	100, cos sim threshold:	0.65
+hashing takes secs:	0.000846496, clustering takes secs:	0.000127152
+#spectra after clustering: 2134
+
+msCRUSH algorithm hash+cluster takes (secs): 0.532253
+Saving cluster results starts: 
+Save cluster results takes secs: 0.003109
+Releasing memory starts.
+Releasing memory takes: 0.00225
+msCRUSH algorithm in total takes (secs): 0.537623
+Cluster on spectra of charge +8
+Load spectra with charge +8: 659
+Load spectra with no charge(+0): 0
+Starting to cluster.
+Iteration:	1, cos sim threshold:	0.8975
+hashing takes secs:	0.000324663, clustering takes secs:	6.2499e-05
+#spectra after clustering: 659
+
+Iteration:	2, cos sim threshold:	0.895
+hashing takes secs:	0.000366856, clustering takes secs:	6.9615e-05
+#spectra after clustering: 659
+
+Iteration:	3, cos sim threshold:	0.8925
+hashing takes secs:	0.000315586, clustering takes secs:	7.1187e-05
+#spectra after clustering: 659
+
+Iteration:	4, cos sim threshold:	0.89
+hashing takes secs:	0.000331766, clustering takes secs:	7.0615e-05
+#spectra after clustering: 659
+
+Iteration:	5, cos sim threshold:	0.8875
+hashing takes secs:	0.00034826, clustering takes secs:	6.7189e-05
+#spectra after clustering: 659
+
+Iteration:	6, cos sim threshold:	0.885
+hashing takes secs:	0.000361685, clustering takes secs:	6.6826e-05
+#spectra after clustering: 659
+
+Iteration:	7, cos sim threshold:	0.8825
+hashing takes secs:	0.00033305, clustering takes secs:	6.5985e-05
+#spectra after clustering: 659
+
+Iteration:	8, cos sim threshold:	0.88
+hashing takes secs:	0.000351598, clustering takes secs:	6.8683e-05
+#spectra after clustering: 659
+
+Iteration:	9, cos sim threshold:	0.8775
+hashing takes secs:	0.000342, clustering takes secs:	6.8341e-05
+#spectra after clustering: 659
+
+Iteration:	10, cos sim threshold:	0.875
+hashing takes secs:	0.00035392, clustering takes secs:	7.0565e-05
+#spectra after clustering: 659
+
+Iteration:	11, cos sim threshold:	0.8725
+hashing takes secs:	0.00034269, clustering takes secs:	6.647e-05
+#spectra after clustering: 659
+
+Iteration:	12, cos sim threshold:	0.87
+hashing takes secs:	0.000352788, clustering takes secs:	7.1751e-05
+#spectra after clustering: 659
+
+Iteration:	13, cos sim threshold:	0.8675
+hashing takes secs:	0.000329496, clustering takes secs:	6.9407e-05
+#spectra after clustering: 659
+
+Iteration:	14, cos sim threshold:	0.865
+hashing takes secs:	0.000349772, clustering takes secs:	7.1046e-05
+#spectra after clustering: 659
+
+Iteration:	15, cos sim threshold:	0.8625
+hashing takes secs:	0.000315778, clustering takes secs:	6.7912e-05
+#spectra after clustering: 659
+
+Iteration:	16, cos sim threshold:	0.86
+hashing takes secs:	0.00033404, clustering takes secs:	6.8042e-05
+#spectra after clustering: 659
+
+Iteration:	17, cos sim threshold:	0.8575
+hashing takes secs:	0.000325458, clustering takes secs:	7.0746e-05
+#spectra after clustering: 659
+
+Iteration:	18, cos sim threshold:	0.855
+hashing takes secs:	0.000353834, clustering takes secs:	6.6818e-05
+#spectra after clustering: 659
+
+Iteration:	19, cos sim threshold:	0.8525
+hashing takes secs:	0.000318974, clustering takes secs:	6.5466e-05
+#spectra after clustering: 659
+
+Iteration:	20, cos sim threshold:	0.85
+hashing takes secs:	0.000330919, clustering takes secs:	7.0397e-05
+#spectra after clustering: 659
+
+Iteration:	21, cos sim threshold:	0.8475
+hashing takes secs:	0.00032477, clustering takes secs:	6.6821e-05
+#spectra after clustering: 659
+
+Iteration:	22, cos sim threshold:	0.845
+hashing takes secs:	0.000332777, clustering takes secs:	7.4001e-05
+#spectra after clustering: 659
+
+Iteration:	23, cos sim threshold:	0.8425
+hashing takes secs:	0.000318571, clustering takes secs:	6.8107e-05
+#spectra after clustering: 659
+
+Iteration:	24, cos sim threshold:	0.84
+hashing takes secs:	0.000339945, clustering takes secs:	7.1507e-05
+#spectra after clustering: 659
+
+Iteration:	25, cos sim threshold:	0.8375
+hashing takes secs:	0.0350739, clustering takes secs:	8.0487e-05
+#spectra after clustering: 659
+
+Iteration:	26, cos sim threshold:	0.835
+hashing takes secs:	0.00177729, clustering takes secs:	0.00255533
+#spectra after clustering: 659
+
+Iteration:	27, cos sim threshold:	0.8325
+hashing takes secs:	0.00195752, clustering takes secs:	0.00114611
+#spectra after clustering: 659
+
+Iteration:	28, cos sim threshold:	0.83
+hashing takes secs:	0.000364811, clustering takes secs:	7.1137e-05
+#spectra after clustering: 659
+
+Iteration:	29, cos sim threshold:	0.8275
+hashing takes secs:	0.000320173, clustering takes secs:	6.629e-05
+#spectra after clustering: 659
+
+Iteration:	30, cos sim threshold:	0.825
+hashing takes secs:	0.000363074, clustering takes secs:	7.1151e-05
+#spectra after clustering: 659
+
+Iteration:	31, cos sim threshold:	0.8225
+hashing takes secs:	0.000330242, clustering takes secs:	6.7728e-05
+#spectra after clustering: 659
+
+Iteration:	32, cos sim threshold:	0.82
+hashing takes secs:	0.000346815, clustering takes secs:	6.9848e-05
+#spectra after clustering: 659
+
+Iteration:	33, cos sim threshold:	0.8175
+hashing takes secs:	0.000314713, clustering takes secs:	6.7732e-05
+#spectra after clustering: 659
+
+Iteration:	34, cos sim threshold:	0.815
+hashing takes secs:	0.000353613, clustering takes secs:	7.4846e-05
+#spectra after clustering: 659
+
+Iteration:	35, cos sim threshold:	0.8125
+hashing takes secs:	0.000319392, clustering takes secs:	7.1308e-05
+#spectra after clustering: 659
+
+Iteration:	36, cos sim threshold:	0.81
+hashing takes secs:	0.00034244, clustering takes secs:	7.7958e-05
+#spectra after clustering: 659
+
+Iteration:	37, cos sim threshold:	0.8075
+hashing takes secs:	0.000328603, clustering takes secs:	6.7794e-05
+#spectra after clustering: 659
+
+Iteration:	38, cos sim threshold:	0.805
+hashing takes secs:	0.000357678, clustering takes secs:	6.9883e-05
+#spectra after clustering: 659
+
+Iteration:	39, cos sim threshold:	0.8025
+hashing takes secs:	0.000342224, clustering takes secs:	7.371e-05
+#spectra after clustering: 659
+
+Iteration:	40, cos sim threshold:	0.8
+hashing takes secs:	0.000357663, clustering takes secs:	7.0028e-05
+#spectra after clustering: 659
+
+Iteration:	41, cos sim threshold:	0.7975
+hashing takes secs:	0.000340126, clustering takes secs:	6.6651e-05
+#spectra after clustering: 659
+
+Iteration:	42, cos sim threshold:	0.795
+hashing takes secs:	0.000338323, clustering takes secs:	6.8485e-05
+#spectra after clustering: 659
+
+Iteration:	43, cos sim threshold:	0.7925
+hashing takes secs:	0.000329286, clustering takes secs:	6.7943e-05
+#spectra after clustering: 659
+
+Iteration:	44, cos sim threshold:	0.79
+hashing takes secs:	0.000349832, clustering takes secs:	6.7961e-05
+#spectra after clustering: 659
+
+Iteration:	45, cos sim threshold:	0.7875
+hashing takes secs:	0.00491819, clustering takes secs:	6.8136e-05
+#spectra after clustering: 659
+
+Iteration:	46, cos sim threshold:	0.785
+hashing takes secs:	0.0402454, clustering takes secs:	7.3483e-05
+#spectra after clustering: 659
+
+Iteration:	47, cos sim threshold:	0.7825
+hashing takes secs:	0.000326405, clustering takes secs:	6.9256e-05
+#spectra after clustering: 659
+
+Iteration:	48, cos sim threshold:	0.78
+hashing takes secs:	0.000348509, clustering takes secs:	0.000103429
+#spectra after clustering: 658
+
+Iteration:	49, cos sim threshold:	0.7775
+hashing takes secs:	0.000332957, clustering takes secs:	6.5534e-05
+#spectra after clustering: 658
+
+Iteration:	50, cos sim threshold:	0.775
+hashing takes secs:	0.000349289, clustering takes secs:	0.000115933
+#spectra after clustering: 657
+
+Iteration:	51, cos sim threshold:	0.7725
+hashing takes secs:	0.000345486, clustering takes secs:	8.6898e-05
+#spectra after clustering: 656
+
+Iteration:	52, cos sim threshold:	0.77
+hashing takes secs:	0.000357068, clustering takes secs:	7.1658e-05
+#spectra after clustering: 656
+
+Iteration:	53, cos sim threshold:	0.7675
+hashing takes secs:	0.000349514, clustering takes secs:	6.5074e-05
+#spectra after clustering: 656
+
+Iteration:	54, cos sim threshold:	0.765
+hashing takes secs:	0.000345983, clustering takes secs:	6.9965e-05
+#spectra after clustering: 656
+
+Iteration:	55, cos sim threshold:	0.7625
+hashing takes secs:	0.000329406, clustering takes secs:	6.8834e-05
+#spectra after clustering: 656
+
+Iteration:	56, cos sim threshold:	0.76
+hashing takes secs:	0.000351307, clustering takes secs:	6.8434e-05
+#spectra after clustering: 656
+
+Iteration:	57, cos sim threshold:	0.7575
+hashing takes secs:	0.000335215, clustering takes secs:	6.6444e-05
+#spectra after clustering: 656
+
+Iteration:	58, cos sim threshold:	0.755
+hashing takes secs:	0.000348139, clustering takes secs:	6.7895e-05
+#spectra after clustering: 656
+
+Iteration:	59, cos sim threshold:	0.7525
+hashing takes secs:	0.000324882, clustering takes secs:	8.9166e-05
+#spectra after clustering: 655
+
+Iteration:	60, cos sim threshold:	0.75
+hashing takes secs:	0.000352284, clustering takes secs:	8.594e-05
+#spectra after clustering: 654
+
+Iteration:	61, cos sim threshold:	0.7475
+hashing takes secs:	0.000332601, clustering takes secs:	6.853e-05
+#spectra after clustering: 654
+
+Iteration:	62, cos sim threshold:	0.745
+hashing takes secs:	0.000351767, clustering takes secs:	6.7525e-05
+#spectra after clustering: 654
+
+Iteration:	63, cos sim threshold:	0.7425
+hashing takes secs:	0.0013078, clustering takes secs:	0.00113179
+#spectra after clustering: 654
+
+Iteration:	64, cos sim threshold:	0.74
+hashing takes secs:	0.000332177, clustering takes secs:	7.2492e-05
+#spectra after clustering: 654
+
+Iteration:	65, cos sim threshold:	0.7375
+hashing takes secs:	0.000337279, clustering takes secs:	6.4599e-05
+#spectra after clustering: 654
+
+Iteration:	66, cos sim threshold:	0.735
+hashing takes secs:	0.000335312, clustering takes secs:	6.828e-05
+#spectra after clustering: 654
+
+Iteration:	67, cos sim threshold:	0.7325
+hashing takes secs:	0.000321384, clustering takes secs:	6.6563e-05
+#spectra after clustering: 654
+
+Iteration:	68, cos sim threshold:	0.73
+hashing takes secs:	0.00491409, clustering takes secs:	6.9314e-05
+#spectra after clustering: 654
+
+Iteration:	69, cos sim threshold:	0.7275
+hashing takes secs:	0.000336393, clustering takes secs:	6.8907e-05
+#spectra after clustering: 654
+
+Iteration:	70, cos sim threshold:	0.725
+hashing takes secs:	0.000375949, clustering takes secs:	7.2617e-05
+#spectra after clustering: 654
+
+Iteration:	71, cos sim threshold:	0.7225
+hashing takes secs:	0.000354224, clustering takes secs:	8.907e-05
+#spectra after clustering: 653
+
+Iteration:	72, cos sim threshold:	0.72
+hashing takes secs:	0.000352479, clustering takes secs:	6.8881e-05
+#spectra after clustering: 653
+
+Iteration:	73, cos sim threshold:	0.7175
+hashing takes secs:	0.00033991, clustering takes secs:	6.5333e-05
+#spectra after clustering: 653
+
+Iteration:	74, cos sim threshold:	0.715
+hashing takes secs:	0.000339603, clustering takes secs:	6.9064e-05
+#spectra after clustering: 653
+
+Iteration:	75, cos sim threshold:	0.7125
+hashing takes secs:	0.000315688, clustering takes secs:	6.5977e-05
+#spectra after clustering: 653
+
+Iteration:	76, cos sim threshold:	0.71
+hashing takes secs:	0.000335497, clustering takes secs:	6.7128e-05
+#spectra after clustering: 653
+
+Iteration:	77, cos sim threshold:	0.7075
+hashing takes secs:	0.00197931, clustering takes secs:	0.00146694
+#spectra after clustering: 653
+
+Iteration:	78, cos sim threshold:	0.705
+hashing takes secs:	0.000353053, clustering takes secs:	7.057e-05
+#spectra after clustering: 653
+
+Iteration:	79, cos sim threshold:	0.7025
+hashing takes secs:	0.000348481, clustering takes secs:	8.7608e-05
+#spectra after clustering: 652
+
+Iteration:	80, cos sim threshold:	0.7
+hashing takes secs:	0.00036184, clustering takes secs:	7.0403e-05
+#spectra after clustering: 652
+
+Iteration:	81, cos sim threshold:	0.6975
+hashing takes secs:	0.000319846, clustering takes secs:	6.4396e-05
+#spectra after clustering: 652
+
+Iteration:	82, cos sim threshold:	0.695
+hashing takes secs:	0.00034703, clustering takes secs:	6.6019e-05
+#spectra after clustering: 652
+
+Iteration:	83, cos sim threshold:	0.6925
+hashing takes secs:	0.00034106, clustering takes secs:	8.0548e-05
+#spectra after clustering: 651
+
+Iteration:	84, cos sim threshold:	0.69
+hashing takes secs:	0.000347348, clustering takes secs:	6.6959e-05
+#spectra after clustering: 651
+
+Iteration:	85, cos sim threshold:	0.6875
+hashing takes secs:	0.000336048, clustering takes secs:	6.3995e-05
+#spectra after clustering: 651
+
+Iteration:	86, cos sim threshold:	0.685
+hashing takes secs:	0.000339538, clustering takes secs:	6.7925e-05
+#spectra after clustering: 651
+
+Iteration:	87, cos sim threshold:	0.6825
+hashing takes secs:	0.000320428, clustering takes secs:	7.1582e-05
+#spectra after clustering: 651
+
+Iteration:	88, cos sim threshold:	0.68
+hashing takes secs:	0.000352713, clustering takes secs:	9.0453e-05
+#spectra after clustering: 650
+
+Iteration:	89, cos sim threshold:	0.6775
+hashing takes secs:	0.000330376, clustering takes secs:	6.6107e-05
+#spectra after clustering: 650
+
+Iteration:	90, cos sim threshold:	0.675
+hashing takes secs:	0.000351408, clustering takes secs:	6.9045e-05
+#spectra after clustering: 650
+
+Iteration:	91, cos sim threshold:	0.6725
+hashing takes secs:	0.000335285, clustering takes secs:	6.3249e-05
+#spectra after clustering: 650
+
+Iteration:	92, cos sim threshold:	0.67
+hashing takes secs:	0.000350586, clustering takes secs:	7.6687e-05
+#spectra after clustering: 650
+
+Iteration:	93, cos sim threshold:	0.6675
+hashing takes secs:	0.0420116, clustering takes secs:	7.8235e-05
+#spectra after clustering: 650
+
+Iteration:	94, cos sim threshold:	0.665
+hashing takes secs:	0.000355501, clustering takes secs:	7.1605e-05
+#spectra after clustering: 650
+
+Iteration:	95, cos sim threshold:	0.6625
+hashing takes secs:	0.000356767, clustering takes secs:	6.9418e-05
+#spectra after clustering: 650
+
+Iteration:	96, cos sim threshold:	0.66
+hashing takes secs:	0.000378902, clustering takes secs:	7.0611e-05
+#spectra after clustering: 650
+
+Iteration:	97, cos sim threshold:	0.6575
+hashing takes secs:	0.000346346, clustering takes secs:	7.0229e-05
+#spectra after clustering: 650
+
+Iteration:	98, cos sim threshold:	0.655
+hashing takes secs:	0.000364931, clustering takes secs:	7.2349e-05
+#spectra after clustering: 650
+
+Iteration:	99, cos sim threshold:	0.6525
+hashing takes secs:	0.000340717, clustering takes secs:	6.4989e-05
+#spectra after clustering: 650
+
+Iteration:	100, cos sim threshold:	0.65
+hashing takes secs:	0.00034122, clustering takes secs:	6.7991e-05
+#spectra after clustering: 650
+
+msCRUSH algorithm hash+cluster takes (secs): 0.408779
+Saving cluster results starts: 
+Save cluster results takes secs: 0.00127539
+Releasing memory starts.
+Releasing memory takes: 0.000718638
+msCRUSH algorithm in total takes (secs): 0.410782
+Cluster on spectra of charge +9
+Load spectra with charge +9: 284
+Load spectra with no charge(+0): 0
+Starting to cluster.
+Iteration:	1, cos sim threshold:	0.8975
+hashing takes secs:	0.000211077, clustering takes secs:	4.8702e-05
+#spectra after clustering: 284
+
+Iteration:	2, cos sim threshold:	0.895
+hashing takes secs:	0.000244333, clustering takes secs:	5.3984e-05
+#spectra after clustering: 284
+
+Iteration:	3, cos sim threshold:	0.8925
+hashing takes secs:	0.000247863, clustering takes secs:	5.1491e-05
+#spectra after clustering: 284
+
+Iteration:	4, cos sim threshold:	0.89
+hashing takes secs:	0.000234889, clustering takes secs:	7.4472e-05
+#spectra after clustering: 284
+
+Iteration:	5, cos sim threshold:	0.8875
+hashing takes secs:	0.000235376, clustering takes secs:	5.1752e-05
+#spectra after clustering: 284
+
+Iteration:	6, cos sim threshold:	0.885
+hashing takes secs:	0.000232207, clustering takes secs:	5.14e-05
+#spectra after clustering: 284
+
+Iteration:	7, cos sim threshold:	0.8825
+hashing takes secs:	0.0002347, clustering takes secs:	5.1831e-05
+#spectra after clustering: 284
+
+Iteration:	8, cos sim threshold:	0.88
+hashing takes secs:	0.000224296, clustering takes secs:	5.9121e-05
+#spectra after clustering: 284
+
+Iteration:	9, cos sim threshold:	0.8775
+hashing takes secs:	0.000235551, clustering takes secs:	5.3469e-05
+#spectra after clustering: 284
+
+Iteration:	10, cos sim threshold:	0.875
+hashing takes secs:	0.000230133, clustering takes secs:	5.1822e-05
+#spectra after clustering: 284
+
+Iteration:	11, cos sim threshold:	0.8725
+hashing takes secs:	0.000231835, clustering takes secs:	5.267e-05
+#spectra after clustering: 284
+
+Iteration:	12, cos sim threshold:	0.87
+hashing takes secs:	0.000225649, clustering takes secs:	4.9487e-05
+#spectra after clustering: 284
+
+Iteration:	13, cos sim threshold:	0.8675
+hashing takes secs:	0.000226148, clustering takes secs:	5.2614e-05
+#spectra after clustering: 284
+
+Iteration:	14, cos sim threshold:	0.865
+hashing takes secs:	0.000229409, clustering takes secs:	5.0119e-05
+#spectra after clustering: 284
+
+Iteration:	15, cos sim threshold:	0.8625
+hashing takes secs:	0.000226764, clustering takes secs:	5.1987e-05
+#spectra after clustering: 284
+
+Iteration:	16, cos sim threshold:	0.86
+hashing takes secs:	0.000237375, clustering takes secs:	5.025e-05
+#spectra after clustering: 284
+
+Iteration:	17, cos sim threshold:	0.8575
+hashing takes secs:	0.000226046, clustering takes secs:	5.0633e-05
+#spectra after clustering: 284
+
+Iteration:	18, cos sim threshold:	0.855
+hashing takes secs:	0.00022226, clustering takes secs:	5.1075e-05
+#spectra after clustering: 284
+
+Iteration:	19, cos sim threshold:	0.8525
+hashing takes secs:	0.0395794, clustering takes secs:	0.00113916
+#spectra after clustering: 284
+
+Iteration:	20, cos sim threshold:	0.85
+hashing takes secs:	0.000244581, clustering takes secs:	5.4404e-05
+#spectra after clustering: 284
+
+Iteration:	21, cos sim threshold:	0.8475
+hashing takes secs:	0.000229793, clustering takes secs:	5.4789e-05
+#spectra after clustering: 284
+
+Iteration:	22, cos sim threshold:	0.845
+hashing takes secs:	0.0002447, clustering takes secs:	5.199e-05
+#spectra after clustering: 284
+
+Iteration:	23, cos sim threshold:	0.8425
+hashing takes secs:	0.000222105, clustering takes secs:	5.3577e-05
+#spectra after clustering: 284
+
+Iteration:	24, cos sim threshold:	0.84
+hashing takes secs:	0.000249021, clustering takes secs:	5.1738e-05
+#spectra after clustering: 284
+
+Iteration:	25, cos sim threshold:	0.8375
+hashing takes secs:	0.00021441, clustering takes secs:	5.1544e-05
+#spectra after clustering: 284
+
+Iteration:	26, cos sim threshold:	0.835
+hashing takes secs:	0.000216559, clustering takes secs:	5.2025e-05
+#spectra after clustering: 284
+
+Iteration:	27, cos sim threshold:	0.8325
+hashing takes secs:	0.000225133, clustering takes secs:	5.1648e-05
+#spectra after clustering: 284
+
+Iteration:	28, cos sim threshold:	0.83
+hashing takes secs:	0.000257841, clustering takes secs:	5.2971e-05
+#spectra after clustering: 284
+
+Iteration:	29, cos sim threshold:	0.8275
+hashing takes secs:	0.000241659, clustering takes secs:	5.1093e-05
+#spectra after clustering: 284
+
+Iteration:	30, cos sim threshold:	0.825
+hashing takes secs:	0.000255841, clustering takes secs:	5.2798e-05
+#spectra after clustering: 284
+
+Iteration:	31, cos sim threshold:	0.8225
+hashing takes secs:	0.000228903, clustering takes secs:	5.1128e-05
+#spectra after clustering: 284
+
+Iteration:	32, cos sim threshold:	0.82
+hashing takes secs:	0.000236586, clustering takes secs:	5.0717e-05
+#spectra after clustering: 284
+
+Iteration:	33, cos sim threshold:	0.8175
+hashing takes secs:	0.00023003, clustering takes secs:	5.257e-05
+#spectra after clustering: 284
+
+Iteration:	34, cos sim threshold:	0.815
+hashing takes secs:	0.000218479, clustering takes secs:	5.2657e-05
+#spectra after clustering: 284
+
+Iteration:	35, cos sim threshold:	0.8125
+hashing takes secs:	0.00179434, clustering takes secs:	5.2013e-05
+#spectra after clustering: 284
+
+Iteration:	36, cos sim threshold:	0.81
+hashing takes secs:	0.000228987, clustering takes secs:	5.0343e-05
+#spectra after clustering: 284
+
+Iteration:	37, cos sim threshold:	0.8075
+hashing takes secs:	0.000222989, clustering takes secs:	5.0288e-05
+#spectra after clustering: 284
+
+Iteration:	38, cos sim threshold:	0.805
+hashing takes secs:	0.00022753, clustering takes secs:	5.0463e-05
+#spectra after clustering: 284
+
+Iteration:	39, cos sim threshold:	0.8025
+hashing takes secs:	0.000234903, clustering takes secs:	4.9838e-05
+#spectra after clustering: 284
+
+Iteration:	40, cos sim threshold:	0.8
+hashing takes secs:	0.000212509, clustering takes secs:	5.0436e-05
+#spectra after clustering: 284
+
+Iteration:	41, cos sim threshold:	0.7975
+hashing takes secs:	0.000230238, clustering takes secs:	5.2378e-05
+#spectra after clustering: 284
+
+Iteration:	42, cos sim threshold:	0.795
+hashing takes secs:	0.000228982, clustering takes secs:	5.1818e-05
+#spectra after clustering: 284
+
+Iteration:	43, cos sim threshold:	0.7925
+hashing takes secs:	0.0002282, clustering takes secs:	5.2889e-05
+#spectra after clustering: 284
+
+Iteration:	44, cos sim threshold:	0.79
+hashing takes secs:	0.0426782, clustering takes secs:	5.6538e-05
+#spectra after clustering: 284
+
+Iteration:	45, cos sim threshold:	0.7875
+hashing takes secs:	0.000235706, clustering takes secs:	5.2814e-05
+#spectra after clustering: 284
+
+Iteration:	46, cos sim threshold:	0.785
+hashing takes secs:	0.000243033, clustering takes secs:	5.1585e-05
+#spectra after clustering: 284
+
+Iteration:	47, cos sim threshold:	0.7825
+hashing takes secs:	0.000227114, clustering takes secs:	5.3527e-05
+#spectra after clustering: 284
+
+Iteration:	48, cos sim threshold:	0.78
+hashing takes secs:	0.000216754, clustering takes secs:	5.3544e-05
+#spectra after clustering: 284
+
+Iteration:	49, cos sim threshold:	0.7775
+hashing takes secs:	0.000248175, clustering takes secs:	5.0609e-05
+#spectra after clustering: 284
+
+Iteration:	50, cos sim threshold:	0.775
+hashing takes secs:	0.000227762, clustering takes secs:	5.1557e-05
+#spectra after clustering: 284
+
+Iteration:	51, cos sim threshold:	0.7725
+hashing takes secs:	0.000217914, clustering takes secs:	5.1201e-05
+#spectra after clustering: 284
+
+Iteration:	52, cos sim threshold:	0.77
+hashing takes secs:	0.00022784, clustering takes secs:	5.0532e-05
+#spectra after clustering: 284
+
+Iteration:	53, cos sim threshold:	0.7675
+hashing takes secs:	0.000226504, clustering takes secs:	5.1909e-05
+#spectra after clustering: 284
+
+Iteration:	54, cos sim threshold:	0.765
+hashing takes secs:	0.00022267, clustering takes secs:	5.4208e-05
+#spectra after clustering: 284
+
+Iteration:	55, cos sim threshold:	0.7625
+hashing takes secs:	0.000222054, clustering takes secs:	5.1105e-05
+#spectra after clustering: 284
+
+Iteration:	56, cos sim threshold:	0.76
+hashing takes secs:	0.000232303, clustering takes secs:	5.1123e-05
+#spectra after clustering: 284
+
+Iteration:	57, cos sim threshold:	0.7575
+hashing takes secs:	0.000248849, clustering takes secs:	5.1797e-05
+#spectra after clustering: 284
+
+Iteration:	58, cos sim threshold:	0.755
+hashing takes secs:	0.000243301, clustering takes secs:	5.1129e-05
+#spectra after clustering: 284
+
+Iteration:	59, cos sim threshold:	0.7525
+hashing takes secs:	0.000232606, clustering takes secs:	4.9991e-05
+#spectra after clustering: 284
+
+Iteration:	60, cos sim threshold:	0.75
+hashing takes secs:	0.000246684, clustering takes secs:	5.1079e-05
+#spectra after clustering: 284
+
+Iteration:	61, cos sim threshold:	0.7475
+hashing takes secs:	0.00022881, clustering takes secs:	5.3574e-05
+#spectra after clustering: 284
+
+Iteration:	62, cos sim threshold:	0.745
+hashing takes secs:	0.000242245, clustering takes secs:	5.0668e-05
+#spectra after clustering: 284
+
+Iteration:	63, cos sim threshold:	0.7425
+hashing takes secs:	0.000242821, clustering takes secs:	5.1731e-05
+#spectra after clustering: 284
+
+Iteration:	64, cos sim threshold:	0.74
+hashing takes secs:	0.000238278, clustering takes secs:	5.0165e-05
+#spectra after clustering: 284
+
+Iteration:	65, cos sim threshold:	0.7375
+hashing takes secs:	0.00023152, clustering takes secs:	5.2292e-05
+#spectra after clustering: 284
+
+Iteration:	66, cos sim threshold:	0.735
+hashing takes secs:	0.000278278, clustering takes secs:	5.0202e-05
+#spectra after clustering: 284
+
+Iteration:	67, cos sim threshold:	0.7325
+hashing takes secs:	0.000227467, clustering takes secs:	5.072e-05
+#spectra after clustering: 284
+
+Iteration:	68, cos sim threshold:	0.73
+hashing takes secs:	0.000209838, clustering takes secs:	5.0391e-05
+#spectra after clustering: 284
+
+Iteration:	69, cos sim threshold:	0.7275
+hashing takes secs:	0.000211609, clustering takes secs:	5.2159e-05
+#spectra after clustering: 284
+
+Iteration:	70, cos sim threshold:	0.725
+hashing takes secs:	0.0049103, clustering takes secs:	0.0382169
+#spectra after clustering: 284
+
+Iteration:	71, cos sim threshold:	0.7225
+hashing takes secs:	0.000242891, clustering takes secs:	5.3552e-05
+#spectra after clustering: 284
+
+Iteration:	72, cos sim threshold:	0.72
+hashing takes secs:	0.000242789, clustering takes secs:	5.2939e-05
+#spectra after clustering: 284
+
+Iteration:	73, cos sim threshold:	0.7175
+hashing takes secs:	0.000217155, clustering takes secs:	5.0828e-05
+#spectra after clustering: 284
+
+Iteration:	74, cos sim threshold:	0.715
+hashing takes secs:	0.00181909, clustering takes secs:	0.00303319
+#spectra after clustering: 284
+
+Iteration:	75, cos sim threshold:	0.7125
+hashing takes secs:	0.00022035, clustering takes secs:	5.43e-05
+#spectra after clustering: 284
+
+Iteration:	76, cos sim threshold:	0.71
+hashing takes secs:	0.00023677, clustering takes secs:	5.1723e-05
+#spectra after clustering: 284
+
+Iteration:	77, cos sim threshold:	0.7075
+hashing takes secs:	0.000240459, clustering takes secs:	5.373e-05
+#spectra after clustering: 284
+
+Iteration:	78, cos sim threshold:	0.705
+hashing takes secs:	0.000241297, clustering takes secs:	5.4079e-05
+#spectra after clustering: 284
+
+Iteration:	79, cos sim threshold:	0.7025
+hashing takes secs:	0.000239905, clustering takes secs:	5.1799e-05
+#spectra after clustering: 284
+
+Iteration:	80, cos sim threshold:	0.7
+hashing takes secs:	0.00023878, clustering takes secs:	5.2302e-05
+#spectra after clustering: 284
+
+Iteration:	81, cos sim threshold:	0.6975
+hashing takes secs:	0.000234842, clustering takes secs:	5.1004e-05
+#spectra after clustering: 284
+
+Iteration:	82, cos sim threshold:	0.695
+hashing takes secs:	0.000241298, clustering takes secs:	5.1509e-05
+#spectra after clustering: 284
+
+Iteration:	83, cos sim threshold:	0.6925
+hashing takes secs:	0.00023336, clustering takes secs:	5.1255e-05
+#spectra after clustering: 284
+
+Iteration:	84, cos sim threshold:	0.69
+hashing takes secs:	0.000228147, clustering takes secs:	5.131e-05
+#spectra after clustering: 284
+
+Iteration:	85, cos sim threshold:	0.6875
+hashing takes secs:	0.00023163, clustering takes secs:	5.2484e-05
+#spectra after clustering: 284
+
+Iteration:	86, cos sim threshold:	0.685
+hashing takes secs:	0.000237476, clustering takes secs:	5.2473e-05
+#spectra after clustering: 284
+
+Iteration:	87, cos sim threshold:	0.6825
+hashing takes secs:	0.000231079, clustering takes secs:	5.3422e-05
+#spectra after clustering: 284
+
+Iteration:	88, cos sim threshold:	0.68
+hashing takes secs:	0.00028223, clustering takes secs:	5.3e-05
+#spectra after clustering: 284
+
+Iteration:	89, cos sim threshold:	0.6775
+hashing takes secs:	0.000215167, clustering takes secs:	5.1472e-05
+#spectra after clustering: 284
+
+Iteration:	90, cos sim threshold:	0.675
+hashing takes secs:	0.000210774, clustering takes secs:	5.1452e-05
+#spectra after clustering: 284
+
+Iteration:	91, cos sim threshold:	0.6725
+hashing takes secs:	0.000243278, clustering takes secs:	5.2007e-05
+#spectra after clustering: 284
+
+Iteration:	92, cos sim threshold:	0.67
+hashing takes secs:	0.000248491, clustering takes secs:	5.3624e-05
+#spectra after clustering: 284
+
+Iteration:	93, cos sim threshold:	0.6675
+hashing takes secs:	0.000245229, clustering takes secs:	5.0399e-05
+#spectra after clustering: 284
+
+Iteration:	94, cos sim threshold:	0.665
+hashing takes secs:	0.00488139, clustering takes secs:	5.2661e-05
+#spectra after clustering: 284
+
+Iteration:	95, cos sim threshold:	0.6625
+hashing takes secs:	0.000236721, clustering takes secs:	5.4712e-05
+#spectra after clustering: 284
+
+Iteration:	96, cos sim threshold:	0.66
+hashing takes secs:	0.000236697, clustering takes secs:	5.2379e-05
+#spectra after clustering: 284
+
+Iteration:	97, cos sim threshold:	0.6575
+hashing takes secs:	0.000236689, clustering takes secs:	5.3788e-05
+#spectra after clustering: 284
+
+Iteration:	98, cos sim threshold:	0.655
+hashing takes secs:	0.000236223, clustering takes secs:	5.2906e-05
+#spectra after clustering: 284
+
+Iteration:	99, cos sim threshold:	0.6525
+hashing takes secs:	0.000233322, clustering takes secs:	5.3762e-05
+#spectra after clustering: 284
+
+Iteration:	100, cos sim threshold:	0.65
+hashing takes secs:	0.000371827, clustering takes secs:	5.2599e-05
+#spectra after clustering: 284
+
+msCRUSH algorithm hash+cluster takes (secs): 0.392547
+Saving cluster results starts: 
+Save cluster results takes secs: 0.000686587
+Releasing memory starts.
+Releasing memory takes: 0.000370299
+msCRUSH algorithm in total takes (secs): 0.393616
+Cluster on spectra of charge +10
+Load spectra with charge +10: 102
+Load spectra with no charge(+0): 0
+Starting to cluster.
+Iteration:	1, cos sim threshold:	0.8975
+hashing takes secs:	0.000232839, clustering takes secs:	3.9551e-05
+#spectra after clustering: 102
+
+Iteration:	2, cos sim threshold:	0.895
+hashing takes secs:	0.00018047, clustering takes secs:	3.9622e-05
+#spectra after clustering: 102
+
+Iteration:	3, cos sim threshold:	0.8925
+hashing takes secs:	0.00019252, clustering takes secs:	2.9805e-05
+#spectra after clustering: 102
+
+Iteration:	4, cos sim threshold:	0.89
+hashing takes secs:	0.000210728, clustering takes secs:	3.8597e-05
+#spectra after clustering: 102
+
+Iteration:	5, cos sim threshold:	0.8875
+hashing takes secs:	0.000221684, clustering takes secs:	2.9483e-05
+#spectra after clustering: 102
+
+Iteration:	6, cos sim threshold:	0.885
+hashing takes secs:	0.00019857, clustering takes secs:	3.0926e-05
+#spectra after clustering: 102
+
+Iteration:	7, cos sim threshold:	0.8825
+hashing takes secs:	0.000183074, clustering takes secs:	4.0677e-05
+#spectra after clustering: 102
+
+Iteration:	8, cos sim threshold:	0.88
+hashing takes secs:	0.00020495, clustering takes secs:	3.8149e-05
+#spectra after clustering: 102
+
+Iteration:	9, cos sim threshold:	0.8775
+hashing takes secs:	0.00176888, clustering takes secs:	4.3404e-05
+#spectra after clustering: 102
+
+Iteration:	10, cos sim threshold:	0.875
+hashing takes secs:	0.000207305, clustering takes secs:	4.1718e-05
+#spectra after clustering: 102
+
+Iteration:	11, cos sim threshold:	0.8725
+hashing takes secs:	0.000202573, clustering takes secs:	2.9445e-05
+#spectra after clustering: 102
+
+Iteration:	12, cos sim threshold:	0.87
+hashing takes secs:	0.0030564, clustering takes secs:	0.0016273
+#spectra after clustering: 102
+
+Iteration:	13, cos sim threshold:	0.8675
+hashing takes secs:	0.000178064, clustering takes secs:	3.9076e-05
+#spectra after clustering: 102
+
+Iteration:	14, cos sim threshold:	0.865
+hashing takes secs:	0.000185164, clustering takes secs:	2.9889e-05
+#spectra after clustering: 102
+
+Iteration:	15, cos sim threshold:	0.8625
+hashing takes secs:	0.000180908, clustering takes secs:	3.9745e-05
+#spectra after clustering: 102
+
+Iteration:	16, cos sim threshold:	0.86
+hashing takes secs:	0.0017249, clustering takes secs:	3.0831e-05
+#spectra after clustering: 102
+
+Iteration:	17, cos sim threshold:	0.8575
+hashing takes secs:	0.00490241, clustering takes secs:	4.1324e-05
+#spectra after clustering: 102
+
+Iteration:	18, cos sim threshold:	0.855
+hashing takes secs:	0.0359041, clustering takes secs:	4.184e-05
+#spectra after clustering: 102
+
+Iteration:	19, cos sim threshold:	0.8525
+hashing takes secs:	0.00171317, clustering takes secs:	0.00119128
+#spectra after clustering: 102
+
+Iteration:	20, cos sim threshold:	0.85
+hashing takes secs:	0.000184998, clustering takes secs:	3.7495e-05
+#spectra after clustering: 102
+
+Iteration:	21, cos sim threshold:	0.8475
+hashing takes secs:	0.00173589, clustering takes secs:	3.4327e-05
+#spectra after clustering: 102
+
+Iteration:	22, cos sim threshold:	0.845
+hashing takes secs:	0.000176139, clustering takes secs:	3.6981e-05
+#spectra after clustering: 102
+
+Iteration:	23, cos sim threshold:	0.8425
+hashing takes secs:	0.000187232, clustering takes secs:	3.0623e-05
+#spectra after clustering: 102
+
+Iteration:	24, cos sim threshold:	0.84
+hashing takes secs:	0.00173729, clustering takes secs:	0.00153097
+#spectra after clustering: 102
+
+Iteration:	25, cos sim threshold:	0.8375
+hashing takes secs:	0.000758229, clustering takes secs:	4.0926e-05
+#spectra after clustering: 102
+
+Iteration:	26, cos sim threshold:	0.835
+hashing takes secs:	0.00175726, clustering takes secs:	3.1468e-05
+#spectra after clustering: 102
+
+Iteration:	27, cos sim threshold:	0.8325
+hashing takes secs:	0.000193414, clustering takes secs:	3.0871e-05
+#spectra after clustering: 102
+
+Iteration:	28, cos sim threshold:	0.83
+hashing takes secs:	0.000196461, clustering takes secs:	3.8648e-05
+#spectra after clustering: 102
+
+Iteration:	29, cos sim threshold:	0.8275
+hashing takes secs:	0.000196333, clustering takes secs:	3.0248e-05
+#spectra after clustering: 102
+
+Iteration:	30, cos sim threshold:	0.825
+hashing takes secs:	0.000198729, clustering takes secs:	3.1259e-05
+#spectra after clustering: 102
+
+Iteration:	31, cos sim threshold:	0.8225
+hashing takes secs:	0.000198331, clustering takes secs:	3.8222e-05
+#spectra after clustering: 102
+
+Iteration:	32, cos sim threshold:	0.82
+hashing takes secs:	0.00020918, clustering takes secs:	3.0899e-05
+#spectra after clustering: 102
+
+Iteration:	33, cos sim threshold:	0.8175
+hashing takes secs:	0.000202827, clustering takes secs:	3.9051e-05
+#spectra after clustering: 102
+
+Iteration:	34, cos sim threshold:	0.815
+hashing takes secs:	0.000201324, clustering takes secs:	3.0593e-05
+#spectra after clustering: 102
+
+Iteration:	35, cos sim threshold:	0.8125
+hashing takes secs:	0.00020395, clustering takes secs:	3.9706e-05
+#spectra after clustering: 102
+
+Iteration:	36, cos sim threshold:	0.81
+hashing takes secs:	0.000217876, clustering takes secs:	3.8749e-05
+#spectra after clustering: 102
+
+Iteration:	37, cos sim threshold:	0.8075
+hashing takes secs:	0.00177383, clustering takes secs:	0.00128723
+#spectra after clustering: 102
+
+Iteration:	38, cos sim threshold:	0.805
+hashing takes secs:	0.000174819, clustering takes secs:	3.4509e-05
+#spectra after clustering: 102
+
+Iteration:	39, cos sim threshold:	0.8025
+hashing takes secs:	0.0369806, clustering takes secs:	4.1907e-05
+#spectra after clustering: 102
+
+Iteration:	40, cos sim threshold:	0.8
+hashing takes secs:	0.00333204, clustering takes secs:	0.00163568
+#spectra after clustering: 102
+
+Iteration:	41, cos sim threshold:	0.7975
+hashing takes secs:	0.0017438, clustering takes secs:	0.00164404
+#spectra after clustering: 102
+
+Iteration:	42, cos sim threshold:	0.795
+hashing takes secs:	0.0017297, clustering takes secs:	4.2004e-05
+#spectra after clustering: 102
+
+Iteration:	43, cos sim threshold:	0.7925
+hashing takes secs:	0.000176391, clustering takes secs:	4.1825e-05
+#spectra after clustering: 102
+
+Iteration:	44, cos sim threshold:	0.79
+hashing takes secs:	0.000177395, clustering takes secs:	3.2327e-05
+#spectra after clustering: 102
+
+Iteration:	45, cos sim threshold:	0.7875
+hashing takes secs:	0.000178747, clustering takes secs:	3.8697e-05
+#spectra after clustering: 102
+
+Iteration:	46, cos sim threshold:	0.785
+hashing takes secs:	0.000204415, clustering takes secs:	3.8983e-05
+#spectra after clustering: 102
+
+Iteration:	47, cos sim threshold:	0.7825
+hashing takes secs:	0.000182266, clustering takes secs:	4.0711e-05
+#spectra after clustering: 102
+
+Iteration:	48, cos sim threshold:	0.78
+hashing takes secs:	0.000179547, clustering takes secs:	4.1569e-05
+#spectra after clustering: 102
+
+Iteration:	49, cos sim threshold:	0.7775
+hashing takes secs:	0.000193381, clustering takes secs:	3.8779e-05
+#spectra after clustering: 102
+
+Iteration:	50, cos sim threshold:	0.775
+hashing takes secs:	0.000206661, clustering takes secs:	3.8106e-05
+#spectra after clustering: 102
+
+Iteration:	51, cos sim threshold:	0.7725
+hashing takes secs:	0.000221005, clustering takes secs:	3.9862e-05
+#spectra after clustering: 102
+
+Iteration:	52, cos sim threshold:	0.77
+hashing takes secs:	0.000210617, clustering takes secs:	3.8332e-05
+#spectra after clustering: 102
+
+Iteration:	53, cos sim threshold:	0.7675
+hashing takes secs:	0.000209459, clustering takes secs:	3.3282e-05
+#spectra after clustering: 102
+
+Iteration:	54, cos sim threshold:	0.765
+hashing takes secs:	0.000205563, clustering takes secs:	3.1585e-05
+#spectra after clustering: 102
+
+Iteration:	55, cos sim threshold:	0.7625
+hashing takes secs:	0.000208908, clustering takes secs:	3.0159e-05
+#spectra after clustering: 102
+
+Iteration:	56, cos sim threshold:	0.76
+hashing takes secs:	0.000208715, clustering takes secs:	3.8197e-05
+#spectra after clustering: 102
+
+Iteration:	57, cos sim threshold:	0.7575
+hashing takes secs:	0.000224207, clustering takes secs:	3.0001e-05
+#spectra after clustering: 102
+
+Iteration:	58, cos sim threshold:	0.755
+hashing takes secs:	0.000209235, clustering takes secs:	3.8244e-05
+#spectra after clustering: 102
+
+Iteration:	59, cos sim threshold:	0.7525
+hashing takes secs:	0.00170892, clustering takes secs:	8.977e-05
+#spectra after clustering: 102
+
+Iteration:	60, cos sim threshold:	0.75
+hashing takes secs:	0.00176404, clustering takes secs:	0.0430899
+#spectra after clustering: 102
+
+Iteration:	61, cos sim threshold:	0.7475
+hashing takes secs:	0.000246406, clustering takes secs:	4.6754e-05
+#spectra after clustering: 102
+
+Iteration:	62, cos sim threshold:	0.745
+hashing takes secs:	0.000876515, clustering takes secs:	4.8485e-05
+#spectra after clustering: 102
+
+Iteration:	63, cos sim threshold:	0.7425
+hashing takes secs:	0.000212089, clustering takes secs:	4.1407e-05
+#spectra after clustering: 102
+
+Iteration:	64, cos sim threshold:	0.74
+hashing takes secs:	0.00176981, clustering takes secs:	0.00298197
+#spectra after clustering: 102
+
+Iteration:	65, cos sim threshold:	0.7375
+hashing takes secs:	0.00169303, clustering takes secs:	0.00307013
+#spectra after clustering: 102
+
+Iteration:	66, cos sim threshold:	0.735
+hashing takes secs:	0.000180063, clustering takes secs:	4.275e-05
+#spectra after clustering: 102
+
+Iteration:	67, cos sim threshold:	0.7325
+hashing takes secs:	0.000187446, clustering takes secs:	3.9864e-05
+#spectra after clustering: 102
+
+Iteration:	68, cos sim threshold:	0.73
+hashing takes secs:	0.000187377, clustering takes secs:	3.8645e-05
+#spectra after clustering: 102
+
+Iteration:	69, cos sim threshold:	0.7275
+hashing takes secs:	0.000179563, clustering takes secs:	3.0195e-05
+#spectra after clustering: 102
+
+Iteration:	70, cos sim threshold:	0.725
+hashing takes secs:	0.000176081, clustering takes secs:	3.9333e-05
+#spectra after clustering: 102
+
+Iteration:	71, cos sim threshold:	0.7225
+hashing takes secs:	0.000182787, clustering takes secs:	3.9075e-05
+#spectra after clustering: 102
+
+Iteration:	72, cos sim threshold:	0.72
+hashing takes secs:	0.000182224, clustering takes secs:	3.0271e-05
+#spectra after clustering: 102
+
+Iteration:	73, cos sim threshold:	0.7175
+hashing takes secs:	0.000182484, clustering takes secs:	3.0417e-05
+#spectra after clustering: 102
+
+Iteration:	74, cos sim threshold:	0.715
+hashing takes secs:	0.000169479, clustering takes secs:	3.8162e-05
+#spectra after clustering: 102
+
+Iteration:	75, cos sim threshold:	0.7125
+hashing takes secs:	0.000176691, clustering takes secs:	3.9477e-05
+#spectra after clustering: 102
+
+Iteration:	76, cos sim threshold:	0.71
+hashing takes secs:	0.000187059, clustering takes secs:	3.0229e-05
+#spectra after clustering: 102
+
+Iteration:	77, cos sim threshold:	0.7075
+hashing takes secs:	0.000198845, clustering takes secs:	3.0089e-05
+#spectra after clustering: 102
+
+Iteration:	78, cos sim threshold:	0.705
+hashing takes secs:	0.000205958, clustering takes secs:	3.9942e-05
+#spectra after clustering: 102
+
+Iteration:	79, cos sim threshold:	0.7025
+hashing takes secs:	0.000203805, clustering takes secs:	3.0979e-05
+#spectra after clustering: 102
+
+Iteration:	80, cos sim threshold:	0.7
+hashing takes secs:	0.00020634, clustering takes secs:	3.0457e-05
+#spectra after clustering: 102
+
+Iteration:	81, cos sim threshold:	0.6975
+hashing takes secs:	0.00178567, clustering takes secs:	4.0788e-05
+#spectra after clustering: 102
+
+Iteration:	82, cos sim threshold:	0.695
+hashing takes secs:	0.0406376, clustering takes secs:	4.6069e-05
+#spectra after clustering: 102
+
+Iteration:	83, cos sim threshold:	0.6925
+hashing takes secs:	0.000211999, clustering takes secs:	3.108e-05
+#spectra after clustering: 102
+
+Iteration:	84, cos sim threshold:	0.69
+hashing takes secs:	0.000181469, clustering takes secs:	3.9391e-05
+#spectra after clustering: 102
+
+Iteration:	85, cos sim threshold:	0.6875
+hashing takes secs:	0.000188748, clustering takes secs:	3.0138e-05
+#spectra after clustering: 102
+
+Iteration:	86, cos sim threshold:	0.685
+hashing takes secs:	0.000189276, clustering takes secs:	3.9171e-05
+#spectra after clustering: 102
+
+Iteration:	87, cos sim threshold:	0.6825
+hashing takes secs:	0.000200815, clustering takes secs:	4.0737e-05
+#spectra after clustering: 102
+
+Iteration:	88, cos sim threshold:	0.68
+hashing takes secs:	0.000173084, clustering takes secs:	3.9941e-05
+#spectra after clustering: 102
+
+Iteration:	89, cos sim threshold:	0.6775
+hashing takes secs:	0.000207484, clustering takes secs:	3.8252e-05
+#spectra after clustering: 102
+
+Iteration:	90, cos sim threshold:	0.675
+hashing takes secs:	0.000206678, clustering takes secs:	3.8593e-05
+#spectra after clustering: 102
+
+Iteration:	91, cos sim threshold:	0.6725
+hashing takes secs:	0.000189923, clustering takes secs:	3.8333e-05
+#spectra after clustering: 102
+
+Iteration:	92, cos sim threshold:	0.67
+hashing takes secs:	0.000200015, clustering takes secs:	3.1335e-05
+#spectra after clustering: 102
+
+Iteration:	93, cos sim threshold:	0.6675
+hashing takes secs:	0.000202469, clustering takes secs:	3.723e-05
+#spectra after clustering: 102
+
+Iteration:	94, cos sim threshold:	0.665
+hashing takes secs:	0.000184531, clustering takes secs:	3.9861e-05
+#spectra after clustering: 102
+
+Iteration:	95, cos sim threshold:	0.6625
+hashing takes secs:	0.000194649, clustering takes secs:	3.0535e-05
+#spectra after clustering: 102
+
+Iteration:	96, cos sim threshold:	0.66
+hashing takes secs:	0.000186355, clustering takes secs:	3.8001e-05
+#spectra after clustering: 102
+
+Iteration:	97, cos sim threshold:	0.6575
+hashing takes secs:	0.000180261, clustering takes secs:	3.8184e-05
+#spectra after clustering: 102
+
+Iteration:	98, cos sim threshold:	0.655
+hashing takes secs:	0.000183278, clustering takes secs:	3.8927e-05
+#spectra after clustering: 102
+
+Iteration:	99, cos sim threshold:	0.6525
+hashing takes secs:	0.000192006, clustering takes secs:	3.193e-05
+#spectra after clustering: 102
+
+Iteration:	100, cos sim threshold:	0.65
+hashing takes secs:	0.000183064, clustering takes secs:	3.1498e-05
+#spectra after clustering: 102
+
+msCRUSH algorithm hash+cluster takes (secs): 0.425195
+Saving cluster results starts: 
+Save cluster results takes secs: 0.000386683
+Releasing memory starts.
+Releasing memory takes: 0.000146905
+msCRUSH algorithm in total takes (secs): 0.425738
+Clustering spectra takes secs:	36.8043
+Starting to save spectra w/o charge info.
+Releasing memory of spectra w/o charge info.
+In all, msCRUSH takes: 249.39
+

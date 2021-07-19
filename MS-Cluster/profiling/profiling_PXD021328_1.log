@@ -1,0 +1,325 @@
+Architecture:          x86_64
+CPU op-mode(s):        32-bit, 64-bit
+Byte Order:            Little Endian
+CPU(s):                16
+On-line CPU(s) list:   0-15
+Thread(s) per core:    2
+Core(s) per socket:    8
+Socket(s):             1
+NUMA node(s):          1
+Vendor ID:             GenuineIntel
+CPU family:            6
+Model:                 79
+Model name:            Intel(R) Xeon(R) CPU E5-1680 v4 @ 3.40GHz
+Stepping:              1
+CPU MHz:               3597.663
+CPU max MHz:           4000.0000
+CPU min MHz:           1200.0000
+BogoMIPS:              6795.48
+Virtualization:        VT-x
+L1d cache:             32K
+L1i cache:             32K
+L2 cache:              256K
+L3 cache:              20480K
+NUMA node0 CPU(s):     0-15
+Flags:                 fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb cat_l3 cdp_l3 invpcid_single pti intel_ppin ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm rdt_a rdseed adx smap intel_pt xsaveopt cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts md_clear flush_l1d
+MsCluster v2.0 
+Started job on: Sun Jul 18 12:23:06 2021
+
+Parameter values:
+-----------------
+outputName = test_results
+list	      = /home/user/bio/ms-dataset/PXD021328/list.dat
+mixtureProb   = 0.1
+
+COMMAND LINE = ../MSCluster_bin --model LTQ_TRYP --list /home/user/bio/ms-dataset/PXD021328/list.dat --output-name test_results --min-mz 200 --max-mz 2000 --memory-gb 8
+
+Pass 1: reading spectra files and writing to dat with 25 Da increments.
+----------------------------------------------------------------------
+
+Read 0 paths to spectra files.
+Converting data to DAT, using m/z increment of 25.00
+0	Extracting from: /home/user/bio/ms-dataset/PXD021328/SARS-CoV-2-18.mgf [0 : 0]
+	Found 41921 spectra... Wrote 41723 to dat files (this took 14.00 sec.)
+
+1	Extracting from: /home/user/bio/ms-dataset/PXD021328/SARS-CoV-2-34.mgf [0 : 1]
+	Found 43553 spectra... Wrote 43435 to dat files (this took 17.00 sec.)
+
+2	Extracting from: /home/user/bio/ms-dataset/PXD021328/SARS-CoV-2-38.mgf [0 : 2]
+	Found 42885 spectra... Wrote 42745 to dat files (this took 15.00 sec.)
+
+3	Extracting from: /home/user/bio/ms-dataset/PXD021328/SARS-CoV-2-47.mgf [0 : 3]
+	Found 43410 spectra... Wrote 43269 to dat files (this took 16.00 sec.)
+
+4	Extracting from: /home/user/bio/ms-dataset/PXD021328/SARS-CoV-2-51.mgf [0 : 4]
+	Found 41598 spectra... Wrote 41439 to dat files (this took 11.00 sec.)
+
+
+SUMMARY (first pass):
+---------------------
+Wrote 53 dat files to tmp
+These files contain 212611 spectra (from a total of 212902 that were read)
+
+Pass 2: Splitting dat files into smaller files with 1 Da increments.
+--------------------------------------------------------------------
+
+0	1	tmp/test_results_R1_325_0.dat
+1	1	tmp/test_results_R1_350_0.dat
+2	1	tmp/test_results_R1_375_0.dat
+3	1	tmp/test_results_R1_400_0.dat
+4	1	tmp/test_results_R1_425_0.dat
+5	1	tmp/test_results_R1_450_0.dat
+6	1	tmp/test_results_R1_475_0.dat
+7	1	tmp/test_results_R1_500_0.dat
+8	1	tmp/test_results_R1_525_0.dat
+9	1	tmp/test_results_R1_550_0.dat
+10	1	tmp/test_results_R1_575_0.dat
+11	1	tmp/test_results_R1_600_0.dat
+12	1	tmp/test_results_R1_625_0.dat
+13	1	tmp/test_results_R1_650_0.dat
+14	1	tmp/test_results_R1_675_0.dat
+15	1	tmp/test_results_R1_700_0.dat
+16	1	tmp/test_results_R1_725_0.dat
+17	1	tmp/test_results_R1_750_0.dat
+18	1	tmp/test_results_R1_775_0.dat
+19	1	tmp/test_results_R1_800_0.dat
+20	1	tmp/test_results_R1_825_0.dat
+21	1	tmp/test_results_R1_850_0.dat
+22	1	tmp/test_results_R1_875_0.dat
+23	1	tmp/test_results_R1_900_0.dat
+24	1	tmp/test_results_R1_925_0.dat
+25	1	tmp/test_results_R1_950_0.dat
+26	1	tmp/test_results_R1_975_0.dat
+27	1	tmp/test_results_R1_1000_0.dat
+28	1	tmp/test_results_R1_1025_0.dat
+29	1	tmp/test_results_R1_1050_0.dat
+30	1	tmp/test_results_R1_1075_0.dat
+31	1	tmp/test_results_R1_1100_0.dat
+32	1	tmp/test_results_R1_1125_0.dat
+33	1	tmp/test_results_R1_1150_0.dat
+34	1	tmp/test_results_R1_1175_0.dat
+35	1	tmp/test_results_R1_1200_0.dat
+36	1	tmp/test_results_R1_1225_0.dat
+37	1	tmp/test_results_R1_1250_0.dat
+38	1	tmp/test_results_R1_1275_0.dat
+39	1	tmp/test_results_R1_1300_0.dat
+40	1	tmp/test_results_R1_1325_0.dat
+41	1	tmp/test_results_R1_1350_0.dat
+42	1	tmp/test_results_R1_1375_0.dat
+43	1	tmp/test_results_R1_1400_0.dat
+44	1	tmp/test_results_R1_1425_0.dat
+45	1	tmp/test_results_R1_1450_0.dat
+46	1	tmp/test_results_R1_1475_0.dat
+47	1	tmp/test_results_R1_1500_0.dat
+48	1	tmp/test_results_R1_1525_0.dat
+49	1	tmp/test_results_R1_1550_0.dat
+50	1	tmp/test_results_R1_1575_0.dat
+51	1	tmp/test_results_R1_1600_0.dat
+52	1	tmp/test_results_R1_1625_0.dat
+
+
+
+SUMMARY (second pass):
+---------------------
+Read  212902 spectra from original input files.
+Wrote 212611 spectra into dat files in the first pass.
+Wrote 212611 spectra to dat files in the second pass.
+The second pass spectra were written to 1283 dat files.
+(list of dat files written to tmp/test_results_dat_list.txt)
+Time required for dat file creation: 74.00
+Allocating 8.000 GB.
+
+Bytes for data storage       = 7387343749
+sizeof(Peak)                 = 12
+sizeof(Cluster)              = 808
+sizeof(SingleSpectrumHeader) = 88
+Total cost per singleton     = 4192
+Allocating room for N = 1762248 singletons (7387343616 bytes)
+This means that up to 3524496 spectra can simlutaneously be evaluated.
+
+Allocated memory successfully...
+
+
+Initalizing storage, examining dat files...
+Max margin in dat files: 1.000
+
+Found 212611 spectra, in 1283 dat files, precursor m/z range 349.73 - 1647.73
+
+1	#Freed 0	#Read 9533	#In memory 9533
+Clustering: [ 0 at 0 m/z = 349.73 ]	   to	 [ 9532 at 9532 m/z = 389.96 ]
+Writing clusters for 9001 singletons... written into 2020 clusters    Cumulative 2020 : 9001 ..done.
+
+2	#Freed 9001	#Read 13420	#In memory 13952
+Clustering: [ 9533 at 532 m/z = 390.18 ]	   to	 [ 22952 at 13951 m/z = 430.00 ]
+Writing clusters for 13211 singletons... written into 2550 clusters    Cumulative 4570 : 22212 ..done.
+
+3	#Freed 13211	#Read 16796	#In memory 17537
+Clustering: [ 22953 at 741 m/z = 430.03 ]	   to	 [ 39748 at 17536 m/z = 470.00 ]
+Writing clusters for 16673 singletons... written into 2288 clusters    Cumulative 6858 : 38885 ..done.
+
+4	#Freed 16673	#Read 18525	#In memory 19389
+Clustering: [ 39749 at 864 m/z = 470.01 ]	   to	 [ 58273 at 19388 m/z = 509.98 ]
+Writing clusters for 18456 singletons... written into 1793 clusters    Cumulative 8651 : 57341 ..done.
+
+5	#Freed 18456	#Read 17021	#In memory 17954
+Clustering: [ 58274 at 933 m/z = 510.01 ]	   to	 [ 75294 at 17953 m/z = 550.00 ]
+Writing clusters for 17109 singletons... written into 1487 clusters    Cumulative 10138 : 74450 ..done.
+
+6	#Freed 17109	#Read 18055	#In memory 18900
+Clustering: [ 75295 at 845 m/z = 550.05 ]	   to	 [ 93349 at 18899 m/z = 590.00 ]
+Writing clusters for 18022 singletons... written into 1533 clusters    Cumulative 11671 : 92472 ..done.
+
+7	#Freed 18022	#Read 17161	#In memory 18039
+Clustering: [ 93350 at 878 m/z = 590.00 ]	   to	 [ 110510 at 18038 m/z = 630.00 ]
+Writing clusters for 17014 singletons... written into 1416 clusters    Cumulative 13087 : 109486 ..done.
+
+8	#Freed 17014	#Read 15879	#In memory 16904
+Clustering: [ 110511 at 1025 m/z = 630.00 ]	   to	 [ 126389 at 16903 m/z = 670.00 ]
+Writing clusters for 16137 singletons... written into 1353 clusters    Cumulative 14440 : 125623 ..done.
+
+9	#Freed 16137	#Read 13717	#In memory 14484
+Clustering: [ 126390 at 767 m/z = 670.00 ]	   to	 [ 140106 at 14483 m/z = 709.98 ]
+Writing clusters for 13779 singletons... written into 1216 clusters    Cumulative 15656 : 139402 ..done.
+
+10	#Freed 13779	#Read 11068	#In memory 11773
+Clustering: [ 140107 at 705 m/z = 710.04 ]	   to	 [ 151174 at 11772 m/z = 749.94 ]
+Writing clusters for 11300 singletons... written into 1008 clusters    Cumulative 16664 : 150702 ..done.
+
+11	#Freed 11300	#Read 9663	#In memory 10136
+Clustering: [ 151175 at 473 m/z = 750.01 ]	   to	 [ 160837 at 10135 m/z = 789.94 ]
+Writing clusters for 9734 singletons... written into 861 clusters    Cumulative 17525 : 160436 ..done.
+
+12	#Freed 9734	#Read 7271	#In memory 7673
+Clustering: [ 160838 at 402 m/z = 790.05 ]	   to	 [ 168108 at 7672 m/z = 830.00 ]
+Writing clusters for 7296 singletons... written into 719 clusters    Cumulative 18244 : 167732 ..done.
+
+13	#Freed 7296	#Read 6380	#In memory 6757
+Clustering: [ 168109 at 377 m/z = 830.03 ]	   to	 [ 174488 at 6756 m/z = 869.98 ]
+Writing clusters for 6562 singletons... written into 689 clusters    Cumulative 18933 : 174294 ..done.
+
+14	#Freed 6562	#Read 5715	#In memory 5910
+Clustering: [ 174489 at 195 m/z = 870.02 ]	   to	 [ 180203 at 5909 m/z = 910.00 ]
+Writing clusters for 5576 singletons... written into 634 clusters    Cumulative 19567 : 179870 ..done.
+
+15	#Freed 5576	#Read 5449	#In memory 5783
+Clustering: [ 180204 at 334 m/z = 910.07 ]	   to	 [ 185652 at 5782 m/z = 950.00 ]
+Writing clusters for 5537 singletons... written into 668 clusters    Cumulative 20235 : 185407 ..done.
+
+16	#Freed 5537	#Read 4962	#In memory 5208
+Clustering: [ 185653 at 246 m/z = 950.00 ]	   to	 [ 190614 at 5207 m/z = 989.97 ]
+Writing clusters for 5095 singletons... written into 618 clusters    Cumulative 20853 : 190502 ..done.
+
+17	#Freed 5095	#Read 3699	#In memory 3812
+Clustering: [ 190615 at 113 m/z = 990.00 ]	   to	 [ 194313 at 3811 m/z = 1029.98 ]
+Writing clusters for 3658 singletons... written into 586 clusters    Cumulative 21439 : 194160 ..done.
+
+18	#Freed 3658	#Read 3674	#In memory 3828
+Clustering: [ 194314 at 154 m/z = 1030.00 ]	   to	 [ 197987 at 3827 m/z = 1070.00 ]
+Writing clusters for 3639 singletons... written into 697 clusters    Cumulative 22136 : 197799 ..done.
+
+19	#Freed 3639	#Read 3526	#In memory 3715
+Clustering: [ 197988 at 189 m/z = 1070.01 ]	   to	 [ 201513 at 3714 m/z = 1109.96 ]
+Writing clusters for 3545 singletons... written into 628 clusters    Cumulative 22764 : 201344 ..done.
+
+20	#Freed 3545	#Read 2478	#In memory 2648
+Clustering: [ 201514 at 170 m/z = 1110.01 ]	   to	 [ 203991 at 2647 m/z = 1149.97 ]
+Writing clusters for 2504 singletons... written into 609 clusters    Cumulative 23373 : 203848 ..done.
+
+21	#Freed 2504	#Read 1764	#In memory 1908
+Clustering: [ 203992 at 144 m/z = 1150.03 ]	   to	 [ 205755 at 1907 m/z = 1189.91 ]
+Writing clusters for 1806 singletons... written into 439 clusters    Cumulative 23812 : 205654 ..done.
+
+22	#Freed 1806	#Read 1510	#In memory 1612
+Clustering: [ 205756 at 102 m/z = 1190.11 ]	   to	 [ 207265 at 1611 m/z = 1229.66 ]
+Writing clusters for 1553 singletons... written into 414 clusters    Cumulative 24226 : 207207 ..done.
+
+23	#Freed 1553	#Read 1240	#In memory 1299
+Clustering: [ 207266 at 59 m/z = 1230.03 ]	   to	 [ 208505 at 1298 m/z = 1269.72 ]
+Writing clusters for 1242 singletons... written into 319 clusters    Cumulative 24545 : 208449 ..done.
+
+24	#Freed 1242	#Read 953	#In memory 1010
+Clustering: [ 208506 at 57 m/z = 1270.04 ]	   to	 [ 209458 at 1009 m/z = 1309.96 ]
+Writing clusters for 956 singletons... written into 275 clusters    Cumulative 24820 : 209405 ..done.
+
+25	#Freed 956	#Read 567	#In memory 621
+Clustering: [ 209459 at 54 m/z = 1310.04 ]	   to	 [ 210025 at 620 m/z = 1349.76 ]
+Writing clusters for 601 singletons... written into 221 clusters    Cumulative 25041 : 210006 ..done.
+
+26	#Freed 601	#Read 521	#In memory 541
+Clustering: [ 210026 at 20 m/z = 1350.17 ]	   to	 [ 210546 at 540 m/z = 1389.97 ]
+Writing clusters for 520 singletons... written into 166 clusters    Cumulative 25207 : 210526 ..done.
+
+27	#Freed 520	#Read 438	#In memory 459
+Clustering: [ 210547 at 21 m/z = 1390.16 ]	   to	 [ 210984 at 458 m/z = 1429.86 ]
+Writing clusters for 447 singletons... written into 175 clusters    Cumulative 25382 : 210973 ..done.
+
+28	#Freed 447	#Read 245	#In memory 257
+Clustering: [ 210985 at 12 m/z = 1432.20 ]	   to	 [ 211229 at 256 m/z = 1471.72 ]
+Writing clusters for 235 singletons... written into 112 clusters    Cumulative 25494 : 211208 ..done.
+
+29	#Freed 235	#Read 313	#In memory 335
+Clustering: [ 211230 at 22 m/z = 1472.22 ]	   to	 [ 211542 at 334 m/z = 1511.66 ]
+Writing clusters for 310 singletons... written into 146 clusters    Cumulative 25640 : 211518 ..done.
+
+30	#Freed 310	#Read 451	#In memory 476
+Clustering: [ 211543 at 25 m/z = 1512.08 ]	   to	 [ 211993 at 475 m/z = 1551.77 ]
+Writing clusters for 447 singletons... written into 268 clusters    Cumulative 25908 : 211965 ..done.
+
+31	#Freed 447	#Read 408	#In memory 437
+Clustering: [ 211994 at 29 m/z = 1552.04 ]	   to	 [ 212401 at 436 m/z = 1591.76 ]
+Writing clusters for 423 singletons... written into 223 clusters    Cumulative 26131 : 212388 ..done.
+
+32	#Freed 423	#Read 170	#In memory 184
+Clustering: [ 212402 at 14 m/z = 1592.16 ]	   to	 [ 212571 at 183 m/z = 1630.47 ]
+Writing clusters for 177 singletons... written into 110 clusters    Cumulative 26241 : 212565 ..done.
+
+33	#Freed 177	#Read 39	#In memory 46
+Clustering: [ 212572 at 7 m/z = 1632.39 ]	   to	 [ 212610 at 45 m/z = 1647.73 ]
+Writing clusters for 46 singletons... written into 20 clusters    Cumulative 26261 : 212611 ..done.
+
+
+Done clustering files.
+Time (without dat creation): 15.00
+
+Final statistics:
+-----------------
+
+Total similarity computations: 14231796 average per spectrum 66.94
+
+Breakdown of spectra joins:
+---------------------------
+Round	Thresh	#joins	% of total
+1	0.70	130472	(0.569)
+2	0.575	31312	(0.137)
+3	0.450	23628	(0.103)
+4	0.325	21622	(0.094)
+5	0.200	22068	(0.096)
+
+
+Final clustering report:
+------------------------
+
+size	#clust	(%)	#sing	(%)
+1	9532	(0.363)	9532	(0.045)
+2	2482	(0.095)	4964	(0.023)
+3	1881	(0.072)	5643	(0.027)
+4	1952	(0.074)	7808	(0.037)
+5	2222	(0.085)	11110	(0.052)
+6	1169	(0.045)	7014	(0.033)
+7	844	(0.032)	5908	(0.028)
+8	677	(0.026)	5416	(0.025)
+9	528	(0.020)	4752	(0.022)
+10	509	(0.019)	5090	(0.024)
+11-15	1503	(0.057)	19177	(0.090)
+16-20	760	(0.029)	13537	(0.064)
+21-30	823	(0.031)	20517	(0.097)
+31-40	425	(0.016)	14808	(0.070)
+41-50	285	(0.011)	12886	(0.061)
+51-100	457	(0.017)	31572	(0.148)
+101-200	180	(0.007)	24353	(0.115)
+201-500	32	(0.001)	8524	(0.040)
+501+	0	(0.000)	0	(0.000)
+
+Total: 26261	1.0	212611	(1.0)
+
+Ended job on: Sun Jul 18 12:24:35 2021

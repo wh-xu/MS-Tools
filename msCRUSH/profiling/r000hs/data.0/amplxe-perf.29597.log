@@ -1,0 +1,14 @@
+Using CPUID GenuineIntel-6-4F-1
+Compression enabled, disabling build id collection at the end of the session.
+nr_cblocks: 0
+affinity: SYS
+mmap flush: 1
+comp level: 1
+Problems creating module maps, continuing anyway...
+mmap size 528384B
+thread 0 monitor: 0-15 allowed: any
+cmd_pipe: /tmp/amplxe-tmp-user/perf-pipe-29591-73092827219637832
+
+29598:perf-sync:ready:TSC=73092827419327356
+[ perf record: Woken up 1 times to write data ]
+[ perf record: Captured and wrote 0.004 MB /home/user/bio/MS-Tools/msCRUSH/profiling/r000hs/data.0/temp.dryrun.perf, compressed (original 0.002 MB, ratio is 3.148) ]

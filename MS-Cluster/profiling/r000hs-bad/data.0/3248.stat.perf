@@ -1,0 +1,32 @@
+# AMPLXE_PERF_STAT
+# hostname : designlab
+# os release : 5.6.10-1.el7.x86_64
+# arch : x86_64
+# cpuid : GenuineIntel,6,79,1
+# cpudesc : Intel(R) Xeon(R) CPU E5-1660 v4 @ 3.20GHz
+# total memory : 131832536 kB
+# nrcpus online : 16
+# nrcpus avail : 16
+# sibling cores : 0-15
+# sibling threads : 0,8
+# sibling threads : 1,9
+# sibling threads : 2,10
+# sibling threads : 3,11
+# sibling threads : 4,12
+# sibling threads : 5,13
+# sibling threads : 6,14
+# sibling threads : 7,15
+# process id : 3248
+;;251215931;0
+;;236442784;1
+;;297329152;2
+;;7378119;3
+;;0;4
+;;35265;5
+;;0;6
+;;0;7
+;;0;8
+;;0;9
+;;0;10
+;;70404;11
+;;300843021;12

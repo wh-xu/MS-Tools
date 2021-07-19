@@ -330,6 +330,7 @@ void configure_parser(cli::Parser& parser) {
 }
 
 int main (int argc, char *argv[]) {
+  std::ios_base::sync_with_stdio(false);
   cli::Parser parser(argc, argv);
   configure_parser(parser);
   parser.run_and_exit_if_error();
@@ -381,6 +382,8 @@ int main (int argc, char *argv[]) {
   }
 
   // Run clustering on each charge subsequently.
+  start_time = chrono::high_resolution_clock::now();
+
   vector<int> charges{2, 3, 4, 5, 1, 6, 7, 8, 9, 10};
   for (const auto& charge : charges) {
     if (0 == map_spectra_by_charge.count(charge)) {
@@ -406,6 +409,10 @@ int main (int argc, char *argv[]) {
     Cluster(&unknown_spectra_of_interest, params, delimiter,  
             &spectra_of_no_charge, charge);
   }
+  end_time = chrono::high_resolution_clock::now();
+  elapsed_read = chrono::duration_cast<std::chrono::duration<double> >(
+      end_time - start_time).count();
+  cout << "Clustering spectra takes secs:\t" << elapsed_read << endl;
 
   // Save clusters of spectra w/o charge info.
   cout << "Starting to save spectra w/o charge info." << endl;

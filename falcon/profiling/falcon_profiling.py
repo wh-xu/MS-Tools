@@ -7,6 +7,7 @@ import pickle
 import shutil
 import sys
 import tempfile
+import time
 from typing import Dict, List, Tuple, Union
 
 import joblib
@@ -118,6 +119,7 @@ def main(args: Union[str, List[str]] = None) -> int:
 
     # Read the spectra from the input files and partition them based on their
     # precursor m/z.
+    logger.info('Start reading spectra',)
     if not any([filename.endswith('.pkl') for filename in os.listdir(
             os.path.join(config.work_dir, 'spectra'))]):
         buckets = _prepare_spectra()
@@ -126,6 +128,8 @@ def main(args: Union[str, List[str]] = None) -> int:
     else:
         buckets = joblib.load(os.path.join(config.work_dir, 'spectra',
                                            'buckets.joblib'))
+
+    logger.info('End reading spectra',)
 
     vec_len, min_mz, max_mz = spectrum.get_dim(config.min_mz, config.max_mz,
                                                config.fragment_tol)
@@ -204,6 +208,8 @@ def main(args: Union[str, List[str]] = None) -> int:
                          len(charge_repr) if charge_repr is not None else 0,
                          f'and {(~mask_no_noise).sum()} singleton spectra '
                          if config.export_include_singletons else '')
+
+    logger.info('Elapsed time on preprocessing data %f', cluster.preprocess_time)
 
     # Export cluster memberships and representative spectra.
     n_clusters, n_spectra_clustered = 0, 0
@@ -298,7 +304,7 @@ def _prepare_spectra() -> Dict[int, Tuple[int, List[str]]]:
                        for fn in glob.glob(pattern)]
     logger.info('Read spectra from %d peak file(s)', len(input_filenames))
     spectra = collections.defaultdict(lambda: collections.defaultdict(list))
-    for file_spectra in joblib.Parallel(n_jobs=-1)(
+    for file_spectra in joblib.Parallel(n_jobs=-1, verbose=100)(
             joblib.delayed(_read_spectra)(filename, config.usi_pxd,
                                           config.mz_interval, config.work_dir)
             for filename in input_filenames):

@@ -1,0 +1,267 @@
+2021-07-18 06:06:11,287 DEBUG [falcon/MainProcess] falcon_profiling.main : work_dir = None
+2021-07-18 06:06:11,288 DEBUG [falcon/MainProcess] falcon_profiling.main : overwrite = False
+2021-07-18 06:06:11,288 DEBUG [falcon/MainProcess] falcon_profiling.main : export_representatives = True
+2021-07-18 06:06:11,288 DEBUG [falcon/MainProcess] falcon_profiling.main : usi_pxd = USI000000
+2021-07-18 06:06:11,288 DEBUG [falcon/MainProcess] falcon_profiling.main : precursor_tol = 20.00 ppm
+2021-07-18 06:06:11,288 DEBUG [falcon/MainProcess] falcon_profiling.main : rt_tol = None
+2021-07-18 06:06:11,288 DEBUG [falcon/MainProcess] falcon_profiling.main : fragment_tol = 0.05
+2021-07-18 06:06:11,288 DEBUG [falcon/MainProcess] falcon_profiling.main : eps = 0.100
+2021-07-18 06:06:11,288 DEBUG [falcon/MainProcess] falcon_profiling.main : min_samples = 2
+2021-07-18 06:06:11,288 DEBUG [falcon/MainProcess] falcon_profiling.main : mz_interval = 1
+2021-07-18 06:06:11,288 DEBUG [falcon/MainProcess] falcon_profiling.main : hash_len = 800
+2021-07-18 06:06:11,288 DEBUG [falcon/MainProcess] falcon_profiling.main : n_neighbors = 64
+2021-07-18 06:06:11,288 DEBUG [falcon/MainProcess] falcon_profiling.main : n_neighbors_ann = 128
+2021-07-18 06:06:11,288 DEBUG [falcon/MainProcess] falcon_profiling.main : batch_size = 65536
+2021-07-18 06:06:11,288 DEBUG [falcon/MainProcess] falcon_profiling.main : n_probe = 32
+2021-07-18 06:06:11,288 DEBUG [falcon/MainProcess] falcon_profiling.main : min_peaks = 5
+2021-07-18 06:06:11,288 DEBUG [falcon/MainProcess] falcon_profiling.main : min_mz_range = 250.00
+2021-07-18 06:06:11,288 DEBUG [falcon/MainProcess] falcon_profiling.main : min_mz = 101.00
+2021-07-18 06:06:11,288 DEBUG [falcon/MainProcess] falcon_profiling.main : max_mz = 1500.00
+2021-07-18 06:06:11,288 DEBUG [falcon/MainProcess] falcon_profiling.main : remove_precursor_tol = 1.50
+2021-07-18 06:06:11,288 DEBUG [falcon/MainProcess] falcon_profiling.main : min_intensity = 0.01
+2021-07-18 06:06:11,289 DEBUG [falcon/MainProcess] falcon_profiling.main : max_peaks_used = 50
+2021-07-18 06:06:11,289 DEBUG [falcon/MainProcess] falcon_profiling.main : scaling = off
+2021-07-18 06:06:11,289 INFO [falcon/MainProcess] falcon_profiling.main : Start reading spectra
+2021-07-18 06:06:11,289 INFO [falcon/MainProcess] falcon_profiling._prepare_spectra : Read spectra from 57 peak file(s)
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 8 concurrent workers.
+
+
+
+
+[Parallel(n_jobs=-1)]: Done   1 tasks      | elapsed:  1.4min
+[Parallel(n_jobs=-1)]: Done   2 tasks      | elapsed:  1.5min
+[Parallel(n_jobs=-1)]: Done   3 tasks      | elapsed:  1.6min
+[Parallel(n_jobs=-1)]: Done   4 tasks      | elapsed:  1.6min
+[Parallel(n_jobs=-1)]: Done   5 tasks      | elapsed:  1.7min
+[Parallel(n_jobs=-1)]: Done   6 tasks      | elapsed:  1.7min
+[Parallel(n_jobs=-1)]: Done   7 tasks      | elapsed:  1.7min
+[Parallel(n_jobs=-1)]: Done   8 tasks      | elapsed:  1.8min
+[Parallel(n_jobs=-1)]: Done   9 tasks      | elapsed:  3.1min
+[Parallel(n_jobs=-1)]: Done  10 tasks      | elapsed:  3.1min
+[Parallel(n_jobs=-1)]: Done  11 tasks      | elapsed:  3.8min
+[Parallel(n_jobs=-1)]: Done  12 tasks      | elapsed:  3.8min
+[Parallel(n_jobs=-1)]: Done  13 tasks      | elapsed:  3.9min
+[Parallel(n_jobs=-1)]: Done  14 tasks      | elapsed:  4.0min
+[Parallel(n_jobs=-1)]: Done  15 tasks      | elapsed:  4.1min
+[Parallel(n_jobs=-1)]: Done  16 tasks      | elapsed:  4.1min
+[Parallel(n_jobs=-1)]: Done  17 tasks      | elapsed:  5.8min
+[Parallel(n_jobs=-1)]: Done  18 tasks      | elapsed:  5.8min
+[Parallel(n_jobs=-1)]: Done  19 tasks      | elapsed:  6.5min
+[Parallel(n_jobs=-1)]: Done  20 tasks      | elapsed:  6.5min
+[Parallel(n_jobs=-1)]: Done  21 tasks      | elapsed:  6.6min
+[Parallel(n_jobs=-1)]: Done  22 tasks      | elapsed:  6.6min
+[Parallel(n_jobs=-1)]: Done  23 tasks      | elapsed:  6.6min
+[Parallel(n_jobs=-1)]: Done  24 tasks      | elapsed:  6.7min
+[Parallel(n_jobs=-1)]: Done  25 tasks      | elapsed:  8.2min
+[Parallel(n_jobs=-1)]: Done  26 tasks      | elapsed:  8.2min
+[Parallel(n_jobs=-1)]: Done  27 tasks      | elapsed:  8.7min
+[Parallel(n_jobs=-1)]: Done  28 tasks      | elapsed:  8.8min
+[Parallel(n_jobs=-1)]: Done  29 tasks      | elapsed:  8.9min
+[Parallel(n_jobs=-1)]: Done  30 tasks      | elapsed:  9.0min
+[Parallel(n_jobs=-1)]: Done  31 tasks      | elapsed:  9.1min
+[Parallel(n_jobs=-1)]: Done  32 tasks      | elapsed:  9.2min
+[Parallel(n_jobs=-1)]: Done  33 tasks      | elapsed: 10.5min
+[Parallel(n_jobs=-1)]: Done  34 tasks      | elapsed: 11.8min
+[Parallel(n_jobs=-1)]: Done  35 tasks      | elapsed: 12.2min
+[Parallel(n_jobs=-1)]: Done  36 tasks      | elapsed: 12.4min
+[Parallel(n_jobs=-1)]: Done  37 tasks      | elapsed: 12.5min
+[Parallel(n_jobs=-1)]: Done  38 tasks      | elapsed: 12.5min
+[Parallel(n_jobs=-1)]: Done  39 tasks      | elapsed: 12.6min
+[Parallel(n_jobs=-1)]: Done  40 tasks      | elapsed: 12.7min
+[Parallel(n_jobs=-1)]: Done  41 tasks      | elapsed: 14.2min
+[Parallel(n_jobs=-1)]: Done  42 tasks      | elapsed: 15.4min
+[Parallel(n_jobs=-1)]: Done  43 out of  57 | elapsed: 15.6min remaining:  5.1min
+[Parallel(n_jobs=-1)]: Done  44 out of  57 | elapsed: 15.8min remaining:  4.7min
+[Parallel(n_jobs=-1)]: Done  45 out of  57 | elapsed: 15.9min remaining:  4.2min
+[Parallel(n_jobs=-1)]: Done  46 out of  57 | elapsed: 16.0min remaining:  3.8min
+[Parallel(n_jobs=-1)]: Done  47 out of  57 | elapsed: 16.3min remaining:  3.5min
+[Parallel(n_jobs=-1)]: Done  48 out of  57 | elapsed: 16.3min remaining:  3.1min
+[Parallel(n_jobs=-1)]: Done  49 out of  57 | elapsed: 17.4min remaining:  2.8min
+[Parallel(n_jobs=-1)]: Done  50 out of  57 | elapsed: 18.6min remaining:  2.6min
+[Parallel(n_jobs=-1)]: Done  51 out of  57 | elapsed: 18.7min remaining:  2.2min
+[Parallel(n_jobs=-1)]: Done  52 out of  57 | elapsed: 18.7min remaining:  1.8min
+[Parallel(n_jobs=-1)]: Done  53 out of  57 | elapsed: 18.8min remaining:  1.4min
+[Parallel(n_jobs=-1)]: Done  54 out of  57 | elapsed: 18.8min remaining:  1.0min
+[Parallel(n_jobs=-1)]: Done  55 out of  57 | elapsed: 19.7min remaining:   42.9s
+[Parallel(n_jobs=-1)]: Done  57 out of  57 | elapsed: 20.9min remaining:    0.0s
+[Parallel(n_jobs=-1)]: Done  57 out of  57 | elapsed: 20.9min finished
+
+2021-07-18 06:31:08,130 DEBUG [falcon/MainProcess] falcon_profiling._prepare_spectra : 4227308 spectra written to 24832 buckets by precursor charge and precursor m/z
+2021-07-18 06:31:26,017 INFO [falcon/MainProcess] falcon_profiling.main : End reading spectra
+2021-07-18 06:31:26,034 INFO [falcon/MainProcess] falcon_profiling.main : Cluster 1 spectra with precursor charge 1
+2021-07-18 06:31:26,034 DEBUG [falcon/MainProcess] cluster.compute_pairwise_distances : Compute nearest neighbor pairwise distances (1 spectra, 64 neighbors)
+Buckets queried: 100%|███████████████████████████████████████████████████| 1/1 [00:00<00:00,  1.10bucket/s]
+2021-07-18 06:31:27,190 DEBUG [falcon/MainProcess] cluster.compute_pairwise_distances : Construct 0-by-0 sparse pairwise distance matrix with 0 non-zero values
+2021-07-18 06:31:27,338 DEBUG [falcon/MainProcess] falcon_profiling.main : Export pairwise distance matrix to file /tmp/tmpfmq9g0bf/nn/dist_1.npz
+2021-07-18 06:31:31,550 INFO [falcon/MainProcess] falcon_profiling.main : Cluster 2141175 spectra with precursor charge 2
+2021-07-18 06:31:31,550 DEBUG [falcon/MainProcess] cluster.compute_pairwise_distances : Compute nearest neighbor pairwise distances (2141175 spectra, 64 neighbors)
+Buckets queried: 100%|█████████████████████████████████████████████| 2446/2446 [15:18<00:00,  2.66bucket/s]
+2021-07-18 06:46:50,527 DEBUG [falcon/MainProcess] cluster.compute_pairwise_distances : Construct 2126135-by-2126135 sparse pairwise distance matrix with 68740540 non-zero values
+2021-07-18 06:46:50,530 DEBUG [falcon/MainProcess] falcon_profiling.main : Export pairwise distance matrix to file /tmp/tmpfmq9g0bf/nn/dist_2.npz
+2021-07-18 06:46:51,945 DEBUG [falcon/MainProcess] cluster.generate_clusters : DBSCAN clustering (eps=0.1000, min_samples=2) of precomputed pairwise distance matrix
+2021-07-18 06:46:55,625 DEBUG [falcon/MainProcess] cluster.generate_clusters : Finetune 40606 initial unique clusters to not exceed 20.00 ppm precursor m/z tolerance
+2021-07-18 06:47:10,372 DEBUG [falcon/MainProcess] cluster.generate_clusters : 41131 unique clusters after precursor m/z finetuning
+2021-07-18 06:47:13,144 DEBUG [falcon/MainProcess] falcon_profiling.main : Extract 41131 cluster representative identifiers
+2021-07-18 06:47:13,144 INFO [falcon/MainProcess] falcon_profiling.main : Cluster 1472987 spectra with precursor charge 3
+2021-07-18 06:47:13,144 DEBUG [falcon/MainProcess] cluster.compute_pairwise_distances : Compute nearest neighbor pairwise distances (1472987 spectra, 64 neighbors)
+Buckets queried: 100%|█████████████████████████████████████████████| 3636/3636 [06:31<00:00,  9.30bucket/s]
+2021-07-18 06:53:44,586 DEBUG [falcon/MainProcess] cluster.compute_pairwise_distances : Construct 1468004-by-1468004 sparse pairwise distance matrix with 44232094 non-zero values
+2021-07-18 06:53:44,714 DEBUG [falcon/MainProcess] falcon_profiling.main : Export pairwise distance matrix to file /tmp/tmpfmq9g0bf/nn/dist_3.npz
+2021-07-18 06:53:45,477 DEBUG [falcon/MainProcess] cluster.generate_clusters : DBSCAN clustering (eps=0.1000, min_samples=2) of precomputed pairwise distance matrix
+2021-07-18 06:53:47,879 DEBUG [falcon/MainProcess] cluster.generate_clusters : Finetune 23995 initial unique clusters to not exceed 20.00 ppm precursor m/z tolerance
+2021-07-18 06:53:53,676 DEBUG [falcon/MainProcess] cluster.generate_clusters : 24070 unique clusters after precursor m/z finetuning
+2021-07-18 06:53:53,917 DEBUG [falcon/MainProcess] falcon_profiling.main : Extract 24070 cluster representative identifiers
+2021-07-18 06:53:53,917 INFO [falcon/MainProcess] falcon_profiling.main : Cluster 469328 spectra with precursor charge 4
+2021-07-18 06:53:53,917 DEBUG [falcon/MainProcess] cluster.compute_pairwise_distances : Compute nearest neighbor pairwise distances (469328 spectra, 64 neighbors)
+Buckets queried: 100%|█████████████████████████████████████████████| 4585/4585 [02:18<00:00, 33.01bucket/s]
+2021-07-18 06:56:12,892 DEBUG [falcon/MainProcess] cluster.compute_pairwise_distances : Construct 467894-by-467894 sparse pairwise distance matrix with 11016729 non-zero values
+2021-07-18 06:56:12,914 DEBUG [falcon/MainProcess] falcon_profiling.main : Export pairwise distance matrix to file /tmp/tmpfmq9g0bf/nn/dist_4.npz
+2021-07-18 06:56:13,158 DEBUG [falcon/MainProcess] cluster.generate_clusters : DBSCAN clustering (eps=0.1000, min_samples=2) of precomputed pairwise distance matrix
+2021-07-18 06:56:13,858 DEBUG [falcon/MainProcess] cluster.generate_clusters : Finetune 5387 initial unique clusters to not exceed 20.00 ppm precursor m/z tolerance
+2021-07-18 06:56:14,319 DEBUG [falcon/MainProcess] cluster.generate_clusters : 5390 unique clusters after precursor m/z finetuning
+2021-07-18 06:56:14,367 DEBUG [falcon/MainProcess] falcon_profiling.main : Extract 5390 cluster representative identifiers
+2021-07-18 06:56:14,367 INFO [falcon/MainProcess] falcon_profiling.main : Cluster 103909 spectra with precursor charge 5
+2021-07-18 06:56:14,367 DEBUG [falcon/MainProcess] cluster.compute_pairwise_distances : Compute nearest neighbor pairwise distances (103909 spectra, 64 neighbors)
+Buckets queried: 100%|█████████████████████████████████████████████| 5052/5052 [00:59<00:00, 85.49bucket/s]
+2021-07-18 06:57:13,482 DEBUG [falcon/MainProcess] cluster.compute_pairwise_distances : Construct 103350-by-103350 sparse pairwise distance matrix with 1660952 non-zero values
+2021-07-18 06:57:13,485 DEBUG [falcon/MainProcess] falcon_profiling.main : Export pairwise distance matrix to file /tmp/tmpfmq9g0bf/nn/dist_5.npz
+2021-07-18 06:57:13,534 DEBUG [falcon/MainProcess] cluster.generate_clusters : DBSCAN clustering (eps=0.1000, min_samples=2) of precomputed pairwise distance matrix
+2021-07-18 06:57:13,680 DEBUG [falcon/MainProcess] cluster.generate_clusters : Finetune 1019 initial unique clusters to not exceed 20.00 ppm precursor m/z tolerance
+2021-07-18 06:57:13,797 DEBUG [falcon/MainProcess] cluster.generate_clusters : 1019 unique clusters after precursor m/z finetuning
+2021-07-18 06:57:13,809 DEBUG [falcon/MainProcess] falcon_profiling.main : Extract 1019 cluster representative identifiers
+2021-07-18 06:57:13,809 INFO [falcon/MainProcess] falcon_profiling.main : Cluster 28292 spectra with precursor charge 6
+2021-07-18 06:57:13,809 DEBUG [falcon/MainProcess] cluster.compute_pairwise_distances : Compute nearest neighbor pairwise distances (28292 spectra, 64 neighbors)
+Buckets queried: 100%|████████████████████████████████████████████| 4508/4508 [00:40<00:00, 110.55bucket/s]
+2021-07-18 06:57:54,596 DEBUG [falcon/MainProcess] cluster.compute_pairwise_distances : Construct 27953-by-27953 sparse pairwise distance matrix with 196245 non-zero values
+2021-07-18 06:57:54,598 DEBUG [falcon/MainProcess] falcon_profiling.main : Export pairwise distance matrix to file /tmp/tmpfmq9g0bf/nn/dist_6.npz
+2021-07-18 06:57:54,612 DEBUG [falcon/MainProcess] cluster.generate_clusters : DBSCAN clustering (eps=0.1000, min_samples=2) of precomputed pairwise distance matrix
+2021-07-18 06:57:54,650 DEBUG [falcon/MainProcess] cluster.generate_clusters : Finetune 292 initial unique clusters to not exceed 20.00 ppm precursor m/z tolerance
+2021-07-18 06:57:54,715 DEBUG [falcon/MainProcess] cluster.generate_clusters : 292 unique clusters after precursor m/z finetuning
+2021-07-18 06:57:54,719 DEBUG [falcon/MainProcess] falcon_profiling.main : Extract 292 cluster representative identifiers
+2021-07-18 06:57:54,719 INFO [falcon/MainProcess] falcon_profiling.main : Cluster 7060 spectra with precursor charge 7
+2021-07-18 06:57:54,720 DEBUG [falcon/MainProcess] cluster.compute_pairwise_distances : Compute nearest neighbor pairwise distances (7060 spectra, 64 neighbors)
+Buckets queried: 100%|████████████████████████████████████████████| 2473/2473 [00:20<00:00, 119.61bucket/s]
+2021-07-18 06:58:15,401 DEBUG [falcon/MainProcess] cluster.compute_pairwise_distances : Construct 6927-by-6927 sparse pairwise distance matrix with 28125 non-zero values
+2021-07-18 06:58:15,402 DEBUG [falcon/MainProcess] falcon_profiling.main : Export pairwise distance matrix to file /tmp/tmpfmq9g0bf/nn/dist_7.npz
+2021-07-18 06:58:15,408 DEBUG [falcon/MainProcess] cluster.generate_clusters : DBSCAN clustering (eps=0.1000, min_samples=2) of precomputed pairwise distance matrix
+2021-07-18 06:58:15,417 DEBUG [falcon/MainProcess] cluster.generate_clusters : Finetune 51 initial unique clusters to not exceed 20.00 ppm precursor m/z tolerance
+2021-07-18 06:58:15,434 DEBUG [falcon/MainProcess] cluster.generate_clusters : 51 unique clusters after precursor m/z finetuning
+2021-07-18 06:58:15,437 DEBUG [falcon/MainProcess] falcon_profiling.main : Extract 51 cluster representative identifiers
+2021-07-18 06:58:15,437 INFO [falcon/MainProcess] falcon_profiling.main : Cluster 2457 spectra with precursor charge 8
+2021-07-18 06:58:15,437 DEBUG [falcon/MainProcess] cluster.compute_pairwise_distances : Compute nearest neighbor pairwise distances (2457 spectra, 64 neighbors)
+Buckets queried: 100%|████████████████████████████████████████████| 1160/1160 [00:10<00:00, 115.74bucket/s]
+2021-07-18 06:58:25,462 DEBUG [falcon/MainProcess] cluster.compute_pairwise_distances : Construct 2387-by-2387 sparse pairwise distance matrix with 8565 non-zero values
+2021-07-18 06:58:25,463 DEBUG [falcon/MainProcess] falcon_profiling.main : Export pairwise distance matrix to file /tmp/tmpfmq9g0bf/nn/dist_8.npz
+2021-07-18 06:58:25,467 DEBUG [falcon/MainProcess] cluster.generate_clusters : DBSCAN clustering (eps=0.1000, min_samples=2) of precomputed pairwise distance matrix
+2021-07-18 06:58:25,471 DEBUG [falcon/MainProcess] cluster.generate_clusters : Finetune 14 initial unique clusters to not exceed 20.00 ppm precursor m/z tolerance
+2021-07-18 06:58:25,478 DEBUG [falcon/MainProcess] cluster.generate_clusters : 14 unique clusters after precursor m/z finetuning
+2021-07-18 06:58:25,479 DEBUG [falcon/MainProcess] falcon_profiling.main : Extract 14 cluster representative identifiers
+2021-07-18 06:58:25,479 INFO [falcon/MainProcess] falcon_profiling.main : Cluster 869 spectra with precursor charge 9
+2021-07-18 06:58:25,479 DEBUG [falcon/MainProcess] cluster.compute_pairwise_distances : Compute nearest neighbor pairwise distances (869 spectra, 64 neighbors)
+Buckets queried: 100%|██████████████████████████████████████████████| 420/420 [00:03<00:00, 127.37bucket/s]
+2021-07-18 06:58:28,779 DEBUG [falcon/MainProcess] cluster.compute_pairwise_distances : Construct 817-by-817 sparse pairwise distance matrix with 3185 non-zero values
+2021-07-18 06:58:28,780 DEBUG [falcon/MainProcess] falcon_profiling.main : Export pairwise distance matrix to file /tmp/tmpfmq9g0bf/nn/dist_9.npz
+2021-07-18 06:58:28,782 DEBUG [falcon/MainProcess] cluster.generate_clusters : DBSCAN clustering (eps=0.1000, min_samples=2) of precomputed pairwise distance matrix
+2021-07-18 06:58:28,784 DEBUG [falcon/MainProcess] cluster.generate_clusters : Finetune 6 initial unique clusters to not exceed 20.00 ppm precursor m/z tolerance
+2021-07-18 06:58:28,788 DEBUG [falcon/MainProcess] cluster.generate_clusters : 6 unique clusters after precursor m/z finetuning
+2021-07-18 06:58:28,789 DEBUG [falcon/MainProcess] falcon_profiling.main : Extract 6 cluster representative identifiers
+2021-07-18 06:58:28,789 INFO [falcon/MainProcess] falcon_profiling.main : Cluster 574 spectra with precursor charge 10
+2021-07-18 06:58:28,789 DEBUG [falcon/MainProcess] cluster.compute_pairwise_distances : Compute nearest neighbor pairwise distances (574 spectra, 64 neighbors)
+Buckets queried: 100%|██████████████████████████████████████████████| 252/252 [00:02<00:00, 124.77bucket/s]
+2021-07-18 06:58:30,811 DEBUG [falcon/MainProcess] cluster.compute_pairwise_distances : Construct 516-by-516 sparse pairwise distance matrix with 2322 non-zero values
+2021-07-18 06:58:30,811 DEBUG [falcon/MainProcess] falcon_profiling.main : Export pairwise distance matrix to file /tmp/tmpfmq9g0bf/nn/dist_10.npz
+2021-07-18 06:58:30,814 DEBUG [falcon/MainProcess] cluster.generate_clusters : DBSCAN clustering (eps=0.1000, min_samples=2) of precomputed pairwise distance matrix
+2021-07-18 06:58:30,815 DEBUG [falcon/MainProcess] cluster.generate_clusters : Finetune 10 initial unique clusters to not exceed 20.00 ppm precursor m/z tolerance
+2021-07-18 06:58:30,821 DEBUG [falcon/MainProcess] cluster.generate_clusters : 10 unique clusters after precursor m/z finetuning
+2021-07-18 06:58:30,822 DEBUG [falcon/MainProcess] falcon_profiling.main : Extract 10 cluster representative identifiers
+2021-07-18 06:58:30,822 INFO [falcon/MainProcess] falcon_profiling.main : Cluster 271 spectra with precursor charge 11
+2021-07-18 06:58:30,822 DEBUG [falcon/MainProcess] cluster.compute_pairwise_distances : Compute nearest neighbor pairwise distances (271 spectra, 64 neighbors)
+Buckets queried: 100%|██████████████████████████████████████████████| 120/120 [00:01<00:00, 105.67bucket/s]
+2021-07-18 06:58:31,959 DEBUG [falcon/MainProcess] cluster.compute_pairwise_distances : Construct 241-by-241 sparse pairwise distance matrix with 959 non-zero values
+2021-07-18 06:58:31,960 DEBUG [falcon/MainProcess] falcon_profiling.main : Export pairwise distance matrix to file /tmp/tmpfmq9g0bf/nn/dist_11.npz
+2021-07-18 06:58:31,962 DEBUG [falcon/MainProcess] cluster.generate_clusters : DBSCAN clustering (eps=0.1000, min_samples=2) of precomputed pairwise distance matrix
+2021-07-18 06:58:31,963 DEBUG [falcon/MainProcess] cluster.generate_clusters : Finetune 6 initial unique clusters to not exceed 20.00 ppm precursor m/z tolerance
+2021-07-18 06:58:31,966 DEBUG [falcon/MainProcess] cluster.generate_clusters : 6 unique clusters after precursor m/z finetuning
+2021-07-18 06:58:31,968 DEBUG [falcon/MainProcess] falcon_profiling.main : Extract 6 cluster representative identifiers
+2021-07-18 06:58:31,968 INFO [falcon/MainProcess] falcon_profiling.main : Cluster 226 spectra with precursor charge 12
+2021-07-18 06:58:31,968 DEBUG [falcon/MainProcess] cluster.compute_pairwise_distances : Compute nearest neighbor pairwise distances (226 spectra, 64 neighbors)
+Buckets queried: 100%|████████████████████████████████████████████████| 86/86 [00:00<00:00, 146.25bucket/s]
+2021-07-18 06:58:32,557 DEBUG [falcon/MainProcess] cluster.compute_pairwise_distances : Construct 215-by-215 sparse pairwise distance matrix with 1725 non-zero values
+2021-07-18 06:58:32,558 DEBUG [falcon/MainProcess] falcon_profiling.main : Export pairwise distance matrix to file /tmp/tmpfmq9g0bf/nn/dist_12.npz
+2021-07-18 06:58:32,560 DEBUG [falcon/MainProcess] cluster.generate_clusters : DBSCAN clustering (eps=0.1000, min_samples=2) of precomputed pairwise distance matrix
+2021-07-18 06:58:32,561 DEBUG [falcon/MainProcess] cluster.generate_clusters : Finetune 0 initial unique clusters to not exceed 20.00 ppm precursor m/z tolerance
+2021-07-18 06:58:32,561 DEBUG [falcon/MainProcess] cluster.generate_clusters : 0 unique clusters after precursor m/z finetuning
+2021-07-18 06:58:32,561 DEBUG [falcon/MainProcess] falcon_profiling.main : Extract 0 cluster representative identifiers
+2021-07-18 06:58:32,561 INFO [falcon/MainProcess] falcon_profiling.main : Cluster 100 spectra with precursor charge 13
+2021-07-18 06:58:32,561 DEBUG [falcon/MainProcess] cluster.compute_pairwise_distances : Compute nearest neighbor pairwise distances (100 spectra, 64 neighbors)
+Buckets queried: 100%|████████████████████████████████████████████████| 44/44 [00:00<00:00, 153.94bucket/s]
+2021-07-18 06:58:32,848 DEBUG [falcon/MainProcess] cluster.compute_pairwise_distances : Construct 92-by-92 sparse pairwise distance matrix with 352 non-zero values
+2021-07-18 06:58:32,849 DEBUG [falcon/MainProcess] falcon_profiling.main : Export pairwise distance matrix to file /tmp/tmpfmq9g0bf/nn/dist_13.npz
+2021-07-18 06:58:32,851 DEBUG [falcon/MainProcess] cluster.generate_clusters : DBSCAN clustering (eps=0.1000, min_samples=2) of precomputed pairwise distance matrix
+2021-07-18 06:58:32,852 DEBUG [falcon/MainProcess] cluster.generate_clusters : Finetune 5 initial unique clusters to not exceed 20.00 ppm precursor m/z tolerance
+2021-07-18 06:58:32,855 DEBUG [falcon/MainProcess] cluster.generate_clusters : 5 unique clusters after precursor m/z finetuning
+2021-07-18 06:58:32,856 DEBUG [falcon/MainProcess] falcon_profiling.main : Extract 5 cluster representative identifiers
+2021-07-18 06:58:32,856 INFO [falcon/MainProcess] falcon_profiling.main : Cluster 27 spectra with precursor charge 14
+2021-07-18 06:58:32,856 DEBUG [falcon/MainProcess] cluster.compute_pairwise_distances : Compute nearest neighbor pairwise distances (27 spectra, 64 neighbors)
+Buckets queried: 100%|████████████████████████████████████████████████| 22/22 [00:00<00:00, 203.59bucket/s]
+2021-07-18 06:58:32,965 DEBUG [falcon/MainProcess] cluster.compute_pairwise_distances : Construct 21-by-21 sparse pairwise distance matrix with 35 non-zero values
+2021-07-18 06:58:32,966 DEBUG [falcon/MainProcess] falcon_profiling.main : Export pairwise distance matrix to file /tmp/tmpfmq9g0bf/nn/dist_14.npz
+2021-07-18 06:58:32,968 DEBUG [falcon/MainProcess] cluster.generate_clusters : DBSCAN clustering (eps=0.1000, min_samples=2) of precomputed pairwise distance matrix
+2021-07-18 06:58:32,968 DEBUG [falcon/MainProcess] cluster.generate_clusters : Finetune 0 initial unique clusters to not exceed 20.00 ppm precursor m/z tolerance
+2021-07-18 06:58:32,968 DEBUG [falcon/MainProcess] cluster.generate_clusters : 0 unique clusters after precursor m/z finetuning
+2021-07-18 06:58:32,969 DEBUG [falcon/MainProcess] falcon_profiling.main : Extract 0 cluster representative identifiers
+2021-07-18 06:58:32,969 INFO [falcon/MainProcess] falcon_profiling.main : Cluster 21 spectra with precursor charge 15
+2021-07-18 06:58:32,969 DEBUG [falcon/MainProcess] cluster.compute_pairwise_distances : Compute nearest neighbor pairwise distances (21 spectra, 64 neighbors)
+Buckets queried: 100%|████████████████████████████████████████████████| 16/16 [00:00<00:00, 572.75bucket/s]
+2021-07-18 06:58:32,998 DEBUG [falcon/MainProcess] cluster.compute_pairwise_distances : Construct 7-by-7 sparse pairwise distance matrix with 9 non-zero values
+2021-07-18 06:58:32,998 DEBUG [falcon/MainProcess] falcon_profiling.main : Export pairwise distance matrix to file /tmp/tmpfmq9g0bf/nn/dist_15.npz
+2021-07-18 06:58:33,000 DEBUG [falcon/MainProcess] cluster.generate_clusters : DBSCAN clustering (eps=0.1000, min_samples=2) of precomputed pairwise distance matrix
+2021-07-18 06:58:33,000 DEBUG [falcon/MainProcess] cluster.generate_clusters : Finetune 0 initial unique clusters to not exceed 20.00 ppm precursor m/z tolerance
+2021-07-18 06:58:33,000 DEBUG [falcon/MainProcess] cluster.generate_clusters : 0 unique clusters after precursor m/z finetuning
+2021-07-18 06:58:33,001 DEBUG [falcon/MainProcess] falcon_profiling.main : Extract 0 cluster representative identifiers
+2021-07-18 06:58:33,001 INFO [falcon/MainProcess] falcon_profiling.main : Cluster 2 spectra with precursor charge 18
+2021-07-18 06:58:33,001 DEBUG [falcon/MainProcess] cluster.compute_pairwise_distances : Compute nearest neighbor pairwise distances (2 spectra, 64 neighbors)
+Buckets queried: 100%|██████████████████████████████████████████████████| 2/2 [00:00<00:00, 523.83bucket/s]
+2021-07-18 06:58:33,006 DEBUG [falcon/MainProcess] cluster.compute_pairwise_distances : Construct 1-by-1 sparse pairwise distance matrix with 1 non-zero values
+2021-07-18 06:58:33,006 DEBUG [falcon/MainProcess] falcon_profiling.main : Export pairwise distance matrix to file /tmp/tmpfmq9g0bf/nn/dist_18.npz
+2021-07-18 06:58:33,008 DEBUG [falcon/MainProcess] cluster.generate_clusters : DBSCAN clustering (eps=0.1000, min_samples=2) of precomputed pairwise distance matrix
+2021-07-18 06:58:33,008 DEBUG [falcon/MainProcess] cluster.generate_clusters : Finetune 0 initial unique clusters to not exceed 20.00 ppm precursor m/z tolerance
+2021-07-18 06:58:33,008 DEBUG [falcon/MainProcess] cluster.generate_clusters : 0 unique clusters after precursor m/z finetuning
+2021-07-18 06:58:33,009 DEBUG [falcon/MainProcess] falcon_profiling.main : Extract 0 cluster representative identifiers
+2021-07-18 06:58:33,009 INFO [falcon/MainProcess] falcon_profiling.main : Cluster 4 spectra with precursor charge 20
+2021-07-18 06:58:33,009 DEBUG [falcon/MainProcess] cluster.compute_pairwise_distances : Compute nearest neighbor pairwise distances (4 spectra, 64 neighbors)
+Buckets queried: 100%|██████████████████████████████████████████████████| 4/4 [00:00<00:00, 445.87bucket/s]
+2021-07-18 06:58:33,019 DEBUG [falcon/MainProcess] cluster.compute_pairwise_distances : Construct 2-by-2 sparse pairwise distance matrix with 2 non-zero values
+2021-07-18 06:58:33,020 DEBUG [falcon/MainProcess] falcon_profiling.main : Export pairwise distance matrix to file /tmp/tmpfmq9g0bf/nn/dist_20.npz
+2021-07-18 06:58:33,021 DEBUG [falcon/MainProcess] cluster.generate_clusters : DBSCAN clustering (eps=0.1000, min_samples=2) of precomputed pairwise distance matrix
+2021-07-18 06:58:33,022 DEBUG [falcon/MainProcess] cluster.generate_clusters : Finetune 0 initial unique clusters to not exceed 20.00 ppm precursor m/z tolerance
+2021-07-18 06:58:33,022 DEBUG [falcon/MainProcess] cluster.generate_clusters : 0 unique clusters after precursor m/z finetuning
+2021-07-18 06:58:33,022 DEBUG [falcon/MainProcess] falcon_profiling.main : Extract 0 cluster representative identifiers
+2021-07-18 06:58:33,022 INFO [falcon/MainProcess] falcon_profiling.main : Cluster 3 spectra with precursor charge 21
+2021-07-18 06:58:33,022 DEBUG [falcon/MainProcess] cluster.compute_pairwise_distances : Compute nearest neighbor pairwise distances (3 spectra, 64 neighbors)
+Buckets queried: 100%|█████████████████████████████████████████████████| 3/3 [00:00<00:00, 7458.75bucket/s]
+2021-07-18 06:58:33,025 DEBUG [falcon/MainProcess] cluster.compute_pairwise_distances : Construct 0-by-0 sparse pairwise distance matrix with 0 non-zero values
+2021-07-18 06:58:33,025 DEBUG [falcon/MainProcess] falcon_profiling.main : Export pairwise distance matrix to file /tmp/tmpfmq9g0bf/nn/dist_21.npz
+2021-07-18 06:58:33,026 INFO [falcon/MainProcess] falcon_profiling.main : Cluster 1 spectra with precursor charge 22
+2021-07-18 06:58:33,027 DEBUG [falcon/MainProcess] cluster.compute_pairwise_distances : Compute nearest neighbor pairwise distances (1 spectra, 64 neighbors)
+Buckets queried: 100%|███████████████████████████████████████████████████| 1/1 [00:00<00:00, 70.61bucket/s]
+2021-07-18 06:58:33,042 DEBUG [falcon/MainProcess] cluster.compute_pairwise_distances : Construct 1-by-1 sparse pairwise distance matrix with 1 non-zero values
+2021-07-18 06:58:33,042 DEBUG [falcon/MainProcess] falcon_profiling.main : Export pairwise distance matrix to file /tmp/tmpfmq9g0bf/nn/dist_22.npz
+2021-07-18 06:58:33,044 DEBUG [falcon/MainProcess] cluster.generate_clusters : DBSCAN clustering (eps=0.1000, min_samples=2) of precomputed pairwise distance matrix
+2021-07-18 06:58:33,044 DEBUG [falcon/MainProcess] cluster.generate_clusters : Finetune 0 initial unique clusters to not exceed 20.00 ppm precursor m/z tolerance
+2021-07-18 06:58:33,044 DEBUG [falcon/MainProcess] cluster.generate_clusters : 0 unique clusters after precursor m/z finetuning
+2021-07-18 06:58:33,045 DEBUG [falcon/MainProcess] falcon_profiling.main : Extract 0 cluster representative identifiers
+2021-07-18 06:58:33,045 INFO [falcon/MainProcess] falcon_profiling.main : Cluster 1 spectra with precursor charge 25
+2021-07-18 06:58:33,045 DEBUG [falcon/MainProcess] cluster.compute_pairwise_distances : Compute nearest neighbor pairwise distances (1 spectra, 64 neighbors)
+Buckets queried: 100%|██████████████████████████████████████████████████| 1/1 [00:00<00:00, 145.45bucket/s]
+
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 8 concurrent workers.
+2021-07-18 06:58:33,053 DEBUG [falcon/MainProcess] cluster.compute_pairwise_distances : Construct 1-by-1 sparse pairwise distance matrix with 1 non-zero values
+2021-07-18 06:58:33,053 DEBUG [falcon/MainProcess] falcon_profiling.main : Export pairwise distance matrix to file /tmp/tmpfmq9g0bf/nn/dist_25.npz
+2021-07-18 06:58:33,055 DEBUG [falcon/MainProcess] cluster.generate_clusters : DBSCAN clustering (eps=0.1000, min_samples=2) of precomputed pairwise distance matrix
+2021-07-18 06:58:33,055 DEBUG [falcon/MainProcess] cluster.generate_clusters : Finetune 0 initial unique clusters to not exceed 20.00 ppm precursor m/z tolerance
+2021-07-18 06:58:33,055 DEBUG [falcon/MainProcess] cluster.generate_clusters : 0 unique clusters after precursor m/z finetuning
+2021-07-18 06:58:33,056 DEBUG [falcon/MainProcess] falcon_profiling.main : Extract 0 cluster representative identifiers
+2021-07-18 06:58:33,056 INFO [falcon/MainProcess] falcon_profiling.main : Elapsed time on preprocessing data 352.624998
+2021-07-18 06:58:33,961 INFO [falcon/MainProcess] falcon_profiling.main : Export cluster assignments of 232081 spectra to 71994 unique clusters to output file ./clusters_PXD001511.csv
+2021-07-18 06:59:54,689 INFO [falcon/MainProcess] falcon_profiling.main : Export 71994 cluster representative spectra to output file ./clusters_PXD001511.mgf

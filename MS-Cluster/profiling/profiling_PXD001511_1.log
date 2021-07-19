@@ -1,0 +1,150 @@
+Architecture:          x86_64
+CPU op-mode(s):        32-bit, 64-bit
+Byte Order:            Little Endian
+CPU(s):                16
+On-line CPU(s) list:   0-15
+Thread(s) per core:    2
+Core(s) per socket:    8
+Socket(s):             1
+NUMA node(s):          1
+Vendor ID:             GenuineIntel
+CPU family:            6
+Model:                 79
+Model name:            Intel(R) Xeon(R) CPU E5-1680 v4 @ 3.40GHz
+Stepping:              1
+CPU MHz:               3570.935
+CPU max MHz:           4000.0000
+CPU min MHz:           1200.0000
+BogoMIPS:              6795.48
+Virtualization:        VT-x
+L1d cache:             32K
+L1i cache:             32K
+L2 cache:              256K
+L3 cache:              20480K
+NUMA node0 CPU(s):     0-15
+Flags:                 fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb cat_l3 cdp_l3 invpcid_single pti intel_ppin ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm rdt_a rdseed adx smap intel_pt xsaveopt cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts md_clear flush_l1d
+MsCluster v2.0 
+Started job on: Sun Jul 18 12:25:30 2021
+
+Parameter values:
+-----------------
+outputName = test_results
+list	      = /home/user/bio/ms-dataset/PXD001511/list.dat
+mixtureProb   = 0.1
+
+COMMAND LINE = ../MSCluster_bin --model LTQ_TRYP --list /home/user/bio/ms-dataset/PXD001511/list.dat --output-name test_results --min-mz 200 --max-mz 2000 --memory-gb 8
+
+Pass 1: reading spectra files and writing to dat with 25 Da increments.
+----------------------------------------------------------------------
+
+Read 0 paths to spectra files.
+Converting data to DAT, using m/z increment of 25.00
+0	Extracting from: /home/user/bio/ms-dataset/PXD001511/A13-01201.mgf [0 : 0]
+	Found 68444 spectra... Wrote 68444 to dat files (this took 212.00 sec.)
+
+1	Extracting from: /home/user/bio/ms-dataset/PXD001511/A13-01202.mgf [0 : 1]
+	Found 68439 spectra... Wrote 68439 to dat files (this took 214.00 sec.)
+
+2	Extracting from: /home/user/bio/ms-dataset/PXD001511/A13-01203.mgf [0 : 2]
+	Found 68803 spectra... Wrote 68803 to dat files (this took 229.00 sec.)
+
+3	Extracting from: /home/user/bio/ms-dataset/PXD001511/A13-01210.mgf [0 : 3]
+	Found 68441 spectra... Wrote 68441 to dat files (this took 220.00 sec.)
+
+4	Extracting from: /home/user/bio/ms-dataset/PXD001511/A13-01211.mgf [0 : 4]
+	Found 68439 spectra... Wrote 68439 to dat files (this took 219.00 sec.)
+
+5	Extracting from: /home/user/bio/ms-dataset/PXD001511/A13-01212.mgf [0 : 5]
+	Found 68396 spectra... Wrote 68396 to dat files (this took 215.00 sec.)
+
+6	Extracting from: /home/user/bio/ms-dataset/PXD001511/A13-01214.mgf [0 : 6]
+	Found 69682 spectra... Wrote 69681 to dat files (this took 224.00 sec.)
+
+7	Extracting from: /home/user/bio/ms-dataset/PXD001511/A13-01215.mgf [0 : 7]
+	Found 67878 spectra... Wrote 67877 to dat files (this took 212.00 sec.)
+
+8	Extracting from: /home/user/bio/ms-dataset/PXD001511/A13-01216.mgf [0 : 8]
+	Found 67861 spectra... Wrote 67861 to dat files (this took 206.00 sec.)
+
+9	Extracting from: /home/user/bio/ms-dataset/PXD001511/A13-01218.mgf [0 : 9]
+	Found 67306 spectra... Wrote 67299 to dat files (this took 194.00 sec.)
+
+10	Extracting from: /home/user/bio/ms-dataset/PXD001511/A13-01219.mgf [0 : 10]
+	Found 67171 spectra... Wrote 67164 to dat files (this took 174.00 sec.)
+
+11	Extracting from: /home/user/bio/ms-dataset/PXD001511/A13-01220.mgf [0 : 11]
+	Found 67861 spectra... Wrote 67857 to dat files (this took 177.00 sec.)
+
+12	Extracting from: /home/user/bio/ms-dataset/PXD001511/A13-01222.mgf [0 : 12]
+	Found 68011 spectra... Wrote 67989 to dat files (this took 197.00 sec.)
+
+13	Extracting from: /home/user/bio/ms-dataset/PXD001511/A13-01223.mgf [0 : 13]
+	Found 68384 spectra... Wrote 68363 to dat files (this took 182.00 sec.)
+
+14	Extracting from: /home/user/bio/ms-dataset/PXD001511/A13-01224.mgf [0 : 14]
+	Found 68667 spectra... Wrote 68646 to dat files (this took 187.00 sec.)
+
+15	Extracting from: /home/user/bio/ms-dataset/PXD001511/A13-03223.mgf [0 : 15]
+	Found 64114 spectra... Wrote 64114 to dat files (this took 198.00 sec.)
+
+16	Extracting from: /home/user/bio/ms-dataset/PXD001511/A13-03224.mgf [0 : 16]
+	Found 69409 spectra... Wrote 69409 to dat files (this took 210.00 sec.)
+
+17	Extracting from: /home/user/bio/ms-dataset/PXD001511/A13-03225.mgf [0 : 17]
+	Found 70629 spectra... Wrote 70629 to dat files (this took 208.00 sec.)
+
+18	Extracting from: /home/user/bio/ms-dataset/PXD001511/A13-03228.mgf [0 : 18]
+	Found 70791 spectra... Wrote 70791 to dat files (this took 212.00 sec.)
+
+19	Extracting from: /home/user/bio/ms-dataset/PXD001511/A13-03229.mgf [0 : 19]
+	Found 71288 spectra... Wrote 71284 to dat files (this took 221.00 sec.)
+
+20	Extracting from: /home/user/bio/ms-dataset/PXD001511/A13-03233.mgf [0 : 20]
+	Found 71148 spectra... Wrote 71147 to dat files (this took 209.00 sec.)
+
+21	Extracting from: /home/user/bio/ms-dataset/PXD001511/A13-03234.mgf [0 : 21]
+	Found 71092 spectra... Wrote 71089 to dat files (this took 205.00 sec.)
+
+22	Extracting from: /home/user/bio/ms-dataset/PXD001511/A13-03235.mgf [0 : 22]
+	Found 71105 spectra... Wrote 71100 to dat files (this took 213.00 sec.)
+
+23	Extracting from: /home/user/bio/ms-dataset/PXD001511/A13-03239.mgf [0 : 23]
+	Found 69419 spectra... Wrote 69418 to dat files (this took 197.00 sec.)
+
+24	Extracting from: /home/user/bio/ms-dataset/PXD001511/A13-03240.mgf [0 : 24]
+	Found 68491 spectra... Wrote 68488 to dat files (this took 191.00 sec.)
+
+25	Extracting from: /home/user/bio/ms-dataset/PXD001511/A13-03243.mgf [0 : 25]
+	Found 69016 spectra... Wrote 69000 to dat files (this took 185.00 sec.)
+
+26	Extracting from: /home/user/bio/ms-dataset/PXD001511/A13-03244.mgf [0 : 26]
+	Found 69367 spectra... Wrote 69357 to dat files (this took 199.00 sec.)
+
+27	Extracting from: /home/user/bio/ms-dataset/PXD001511/A13-03245.mgf [0 : 27]
+	Found 67714 spectra... Wrote 67698 to dat files (this took 184.00 sec.)
+
+28	Extracting from: /home/user/bio/ms-dataset/PXD001511/A13-03247.mgf [0 : 28]
+	Found 70985 spectra... Wrote 70985 to dat files (this took 218.00 sec.)
+
+29	Extracting from: /home/user/bio/ms-dataset/PXD001511/A13-03249.mgf [0 : 29]
+	Found 69494 spectra... Wrote 69494 to dat files (this took 195.00 sec.)
+
+30	Extracting from: /home/user/bio/ms-dataset/PXD001511/A13-03251.mgf [0 : 30]
+	Found 68699 spectra... Wrote 68687 to dat files (this took 195.00 sec.)
+
+31	Extracting from: /home/user/bio/ms-dataset/PXD001511/A13-03252.mgf [0 : 31]
+	Found 68889 spectra... Wrote 68709 to dat files (this took 191.00 sec.)
+
+32	Extracting from: /home/user/bio/ms-dataset/PXD001511/A13-03253.mgf [0 : 32]
+	Found 68250 spectra... Wrote 68242 to dat files (this took 186.00 sec.)
+
+33	Extracting from: /home/user/bio/ms-dataset/PXD001511/A15-03059.mgf [0 : 33]
+	Found 82311 spectra... Wrote 82296 to dat files (this took 292.00 sec.)
+
+34	Extracting from: /home/user/bio/ms-dataset/PXD001511/A15-03060.mgf [0 : 34]
+	Found 81914 spectra... Wrote 81902 to dat files (this took 286.00 sec.)
+
+35	Extracting from: /home/user/bio/ms-dataset/PXD001511/A15-03061.mgf [0 : 35]
+	Found 82285 spectra... Wrote 82280 to dat files (this took 297.00 sec.)
+
+36	Extracting from: /home/user/bio/ms-dataset/PXD001511/A15-03063.mgf [0 : 36]
