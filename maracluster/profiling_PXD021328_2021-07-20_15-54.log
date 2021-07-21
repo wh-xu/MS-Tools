@@ -1,0 +1,245 @@
+Architecture:          x86_64
+CPU op-mode(s):        32-bit, 64-bit
+Byte Order:            Little Endian
+CPU(s):                64
+On-line CPU(s) list:   0-63
+Thread(s) per core:    2
+Core(s) per socket:    32
+Socket(s):             1
+NUMA node(s):          4
+Vendor ID:             AuthenticAMD
+CPU family:            23
+Model:                 1
+Model name:            AMD EPYC 7551P 32-Core Processor
+Stepping:              2
+CPU MHz:               2501.011
+CPU max MHz:           2000.0000
+CPU min MHz:           1200.0000
+BogoMIPS:              4000.15
+Virtualization:        AMD-V
+L1d cache:             32K
+L1i cache:             64K
+L2 cache:              512K
+L3 cache:              8192K
+NUMA node0 CPU(s):     0-7,32-39
+NUMA node1 CPU(s):     8-15,40-47
+NUMA node2 CPU(s):     16-23,48-55
+NUMA node3 CPU(s):     24-31,56-63
+Flags:                 fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid amd_dcm aperfmperf pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb hw_pstate sme ssbd sev ibpb vmmcall fsgsbase bmi1 avx2 smep bmi2 rdseed adx smap clflushopt sha_ni xsaveopt xsavec xgetbv1 xsaves clzero irperf xsaveerptr arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold avic v_vmsave_vmload vgif overflow_recov succor smca
+              total        used        free      shared  buff/cache   available
+Mem:           251G         48G        132G        4.4G         71G        197G
+Swap:            0B          0B          0B
+MaRaCluster version 1.01.1, Build Date Apr 23 2020 15:56:16
+Copyright (c) 2015-19 Matthew The. All rights reserved.
+Written by Matthew The (matthewt@kth.se) in the
+School of Biotechnology at the Royal Institute of Technology in Stockholm.
+Issued command:
+maracluster batch -b /home/workspace/MS-Tools/PXD021328/list.dat -v 3
+Started Tue Jul 20 15:54:34 2021
+ on designlab
+Splitting spectra by precursor Mz
+Accumulating peak counts and precursor Mzs
+  Processing   Processing   Processing   Processing /home/workspace/MS-Tools/PXD021328/SARS-CoV-2-18.mgf (  Processing /home/workspace/MS-Tools/PXD021328/SARS-CoV-2-38.mgf20/home/workspace/MS-Tools/PXD021328/SARS-CoV-2-47.mgf%).
+ (/home/workspace/MS-Tools/PXD021328/SARS-CoV-2-51.mgf (100%).
+80%).
+ (60%).
+/home/workspace/MS-Tools/PXD021328/SARS-CoV-2-34.mgf (40%).
+Writing peak counts to file
+Finished writing peak counts to file
+Estimated number of pair comparisons: 3662631
+Dividing spectra in 1 bins of ~2 CPU hours each.
+  Processing /home/workspace/MS-Tools/PXD021328/SARS-CoV-2-34.mgf (40%).
+  Processing /home/workspace/MS-Tools/PXD021328/SARS-CoV-2-38.mgf (60%).
+  Processing /home/workspace/MS-Tools/PXD021328/SARS-CoV-2-47.mgf (80%).
+  Processing /home/workspace/MS-Tools/PXD021328/SARS-CoV-2-51.mgf (100%).
+  Processing /home/workspace/MS-Tools/PXD021328/SARS-CoV-2-18.mgf (20%).
+Reading in spectra from /home/workspace/MS-Tools/maracluster/maracluster_output/349.dat
+Read 209353 mass charge states.
+Inserting spectra into database
+Successfully inserted spectrum 1/209353 (0%)
+  Elapsed time: 0 cpu seconds or 0 min 0 sec wall time.
+  Estimated time remaining: 0 min 0 sec wall time.
+Successfully inserted spectrum 50001/209353 (23%)
+  Elapsed time: 39.93 cpu seconds or 0 min 5 sec wall time.
+  Estimated time remaining: 0 min 15 sec wall time.
+Successfully inserted spectrum 100001/209353 (47%)
+  Elapsed time: 81.65 cpu seconds or 0 min 10 sec wall time.
+  Estimated time remaining: 0 min 10 sec wall time.
+Successfully inserted spectrum 150001/209353 (71%)
+  Elapsed time: 122.62 cpu seconds or 0 min 16 sec wall time.
+  Estimated time remaining: 0 min 6 sec wall time.
+Successfully inserted spectrum 200001/209353 (95%)
+  Elapsed time: 168.09 cpu seconds or 0 min 22 sec wall time.
+  Estimated time remaining: 0 min 1 sec wall time.
+Sorting pvalue vectors
+Reloaded 209320 pvalue vectors.
+Successfully inserted spectra into database
+Writing pvalue vectors
+Writing pvalue vector 0/209320
+Writing pvalue vector 100000/209320
+Writing pvalue vector 200000/209320
+Finished writing pvalue vectors
+Calculating pvalues
+Reading precursor m/z limits.
+Processing pvalue vector Processing pvalue vector Processing pvalue vector Processing pvalue vector Processing pvalue vector Processing pvalue vector Processing pvalue vector Processing pvalue vector Processing pvalue vector 180001Processing pvalue vector 90001Processing pvalue vector Processing pvalue vector 120001/20932030001 (57%).Processing pvalue vector 
+17000180001Processing pvalue vector 20000110001/209320 (Processing pvalue vector 95%).20001Processing pvalue vector Processing pvalue vector /100001209320Processing pvalue vector 70001 (1Processing pvalue vector 60001Processing pvalue vector 11000140001//209320209320 (42 (//14140001///209320209320 (20932050001/%)./13000166%)./160001%).209320 (209320 (
+
+9 (%).
+28%).20932038 (
+209320/ (/85
+420932047%).%).
+ (62%).209320 (81%).209320/ (2093200
+%).
+ (76 (52%).
+%).
+%).
+Processing pvalue vector 150001/190001/209320 (/%).90209320 (71%).
+
+%).
+209320 (33%).
+
+/209320 (23%).
+/209320 (19%).
+
+
+Starting clustering job: batches 0-20
+Clustering 1043546 pvalues
+Starting MinHeap clustering
+  Loading new edges.
+It. 0: minRow = 1 41631, minCol = 2 40934, minEl = -72.5508, edgesLeft = 1043544
+It. 10000: minRow = 0 2413, minCol = 1 2491, minEl = -42.8639, edgesLeft = 1087066
+It. 20000: minRow = 1 42871, minCol = 3 42827, minEl = -38.1016, edgesLeft = 1127026
+It. 30000: minRow = 0 28738, minCol = 3 29897, minEl = -35.1013, edgesLeft = 1160246
+It. 40000: minRow = 0 2252, minCol = 1 2328, minEl = -32.6805, edgesLeft = 1187333
+It. 50000: minRow = 3000000000 30509, minCol = 2 42538, minEl = -30.559, edgesLeft = 1203391
+It. 60000: minRow = 0 3932, minCol = 4 3973, minEl = -28.5544, edgesLeft = 1209440
+It. 70000: minRow = 3000000000 41841, minCol = 0 6631, minEl = -26.5633, edgesLeft = 1201872
+It. 80000: minRow = 3000000000 22762, minCol = 3 17881, minEl = -24.4927, edgesLeft = 1179492
+It. 90000: minRow = 3000000000 81602, minCol = 3000000000 25898, minEl = -22.2225, edgesLeft = 1135521
+It. 100000: minRow = 3000000000 92991, minCol = 3000000000 76076, minEl = -19.7403, edgesLeft = 1063427
+It. 110000: minRow = 3000000000 60576, minCol = 0 7192, minEl = -16.8441, edgesLeft = 947448
+It. 120000: minRow = 3000000000 83572, minCol = 3 32876, minEl = -13.455, edgesLeft = 773628
+It. 130000: minRow = 3000000000 128390, minCol = 3000000000 26718, minEl = -9.28492, edgesLeft = 508521
+It. 140000: minRow = 3000000000 103640, minCol = 3000000000 87630, minEl = -5.31665, edgesLeft = 68545
+Finished MinHeap clustering
+  Elapsed time: 3.81 cpu seconds or 0 min 4 sec wall time.
+Retained 1 pvalues
+  Elapsed time: 8.47 cpu seconds or 0 min 6 sec wall time.
+  Estimated time remaining: 0 min 0 sec wall time.
+Starting poisoned clustering job: batches 0-0
+Clustering 1 pvalues
+Starting MinHeap clustering
+  Loading new edges.
+Finished MinHeap clustering
+  Elapsed time: 0 cpu seconds or 0 min 0 sec wall time.
+Retained 0 pvalues
+Finished calculating pvalues.
+  Elapsed time: 8.47 cpu seconds or 0 min 6 sec wall time.
+  Estimated time remaining: 0 min 0 sec wall time.
+Starting p-value clustering.
+Estimated 1 p-values in this file
+Writing 1 part files
+  Elapsed time: 0 cpu seconds or 0 min 0 sec wall time.
+Sorting and filtering bin 1/1 (100%)
+  Elapsed time: 0.11 cpu seconds or 0 min 0 sec wall time.
+Writing p-value 1/1 (100%)
+  Elapsed time: 0.11 cpu seconds or 0 min 0 sec wall time.
+Starting MinHeap clustering
+  Creating cluster membership map.
+  Updating incomplete edges (0).
+  Loading new edges.
+  Sorting 1 edges.
+  Adding new edges.
+  Loaded new edges: new: 1, total: 1/1 (100%).
+It. 0: minRow = 1 15915, minCol = 3 15856, minEl = -32.1593
+Finished MinHeap clustering
+  Elapsed time: 0.32 cpu seconds or 0 min 0 sec wall time.
+Reading in p-value tree.
+Reading in p-value tree.
+Writing clusterings for 6 thresholds.
+Writing clusters to /home/workspace/MS-Tools/maracluster/maracluster_output/MaRaCluster.clusters_p30.tsv
+clust_size	#clusters	#spectra
+1	130543	130543
+2-3	24706	55774
+4-7	5041	22874
+8-15	302	3015
+16-31	47	934
+32-63	6	227
+64-127	0	0
+128-255	0	0
+256-511	0	0
+512+	0	0
+total	160645	213367
+
+Writing clusters to /home/workspace/MS-Tools/maracluster/maracluster_output/MaRaCluster.clusters_p25.tsv
+clust_size	#clusters	#spectra
+1	96844	96844
+2-3	29140	67517
+4-7	9161	41598
+8-15	530	5202
+16-31	75	1497
+32-63	15	631
+64-127	1	78
+128-255	0	0
+256-511	0	0
+512+	0	0
+total	135766	213367
+
+Writing clusters to /home/workspace/MS-Tools/maracluster/maracluster_output/MaRaCluster.clusters_p20.tsv
+clust_size	#clusters	#spectra
+1	72031	72031
+2-3	27313	64590
+4-7	13975	64309
+8-15	875	8631
+16-31	132	2739
+32-63	19	812
+64-127	3	255
+128-255	0	0
+256-511	0	0
+512+	0	0
+total	114348	213367
+
+Writing clusters to /home/workspace/MS-Tools/maracluster/maracluster_output/MaRaCluster.clusters_p15.tsv
+clust_size	#clusters	#spectra
+1	55200	55200
+2-3	23627	56290
+4-7	17105	80337
+8-15	1556	15165
+16-31	212	4369
+32-63	38	1595
+64-127	5	411
+128-255	0	0
+256-511	0	0
+512+	0	0
+total	97743	213367
+
+Writing clusters to /home/workspace/MS-Tools/maracluster/maracluster_output/MaRaCluster.clusters_p10.tsv
+clust_size	#clusters	#spectra
+1	43528	43528
+2-3	20480	49101
+4-7	18104	86453
+8-15	2442	23992
+16-31	332	6904
+32-63	59	2459
+64-127	9	789
+128-255	1	141
+256-511	0	0
+512+	0	0
+total	84955	213367
+
+Writing clusters to /home/workspace/MS-Tools/maracluster/maracluster_output/MaRaCluster.clusters_p5.tsv
+clust_size	#clusters	#spectra
+1	31612	31612
+2-3	18770	45002
+4-7	17963	87140
+8-15	3336	33101
+16-31	497	10257
+32-63	96	3963
+64-127	21	1687
+128-255	4	605
+256-511	0	0
+512+	0	0
+total	72299	213367
+
+Finished writing clusterings.
+Running MaRaCluster took: 277.84 cpu seconds or 54 seconds wall time
