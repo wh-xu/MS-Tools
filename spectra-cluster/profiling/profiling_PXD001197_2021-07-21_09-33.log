@@ -1,0 +1,295 @@
+Architecture:          x86_64
+CPU op-mode(s):        32-bit, 64-bit
+Byte Order:            Little Endian
+CPU(s):                64
+On-line CPU(s) list:   0-63
+Thread(s) per core:    2
+Core(s) per socket:    32
+Socket(s):             1
+NUMA node(s):          4
+Vendor ID:             AuthenticAMD
+CPU family:            23
+Model:                 1
+Model name:            AMD EPYC 7551P 32-Core Processor
+Stepping:              2
+CPU MHz:               2362.275
+CPU max MHz:           2000.0000
+CPU min MHz:           1200.0000
+BogoMIPS:              4000.15
+Virtualization:        AMD-V
+L1d cache:             32K
+L1i cache:             64K
+L2 cache:              512K
+L3 cache:              8192K
+NUMA node0 CPU(s):     0-7,32-39
+NUMA node1 CPU(s):     8-15,40-47
+NUMA node2 CPU(s):     16-23,48-55
+NUMA node3 CPU(s):     24-31,56-63
+Flags:                 fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid amd_dcm aperfmperf pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb hw_pstate sme ssbd sev ibpb vmmcall fsgsbase bmi1 avx2 smep bmi2 rdseed adx smap clflushopt sha_ni xsaveopt xsavec xgetbv1 xsaves clzero irperf xsaveerptr arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold avic v_vmsave_vmload vgif overflow_recov succor smca
+              total        used        free      shared  buff/cache   available
+Mem:           251G         39G        145G        4.4G         67G        206G
+Swap:            0B          0B          0B
+spectra-cluster API Version 1.0.11
+Created by Rui Wang & Johannes Griss
+
+-- Settings --
+Number of threads: 4
+Thresholds: 1.0 - 0.99 in 3 rounds
+Keeping binary files: false
+Binary file directory: /tmp/spectra_cluster_cli16070119647584165554
+Result file: my_clustering_result.clustering
+Reuse binary files: false
+Input files: 18
+Using fast mode: yes
+
+Other settings:
+Precursor tolerance: 20.0 ppm
+Fragment ion tolerance: 0.05
+Loading filter: Filtering top N peaks per spectrum
+Added filters: mz_200
+Minimum number of comparisons: adaptive
+
+Started timing!
+Converting 18 input files...
+Converting 1 / 64 binary files.
+Converting 2 / 64 binary files.
+Converting 3 / 64 binary files.
+Converting 4 / 64 binary files.
+Converting 5 / 64 binary files.
+Converting 6 / 64 binary files.
+Converting 7 / 64 binary files.
+Converting 8 / 64 binary files.
+Converting 9 / 64 binary files.
+Converting 10 / 64 binary files.
+Converting 11 / 64 binary files.
+Converting 12 / 64 binary files.
+Converting 13 / 64 binary files.
+Converting 14 / 64 binary files.
+Converting 15 / 64 binary files.
+Converting 16 / 64 binary files.
+Converting 17 / 64 binary files.
+Converting 18 / 64 binary files.
+Converting 19 / 64 binary files.
+Converting 20 / 64 binary files.
+Converting 21 / 64 binary files.
+Converting 22 / 64 binary files.
+Converting 23 / 64 binary files.
+Converting 24 / 64 binary files.
+Converting 25 / 64 binary files.
+Converting 26 / 64 binary files.
+Converting 27 / 64 binary files.
+Converting 28 / 64 binary files.
+Converting 29 / 64 binary files.
+Converting 30 / 64 binary files.
+Converting 31 / 64 binary files.
+Converting 32 / 64 binary files.
+Converting 33 / 64 binary files.
+Converting 34 / 64 binary files.
+Converting 35 / 64 binary files.
+Converting 36 / 64 binary files.
+Converting 37 / 64 binary files.
+Converting 38 / 64 binary files.
+Converting 39 / 64 binary files.
+Converting 40 / 64 binary files.
+Converting 41 / 64 binary files.
+Converting 42 / 64 binary files.
+Converting 43 / 64 binary files.
+Converting 44 / 64 binary files.
+Converting 45 / 64 binary files.
+Converting 46 / 64 binary files.
+Converting 47 / 64 binary files.
+Converting 48 / 64 binary files.
+Converting 49 / 64 binary files.
+Converting 50 / 64 binary files.
+Converting 51 / 64 binary files.
+Converting 52 / 64 binary files.
+Converting 53 / 64 binary files.
+Converting 54 / 64 binary files.
+Converting 55 / 64 binary files.
+Converting 56 / 64 binary files.
+Converting 57 / 64 binary files.
+Converting 58 / 64 binary files.
+Converting 59 / 64 binary files.
+Converting 60 / 64 binary files.
+Converting 61 / 64 binary files.
+Converting 62 / 64 binary files.
+Converting 63 / 64 binary files.
+Converting 64 / 64 binary files.
+Load and preprocessing MGF file elapsed: 857.4260238149914
+Clustering 64 binary files...
+Completed clustering 6575 spectra (433.01 m/z to 437.99 m/z)
+Completed clustering 7324 spectra (474.01 m/z to 479.00 m/z)
+Completed clustering 8325 spectra (479.01 m/z to 484.00 m/z)
+Completed clustering 8255 spectra (515.01 m/z to 520.00 m/z)
+Completed clustering 8544 spectra (520.00 m/z to 524.99 m/z)
+Completed clustering 8383 spectra (525.00 m/z to 530.00 m/z)
+Completed clustering 9170 spectra (556.01 m/z to 560.99 m/z)
+Completed clustering 29346 spectra (300.13 m/z to 345.99 m/z)
+Completed clustering 9335 spectra (561.00 m/z to 565.98 m/z)
+Completed clustering 9173 spectra (566.03 m/z to 571.00 m/z)
+Completed clustering 8853 spectra (571.00 m/z to 575.99 m/z)
+Completed clustering 9527 spectra (602.02 m/z to 607.00 m/z)
+Completed clustering 9738 spectra (607.01 m/z to 612.00 m/z)
+Completed clustering 9313 spectra (612.00 m/z to 617.00 m/z)
+Completed clustering 40689 spectra (346.16 m/z to 392.00 m/z)
+Completed clustering 9360 spectra (617.00 m/z to 622.00 m/z)
+Completed clustering 10295 spectra (648.00 m/z to 653.00 m/z)
+Completed clustering 9591 spectra (653.00 m/z to 658.00 m/z)
+Completed clustering 8706 spectra (658.00 m/z to 663.00 m/z)
+Completed clustering 9540 spectra (663.00 m/z to 668.00 m/z)
+Completed clustering 9432 spectra (694.00 m/z to 699.00 m/z)
+Completed clustering 8873 spectra (699.00 m/z to 704.00 m/z)
+Completed clustering 47040 spectra (392.18 m/z to 432.99 m/z)
+Completed clustering 9010 spectra (704.00 m/z to 709.00 m/z)
+Completed clustering 8705 spectra (740.00 m/z to 744.99 m/z)
+Completed clustering 7791 spectra (745.02 m/z to 750.00 m/z)
+Completed clustering 7838 spectra (750.01 m/z to 755.00 m/z)
+Completed clustering 9261 spectra (709.00 m/z to 714.00 m/z)
+Completed clustering 8842 spectra (755.02 m/z to 760.00 m/z)
+Completed clustering 49912 spectra (438.00 m/z to 474.00 m/z)
+Completed clustering 7633 spectra (786.01 m/z to 790.99 m/z)
+Completed clustering 7925 spectra (791.00 m/z to 795.98 m/z)
+Completed clustering 7529 spectra (796.01 m/z to 801.00 m/z)
+Completed clustering 7105 spectra (801.00 m/z to 805.95 m/z)
+Completed clustering 48346 spectra (484.01 m/z to 514.98 m/z)
+Completed clustering 7565 spectra (837.02 m/z to 841.98 m/z)
+Completed clustering 7388 spectra (847.01 m/z to 851.99 m/z)
+Completed clustering 7589 spectra (842.01 m/z to 846.97 m/z)
+Completed clustering 6816 spectra (888.07 m/z to 893.00 m/z)
+Completed clustering 6701 spectra (883.01 m/z to 887.99 m/z)
+Completed clustering 5303 spectra (939.01 m/z to 944.00 m/z)
+Completed clustering 5886 spectra (934.00 m/z to 938.99 m/z)
+Completed clustering 7489 spectra (893.03 m/z to 897.99 m/z)
+Completed clustering 47109 spectra (530.01 m/z to 556.00 m/z)
+Completed clustering 26453 spectra (1128.03 m/z to 1173.99 m/z)
+Completed clustering 49352 spectra (622.00 m/z to 648.00 m/z)
+Completed clustering 48503 spectra (668.00 m/z to 694.00 m/z)
+Completed clustering 49329 spectra (576.01 m/z to 602.00 m/z)
+Completed clustering 6407 spectra (1312.00 m/z to 1357.99 m/z)
+Completed clustering 220 spectra (1450.05 m/z to 1492.36 m/z)
+Completed clustering 46290 spectra (714.00 m/z to 740.00 m/z)
+Completed clustering 1300 spectra (1404.07 m/z to 1449.98 m/z)
+Completed clustering 46957 spectra (806.01 m/z to 837.00 m/z)
+Completed clustering 42697 spectra (760.01 m/z to 785.99 m/z)
+Completed clustering 5627 spectra (1358.02 m/z to 1403.92 m/z)
+Completed clustering 10988 spectra (1266.02 m/z to 1312.00 m/z)
+Completed clustering 43721 spectra (852.03 m/z to 883.00 m/z)
+Completed clustering 14021 spectra (1220.04 m/z to 1265.98 m/z)
+Completed clustering 19477 spectra (1174.00 m/z to 1219.97 m/z)
+Completed clustering 34843 spectra (1082.01 m/z to 1127.98 m/z)
+Completed clustering 38102 spectra (1036.00 m/z to 1081.99 m/z)
+Completed clustering 44181 spectra (898.06 m/z to 934.00 m/z)
+Completed clustering 42229 spectra (990.00 m/z to 1036.00 m/z)
+Completed clustering 48876 spectra (944.00 m/z to 990.00 m/z)
+Re-binning 64 binary files...
+Merging 64 binary files...
+Completed merging 8623 spectra (300.13 m/z to 345.87 m/z)
+Completed merging 2200 spectra (432.92 m/z to 437.92 m/z)
+Completed merging 2243 spectra (473.93 m/z to 478.93 m/z)
+Completed merging 2666 spectra (478.94 m/z to 483.92 m/z)
+Completed merging 15631 spectra (483.94 m/z to 514.91 m/z)
+Completed merging 2797 spectra (514.91 m/z to 519.93 m/z)
+Completed merging 2808 spectra (519.93 m/z to 524.91 m/z)
+Completed merging 2801 spectra (524.92 m/z to 529.92 m/z)
+Completed merging 15405 spectra (529.93 m/z to 555.93 m/z)
+Completed merging 3145 spectra (555.93 m/z to 560.92 m/z)
+Completed merging 2959 spectra (560.93 m/z to 565.85 m/z)
+Completed merging 2832 spectra (565.92 m/z to 570.93 m/z)
+Completed merging 2742 spectra (570.93 m/z to 575.91 m/z)
+Completed merging 14773 spectra (575.93 m/z to 601.88 m/z)
+Completed merging 3102 spectra (601.94 m/z to 606.91 m/z)
+Completed merging 3434 spectra (606.94 m/z to 611.92 m/z)
+Completed merging 3090 spectra (611.93 m/z to 616.89 m/z)
+Completed merging 3013 spectra (616.93 m/z to 621.88 m/z)
+Completed merging 16471 spectra (621.95 m/z to 647.86 m/z)
+Completed merging 3281 spectra (647.94 m/z to 652.92 m/z)
+Completed merging 3010 spectra (652.93 m/z to 657.89 m/z)
+Completed merging 2621 spectra (657.95 m/z to 662.93 m/z)
+Completed merging 2890 spectra (662.93 m/z to 667.92 m/z)
+Completed merging 15994 spectra (667.95 m/z to 693.93 m/z)
+Completed merging 3280 spectra (693.93 m/z to 698.92 m/z)
+Completed merging 2983 spectra (698.93 m/z to 703.91 m/z)
+Completed merging 2543 spectra (703.94 m/z to 708.91 m/z)
+Completed merging 2884 spectra (708.93 m/z to 713.93 m/z)
+Completed merging 14409 spectra (713.95 m/z to 739.92 m/z)
+Completed merging 2537 spectra (739.93 m/z to 744.92 m/z)
+Completed merging 2506 spectra (744.93 m/z to 749.92 m/z)
+Completed merging 2480 spectra (749.93 m/z to 754.93 m/z)
+Completed merging 3144 spectra (754.93 m/z to 759.91 m/z)
+Completed merging 15204 spectra (759.93 m/z to 785.92 m/z)
+Completed merging 2885 spectra (785.93 m/z to 790.92 m/z)
+Completed merging 3255 spectra (790.93 m/z to 795.91 m/z)
+Completed merging 3030 spectra (795.91 m/z to 800.93 m/z)
+Completed merging 2558 spectra (800.93 m/z to 805.88 m/z)
+Completed merging 17445 spectra (805.88 m/z to 836.93 m/z)
+Completed merging 2899 spectra (836.94 m/z to 841.91 m/z)
+Completed merging 2965 spectra (841.91 m/z to 846.90 m/z)
+Completed merging 2687 spectra (846.90 m/z to 851.92 m/z)
+Completed merging 16470 spectra (851.93 m/z to 882.93 m/z)
+Completed merging 2245 spectra (882.93 m/z to 887.92 m/z)
+Completed merging 2374 spectra (887.93 m/z to 892.93 m/z)
+Completed merging 2668 spectra (892.93 m/z to 897.91 m/z)
+Completed merging 16665 spectra (897.92 m/z to 933.93 m/z)
+Completed merging 2092 spectra (933.93 m/z to 938.92 m/z)
+Completed merging 1789 spectra (938.92 m/z to 943.93 m/z)
+Completed merging 15839 spectra (943.95 m/z to 989.93 m/z)
+Completed merging 14889 spectra (989.95 m/z to 1035.91 m/z)
+Completed merging 16744 spectra (1035.95 m/z to 1081.92 m/z)
+Completed merging 20071 spectra (1081.93 m/z to 1127.90 m/z)
+Completed merging 13328 spectra (1127.92 m/z to 1173.92 m/z)
+Completed merging 9213 spectra (1173.93 m/z to 1219.88 m/z)
+Completed merging 5676 spectra (1219.92 m/z to 1265.89 m/z)
+Completed merging 4731 spectra (1265.95 m/z to 1311.91 m/z)
+Completed merging 3394 spectra (1311.94 m/z to 1357.90 m/z)
+Completed merging 2163 spectra (1357.94 m/z to 1403.74 m/z)
+Completed merging 533 spectra (1403.86 m/z to 1449.80 m/z)
+Completed merging 102 spectra (1449.92 m/z to 1492.36 m/z)
+Completed merging 12486 spectra (345.93 m/z to 391.91 m/z)
+Completed merging 14314 spectra (391.97 m/z to 432.92 m/z)
+Completed merging 16001 spectra (437.94 m/z to 473.92 m/z)
+Converting results to .clustering format...
+10000 clusters successfully written to my_clustering_result.clustering
+20000 clusters successfully written to my_clustering_result.clustering
+30000 clusters successfully written to my_clustering_result.clustering
+40000 clusters successfully written to my_clustering_result.clustering
+50000 clusters successfully written to my_clustering_result.clustering
+60000 clusters successfully written to my_clustering_result.clustering
+70000 clusters successfully written to my_clustering_result.clustering
+80000 clusters successfully written to my_clustering_result.clustering
+90000 clusters successfully written to my_clustering_result.clustering
+100000 clusters successfully written to my_clustering_result.clustering
+110000 clusters successfully written to my_clustering_result.clustering
+120000 clusters successfully written to my_clustering_result.clustering
+130000 clusters successfully written to my_clustering_result.clustering
+140000 clusters successfully written to my_clustering_result.clustering
+150000 clusters successfully written to my_clustering_result.clustering
+160000 clusters successfully written to my_clustering_result.clustering
+170000 clusters successfully written to my_clustering_result.clustering
+180000 clusters successfully written to my_clustering_result.clustering
+190000 clusters successfully written to my_clustering_result.clustering
+200000 clusters successfully written to my_clustering_result.clustering
+210000 clusters successfully written to my_clustering_result.clustering
+220000 clusters successfully written to my_clustering_result.clustering
+230000 clusters successfully written to my_clustering_result.clustering
+240000 clusters successfully written to my_clustering_result.clustering
+250000 clusters successfully written to my_clustering_result.clustering
+260000 clusters successfully written to my_clustering_result.clustering
+270000 clusters successfully written to my_clustering_result.clustering
+280000 clusters successfully written to my_clustering_result.clustering
+290000 clusters successfully written to my_clustering_result.clustering
+300000 clusters successfully written to my_clustering_result.clustering
+310000 clusters successfully written to my_clustering_result.clustering
+320000 clusters successfully written to my_clustering_result.clustering
+330000 clusters successfully written to my_clustering_result.clustering
+340000 clusters successfully written to my_clustering_result.clustering
+350000 clusters successfully written to my_clustering_result.clustering
+360000 clusters successfully written to my_clustering_result.clustering
+370000 clusters successfully written to my_clustering_result.clustering
+380000 clusters successfully written to my_clustering_result.clustering
+390000 clusters successfully written to my_clustering_result.clustering
+400000 clusters successfully written to my_clustering_result.clustering
+410000 clusters successfully written to my_clustering_result.clustering
+420000 clusters successfully written to my_clustering_result.clustering
+421736 clusters successfully written to my_clustering_result.clustering
+Clustering elapsed: 553.0560501319944
+Total elapsed time: 1410.482692299986
