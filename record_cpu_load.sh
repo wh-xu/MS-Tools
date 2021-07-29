@@ -1,6 +1,4 @@
-LOG_NAME=cpu_load_history.log
-
-uptime | tee $LOG_NAME
+LOG_NAME=$1
 
 while true
 do
