@@ -1,0 +1,72 @@
+Run on Tiny
+====== Chip level =====
+energy_chip {'acc_move_metadata': 127826.97861636999, 'acc_move_spectra': 545306.309202324, 'acc_compute': 12921486.863212349, 'ssd_move_data': 4184435424.8994594}
+chip_level_transfer_time 0.7108859140625
+chip_level_extra_time 0.1422439103125
+Chip area: 8781634.56
+====== Channel level =====
+Channel parallelism: 2
+energy {'acc_move_metadata': 127826.97861636999, 'acc_move_spectra': 545306.309202324, 'acc_compute': 8125094.702081609, 'ssd_move_data': 4184435424.8994594}
+channel_level_transfer_time 0.44937299375
+channel_level_extra_time 0.1422439103125
+Channel area: 4348970.88
+====== SSD level =====
+energy {'acc_move_metadata': 127826.97861636999, 'acc_move_spectra': 545306.309202324, 'acc_compute': 7784192.153970723, 'ssd_move_data': 4184435424.8994594}
+ssd_level_transfer_time 1.7951012203124999
+ssd_level_extra_time 0.1422439103125
+SSD area: 316987.76
+Done!
+Run on Small
+====== Chip level =====
+energy_chip {'acc_move_metadata': 132978.04241216, 'acc_move_spectra': 1741263.6373040155, 'acc_compute': 62144201.03995233, 'ssd_move_data': 18146418289.800014}
+chip_level_transfer_time 3.1463102421875
+chip_level_extra_time 0.15444140187500002
+Chip area: 8781634.56
+====== Channel level =====
+Channel parallelism: 2
+energy {'acc_move_metadata': 132978.04241216, 'acc_move_spectra': 1741263.6373040155, 'acc_compute': 39076580.27130174, 'ssd_move_data': 18146418289.800014}
+channel_level_transfer_time 2.00897093875
+channel_level_extra_time 0.15444140187500002
+Channel area: 4348970.88
+====== SSD level =====
+energy {'acc_move_metadata': 132978.04241216, 'acc_move_spectra': 1741263.6373040155, 'acc_compute': 37437054.05351761, 'ssd_move_data': 18146418289.800014}
+ssd_level_transfer_time 8.0282353109375
+ssd_level_extra_time 0.15444140187500002
+SSD area: 316987.76
+Done!
+Run on Medium
+====== Chip level =====
+energy_chip {'acc_move_metadata': 468964.26832947996, 'acc_move_spectra': 4148264.853160965, 'acc_compute': 137931699.19461763, 'ssd_move_data': 40976224060.86109}
+chip_level_transfer_time 6.766731578125
+chip_level_extra_time 0.51913514875
+Chip area: 8781634.56
+====== Channel level =====
+Channel parallelism: 2
+energy {'acc_move_metadata': 468964.26832947996, 'acc_move_spectra': 4148264.853160965, 'acc_compute': 86732133.09254843, 'ssd_move_data': 40976224060.86109}
+channel_level_transfer_time 4.32352225
+channel_level_extra_time 0.51913514875
+Channel area: 4348970.88
+====== SSD level =====
+energy {'acc_move_metadata': 468964.26832947996, 'acc_move_spectra': 4148264.853160965, 'acc_compute': 83093134.87082905, 'ssd_move_data': 40976224060.86109}
+ssd_level_transfer_time 17.284199131875003
+ssd_level_extra_time 0.51913514875
+SSD area: 316987.76
+Done!
+Run on Large
+====== Chip level =====
+energy_chip {'acc_move_metadata': 473715.20288388996, 'acc_move_spectra': 6029097.151172724, 'acc_compute': 214424383.9358294, 'ssd_move_data': 62671541668.49987}
+chip_level_transfer_time 10.904432796875
+chip_level_extra_time 0.5465850578125
+Chip area: 8781634.56
+====== Channel level =====
+Channel parallelism: 2
+energy {'acc_move_metadata': 473715.20288388996, 'acc_move_spectra': 6029097.151172724, 'acc_compute': 134831110.71949282, 'ssd_move_data': 62671541668.49987}
+channel_level_transfer_time 6.97093880875
+channel_level_extra_time 0.5465850578125
+Channel area: 4348970.88
+====== SSD level =====
+energy {'acc_move_metadata': 473715.20288388996, 'acc_move_spectra': 6029097.151172724, 'acc_compute': 129174035.83062422, 'ssd_move_data': 62671541668.49987}
+ssd_level_transfer_time 27.86930427375
+ssd_level_extra_time 0.5465850578125
+SSD area: 316987.76
+Done!

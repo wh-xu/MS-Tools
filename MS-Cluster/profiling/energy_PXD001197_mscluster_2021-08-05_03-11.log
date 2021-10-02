@@ -1,0 +1,7 @@
+
+cpu_count=2
+duration_seconds=5190.313673
+cpu0_package_joules=533787.260620
+cpu0_dram_joules=267719.252558
+cpu1_package_joules=575508.632080
+cpu1_dram_joules=259474.994208

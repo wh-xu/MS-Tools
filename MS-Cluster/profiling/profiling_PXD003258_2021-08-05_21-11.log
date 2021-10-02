@@ -1,0 +1,1922 @@
+Architecture:          x86_64
+CPU op-mode(s):        32-bit, 64-bit
+Byte Order:            Little Endian
+CPU(s):                48
+On-line CPU(s) list:   0-47
+Thread(s) per core:    2
+Core(s) per socket:    12
+Socket(s):             2
+NUMA node(s):          2
+Vendor ID:             GenuineIntel
+CPU family:            6
+Model:                 63
+Model name:            Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz
+Stepping:              2
+CPU MHz:               2900.198
+CPU max MHz:           3300.0000
+CPU min MHz:           1200.0000
+BogoMIPS:              5000.34
+Virtualization:        VT-x
+L1d cache:             32K
+L1i cache:             32K
+L2 cache:              256K
+L3 cache:              30720K
+NUMA node0 CPU(s):     0-11,24-35
+NUMA node1 CPU(s):     12-23,36-47
+Flags:                 fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand lahf_lm abm cpuid_fault epb invpcid_single pti intel_ppin tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid cqm xsaveopt cqm_llc cqm_occup_llc dtherm ida arat pln pts
+              total        used        free      shared  buff/cache   available
+Mem:           440G        4.2G        211G        865M        225G        432G
+Swap:            0B          0B          0B
+MsCluster v2.0 
+Started job on: Thu Aug  5 21:11:46 2021
+
+Parameter values:
+-----------------
+outputName = test_results
+list	      = /var/lib/kubelet/weihong/MS-Tools/PXD003258/list.dat
+mixtureProb   = 0.1
+
+COMMAND LINE = ../MSCluster_bin --model LTQ_TRYP --list /var/lib/kubelet/weihong/MS-Tools/PXD003258/list.dat --output-name test_results --min-mz 200 --max-mz 2000 --memory-gb 16
+
+Pass 1: reading spectra files and writing to dat with 25 Da increments.
+----------------------------------------------------------------------
+
+Read 0 paths to spectra files.
+Converting data to DAT, using m/z increment of 25.00
+0	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cyto01.mgf [0 : 0]
+	Found 8992 spectra... Wrote 8407 to dat files (this took 13.00 sec.)
+
+1	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cyto02.mgf [0 : 1]
+	Found 8798 spectra... Wrote 8196 to dat files (this took 14.00 sec.)
+
+2	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cyto03.mgf [0 : 2]
+	Found 7776 spectra... Wrote 7373 to dat files (this took 19.00 sec.)
+
+3	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cyto04.mgf [0 : 3]
+	Found 7345 spectra... Wrote 6911 to dat files (this took 17.00 sec.)
+
+4	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cyto05.mgf [0 : 4]
+	Found 6547 spectra... Wrote 6188 to dat files (this took 15.00 sec.)
+
+5	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cyto06.mgf [0 : 5]
+	Found 3950 spectra... Wrote 3603 to dat files (this took 7.00 sec.)
+
+6	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cyto07.mgf [0 : 6]
+	Found 5925 spectra... Wrote 5606 to dat files (this took 12.00 sec.)
+
+7	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cyto08.mgf [0 : 7]
+	Found 5905 spectra... Wrote 5619 to dat files (this took 13.00 sec.)
+
+8	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cyto09.mgf [0 : 8]
+	Found 9539 spectra... Wrote 9212 to dat files (this took 20.00 sec.)
+
+9	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cyto10.mgf [0 : 9]
+	Found 8672 spectra... Wrote 8398 to dat files (this took 20.00 sec.)
+
+10	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cyto11.mgf [0 : 10]
+	Found 8099 spectra... Wrote 7794 to dat files (this took 20.00 sec.)
+
+11	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cyto12.mgf [0 : 11]
+	Found 8843 spectra... Wrote 8543 to dat files (this took 20.00 sec.)
+
+12	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cyto13.mgf [0 : 12]
+	Found 8589 spectra... Wrote 8315 to dat files (this took 18.00 sec.)
+
+13	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cyto14.mgf [0 : 13]
+	Found 7576 spectra... Wrote 7291 to dat files (this took 17.00 sec.)
+
+14	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cyto15.mgf [0 : 14]
+	Found 7218 spectra... Wrote 6957 to dat files (this took 15.00 sec.)
+
+15	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cyto16.mgf [0 : 15]
+	Found 7784 spectra... Wrote 7481 to dat files (this took 16.00 sec.)
+
+16	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cyto17.mgf [0 : 16]
+	Found 8636 spectra... Wrote 8002 to dat files (this took 12.00 sec.)
+
+17	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cyto18.mgf [0 : 17]
+	Found 8612 spectra... Wrote 7898 to dat files (this took 13.00 sec.)
+
+18	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cyto19.mgf [0 : 18]
+	Found 8021 spectra... Wrote 7566 to dat files (this took 16.00 sec.)
+
+19	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cyto20.mgf [0 : 19]
+	Found 11222 spectra... Wrote 10760 to dat files (this took 20.00 sec.)
+
+20	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cyto21.mgf [0 : 20]
+	Found 11417 spectra... Wrote 10954 to dat files (this took 24.00 sec.)
+
+21	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cyto22.mgf [0 : 21]
+	Found 11660 spectra... Wrote 11254 to dat files (this took 27.00 sec.)
+
+22	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cyto23.mgf [0 : 22]
+	Found 11396 spectra... Wrote 10974 to dat files (this took 23.00 sec.)
+
+23	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cyto24.mgf [0 : 23]
+	Found 11453 spectra... Wrote 11072 to dat files (this took 24.00 sec.)
+
+24	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cyto25.mgf [0 : 24]
+	Found 11516 spectra... Wrote 11163 to dat files (this took 24.00 sec.)
+
+25	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cyto26.mgf [0 : 25]
+	Found 11635 spectra... Wrote 11274 to dat files (this took 25.00 sec.)
+
+26	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cyto27.mgf [0 : 26]
+	Found 11414 spectra... Wrote 11009 to dat files (this took 21.00 sec.)
+
+27	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cyto28.mgf [0 : 27]
+	Found 11540 spectra... Wrote 11173 to dat files (this took 24.00 sec.)
+
+28	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cyto29.mgf [0 : 28]
+	Found 11529 spectra... Wrote 11172 to dat files (this took 22.00 sec.)
+
+29	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cyto30.mgf [0 : 29]
+	Found 11458 spectra... Wrote 11113 to dat files (this took 21.00 sec.)
+
+30	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cyto31.mgf [0 : 30]
+	Found 11385 spectra... Wrote 10997 to dat files (this took 17.00 sec.)
+
+31	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cyto32.mgf [0 : 31]
+	Found 11288 spectra... Wrote 10883 to dat files (this took 16.00 sec.)
+
+32	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cyto33.mgf [0 : 32]
+	Found 4278 spectra... Wrote 4274 to dat files (this took 6.00 sec.)
+
+33	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cyto34.mgf [0 : 33]
+	Found 4889 spectra... Wrote 4884 to dat files (this took 8.00 sec.)
+
+34	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cyto35.mgf [0 : 34]
+	Found 5111 spectra... Wrote 5105 to dat files (this took 10.00 sec.)
+
+35	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cyto36.mgf [0 : 35]
+	Found 5292 spectra... Wrote 5283 to dat files (this took 11.00 sec.)
+
+36	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cyto37.mgf [0 : 36]
+	Found 5312 spectra... Wrote 5299 to dat files (this took 10.00 sec.)
+
+37	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cyto38.mgf [0 : 37]
+	Found 5651 spectra... Wrote 5643 to dat files (this took 13.00 sec.)
+
+38	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cyto39.mgf [0 : 38]
+	Found 5841 spectra... Wrote 5834 to dat files (this took 14.00 sec.)
+
+39	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cyto40.mgf [0 : 39]
+	Found 5684 spectra... Wrote 5677 to dat files (this took 13.00 sec.)
+
+40	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cyto41.mgf [0 : 40]
+	Found 5692 spectra... Wrote 5684 to dat files (this took 14.00 sec.)
+
+41	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cyto42.mgf [0 : 41]
+	Found 6063 spectra... Wrote 6055 to dat files (this took 15.00 sec.)
+
+42	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cyto43.mgf [0 : 42]
+	Found 5700 spectra... Wrote 5695 to dat files (this took 13.00 sec.)
+
+43	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cyto44.mgf [0 : 43]
+	Found 5780 spectra... Wrote 5770 to dat files (this took 13.00 sec.)
+
+44	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cyto45.mgf [0 : 44]
+	Found 5558 spectra... Wrote 5552 to dat files (this took 12.00 sec.)
+
+45	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cyto46.mgf [0 : 45]
+	Found 5286 spectra... Wrote 5278 to dat files (this took 10.00 sec.)
+
+46	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cyto47.mgf [0 : 46]
+	Found 5317 spectra... Wrote 5302 to dat files (this took 10.00 sec.)
+
+47	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cyto48.mgf [0 : 47]
+	Found 4709 spectra... Wrote 4688 to dat files (this took 8.00 sec.)
+
+48	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cyto49.mgf [0 : 48]
+	Found 5592 spectra... Wrote 5590 to dat files (this took 11.00 sec.)
+
+49	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cyto50.mgf [0 : 49]
+	Found 5727 spectra... Wrote 5724 to dat files (this took 11.00 sec.)
+
+50	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cyto51.mgf [0 : 50]
+	Found 6155 spectra... Wrote 6152 to dat files (this took 14.00 sec.)
+
+51	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cyto52.mgf [0 : 51]
+	Found 6205 spectra... Wrote 6204 to dat files (this took 16.00 sec.)
+
+52	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cyto53.mgf [0 : 52]
+	Found 6435 spectra... Wrote 6435 to dat files (this took 16.00 sec.)
+
+53	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cyto54.mgf [0 : 53]
+	Found 6672 spectra... Wrote 6670 to dat files (this took 17.00 sec.)
+
+54	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cyto55.mgf [0 : 54]
+	Found 6654 spectra... Wrote 6653 to dat files (this took 19.00 sec.)
+
+55	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cyto56.mgf [0 : 55]
+	Found 6866 spectra... Wrote 6866 to dat files (this took 20.00 sec.)
+
+56	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cyto57.mgf [0 : 56]
+	Found 6863 spectra... Wrote 6863 to dat files (this took 20.00 sec.)
+
+57	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cyto58.mgf [0 : 57]
+	Found 6890 spectra... Wrote 6890 to dat files (this took 20.00 sec.)
+
+58	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cyto59.mgf [0 : 58]
+	Found 6438 spectra... Wrote 6438 to dat files (this took 19.00 sec.)
+
+59	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cyto60.mgf [0 : 59]
+	Found 7009 spectra... Wrote 7008 to dat files (this took 19.00 sec.)
+
+60	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cyto61.mgf [0 : 60]
+	Found 6569 spectra... Wrote 6568 to dat files (this took 16.00 sec.)
+
+61	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cyto62.mgf [0 : 61]
+	Found 6549 spectra... Wrote 6548 to dat files (this took 15.00 sec.)
+
+62	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cyto63.mgf [0 : 62]
+	Found 6459 spectra... Wrote 6459 to dat files (this took 14.00 sec.)
+
+63	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cyto64.mgf [0 : 63]
+	Found 5627 spectra... Wrote 5627 to dat files (this took 11.00 sec.)
+
+64	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cyto65.mgf [0 : 64]
+	Found 4734 spectra... Wrote 4725 to dat files (this took 10.00 sec.)
+
+65	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cyto66.mgf [0 : 65]
+	Found 4854 spectra... Wrote 4837 to dat files (this took 9.00 sec.)
+
+66	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cyto67.mgf [0 : 66]
+	Found 5198 spectra... Wrote 5182 to dat files (this took 11.00 sec.)
+
+67	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cyto68.mgf [0 : 67]
+	Found 5243 spectra... Wrote 5235 to dat files (this took 13.00 sec.)
+
+68	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cyto69.mgf [0 : 68]
+	Found 5381 spectra... Wrote 5372 to dat files (this took 14.00 sec.)
+
+69	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cyto70.mgf [0 : 69]
+	Found 5497 spectra... Wrote 5492 to dat files (this took 13.00 sec.)
+
+70	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cyto71.mgf [0 : 70]
+	Found 5686 spectra... Wrote 5681 to dat files (this took 15.00 sec.)
+
+71	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cyto72.mgf [0 : 71]
+	Found 5783 spectra... Wrote 5777 to dat files (this took 16.00 sec.)
+
+72	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cyto73.mgf [0 : 72]
+	Found 5715 spectra... Wrote 5707 to dat files (this took 16.00 sec.)
+
+73	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cyto74.mgf [0 : 73]
+	Found 6020 spectra... Wrote 6007 to dat files (this took 17.00 sec.)
+
+74	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cyto75.mgf [0 : 74]
+	Found 5626 spectra... Wrote 5615 to dat files (this took 15.00 sec.)
+
+75	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cyto76.mgf [0 : 75]
+	Found 5887 spectra... Wrote 5873 to dat files (this took 16.00 sec.)
+
+76	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cyto77.mgf [0 : 76]
+	Found 5502 spectra... Wrote 5495 to dat files (this took 13.00 sec.)
+
+77	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cyto78.mgf [0 : 77]
+	Found 5476 spectra... Wrote 5463 to dat files (this took 12.00 sec.)
+
+78	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cyto79.mgf [0 : 78]
+	Found 5462 spectra... Wrote 5455 to dat files (this took 11.00 sec.)
+
+79	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cyto81.mgf [0 : 79]
+	Found 4130 spectra... Wrote 4121 to dat files (this took 6.00 sec.)
+
+80	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cyto82.mgf [0 : 80]
+	Found 4657 spectra... Wrote 4638 to dat files (this took 8.00 sec.)
+
+81	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cyto83.mgf [0 : 81]
+	Found 5206 spectra... Wrote 5195 to dat files (this took 12.00 sec.)
+
+82	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cyto84.mgf [0 : 82]
+	Found 5188 spectra... Wrote 5176 to dat files (this took 12.00 sec.)
+
+83	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cyto85.mgf [0 : 83]
+	Found 5558 spectra... Wrote 5541 to dat files (this took 14.00 sec.)
+
+84	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cyto86.mgf [0 : 84]
+	Found 5478 spectra... Wrote 5468 to dat files (this took 12.00 sec.)
+
+85	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cyto87.mgf [0 : 85]
+	Found 5760 spectra... Wrote 5751 to dat files (this took 15.00 sec.)
+
+86	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cyto88.mgf [0 : 86]
+	Found 5864 spectra... Wrote 5850 to dat files (this took 15.00 sec.)
+
+87	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cyto89.mgf [0 : 87]
+	Found 5829 spectra... Wrote 5821 to dat files (this took 15.00 sec.)
+
+88	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cyto90.mgf [0 : 88]
+	Found 6007 spectra... Wrote 5994 to dat files (this took 16.00 sec.)
+
+89	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cyto91.mgf [0 : 89]
+	Found 5615 spectra... Wrote 5604 to dat files (this took 15.00 sec.)
+
+90	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cyto92.mgf [0 : 90]
+	Found 5892 spectra... Wrote 5875 to dat files (this took 15.00 sec.)
+
+91	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cyto93.mgf [0 : 91]
+	Found 5483 spectra... Wrote 5475 to dat files (this took 12.00 sec.)
+
+92	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cyto94.mgf [0 : 92]
+	Found 5471 spectra... Wrote 5462 to dat files (this took 11.00 sec.)
+
+93	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cyto95.mgf [0 : 93]
+	Found 5474 spectra... Wrote 5462 to dat files (this took 11.00 sec.)
+
+94	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cyto96.mgf [0 : 94]
+	Found 5032 spectra... Wrote 5015 to dat files (this took 10.00 sec.)
+
+95	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cytob17.mgf [0 : 95]
+	Found 4588 spectra... Wrote 4583 to dat files (this took 5.00 sec.)
+
+96	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cytob18.mgf [0 : 96]
+	Found 6168 spectra... Wrote 6156 to dat files (this took 9.00 sec.)
+
+97	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cytob19.mgf [0 : 97]
+	Found 7758 spectra... Wrote 7746 to dat files (this took 19.00 sec.)
+
+98	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cytob20.mgf [0 : 98]
+	Found 8833 spectra... Wrote 8819 to dat files (this took 24.00 sec.)
+
+99	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cytob21.mgf [0 : 99]
+	Found 8535 spectra... Wrote 8520 to dat files (this took 22.00 sec.)
+
+100	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cytob23.mgf [0 : 100]
+	Found 8032 spectra... Wrote 8017 to dat files (this took 21.00 sec.)
+
+101	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cytob24.mgf [0 : 101]
+	Found 8439 spectra... Wrote 8429 to dat files (this took 22.00 sec.)
+
+102	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cytob25.mgf [0 : 102]
+	Found 8606 spectra... Wrote 8582 to dat files (this took 22.00 sec.)
+
+103	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cytob26.mgf [0 : 103]
+	Found 8874 spectra... Wrote 8868 to dat files (this took 22.00 sec.)
+
+104	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cytob27.mgf [0 : 104]
+	Found 7829 spectra... Wrote 7820 to dat files (this took 18.00 sec.)
+
+105	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cytob28.mgf [0 : 105]
+	Found 8984 spectra... Wrote 8980 to dat files (this took 23.00 sec.)
+
+106	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cytob29.mgf [0 : 106]
+	Found 8860 spectra... Wrote 8851 to dat files (this took 23.00 sec.)
+
+107	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cytob30.mgf [0 : 107]
+	Found 8544 spectra... Wrote 8527 to dat files (this took 21.00 sec.)
+
+108	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cytob31.mgf [0 : 108]
+	Found 8174 spectra... Wrote 8168 to dat files (this took 17.00 sec.)
+
+109	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cytob32.mgf [0 : 109]
+	Found 7688 spectra... Wrote 7685 to dat files (this took 15.00 sec.)
+
+110	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cytob33.mgf [0 : 110]
+	Found 7687 spectra... Wrote 7683 to dat files (this took 24.00 sec.)
+
+111	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cytob34.mgf [0 : 111]
+	Found 8059 spectra... Wrote 8056 to dat files (this took 24.00 sec.)
+
+112	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cytob35.mgf [0 : 112]
+	Found 8972 spectra... Wrote 8969 to dat files (this took 28.00 sec.)
+
+113	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cytob36.mgf [0 : 113]
+	Found 9447 spectra... Wrote 9444 to dat files (this took 30.00 sec.)
+
+114	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cytob37.mgf [0 : 114]
+	Found 9690 spectra... Wrote 9687 to dat files (this took 31.00 sec.)
+
+115	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cytob38.mgf [0 : 115]
+	Found 9371 spectra... Wrote 9367 to dat files (this took 28.00 sec.)
+
+116	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cytob39.mgf [0 : 116]
+	Found 9309 spectra... Wrote 9307 to dat files (this took 28.00 sec.)
+
+117	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cytob40.mgf [0 : 117]
+	Found 9424 spectra... Wrote 9422 to dat files (this took 28.00 sec.)
+
+118	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cytob41.mgf [0 : 118]
+	Found 9014 spectra... Wrote 9013 to dat files (this took 27.00 sec.)
+
+119	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cytob42.mgf [0 : 119]
+	Found 8972 spectra... Wrote 8970 to dat files (this took 25.00 sec.)
+
+120	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cytob43.mgf [0 : 120]
+	Found 8243 spectra... Wrote 8243 to dat files (this took 24.00 sec.)
+
+121	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cytob44.mgf [0 : 121]
+	Found 8031 spectra... Wrote 8030 to dat files (this took 21.00 sec.)
+
+122	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cytob45.mgf [0 : 122]
+	Found 8472 spectra... Wrote 8471 to dat files (this took 23.00 sec.)
+
+123	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cytob46.mgf [0 : 123]
+	Found 7602 spectra... Wrote 7601 to dat files (this took 19.00 sec.)
+
+124	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cytob47.mgf [0 : 124]
+	Found 7351 spectra... Wrote 7343 to dat files (this took 17.00 sec.)
+
+125	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cytob48.mgf [0 : 125]
+	Found 7521 spectra... Wrote 7513 to dat files (this took 17.00 sec.)
+
+126	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cytob49.mgf [0 : 126]
+	Found 7587 spectra... Wrote 7584 to dat files (this took 19.00 sec.)
+
+127	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cytob50.mgf [0 : 127]
+	Found 7150 spectra... Wrote 7146 to dat files (this took 15.00 sec.)
+
+128	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cytob51.mgf [0 : 128]
+	Found 8342 spectra... Wrote 8338 to dat files (this took 22.00 sec.)
+
+129	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cytob52.mgf [0 : 129]
+	Found 8723 spectra... Wrote 8718 to dat files (this took 23.00 sec.)
+
+130	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cytob53.mgf [0 : 130]
+	Found 8886 spectra... Wrote 8884 to dat files (this took 23.00 sec.)
+
+131	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cytob54.mgf [0 : 131]
+	Found 8913 spectra... Wrote 8913 to dat files (this took 24.00 sec.)
+
+132	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cytob55.mgf [0 : 132]
+	Found 8595 spectra... Wrote 8594 to dat files (this took 23.00 sec.)
+
+133	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cytob56.mgf [0 : 133]
+	Found 8717 spectra... Wrote 8716 to dat files (this took 23.00 sec.)
+
+134	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cytob57.mgf [0 : 134]
+	Found 8792 spectra... Wrote 8792 to dat files (this took 24.00 sec.)
+
+135	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cytob58.mgf [0 : 135]
+	Found 8509 spectra... Wrote 8509 to dat files (this took 22.00 sec.)
+
+136	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cytob59.mgf [0 : 136]
+	Found 8023 spectra... Wrote 8021 to dat files (this took 19.00 sec.)
+
+137	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cytob60.mgf [0 : 137]
+	Found 8641 spectra... Wrote 8638 to dat files (this took 21.00 sec.)
+
+138	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cytob61.mgf [0 : 138]
+	Found 8336 spectra... Wrote 8335 to dat files (this took 19.00 sec.)
+
+139	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cytob62.mgf [0 : 139]
+	Found 7540 spectra... Wrote 7540 to dat files (this took 18.00 sec.)
+
+140	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cytob63.mgf [0 : 140]
+	Found 8139 spectra... Wrote 8137 to dat files (this took 19.00 sec.)
+
+141	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cytob64.mgf [0 : 141]
+	Found 7035 spectra... Wrote 7030 to dat files (this took 16.00 sec.)
+
+142	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cytob65.mgf [0 : 142]
+	Found 8915 spectra... Wrote 8912 to dat files (this took 27.00 sec.)
+
+143	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cytob66.mgf [0 : 143]
+	Found 8225 spectra... Wrote 8224 to dat files (this took 21.00 sec.)
+
+144	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cytob67.mgf [0 : 144]
+	Found 9126 spectra... Wrote 9126 to dat files (this took 28.00 sec.)
+
+145	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cytob68.mgf [0 : 145]
+	Found 9396 spectra... Wrote 9395 to dat files (this took 30.00 sec.)
+
+146	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cytob69.mgf [0 : 146]
+	Found 9781 spectra... Wrote 9779 to dat files (this took 32.00 sec.)
+
+147	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cytob70.mgf [0 : 147]
+	Found 9361 spectra... Wrote 9360 to dat files (this took 28.00 sec.)
+
+148	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cytob71.mgf [0 : 148]
+	Found 9363 spectra... Wrote 9363 to dat files (this took 29.00 sec.)
+
+149	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cytob72.mgf [0 : 149]
+	Found 9267 spectra... Wrote 9264 to dat files (this took 28.00 sec.)
+
+150	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cytob73.mgf [0 : 150]
+	Found 9355 spectra... Wrote 9336 to dat files (this took 28.00 sec.)
+
+151	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cytob74.mgf [0 : 151]
+	Found 9125 spectra... Wrote 9122 to dat files (this took 27.00 sec.)
+
+152	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cytob75.mgf [0 : 152]
+	Found 8745 spectra... Wrote 8740 to dat files (this took 25.00 sec.)
+
+153	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cytob76.mgf [0 : 153]
+	Found 9332 spectra... Wrote 9332 to dat files (this took 27.00 sec.)
+
+154	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cytob77.mgf [0 : 154]
+	Found 9002 spectra... Wrote 8996 to dat files (this took 25.00 sec.)
+
+155	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cytob78.mgf [0 : 155]
+	Found 8541 spectra... Wrote 8539 to dat files (this took 24.00 sec.)
+
+156	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cytob79.mgf [0 : 156]
+	Found 8308 spectra... Wrote 8304 to dat files (this took 20.00 sec.)
+
+157	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cytob80.mgf [0 : 157]
+	Found 8045 spectra... Wrote 8038 to dat files (this took 21.00 sec.)
+
+158	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cytob81.mgf [0 : 158]
+	Found 6862 spectra... Wrote 6854 to dat files (this took 15.00 sec.)
+
+159	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cytob82.mgf [0 : 159]
+	Found 7639 spectra... Wrote 7638 to dat files (this took 19.00 sec.)
+
+160	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cytob83.mgf [0 : 160]
+	Found 8685 spectra... Wrote 8685 to dat files (this took 24.00 sec.)
+
+161	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cytob84.mgf [0 : 161]
+	Found 8627 spectra... Wrote 8622 to dat files (this took 27.00 sec.)
+
+162	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cytob85.mgf [0 : 162]
+	Found 9057 spectra... Wrote 9054 to dat files (this took 27.00 sec.)
+
+163	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cytob86.mgf [0 : 163]
+	Found 8538 spectra... Wrote 8532 to dat files (this took 23.00 sec.)
+
+164	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cytob87.mgf [0 : 164]
+	Found 8857 spectra... Wrote 8852 to dat files (this took 25.00 sec.)
+
+165	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cytob88.mgf [0 : 165]
+	Found 8785 spectra... Wrote 8783 to dat files (this took 25.00 sec.)
+
+166	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cytob89.mgf [0 : 166]
+	Found 8235 spectra... Wrote 8227 to dat files (this took 21.00 sec.)
+
+167	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cytob90.mgf [0 : 167]
+	Found 8083 spectra... Wrote 8079 to dat files (this took 20.00 sec.)
+
+168	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cytob91.mgf [0 : 168]
+	Found 7766 spectra... Wrote 7762 to dat files (this took 18.00 sec.)
+
+169	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cytob92.mgf [0 : 169]
+	Found 8578 spectra... Wrote 8573 to dat files (this took 21.00 sec.)
+
+170	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cytob93.mgf [0 : 170]
+	Found 7937 spectra... Wrote 7931 to dat files (this took 18.00 sec.)
+
+171	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cytob94.mgf [0 : 171]
+	Found 8457 spectra... Wrote 8455 to dat files (this took 21.00 sec.)
+
+172	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Cytob95.mgf [0 : 172]
+	Found 8372 spectra... Wrote 8367 to dat files (this took 19.00 sec.)
+
+173	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/FMB-96.mgf [0 : 173]
+	Found 8119 spectra... Wrote 8110 to dat files (this took 18.00 sec.)
+
+174	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/No01.mgf [0 : 174]
+	Found 7896 spectra... Wrote 7896 to dat files (this took 25.00 sec.)
+
+175	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/No02.mgf [0 : 175]
+	Found 7173 spectra... Wrote 7170 to dat files (this took 22.00 sec.)
+
+176	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/No03.mgf [0 : 176]
+	Found 7778 spectra... Wrote 7774 to dat files (this took 24.00 sec.)
+
+177	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/No04.mgf [0 : 177]
+	Found 7954 spectra... Wrote 7954 to dat files (this took 26.00 sec.)
+
+178	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/No05.mgf [0 : 178]
+	Found 8071 spectra... Wrote 8069 to dat files (this took 27.00 sec.)
+
+179	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/No06.mgf [0 : 179]
+	Found 8398 spectra... Wrote 8395 to dat files (this took 29.00 sec.)
+
+180	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/No07.mgf [0 : 180]
+	Found 8433 spectra... Wrote 8430 to dat files (this took 29.00 sec.)
+
+181	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/No08.mgf [0 : 181]
+	Found 8494 spectra... Wrote 8493 to dat files (this took 29.00 sec.)
+
+182	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/No09.mgf [0 : 182]
+	Found 8038 spectra... Wrote 8038 to dat files (this took 27.00 sec.)
+
+183	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/No10.mgf [0 : 183]
+	Found 7897 spectra... Wrote 7897 to dat files (this took 25.00 sec.)
+
+184	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/No11.mgf [0 : 184]
+	Found 7958 spectra... Wrote 7956 to dat files (this took 27.00 sec.)
+
+185	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/No12.mgf [0 : 185]
+	Found 8070 spectra... Wrote 8069 to dat files (this took 27.00 sec.)
+
+186	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/No13.mgf [0 : 186]
+	Found 8007 spectra... Wrote 8007 to dat files (this took 27.00 sec.)
+
+187	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/No14.mgf [0 : 187]
+	Found 7684 spectra... Wrote 7683 to dat files (this took 25.00 sec.)
+
+188	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/No15.mgf [0 : 188]
+	Found 7793 spectra... Wrote 7793 to dat files (this took 24.00 sec.)
+
+189	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/No16.mgf [0 : 189]
+	Found 7724 spectra... Wrote 7723 to dat files (this took 23.00 sec.)
+
+190	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/No17.mgf [0 : 190]
+	Found 4255 spectra... Wrote 4255 to dat files (this took 8.00 sec.)
+
+191	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/No18.mgf [0 : 191]
+	Found 3851 spectra... Wrote 3851 to dat files (this took 8.00 sec.)
+
+192	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/No19.mgf [0 : 192]
+	Found 4185 spectra... Wrote 4184 to dat files (this took 8.00 sec.)
+
+193	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/No20.mgf [0 : 193]
+	Found 5372 spectra... Wrote 5372 to dat files (this took 15.00 sec.)
+
+194	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/No21.mgf [0 : 194]
+	Found 7025 spectra... Wrote 7023 to dat files (this took 19.00 sec.)
+
+195	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/No22.mgf [0 : 195]
+	Found 7798 spectra... Wrote 7798 to dat files (this took 23.00 sec.)
+
+196	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/No23.mgf [0 : 196]
+	Found 7405 spectra... Wrote 7405 to dat files (this took 22.00 sec.)
+
+197	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/No24.mgf [0 : 197]
+	Found 5984 spectra... Wrote 5984 to dat files (this took 18.00 sec.)
+
+198	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/No25.mgf [0 : 198]
+	Found 3066 spectra... Wrote 3066 to dat files (this took 9.00 sec.)
+
+199	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/No26.mgf [0 : 199]
+	Found 2857 spectra... Wrote 2857 to dat files (this took 7.00 sec.)
+
+200	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/No27.mgf [0 : 200]
+	Found 3016 spectra... Wrote 3016 to dat files (this took 8.00 sec.)
+
+201	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/No28.mgf [0 : 201]
+	Found 3168 spectra... Wrote 3168 to dat files (this took 8.00 sec.)
+
+202	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/No29.mgf [0 : 202]
+	Found 2695 spectra... Wrote 2694 to dat files (this took 7.00 sec.)
+
+203	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/No30.mgf [0 : 203]
+	Found 2281 spectra... Wrote 2281 to dat files (this took 5.00 sec.)
+
+204	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/No31.mgf [0 : 204]
+	Found 2317 spectra... Wrote 2317 to dat files (this took 6.00 sec.)
+
+205	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/No32.mgf [0 : 205]
+	Found 1811 spectra... Wrote 1810 to dat files (this took 4.00 sec.)
+
+206	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/No33.mgf [0 : 206]
+	Found 7132 spectra... Wrote 7132 to dat files (this took 24.00 sec.)
+
+207	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/No34.mgf [0 : 207]
+	Found 5369 spectra... Wrote 5368 to dat files (this took 13.00 sec.)
+
+208	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/No35.mgf [0 : 208]
+	Found 6124 spectra... Wrote 6124 to dat files (this took 18.00 sec.)
+
+209	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/No36.mgf [0 : 209]
+	Found 6921 spectra... Wrote 6921 to dat files (this took 22.00 sec.)
+
+210	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/No37.mgf [0 : 210]
+	Found 6910 spectra... Wrote 6910 to dat files (this took 22.00 sec.)
+
+211	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/No38.mgf [0 : 211]
+	Found 6928 spectra... Wrote 6927 to dat files (this took 23.00 sec.)
+
+212	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/No39.mgf [0 : 212]
+	Found 6872 spectra... Wrote 6872 to dat files (this took 23.00 sec.)
+
+213	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/No40.mgf [0 : 213]
+	Found 6993 spectra... Wrote 6993 to dat files (this took 23.00 sec.)
+
+214	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/No41.mgf [0 : 214]
+	Found 6676 spectra... Wrote 6675 to dat files (this took 20.00 sec.)
+
+215	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/No42.mgf [0 : 215]
+	Found 6795 spectra... Wrote 6795 to dat files (this took 22.00 sec.)
+
+216	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/No43.mgf [0 : 216]
+	Found 6676 spectra... Wrote 6675 to dat files (this took 20.00 sec.)
+
+217	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/No44.mgf [0 : 217]
+	Found 6459 spectra... Wrote 6459 to dat files (this took 19.00 sec.)
+
+218	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/No45.mgf [0 : 218]
+	Found 6601 spectra... Wrote 6600 to dat files (this took 18.00 sec.)
+
+219	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/No46.mgf [0 : 219]
+	Found 6461 spectra... Wrote 6460 to dat files (this took 18.00 sec.)
+
+220	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/No47.mgf [0 : 220]
+	Found 6765 spectra... Wrote 6762 to dat files (this took 19.00 sec.)
+
+221	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/No48.mgf [0 : 221]
+	Found 3402 spectra... Wrote 3402 to dat files (this took 5.00 sec.)
+
+222	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/No49.mgf [0 : 222]
+	Found 6419 spectra... Wrote 6418 to dat files (this took 16.00 sec.)
+
+223	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/No50.mgf [0 : 223]
+	Found 5767 spectra... Wrote 5766 to dat files (this took 13.00 sec.)
+
+224	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/No51.mgf [0 : 224]
+	Found 6742 spectra... Wrote 6742 to dat files (this took 19.00 sec.)
+
+225	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/No52.mgf [0 : 225]
+	Found 7025 spectra... Wrote 7025 to dat files (this took 20.00 sec.)
+
+226	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/No53.mgf [0 : 226]
+	Found 7182 spectra... Wrote 7180 to dat files (this took 23.00 sec.)
+
+227	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/No54.mgf [0 : 227]
+	Found 6938 spectra... Wrote 6937 to dat files (this took 22.00 sec.)
+
+228	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/No55.mgf [0 : 228]
+	Found 6626 spectra... Wrote 6626 to dat files (this took 19.00 sec.)
+
+229	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/No56.mgf [0 : 229]
+	Found 6827 spectra... Wrote 6827 to dat files (this took 21.00 sec.)
+
+230	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/No57.mgf [0 : 230]
+	Found 6793 spectra... Wrote 6793 to dat files (this took 21.00 sec.)
+
+231	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/No58.mgf [0 : 231]
+	Found 6703 spectra... Wrote 6702 to dat files (this took 21.00 sec.)
+
+232	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/No59.mgf [0 : 232]
+	Found 6583 spectra... Wrote 6582 to dat files (this took 18.00 sec.)
+
+233	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/No60.mgf [0 : 233]
+	Found 6497 spectra... Wrote 6496 to dat files (this took 18.00 sec.)
+
+234	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/No61.mgf [0 : 234]
+	Found 6011 spectra... Wrote 6010 to dat files (this took 15.00 sec.)
+
+235	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/No62.mgf [0 : 235]
+	Found 6165 spectra... Wrote 6164 to dat files (this took 16.00 sec.)
+
+236	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/No63.mgf [0 : 236]
+	Found 6305 spectra... Wrote 6305 to dat files (this took 17.00 sec.)
+
+237	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/No64.mgf [0 : 237]
+	Found 4838 spectra... Wrote 4838 to dat files (this took 9.00 sec.)
+
+238	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/No65.mgf [0 : 238]
+	Found 7130 spectra... Wrote 7130 to dat files (this took 22.00 sec.)
+
+239	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/No66.mgf [0 : 239]
+	Found 6147 spectra... Wrote 6147 to dat files (this took 15.00 sec.)
+
+240	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/No67.mgf [0 : 240]
+	Found 6955 spectra... Wrote 6954 to dat files (this took 20.00 sec.)
+
+241	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/No68.mgf [0 : 241]
+	Found 7199 spectra... Wrote 7198 to dat files (this took 22.00 sec.)
+
+242	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/No69.mgf [0 : 242]
+	Found 7290 spectra... Wrote 7289 to dat files (this took 24.00 sec.)
+
+243	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/No70.mgf [0 : 243]
+	Found 7449 spectra... Wrote 7448 to dat files (this took 25.00 sec.)
+
+244	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/No71.mgf [0 : 244]
+	Found 7391 spectra... Wrote 7391 to dat files (this took 25.00 sec.)
+
+245	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/No72.mgf [0 : 245]
+	Found 7400 spectra... Wrote 7400 to dat files (this took 25.00 sec.)
+
+246	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/No73.mgf [0 : 246]
+	Found 7126 spectra... Wrote 7125 to dat files (this took 24.00 sec.)
+
+247	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/No74.mgf [0 : 247]
+	Found 6989 spectra... Wrote 6987 to dat files (this took 23.00 sec.)
+
+248	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/No75.mgf [0 : 248]
+	Found 6864 spectra... Wrote 6863 to dat files (this took 22.00 sec.)
+
+249	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/No76.mgf [0 : 249]
+	Found 6724 spectra... Wrote 6724 to dat files (this took 21.00 sec.)
+
+250	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/No77.mgf [0 : 250]
+	Found 6132 spectra... Wrote 6131 to dat files (this took 18.00 sec.)
+
+251	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/No78.mgf [0 : 251]
+	Found 6096 spectra... Wrote 6095 to dat files (this took 17.00 sec.)
+
+252	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/No79.mgf [0 : 252]
+	Found 6296 spectra... Wrote 6296 to dat files (this took 17.00 sec.)
+
+253	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/No80.mgf [0 : 253]
+	Found 5533 spectra... Wrote 5531 to dat files (this took 14.00 sec.)
+
+254	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/No81.mgf [0 : 254]
+	Found 4986 spectra... Wrote 4985 to dat files (this took 10.00 sec.)
+
+255	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/No82.mgf [0 : 255]
+	Found 4998 spectra... Wrote 4996 to dat files (this took 10.00 sec.)
+
+256	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/No83.mgf [0 : 256]
+	Found 6032 spectra... Wrote 6031 to dat files (this took 16.00 sec.)
+
+257	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/No84.mgf [0 : 257]
+	Found 6443 spectra... Wrote 6441 to dat files (this took 18.00 sec.)
+
+258	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/No85.mgf [0 : 258]
+	Found 6700 spectra... Wrote 6699 to dat files (this took 20.00 sec.)
+
+259	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/No86.mgf [0 : 259]
+	Found 6482 spectra... Wrote 6481 to dat files (this took 19.00 sec.)
+
+260	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/No87.mgf [0 : 260]
+	Found 6869 spectra... Wrote 6868 to dat files (this took 21.00 sec.)
+
+261	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/No88.mgf [0 : 261]
+	Found 6580 spectra... Wrote 6579 to dat files (this took 20.00 sec.)
+
+262	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/No89.mgf [0 : 262]
+	Found 6329 spectra... Wrote 6328 to dat files (this took 17.00 sec.)
+
+263	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/No90.mgf [0 : 263]
+	Found 6241 spectra... Wrote 6241 to dat files (this took 17.00 sec.)
+
+264	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/No91.mgf [0 : 264]
+	Found 6304 spectra... Wrote 6303 to dat files (this took 17.00 sec.)
+
+265	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/No92.mgf [0 : 265]
+	Found 5789 spectra... Wrote 5789 to dat files (this took 14.00 sec.)
+
+266	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/No93.mgf [0 : 266]
+	Found 5719 spectra... Wrote 5719 to dat files (this took 14.00 sec.)
+
+267	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/No94.mgf [0 : 267]
+	Found 5501 spectra... Wrote 5501 to dat files (this took 14.00 sec.)
+
+268	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/No95.mgf [0 : 268]
+	Found 5765 spectra... Wrote 5764 to dat files (this took 15.00 sec.)
+
+269	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/No96.mgf [0 : 269]
+	Found 3523 spectra... Wrote 3522 to dat files (this took 5.00 sec.)
+
+270	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nob10.mgf [0 : 270]
+	Found 8061 spectra... Wrote 6136 to dat files (this took 4.00 sec.)
+
+271	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nob11.mgf [0 : 271]
+	Found 8446 spectra... Wrote 6204 to dat files (this took 4.00 sec.)
+
+272	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nob12.mgf [0 : 272]
+	Found 8508 spectra... Wrote 6507 to dat files (this took 5.00 sec.)
+
+273	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nob13.mgf [0 : 273]
+	Found 8416 spectra... Wrote 6362 to dat files (this took 5.00 sec.)
+
+274	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nob14.mgf [0 : 274]
+	Found 8018 spectra... Wrote 5233 to dat files (this took 1.00 sec.)
+
+275	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nob15.mgf [0 : 275]
+	Found 8803 spectra... Wrote 6375 to dat files (this took 3.00 sec.)
+
+276	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nob16.mgf [0 : 276]
+	Found 8513 spectra... Wrote 5530 to dat files (this took 2.00 sec.)
+
+277	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nob17.mgf [0 : 277]
+	Found 8373 spectra... Wrote 6079 to dat files (this took 2.00 sec.)
+
+278	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nob18.mgf [0 : 278]
+	Found 7662 spectra... Wrote 4645 to dat files (this took 0.00 sec.)
+
+279	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nob19.mgf [0 : 279]
+	Found 7891 spectra... Wrote 5128 to dat files (this took 1.00 sec.)
+
+280	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nob1.mgf [0 : 280]
+	Found 10012 spectra... Wrote 9799 to dat files (this took 21.00 sec.)
+
+281	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nob20.mgf [0 : 281]
+	Found 8604 spectra... Wrote 6935 to dat files (this took 8.00 sec.)
+
+282	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nob21.mgf [0 : 282]
+	Found 8245 spectra... Wrote 6336 to dat files (this took 5.00 sec.)
+
+283	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nob22.mgf [0 : 283]
+	Found 8278 spectra... Wrote 6092 to dat files (this took 6.00 sec.)
+
+284	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nob23.mgf [0 : 284]
+	Found 7891 spectra... Wrote 5938 to dat files (this took 4.00 sec.)
+
+285	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nob24.mgf [0 : 285]
+	Found 7849 spectra... Wrote 5650 to dat files (this took 4.00 sec.)
+
+286	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nob25.mgf [0 : 286]
+	Found 7937 spectra... Wrote 5930 to dat files (this took 4.00 sec.)
+
+287	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nob26.mgf [0 : 287]
+	Found 7603 spectra... Wrote 5618 to dat files (this took 3.00 sec.)
+
+288	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nob27.mgf [0 : 288]
+	Found 7401 spectra... Wrote 5047 to dat files (this took 2.00 sec.)
+
+289	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nob28.mgf [0 : 289]
+	Found 7652 spectra... Wrote 5008 to dat files (this took 2.00 sec.)
+
+290	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nob29.mgf [0 : 290]
+	Found 7447 spectra... Wrote 4586 to dat files (this took 1.00 sec.)
+
+291	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nob2.mgf [0 : 291]
+	Found 9248 spectra... Wrote 8786 to dat files (this took 7.00 sec.)
+
+292	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nob30.mgf [0 : 292]
+	Found 7781 spectra... Wrote 5055 to dat files (this took 2.00 sec.)
+
+293	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nob31.mgf [0 : 293]
+	Found 8759 spectra... Wrote 6249 to dat files (this took 2.00 sec.)
+
+294	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nob32.mgf [0 : 294]
+	Found 8486 spectra... Wrote 5361 to dat files (this took 2.00 sec.)
+
+295	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nob33.mgf [0 : 295]
+	Found 8726 spectra... Wrote 6593 to dat files (this took 2.00 sec.)
+
+296	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nob34.mgf [0 : 296]
+	Found 5781 spectra... Wrote 1699 to dat files (this took 0.00 sec.)
+
+297	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nob35.mgf [0 : 297]
+	Found 7815 spectra... Wrote 4855 to dat files (this took 1.00 sec.)
+
+298	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nob36.mgf [0 : 298]
+	Found 8498 spectra... Wrote 6238 to dat files (this took 2.00 sec.)
+
+299	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nob37.mgf [0 : 299]
+	Found 8043 spectra... Wrote 5771 to dat files (this took 2.00 sec.)
+
+300	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nob38.mgf [0 : 300]
+	Found 7982 spectra... Wrote 5676 to dat files (this took 2.00 sec.)
+
+301	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nob39.mgf [0 : 301]
+	Found 7939 spectra... Wrote 5488 to dat files (this took 2.00 sec.)
+
+302	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nob3.mgf [0 : 302]
+	Found 9921 spectra... Wrote 9163 to dat files (this took 14.00 sec.)
+
+303	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nob40.mgf [0 : 303]
+	Found 7698 spectra... Wrote 5070 to dat files (this took 1.00 sec.)
+
+304	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nob41.mgf [0 : 304]
+	Found 7342 spectra... Wrote 4214 to dat files (this took 1.00 sec.)
+
+305	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nob42.mgf [0 : 305]
+	Found 7660 spectra... Wrote 5202 to dat files (this took 1.00 sec.)
+
+306	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nob43.mgf [0 : 306]
+	Found 7216 spectra... Wrote 4445 to dat files (this took 1.00 sec.)
+
+307	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nob44.mgf [0 : 307]
+	Found 7465 spectra... Wrote 4082 to dat files (this took 1.00 sec.)
+
+308	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nob45.mgf [0 : 308]
+	Found 7602 spectra... Wrote 4482 to dat files (this took 1.00 sec.)
+
+309	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nob46.mgf [0 : 309]
+	Found 7607 spectra... Wrote 4527 to dat files (this took 1.00 sec.)
+
+310	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nob47.mgf [0 : 310]
+	Found 8033 spectra... Wrote 5344 to dat files (this took 2.00 sec.)
+
+311	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nob48.mgf [0 : 311]
+	Found 2077 spectra... Wrote 365 to dat files (this took 0.00 sec.)
+
+312	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nob49.mgf [0 : 312]
+	Found 11461 spectra... Wrote 11459 to dat files (this took 42.00 sec.)
+
+313	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nob4.mgf [0 : 313]
+	Found 9530 spectra... Wrote 8326 to dat files (this took 15.00 sec.)
+
+314	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nob50.mgf [0 : 314]
+	Found 10123 spectra... Wrote 10119 to dat files (this took 37.00 sec.)
+
+315	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nob51.mgf [0 : 315]
+	Found 11439 spectra... Wrote 11436 to dat files (this took 42.00 sec.)
+
+316	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nob52.mgf [0 : 316]
+	Found 12202 spectra... Wrote 12200 to dat files (this took 46.00 sec.)
+
+317	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nob53.mgf [0 : 317]
+	Found 11684 spectra... Wrote 11683 to dat files (this took 41.00 sec.)
+
+318	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nob54.mgf [0 : 318]
+	Found 11999 spectra... Wrote 11999 to dat files (this took 45.00 sec.)
+
+319	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nob55.mgf [0 : 319]
+	Found 11802 spectra... Wrote 11802 to dat files (this took 43.00 sec.)
+
+320	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nob56.mgf [0 : 320]
+	Found 11923 spectra... Wrote 11921 to dat files (this took 44.00 sec.)
+
+321	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nob57.mgf [0 : 321]
+	Found 12330 spectra... Wrote 12329 to dat files (this took 47.00 sec.)
+
+322	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nob58.mgf [0 : 322]
+	Found 11618 spectra... Wrote 11616 to dat files (this took 42.00 sec.)
+
+323	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nob59.mgf [0 : 323]
+	Found 11543 spectra... Wrote 11541 to dat files (this took 41.00 sec.)
+
+324	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nob5.mgf [0 : 324]
+	Found 8916 spectra... Wrote 7347 to dat files (this took 10.00 sec.)
+
+325	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nob60.mgf [0 : 325]
+	Found 12858 spectra... Wrote 12857 to dat files (this took 46.00 sec.)
+
+326	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nob61.mgf [0 : 326]
+	Found 11441 spectra... Wrote 11439 to dat files (this took 41.00 sec.)
+
+327	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nob62.mgf [0 : 327]
+	Found 11721 spectra... Wrote 11719 to dat files (this took 41.00 sec.)
+
+328	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nob63.mgf [0 : 328]
+	Found 11186 spectra... Wrote 11186 to dat files (this took 39.00 sec.)
+
+329	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nob64.mgf [0 : 329]
+	Found 9792 spectra... Wrote 9789 to dat files (this took 35.00 sec.)
+
+330	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nob65.mgf [0 : 330]
+	Found 12899 spectra... Wrote 12898 to dat files (this took 47.00 sec.)
+
+331	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nob66.mgf [0 : 331]
+	Found 11868 spectra... Wrote 11865 to dat files (this took 43.00 sec.)
+
+332	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nob67.mgf [0 : 332]
+	Found 12243 spectra... Wrote 12242 to dat files (this took 42.00 sec.)
+
+333	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nob68.mgf [0 : 333]
+	Found 12761 spectra... Wrote 12761 to dat files (this took 47.00 sec.)
+
+334	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nob69.mgf [0 : 334]
+	Found 12538 spectra... Wrote 12537 to dat files (this took 46.00 sec.)
+
+335	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nob6.mgf [0 : 335]
+	Found 8499 spectra... Wrote 6623 to dat files (this took 10.00 sec.)
+
+336	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nob70.mgf [0 : 336]
+	Found 13015 spectra... Wrote 13015 to dat files (this took 48.00 sec.)
+
+337	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nob71.mgf [0 : 337]
+	Found 12641 spectra... Wrote 12641 to dat files (this took 46.00 sec.)
+
+338	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nob72.mgf [0 : 338]
+	Found 12655 spectra... Wrote 12655 to dat files (this took 47.00 sec.)
+
+339	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nob73.mgf [0 : 339]
+	Found 3044 spectra... Wrote 3044 to dat files (this took 8.00 sec.)
+
+340	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nob74.mgf [0 : 340]
+	Found 14409 spectra... Wrote 14408 to dat files (this took 57.00 sec.)
+
+341	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nob75.mgf [0 : 341]
+	Found 13471 spectra... Wrote 13471 to dat files (this took 51.00 sec.)
+
+342	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nob76.mgf [0 : 342]
+	Found 14650 spectra... Wrote 14650 to dat files (this took 59.00 sec.)
+
+343	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nob77.mgf [0 : 343]
+	Found 13654 spectra... Wrote 13654 to dat files (this took 55.00 sec.)
+
+344	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nob78.mgf [0 : 344]
+	Found 13376 spectra... Wrote 13376 to dat files (this took 52.00 sec.)
+
+345	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nob79.mgf [0 : 345]
+	Found 12821 spectra... Wrote 12821 to dat files (this took 48.00 sec.)
+
+346	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nob7.mgf [0 : 346]
+	Found 7915 spectra... Wrote 6429 to dat files (this took 10.00 sec.)
+
+347	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nob80.mgf [0 : 347]
+	Found 12473 spectra... Wrote 12470 to dat files (this took 48.00 sec.)
+
+348	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nob81.mgf [0 : 348]
+	Found 13030 spectra... Wrote 13030 to dat files (this took 51.00 sec.)
+
+349	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nob82.mgf [0 : 349]
+	Found 13243 spectra... Wrote 13241 to dat files (this took 53.00 sec.)
+
+350	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nob83.mgf [0 : 350]
+	Found 13298 spectra... Wrote 13297 to dat files (this took 53.00 sec.)
+
+351	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nob84.mgf [0 : 351]
+	Found 14064 spectra... Wrote 14064 to dat files (this took 57.00 sec.)
+
+352	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nob85.mgf [0 : 352]
+	Found 13646 spectra... Wrote 13646 to dat files (this took 54.00 sec.)
+
+353	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nob86.mgf [0 : 353]
+	Found 14633 spectra... Wrote 14633 to dat files (this took 59.00 sec.)
+
+354	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nob87.mgf [0 : 354]
+	Found 14606 spectra... Wrote 14606 to dat files (this took 59.00 sec.)
+
+355	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nob88.mgf [0 : 355]
+	Found 14233 spectra... Wrote 14233 to dat files (this took 58.00 sec.)
+
+356	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nob89.mgf [0 : 356]
+	Found 14068 spectra... Wrote 14068 to dat files (this took 56.00 sec.)
+
+357	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nob8.mgf [0 : 357]
+	Found 7999 spectra... Wrote 6273 to dat files (this took 8.00 sec.)
+
+358	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nob90.mgf [0 : 358]
+	Found 13434 spectra... Wrote 13434 to dat files (this took 54.00 sec.)
+
+359	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nob91.mgf [0 : 359]
+	Found 13580 spectra... Wrote 13579 to dat files (this took 53.00 sec.)
+
+360	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nob92.mgf [0 : 360]
+	Found 13084 spectra... Wrote 13080 to dat files (this took 51.00 sec.)
+
+361	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nob93.mgf [0 : 361]
+	Found 13950 spectra... Wrote 13948 to dat files (this took 57.00 sec.)
+
+362	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nob94.mgf [0 : 362]
+	Found 13319 spectra... Wrote 13319 to dat files (this took 52.00 sec.)
+
+363	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nob95.mgf [0 : 363]
+	Found 13624 spectra... Wrote 13624 to dat files (this took 53.00 sec.)
+
+364	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nob96.mgf [0 : 364]
+	Found 10707 spectra... Wrote 10706 to dat files (this took 42.00 sec.)
+
+365	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nob9.mgf [0 : 365]
+	Found 8304 spectra... Wrote 6474 to dat files (this took 6.00 sec.)
+
+366	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nuc01.mgf [0 : 366]
+	Found 4922 spectra... Wrote 4917 to dat files (this took 9.00 sec.)
+
+367	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nuc02.mgf [0 : 367]
+	Found 5436 spectra... Wrote 5436 to dat files (this took 10.00 sec.)
+
+368	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nuc03.mgf [0 : 368]
+	Found 3791 spectra... Wrote 3791 to dat files (this took 11.00 sec.)
+
+369	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nuc04.mgf [0 : 369]
+	Found 3322 spectra... Wrote 3322 to dat files (this took 9.00 sec.)
+
+370	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nuc05.mgf [0 : 370]
+	Found 3777 spectra... Wrote 3777 to dat files (this took 10.00 sec.)
+
+371	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nuc06.mgf [0 : 371]
+	Found 2938 spectra... Wrote 2938 to dat files (this took 7.00 sec.)
+
+372	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nuc07.mgf [0 : 372]
+	Found 2164 spectra... Wrote 2164 to dat files (this took 6.00 sec.)
+
+373	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nuc08.mgf [0 : 373]
+	Found 2950 spectra... Wrote 2950 to dat files (this took 7.00 sec.)
+
+374	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nuc09.mgf [0 : 374]
+	Found 2457 spectra... Wrote 2457 to dat files (this took 5.00 sec.)
+
+375	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nuc10.mgf [0 : 375]
+	Found 2876 spectra... Wrote 2876 to dat files (this took 7.00 sec.)
+
+376	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nuc11.mgf [0 : 376]
+	Found 3394 spectra... Wrote 3394 to dat files (this took 8.00 sec.)
+
+377	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nuc12.mgf [0 : 377]
+	Found 4047 spectra... Wrote 4047 to dat files (this took 9.00 sec.)
+
+378	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nuc13.mgf [0 : 378]
+	Found 4151 spectra... Wrote 4151 to dat files (this took 9.00 sec.)
+
+379	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nuc14.mgf [0 : 379]
+	Found 6031 spectra... Wrote 6030 to dat files (this took 14.00 sec.)
+
+380	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nuc15.mgf [0 : 380]
+	Found 6028 spectra... Wrote 6027 to dat files (this took 12.00 sec.)
+
+381	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nuc16.mgf [0 : 381]
+	Found 5008 spectra... Wrote 5006 to dat files (this took 11.00 sec.)
+
+382	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nuc17.mgf [0 : 382]
+	Found 9216 spectra... Wrote 8323 to dat files (this took 9.00 sec.)
+
+383	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nuc18.mgf [0 : 383]
+	Found 9355 spectra... Wrote 8627 to dat files (this took 15.00 sec.)
+
+384	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nuc19.mgf [0 : 384]
+	Found 8935 spectra... Wrote 8364 to dat files (this took 17.00 sec.)
+
+385	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nuc20.mgf [0 : 385]
+	Found 8325 spectra... Wrote 7927 to dat files (this took 19.00 sec.)
+
+386	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nuc21.mgf [0 : 386]
+	Found 8431 spectra... Wrote 8031 to dat files (this took 20.00 sec.)
+
+387	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nuc22.mgf [0 : 387]
+	Found 7846 spectra... Wrote 7493 to dat files (this took 18.00 sec.)
+
+388	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nuc23.mgf [0 : 388]
+	Found 7614 spectra... Wrote 7324 to dat files (this took 19.00 sec.)
+
+389	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nuc24.mgf [0 : 389]
+	Found 7826 spectra... Wrote 7492 to dat files (this took 18.00 sec.)
+
+390	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nuc25.mgf [0 : 390]
+	Found 7787 spectra... Wrote 7451 to dat files (this took 18.00 sec.)
+
+391	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nuc26.mgf [0 : 391]
+	Found 7270 spectra... Wrote 7009 to dat files (this took 17.00 sec.)
+
+392	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nuc27.mgf [0 : 392]
+	Found 8530 spectra... Wrote 8228 to dat files (this took 19.00 sec.)
+
+393	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nuc28.mgf [0 : 393]
+	Found 9500 spectra... Wrote 9211 to dat files (this took 18.00 sec.)
+
+394	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nuc29.mgf [0 : 394]
+	Found 8603 spectra... Wrote 8301 to dat files (this took 18.00 sec.)
+
+395	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nuc30.mgf [0 : 395]
+	Found 8783 spectra... Wrote 8488 to dat files (this took 17.00 sec.)
+
+396	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nuc31.mgf [0 : 396]
+	Found 7773 spectra... Wrote 7531 to dat files (this took 14.00 sec.)
+
+397	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nuc32.mgf [0 : 397]
+	Found 8392 spectra... Wrote 8083 to dat files (this took 16.00 sec.)
+
+398	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nuc33.mgf [0 : 398]
+	Found 3596 spectra... Wrote 3594 to dat files (this took 3.00 sec.)
+
+399	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nuc34.mgf [0 : 399]
+	Found 5030 spectra... Wrote 5028 to dat files (this took 8.00 sec.)
+
+400	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nuc35.mgf [0 : 400]
+	Found 5127 spectra... Wrote 5126 to dat files (this took 9.00 sec.)
+
+401	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nuc36.mgf [0 : 401]
+	Found 5703 spectra... Wrote 5703 to dat files (this took 11.00 sec.)
+
+402	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nuc37.mgf [0 : 402]
+	Found 6021 spectra... Wrote 6019 to dat files (this took 13.00 sec.)
+
+403	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nuc38.mgf [0 : 403]
+	Found 5880 spectra... Wrote 5880 to dat files (this took 12.00 sec.)
+
+404	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nuc39.mgf [0 : 404]
+	Found 5917 spectra... Wrote 5917 to dat files (this took 12.00 sec.)
+
+405	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nuc40.mgf [0 : 405]
+	Found 6007 spectra... Wrote 6006 to dat files (this took 13.00 sec.)
+
+406	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nuc41.mgf [0 : 406]
+	Found 6058 spectra... Wrote 6058 to dat files (this took 14.00 sec.)
+
+407	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nuc42.mgf [0 : 407]
+	Found 5625 spectra... Wrote 5624 to dat files (this took 11.00 sec.)
+
+408	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nuc43.mgf [0 : 408]
+	Found 5551 spectra... Wrote 5551 to dat files (this took 10.00 sec.)
+
+409	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nuc44.mgf [0 : 409]
+	Found 5598 spectra... Wrote 5598 to dat files (this took 10.00 sec.)
+
+410	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nuc45.mgf [0 : 410]
+	Found 5093 spectra... Wrote 5092 to dat files (this took 8.00 sec.)
+
+411	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nuc46.mgf [0 : 411]
+	Found 5042 spectra... Wrote 5042 to dat files (this took 7.00 sec.)
+
+412	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nuc47.mgf [0 : 412]
+	Found 5432 spectra... Wrote 5431 to dat files (this took 9.00 sec.)
+
+413	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nuc48.mgf [0 : 413]
+	Found 5007 spectra... Wrote 5007 to dat files (this took 7.00 sec.)
+
+414	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nuc49.mgf [0 : 414]
+	Found 2937 spectra... Wrote 2925 to dat files (this took 3.00 sec.)
+
+415	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nuc50.mgf [0 : 415]
+	Found 4018 spectra... Wrote 4014 to dat files (this took 5.00 sec.)
+
+416	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nuc51.mgf [0 : 416]
+	Found 4484 spectra... Wrote 4481 to dat files (this took 7.00 sec.)
+
+417	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nuc52.mgf [0 : 417]
+	Found 4712 spectra... Wrote 4709 to dat files (this took 8.00 sec.)
+
+418	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nuc53.mgf [0 : 418]
+	Found 4723 spectra... Wrote 4720 to dat files (this took 8.00 sec.)
+
+419	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nuc54.mgf [0 : 419]
+	Found 4213 spectra... Wrote 4203 to dat files (this took 7.00 sec.)
+
+420	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nuc55.mgf [0 : 420]
+	Found 4939 spectra... Wrote 4932 to dat files (this took 9.00 sec.)
+
+421	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nuc56.mgf [0 : 421]
+	Found 4973 spectra... Wrote 4973 to dat files (this took 8.00 sec.)
+
+422	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nuc57.mgf [0 : 422]
+	Found 5021 spectra... Wrote 5017 to dat files (this took 9.00 sec.)
+
+423	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nuc58.mgf [0 : 423]
+	Found 4931 spectra... Wrote 4926 to dat files (this took 9.00 sec.)
+
+424	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nuc59.mgf [0 : 424]
+	Found 4710 spectra... Wrote 4699 to dat files (this took 7.00 sec.)
+
+425	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nuc60.mgf [0 : 425]
+	Found 4459 spectra... Wrote 4448 to dat files (this took 7.00 sec.)
+
+426	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nuc61.mgf [0 : 426]
+	Found 4029 spectra... Wrote 4020 to dat files (this took 6.00 sec.)
+
+427	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nuc62.mgf [0 : 427]
+	Found 3967 spectra... Wrote 3959 to dat files (this took 5.00 sec.)
+
+428	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nuc63.mgf [0 : 428]
+	Found 4687 spectra... Wrote 4683 to dat files (this took 5.00 sec.)
+
+429	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nuc64.mgf [0 : 429]
+	Found 3999 spectra... Wrote 3986 to dat files (this took 5.00 sec.)
+
+430	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nuc65.mgf [0 : 430]
+	Found 4443 spectra... Wrote 4441 to dat files (this took 6.00 sec.)
+
+431	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nuc66.mgf [0 : 431]
+	Found 5498 spectra... Wrote 5496 to dat files (this took 10.00 sec.)
+
+432	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nuc67.mgf [0 : 432]
+	Found 5800 spectra... Wrote 5799 to dat files (this took 13.00 sec.)
+
+433	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nuc68.mgf [0 : 433]
+	Found 5904 spectra... Wrote 5903 to dat files (this took 15.00 sec.)
+
+434	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nuc69.mgf [0 : 434]
+	Found 6063 spectra... Wrote 6062 to dat files (this took 15.00 sec.)
+
+435	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nuc70.mgf [0 : 435]
+	Found 5988 spectra... Wrote 5986 to dat files (this took 17.00 sec.)
+
+436	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nuc71.mgf [0 : 436]
+	Found 5950 spectra... Wrote 5950 to dat files (this took 15.00 sec.)
+
+437	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nuc72.mgf [0 : 437]
+	Found 6250 spectra... Wrote 6249 to dat files (this took 17.00 sec.)
+
+438	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nuc73.mgf [0 : 438]
+	Found 6224 spectra... Wrote 6224 to dat files (this took 18.00 sec.)
+
+439	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nuc74.mgf [0 : 439]
+	Found 5698 spectra... Wrote 5696 to dat files (this took 13.00 sec.)
+
+440	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nuc75.mgf [0 : 440]
+	Found 6174 spectra... Wrote 6173 to dat files (this took 15.00 sec.)
+
+441	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nuc76.mgf [0 : 441]
+	Found 6286 spectra... Wrote 6285 to dat files (this took 15.00 sec.)
+
+442	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nuc77.mgf [0 : 442]
+	Found 6113 spectra... Wrote 6113 to dat files (this took 12.00 sec.)
+
+443	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nuc78.mgf [0 : 443]
+	Found 5618 spectra... Wrote 5615 to dat files (this took 10.00 sec.)
+
+444	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nuc79.mgf [0 : 444]
+	Found 5889 spectra... Wrote 5889 to dat files (this took 11.00 sec.)
+
+445	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nuc80.mgf [0 : 445]
+	Found 5169 spectra... Wrote 5169 to dat files (this took 8.00 sec.)
+
+446	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nuc81.mgf [0 : 446]
+	Found 3827 spectra... Wrote 3827 to dat files (this took 5.00 sec.)
+
+447	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nuc82.mgf [0 : 447]
+	Found 5257 spectra... Wrote 5256 to dat files (this took 11.00 sec.)
+
+448	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nuc83.mgf [0 : 448]
+	Found 5692 spectra... Wrote 5692 to dat files (this took 14.00 sec.)
+
+449	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nuc84.mgf [0 : 449]
+	Found 5758 spectra... Wrote 5757 to dat files (this took 16.00 sec.)
+
+450	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nuc85.mgf [0 : 450]
+	Found 5803 spectra... Wrote 5802 to dat files (this took 15.00 sec.)
+
+451	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nuc86.mgf [0 : 451]
+	Found 6163 spectra... Wrote 6162 to dat files (this took 17.00 sec.)
+
+452	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nuc87.mgf [0 : 452]
+	Found 5989 spectra... Wrote 5989 to dat files (this took 17.00 sec.)
+
+453	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nuc88.mgf [0 : 453]
+	Found 6107 spectra... Wrote 6107 to dat files (this took 17.00 sec.)
+
+454	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nuc89.mgf [0 : 454]
+	Found 6305 spectra... Wrote 6305 to dat files (this took 19.00 sec.)
+
+455	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nuc90.mgf [0 : 455]
+	Found 5937 spectra... Wrote 5937 to dat files (this took 17.00 sec.)
+
+456	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nuc91.mgf [0 : 456]
+	Found 6018 spectra... Wrote 6018 to dat files (this took 17.00 sec.)
+
+457	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nuc92.mgf [0 : 457]
+	Found 5623 spectra... Wrote 5623 to dat files (this took 12.00 sec.)
+
+458	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nuc93.mgf [0 : 458]
+	Found 5582 spectra... Wrote 5582 to dat files (this took 13.00 sec.)
+
+459	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nuc94.mgf [0 : 459]
+	Found 5407 spectra... Wrote 5407 to dat files (this took 12.00 sec.)
+
+460	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nuc95.mgf [0 : 460]
+	Found 5531 spectra... Wrote 5531 to dat files (this took 13.00 sec.)
+
+461	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nuc96.mgf [0 : 461]
+	Found 4898 spectra... Wrote 4898 to dat files (this took 9.00 sec.)
+
+462	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nucb33.mgf [0 : 462]
+	Found 7710 spectra... Wrote 7705 to dat files (this took 25.00 sec.)
+
+463	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nucb34.mgf [0 : 463]
+	Found 10697 spectra... Wrote 10690 to dat files (this took 36.00 sec.)
+
+464	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nucb35.mgf [0 : 464]
+	Found 11464 spectra... Wrote 11459 to dat files (this took 42.00 sec.)
+
+465	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nucb36.mgf [0 : 465]
+	Found 12638 spectra... Wrote 12634 to dat files (this took 47.00 sec.)
+
+466	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nucb37.mgf [0 : 466]
+	Found 12612 spectra... Wrote 12609 to dat files (this took 46.00 sec.)
+
+467	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nucb38.mgf [0 : 467]
+	Found 12668 spectra... Wrote 12664 to dat files (this took 46.00 sec.)
+
+468	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nucb39.mgf [0 : 468]
+	Found 12523 spectra... Wrote 12520 to dat files (this took 44.00 sec.)
+
+469	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nucb40.mgf [0 : 469]
+	Found 12277 spectra... Wrote 12273 to dat files (this took 42.00 sec.)
+
+470	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nucb41.mgf [0 : 470]
+	Found 12289 spectra... Wrote 12288 to dat files (this took 42.00 sec.)
+
+471	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nucb42.mgf [0 : 471]
+	Found 11871 spectra... Wrote 11865 to dat files (this took 40.00 sec.)
+
+472	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nucb43.mgf [0 : 472]
+	Found 11179 spectra... Wrote 11176 to dat files (this took 37.00 sec.)
+
+473	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nucb44.mgf [0 : 473]
+	Found 11900 spectra... Wrote 11897 to dat files (this took 40.00 sec.)
+
+474	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nucb45.mgf [0 : 474]
+	Found 10938 spectra... Wrote 10932 to dat files (this took 35.00 sec.)
+
+475	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nucb46.mgf [0 : 475]
+	Found 10066 spectra... Wrote 10061 to dat files (this took 31.00 sec.)
+
+476	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nucb47.mgf [0 : 476]
+	Found 10166 spectra... Wrote 10158 to dat files (this took 30.00 sec.)
+
+477	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nucb48.mgf [0 : 477]
+	Found 9855 spectra... Wrote 9848 to dat files (this took 28.00 sec.)
+
+478	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nucb49.mgf [0 : 478]
+	Found 7176 spectra... Wrote 7171 to dat files (this took 19.00 sec.)
+
+479	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nucb50.mgf [0 : 479]
+	Found 9648 spectra... Wrote 9643 to dat files (this took 30.00 sec.)
+
+480	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nucb51.mgf [0 : 480]
+	Found 10644 spectra... Wrote 10642 to dat files (this took 35.00 sec.)
+
+481	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nucb52.mgf [0 : 481]
+	Found 11873 spectra... Wrote 11868 to dat files (this took 43.00 sec.)
+
+482	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nucb53.mgf [0 : 482]
+	Found 11674 spectra... Wrote 11672 to dat files (this took 40.00 sec.)
+
+483	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nucb54.mgf [0 : 483]
+	Found 10892 spectra... Wrote 10889 to dat files (this took 36.00 sec.)
+
+484	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nucb55.mgf [0 : 484]
+	Found 11625 spectra... Wrote 11624 to dat files (this took 38.00 sec.)
+
+485	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nucb56.mgf [0 : 485]
+	Found 11421 spectra... Wrote 11416 to dat files (this took 37.00 sec.)
+
+486	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nucb57.mgf [0 : 486]
+	Found 11534 spectra... Wrote 11529 to dat files (this took 36.00 sec.)
+
+487	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nucb58.mgf [0 : 487]
+	Found 10993 spectra... Wrote 10991 to dat files (this took 34.00 sec.)
+
+488	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nucb59.mgf [0 : 488]
+	Found 11108 spectra... Wrote 11104 to dat files (this took 34.00 sec.)
+
+489	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nucb60.mgf [0 : 489]
+	Found 9177 spectra... Wrote 9174 to dat files (this took 28.00 sec.)
+
+490	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nucb61.mgf [0 : 490]
+	Found 9246 spectra... Wrote 9243 to dat files (this took 27.00 sec.)
+
+491	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nucb62.mgf [0 : 491]
+	Found 9209 spectra... Wrote 9202 to dat files (this took 25.00 sec.)
+
+492	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nucb63.mgf [0 : 492]
+	Found 9645 spectra... Wrote 9639 to dat files (this took 26.00 sec.)
+
+493	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nucb64.mgf [0 : 493]
+	Found 8503 spectra... Wrote 8500 to dat files (this took 21.00 sec.)
+
+494	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nucb65.mgf [0 : 494]
+	Found 9731 spectra... Wrote 9728 to dat files (this took 30.00 sec.)
+
+495	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nucb66.mgf [0 : 495]
+	Found 11841 spectra... Wrote 11840 to dat files (this took 39.00 sec.)
+
+496	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nucb67.mgf [0 : 496]
+	Found 13206 spectra... Wrote 13201 to dat files (this took 46.00 sec.)
+
+497	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nucb68.mgf [0 : 497]
+	Found 13844 spectra... Wrote 13839 to dat files (this took 50.00 sec.)
+
+498	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nucb69.mgf [0 : 498]
+	Found 13541 spectra... Wrote 13537 to dat files (this took 45.00 sec.)
+
+499	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nucb70.mgf [0 : 499]
+	Found 13994 spectra... Wrote 13992 to dat files (this took 48.00 sec.)
+
+500	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nucb71.mgf [0 : 500]
+	Found 13241 spectra... Wrote 13238 to dat files (this took 42.00 sec.)
+
+501	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nucb72.mgf [0 : 501]
+	Found 13469 spectra... Wrote 13466 to dat files (this took 43.00 sec.)
+
+502	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nucb73.mgf [0 : 502]
+	Found 13760 spectra... Wrote 13758 to dat files (this took 43.00 sec.)
+
+503	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nucb74.mgf [0 : 503]
+	Found 12543 spectra... Wrote 12539 to dat files (this took 37.00 sec.)
+
+504	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nucb75.mgf [0 : 504]
+	Found 13016 spectra... Wrote 13012 to dat files (this took 40.00 sec.)
+
+505	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nucb76.mgf [0 : 505]
+	Found 13150 spectra... Wrote 13148 to dat files (this took 40.00 sec.)
+
+506	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nucb77.mgf [0 : 506]
+	Found 12136 spectra... Wrote 12131 to dat files (this took 35.00 sec.)
+
+507	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nucb78.mgf [0 : 507]
+	Found 11014 spectra... Wrote 11008 to dat files (this took 29.00 sec.)
+
+508	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nucb79.mgf [0 : 508]
+	Found 10996 spectra... Wrote 10992 to dat files (this took 29.00 sec.)
+
+509	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nucb80.mgf [0 : 509]
+	Found 9784 spectra... Wrote 9777 to dat files (this took 23.00 sec.)
+
+510	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nucb81.mgf [0 : 510]
+	Found 8640 spectra... Wrote 8636 to dat files (this took 23.00 sec.)
+
+511	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nucb82.mgf [0 : 511]
+	Found 10893 spectra... Wrote 10889 to dat files (this took 34.00 sec.)
+
+512	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nucb83.mgf [0 : 512]
+	Found 12539 spectra... Wrote 12537 to dat files (this took 43.00 sec.)
+
+513	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nucb84.mgf [0 : 513]
+	Found 13446 spectra... Wrote 13441 to dat files (this took 47.00 sec.)
+
+514	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nucb85.mgf [0 : 514]
+	Found 12977 spectra... Wrote 12977 to dat files (this took 41.00 sec.)
+
+515	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nucb86.mgf [0 : 515]
+	Found 12743 spectra... Wrote 12738 to dat files (this took 40.00 sec.)
+
+516	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nucb87.mgf [0 : 516]
+	Found 12769 spectra... Wrote 12766 to dat files (this took 39.00 sec.)
+
+517	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nucb88.mgf [0 : 517]
+	Found 12430 spectra... Wrote 12426 to dat files (this took 37.00 sec.)
+
+518	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nucb89.mgf [0 : 518]
+	Found 12487 spectra... Wrote 12484 to dat files (this took 37.00 sec.)
+
+519	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nucb90.mgf [0 : 519]
+	Found 12846 spectra... Wrote 12844 to dat files (this took 37.00 sec.)
+
+520	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nucb91.mgf [0 : 520]
+	Found 12599 spectra... Wrote 12593 to dat files (this took 33.00 sec.)
+
+521	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nucb92.mgf [0 : 521]
+	Found 11142 spectra... Wrote 11136 to dat files (this took 27.00 sec.)
+
+522	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nucb93.mgf [0 : 522]
+	Found 11174 spectra... Wrote 11169 to dat files (this took 29.00 sec.)
+
+523	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nucb94.mgf [0 : 523]
+	Found 10771 spectra... Wrote 10768 to dat files (this took 27.00 sec.)
+
+524	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nucb95.mgf [0 : 524]
+	Found 10950 spectra... Wrote 10944 to dat files (this took 28.00 sec.)
+
+525	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD003258/Nucb96.mgf [0 : 525]
+	Found 9440 spectra... Wrote 9435 to dat files (this took 18.00 sec.)
+
+
+SUMMARY (first pass):
+---------------------
+Wrote 61 dat files to tmp
+These files contain 4048170 spectra (from a total of 4059431 that were read)
+
+Pass 2: Splitting dat files into smaller files with 1 Da increments.
+--------------------------------------------------------------------
+
+0	1	tmp/test_results_R1_50_0.dat
+1	1	tmp/test_results_R1_150_0.dat
+2	1	tmp/test_results_R1_325_0.dat
+3	1	tmp/test_results_R1_350_0.dat
+4	1	tmp/test_results_R1_375_0.dat
+5	1	tmp/test_results_R1_400_0.dat
+6	1	tmp/test_results_R1_425_0.dat
+7	1	tmp/test_results_R1_450_0.dat
+8	1	tmp/test_results_R1_475_0.dat
+9	1	tmp/test_results_R1_500_0.dat
+10	1	tmp/test_results_R1_525_0.dat
+11	1	tmp/test_results_R1_550_0.dat
+12	1	tmp/test_results_R1_575_0.dat
+13	1	tmp/test_results_R1_600_0.dat
+14	1	tmp/test_results_R1_625_0.dat
+15	1	tmp/test_results_R1_650_0.dat
+16	1	tmp/test_results_R1_675_0.dat
+17	1	tmp/test_results_R1_700_0.dat
+18	1	tmp/test_results_R1_725_0.dat
+19	1	tmp/test_results_R1_750_0.dat
+20	1	tmp/test_results_R1_775_0.dat
+21	1	tmp/test_results_R1_800_0.dat
+22	1	tmp/test_results_R1_825_0.dat
+23	1	tmp/test_results_R1_850_0.dat
+24	1	tmp/test_results_R1_875_0.dat
+25	1	tmp/test_results_R1_900_0.dat
+26	1	tmp/test_results_R1_925_0.dat
+27	1	tmp/test_results_R1_950_0.dat
+28	1	tmp/test_results_R1_975_0.dat
+29	1	tmp/test_results_R1_1000_0.dat
+30	1	tmp/test_results_R1_1025_0.dat
+31	1	tmp/test_results_R1_1050_0.dat
+32	1	tmp/test_results_R1_1075_0.dat
+33	1	tmp/test_results_R1_1100_0.dat
+34	1	tmp/test_results_R1_1125_0.dat
+35	1	tmp/test_results_R1_1150_0.dat
+36	1	tmp/test_results_R1_1175_0.dat
+37	1	tmp/test_results_R1_1200_0.dat
+38	1	tmp/test_results_R1_1225_0.dat
+39	1	tmp/test_results_R1_1250_0.dat
+40	1	tmp/test_results_R1_1275_0.dat
+41	1	tmp/test_results_R1_1300_0.dat
+42	1	tmp/test_results_R1_1325_0.dat
+43	1	tmp/test_results_R1_1350_0.dat
+44	1	tmp/test_results_R1_1375_0.dat
+45	1	tmp/test_results_R1_1400_0.dat
+46	1	tmp/test_results_R1_1425_0.dat
+47	1	tmp/test_results_R1_1450_0.dat
+48	1	tmp/test_results_R1_1475_0.dat
+49	1	tmp/test_results_R1_1500_0.dat
+50	1	tmp/test_results_R1_1525_0.dat
+51	1	tmp/test_results_R1_1550_0.dat
+52	1	tmp/test_results_R1_1575_0.dat
+53	1	tmp/test_results_R1_1600_0.dat
+54	1	tmp/test_results_R1_1625_0.dat
+55	1	tmp/test_results_R1_1650_0.dat
+56	1	tmp/test_results_R1_1675_0.dat
+57	1	tmp/test_results_R1_1700_0.dat
+58	1	tmp/test_results_R1_1725_0.dat
+59	1	tmp/test_results_R1_1750_0.dat
+60	1	tmp/test_results_R1_1775_0.dat
+
+
+
+SUMMARY (second pass):
+---------------------
+Read  4059431 spectra from original input files.
+Wrote 4048170 spectra into dat files in the first pass.
+Wrote 4048170 spectra to dat files in the second pass.
+The second pass spectra were written to 1438 dat files.
+(list of dat files written to tmp/test_results_dat_list.txt)
+Time required for dat file creation: 10839.00
+Allocating 16.000 GB.
+
+Bytes for data storage       = 14774687498
+sizeof(Peak)                 = 12
+sizeof(Cluster)              = 808
+sizeof(SingleSpectrumHeader) = 88
+Total cost per singleton     = 4192
+Allocating room for N = 3524496 singletons (14774687232 bytes)
+This means that up to 7048992 spectra can simlutaneously be evaluated.
+
+Allocated memory successfully...
+
+
+Initalizing storage, examining dat files...
+Max margin in dat files: 1.000
+
+Found 4048170 spectra, in 1438 dat files, precursor m/z range 73.16 - 1798.91
+
+1	#Freed 0	#Read 1	#In memory 1
+Clustering: [ 0 at 0 m/z = 73.16 ]	   to	 [ 0 at 0 m/z = 73.16 ]
+2	#Freed 0	#Read 2	#In memory 3
+Clustering: [ 1 at 1 m/z = 160.19 ]	   to	 [ 2 at 2 m/z = 171.14 ]
+Writing clusters for 1 singletons... written into 1 clusters    Cumulative 1 : 1 ..done.
+
+3	#Freed 1	#Read 174944	#In memory 174946
+Clustering: [ 3 at 2 m/z = 335.01 ]	   to	 [ 174946 at 174945 m/z = 374.98 ]
+Writing clusters for 164211 singletons... written into 119904 clusters    Cumulative 119905 : 164212 ..done.
+
+4	#Freed 164211	#Read 230036	#In memory 240771
+Clustering: [ 174947 at 10735 m/z = 375.09 ]	   to	 [ 404982 at 240770 m/z = 414.99 ]
+Writing clusters for 229095 singletons... written into 169312 clusters    Cumulative 289217 : 393307 ..done.
+
+5	#Freed 229095	#Read 285541	#In memory 297217
+Clustering: [ 404983 at 11676 m/z = 415.03 ]	   to	 [ 690523 at 297216 m/z = 455.00 ]
+Writing clusters for 282643 singletons... written into 178826 clusters    Cumulative 468043 : 675950 ..done.
+
+6	#Freed 282643	#Read 295323	#In memory 309897
+Clustering: [ 690524 at 14574 m/z = 455.00 ]	   to	 [ 985846 at 309896 m/z = 494.99 ]
+Writing clusters for 293292 singletons... written into 170786 clusters    Cumulative 638829 : 969242 ..done.
+
+7	#Freed 293292	#Read 312015	#In memory 328620
+Clustering: [ 985847 at 16605 m/z = 495.01 ]	   to	 [ 1297861 at 328619 m/z = 535.00 ]
+Writing clusters for 312893 singletons... written into 167799 clusters    Cumulative 806628 : 1282135 ..done.
+
+8	#Freed 312893	#Read 329874	#In memory 345601
+Clustering: [ 1297862 at 15727 m/z = 535.02 ]	   to	 [ 1627735 at 345600 m/z = 575.00 ]
+Writing clusters for 331093 singletons... written into 179662 clusters    Cumulative 986290 : 1613228 ..done.
+
+9	#Freed 331093	#Read 325745	#In memory 340253
+Clustering: [ 1627736 at 14508 m/z = 575.00 ]	   to	 [ 1953480 at 340252 m/z = 615.00 ]
+Writing clusters for 324021 singletons... written into 173466 clusters    Cumulative 1159756 : 1937249 ..done.
+
+10	#Freed 324021	#Read 303760	#In memory 319992
+Clustering: [ 1953481 at 16232 m/z = 615.00 ]	   to	 [ 2257240 at 319991 m/z = 655.00 ]
+Writing clusters for 305493 singletons... written into 173039 clusters    Cumulative 1332795 : 2242742 ..done.
+
+11	#Freed 305493	#Read 257346	#In memory 271845
+Clustering: [ 2257241 at 14499 m/z = 655.00 ]	   to	 [ 2514586 at 271844 m/z = 695.00 ]
+Writing clusters for 260496 singletons... written into 143105 clusters    Cumulative 1475900 : 2503238 ..done.
+
+12	#Freed 260496	#Read 220857	#In memory 232206
+Clustering: [ 2514587 at 11349 m/z = 695.00 ]	   to	 [ 2735443 at 232205 m/z = 735.00 ]
+Writing clusters for 222413 singletons... written into 112268 clusters    Cumulative 1588168 : 2725651 ..done.
+
+13	#Freed 222413	#Read 204236	#In memory 214029
+Clustering: [ 2735444 at 9793 m/z = 735.00 ]	   to	 [ 2939679 at 214028 m/z = 775.00 ]
+Writing clusters for 204573 singletons... written into 95966 clusters    Cumulative 1684134 : 2930224 ..done.
+
+14	#Freed 204573	#Read 177416	#In memory 186872
+Clustering: [ 2939680 at 9456 m/z = 775.00 ]	   to	 [ 3117095 at 186871 m/z = 815.00 ]
+Writing clusters for 179323 singletons... written into 84745 clusters    Cumulative 1768879 : 3109547 ..done.
+
+15	#Freed 179323	#Read 158228	#In memory 165777
+Clustering: [ 3117096 at 7549 m/z = 815.01 ]	   to	 [ 3275323 at 165776 m/z = 855.00 ]
+Writing clusters for 157968 singletons... written into 70653 clusters    Cumulative 1839532 : 3267515 ..done.
+
+16	#Freed 157968	#Read 145155	#In memory 152964
+Clustering: [ 3275324 at 7809 m/z = 855.00 ]	   to	 [ 3420478 at 152963 m/z = 895.00 ]
+Writing clusters for 144724 singletons... written into 66071 clusters    Cumulative 1905603 : 3412239 ..done.
+
+17	#Freed 144724	#Read 133829	#In memory 142069
+Clustering: [ 3420479 at 8240 m/z = 895.00 ]	   to	 [ 3554307 at 142068 m/z = 935.00 ]
+Writing clusters for 136467 singletons... written into 65184 clusters    Cumulative 1970787 : 3548706 ..done.
+
+18	#Freed 136467	#Read 104186	#In memory 109788
+Clustering: [ 3554308 at 5602 m/z = 935.00 ]	   to	 [ 3658493 at 109787 m/z = 975.00 ]
+Writing clusters for 104925 singletons... written into 51389 clusters    Cumulative 2022176 : 3653631 ..done.
+
+19	#Freed 104925	#Read 81424	#In memory 86287
+Clustering: [ 3658494 at 4863 m/z = 975.00 ]	   to	 [ 3739917 at 86286 m/z = 1015.00 ]
+Writing clusters for 83051 singletons... written into 42824 clusters    Cumulative 2065000 : 3736682 ..done.
+
+20	#Freed 83051	#Read 64480	#In memory 67716
+Clustering: [ 3739918 at 3236 m/z = 1015.00 ]	   to	 [ 3804397 at 67715 m/z = 1055.00 ]
+Writing clusters for 65510 singletons... written into 35860 clusters    Cumulative 2100860 : 3802192 ..done.
+
+21	#Freed 65510	#Read 52706	#In memory 54912
+Clustering: [ 3804398 at 2206 m/z = 1055.00 ]	   to	 [ 3857103 at 54911 m/z = 1095.00 ]
+Writing clusters for 53254 singletons... written into 28002 clusters    Cumulative 2128862 : 3855446 ..done.
+
+22	#Freed 53254	#Read 65474	#In memory 67132
+Clustering: [ 3857104 at 1658 m/z = 1095.00 ]	   to	 [ 3922577 at 67131 m/z = 1135.00 ]
+Writing clusters for 63878 singletons... written into 40027 clusters    Cumulative 2168889 : 3919324 ..done.
+
+23	#Freed 63878	#Read 32288	#In memory 35542
+Clustering: [ 3922578 at 3254 m/z = 1135.00 ]	   to	 [ 3954865 at 35541 m/z = 1174.98 ]
+Writing clusters for 34699 singletons... written into 18396 clusters    Cumulative 2187285 : 3954023 ..done.
+
+24	#Freed 34699	#Read 20621	#In memory 21464
+Clustering: [ 3954866 at 843 m/z = 1175.01 ]	   to	 [ 3975486 at 21463 m/z = 1214.98 ]
+Writing clusters for 20447 singletons... written into 12713 clusters    Cumulative 2199998 : 3974470 ..done.
+
+25	#Freed 20447	#Read 13304	#In memory 14321
+Clustering: [ 3975487 at 1017 m/z = 1215.03 ]	   to	 [ 3988790 at 14320 m/z = 1254.99 ]
+Writing clusters for 13720 singletons... written into 7912 clusters    Cumulative 2207910 : 3988190 ..done.
+
+26	#Freed 13720	#Read 11103	#In memory 11704
+Clustering: [ 3988791 at 601 m/z = 1255.01 ]	   to	 [ 3999893 at 11703 m/z = 1294.96 ]
+Writing clusters for 11310 singletons... written into 7062 clusters    Cumulative 2214972 : 3999500 ..done.
+
+27	#Freed 11310	#Read 14546	#In memory 14940
+Clustering: [ 3999894 at 394 m/z = 1295.07 ]	   to	 [ 4014439 at 14939 m/z = 1335.00 ]
+Writing clusters for 13641 singletons... written into 10662 clusters    Cumulative 2225634 : 4013141 ..done.
+
+28	#Freed 13641	#Read 10952	#In memory 12251
+Clustering: [ 4014440 at 1299 m/z = 1335.00 ]	   to	 [ 4025391 at 12250 m/z = 1374.80 ]
+Writing clusters for 11770 singletons... written into 9886 clusters    Cumulative 2235520 : 4024911 ..done.
+
+29	#Freed 11770	#Read 13049	#In memory 13530
+Clustering: [ 4025392 at 481 m/z = 1375.05 ]	   to	 [ 4038440 at 13529 m/z = 1415.00 ]
+Writing clusters for 13438 singletons... written into 11941 clusters    Cumulative 2247461 : 4038349 ..done.
+
+30	#Freed 13438	#Read 2560	#In memory 2652
+Clustering: [ 4038441 at 92 m/z = 1415.00 ]	   to	 [ 4041000 at 2651 m/z = 1454.98 ]
+Writing clusters for 2604 singletons... written into 1959 clusters    Cumulative 2249420 : 4040953 ..done.
+
+31	#Freed 2604	#Read 1772	#In memory 1820
+Clustering: [ 4041001 at 48 m/z = 1455.15 ]	   to	 [ 4042772 at 1819 m/z = 1494.79 ]
+Writing clusters for 1761 singletons... written into 1237 clusters    Cumulative 2250657 : 4042714 ..done.
+
+32	#Freed 1761	#Read 1490	#In memory 1549
+Clustering: [ 4042773 at 59 m/z = 1495.02 ]	   to	 [ 4044262 at 1548 m/z = 1534.81 ]
+Writing clusters for 1512 singletons... written into 1093 clusters    Cumulative 2251750 : 4044226 ..done.
+
+33	#Freed 1512	#Read 1542	#In memory 1579
+Clustering: [ 4044263 at 37 m/z = 1535.14 ]	   to	 [ 4045804 at 1578 m/z = 1574.40 ]
+Writing clusters for 1556 singletons... written into 1358 clusters    Cumulative 2253108 : 4045782 ..done.
+
+34	#Freed 1556	#Read 313	#In memory 336
+Clustering: [ 4045805 at 23 m/z = 1575.05 ]	   to	 [ 4046117 at 335 m/z = 1613.90 ]
+Writing clusters for 320 singletons... written into 237 clusters    Cumulative 2253345 : 4046102 ..done.
+
+35	#Freed 320	#Read 240	#In memory 256
+Clustering: [ 4046118 at 16 m/z = 1614.79 ]	   to	 [ 4046357 at 255 m/z = 1654.81 ]
+Writing clusters for 248 singletons... written into 191 clusters    Cumulative 2253536 : 4046350 ..done.
+
+36	#Freed 248	#Read 685	#In memory 693
+Clustering: [ 4046358 at 8 m/z = 1655.30 ]	   to	 [ 4047042 at 692 m/z = 1694.89 ]
+Writing clusters for 685 singletons... written into 642 clusters    Cumulative 2254178 : 4047035 ..done.
+
+37	#Freed 685	#Read 147	#In memory 155
+Clustering: [ 4047043 at 8 m/z = 1695.42 ]	   to	 [ 4047189 at 154 m/z = 1734.38 ]
+Writing clusters for 140 singletons... written into 109 clusters    Cumulative 2254287 : 4047175 ..done.
+
+38	#Freed 140	#Read 815	#In memory 830
+Clustering: [ 4047190 at 15 m/z = 1736.36 ]	   to	 [ 4048004 at 829 m/z = 1774.30 ]
+Writing clusters for 607 singletons... written into 508 clusters    Cumulative 2254795 : 4047782 ..done.
+
+39	#Freed 607	#Read 165	#In memory 388
+Clustering: [ 4048005 at 223 m/z = 1777.91 ]	   to	 [ 4048169 at 387 m/z = 1798.91 ]
+Writing clusters for 388 singletons... written into 232 clusters    Cumulative 2255027 : 4048170 ..done.
+
+
+Done clustering files.
+Time (without dat creation): 4203.00
+
+Final statistics:
+-----------------
+
+Total similarity computations: 5843770030 average per spectrum 1443.56
+
+Breakdown of spectra joins:
+---------------------------
+Round	Thresh	#joins	% of total
+1	0.70	512438	(0.078)
+2	0.575	942124	(0.143)
+3	0.450	1294160	(0.196)
+4	0.325	1740954	(0.264)
+5	0.200	2103583	(0.319)
+
+
+Final clustering report:
+------------------------
+
+size	#clust	(%)	#sing	(%)
+1	1927636	(0.855)	1927636	(0.476)
+2	119873	(0.053)	239746	(0.059)
+3	57361	(0.025)	172083	(0.043)
+4	39899	(0.018)	159596	(0.039)
+5	25077	(0.011)	125385	(0.031)
+6	16280	(0.007)	97680	(0.024)
+7	11348	(0.005)	79436	(0.020)
+8	8340	(0.004)	66720	(0.016)
+9	5641	(0.003)	50769	(0.013)
+10	5001	(0.002)	50010	(0.012)
+11-15	14844	(0.007)	188070	(0.046)
+16-20	7003	(0.003)	124852	(0.031)
+21-30	7455	(0.003)	185177	(0.046)
+31-40	3486	(0.002)	121738	(0.030)
+41-50	1888	(0.001)	85072	(0.021)
+51-100	2879	(0.001)	194956	(0.048)
+101-200	797	(0.000)	106573	(0.026)
+201-500	196	(0.000)	55863	(0.014)
+501+	23	(0.000)	16808	(0.004)
+
+Total: 2255027	1.0	4048170	(1.0)
+
+Ended job on: Fri Aug  6 01:22:29 2021

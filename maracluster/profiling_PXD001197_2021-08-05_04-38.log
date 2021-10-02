@@ -1,0 +1,516 @@
+Architecture:          x86_64
+CPU op-mode(s):        32-bit, 64-bit
+Byte Order:            Little Endian
+CPU(s):                48
+On-line CPU(s) list:   0-47
+Thread(s) per core:    2
+Core(s) per socket:    12
+Socket(s):             2
+NUMA node(s):          2
+Vendor ID:             GenuineIntel
+CPU family:            6
+Model:                 63
+Model name:            Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz
+Stepping:              2
+CPU MHz:               2900.198
+CPU max MHz:           3300.0000
+CPU min MHz:           1200.0000
+BogoMIPS:              5000.34
+Virtualization:        VT-x
+L1d cache:             32K
+L1i cache:             32K
+L2 cache:              256K
+L3 cache:              30720K
+NUMA node0 CPU(s):     0-11,24-35
+NUMA node1 CPU(s):     12-23,36-47
+Flags:                 fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand lahf_lm abm cpuid_fault epb invpcid_single pti intel_ppin tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid cqm xsaveopt cqm_llc cqm_occup_llc dtherm ida arat pln pts
+              total        used        free      shared  buff/cache   available
+Mem:           440G        4.2G        212G        817M        224G        432G
+Swap:            0B          0B          0B
+MaRaCluster version 1.01.1, Build Date Apr 23 2020 15:56:16
+Copyright (c) 2015-19 Matthew The. All rights reserved.
+Written by Matthew The (matthewt@kth.se) in the
+School of Biotechnology at the Royal Institute of Technology in Stockholm.
+Issued command:
+maracluster batch -b /var/lib/kubelet/weihong/MS-Tools/PXD001197/list.dat -v 3
+Started Thu Aug  5 04:38:07 2021
+ on knuron.calit2.optiputer.net
+Splitting spectra by precursor Mz
+Accumulating peak counts and precursor Mzs
+  Processing   Processing   Processing   Processing   Processing /var/lib/kubelet/weihong/MS-Tools/PXD001197/OrbiElite04552.mgf  Processing /var/lib/kubelet/weihong/MS-Tools/PXD001197/OrbiElite04553.mgf  Processing /var/lib/kubelet/weihong/MS-Tools/PXD001197/OrbiElite04556.mgf (/var/lib/kubelet/weihong/MS-Tools/PXD001197/OrbiElite04555.mgf ( (38  Processing  (22/var/lib/kubelet/weihong/MS-Tools/PXD001197/OrbiElite04551.mgf%)./var/lib/kubelet/weihong/MS-Tools/PXD001197/OrbiElite04550.mgf (44/var/lib/kubelet/weihong/MS-Tools/PXD001197/OrbiElite04554.mgf (27 (%).11
+%).
+
+%)./var/lib/kubelet/weihong/MS-Tools/PXD001197/OrbiElite04549.mgf (165
+%).
+%).%).
+33%).
+
+  Processing /var/lib/kubelet/weihong/MS-Tools/PXD001197/OrbiElite04557.mgf (50%).
+  Processing /var/lib/kubelet/weihong/MS-Tools/PXD001197/OrbiElite04778.mgf (55%).
+  Processing /var/lib/kubelet/weihong/MS-Tools/PXD001197/OrbiElite04779.mgf (61%).
+  Processing /var/lib/kubelet/weihong/MS-Tools/PXD001197/OrbiElite04780.mgf (66%).
+  Processing /var/lib/kubelet/weihong/MS-Tools/PXD001197/OrbiElite04781.mgf (72%).
+  Processing /var/lib/kubelet/weihong/MS-Tools/PXD001197/OrbiElite04782.mgf (77%).
+  Processing /var/lib/kubelet/weihong/MS-Tools/PXD001197/OrbiElite04783.mgf (83%).
+  Processing /var/lib/kubelet/weihong/MS-Tools/PXD001197/OrbiElite04784.mgf (88%).
+  Processing /var/lib/kubelet/weihong/MS-Tools/PXD001197/OrbiElite04785.mgf (94%).
+  Processing /var/lib/kubelet/weihong/MS-Tools/PXD001197/OrbiElite04786.mgf (100%).
+Writing peak counts to file
+Finished writing peak counts to file
+Estimated number of pair comparisons: 79179945
+Dividing spectra in 1 bins of ~2 CPU hours each.
+  Processing   Processing   Processing   Processing   Processing   Processing /var/lib/kubelet/weihong/MS-Tools/PXD001197/OrbiElite04551.mgf/var/lib/kubelet/weihong/MS-Tools/PXD001197/OrbiElite04553.mgf (16  Processing /var/lib/kubelet/weihong/MS-Tools/PXD001197/OrbiElite04555.mgf/var/lib/kubelet/weihong/MS-Tools/PXD001197/OrbiElite04556.mgf (/var/lib/kubelet/weihong/MS-Tools/PXD001197/OrbiElite04552.mgf/var/lib/kubelet/weihong/MS-Tools/PXD001197/OrbiElite04550.mgf (  Processing 44/var/lib/kubelet/weihong/MS-Tools/PXD001197/OrbiElite04554.mgf%). (
+33 (%).11 (%).
+%).
+/var/lib/kubelet/weihong/MS-Tools/PXD001197/OrbiElite04549.mgf (
+ (385%).22%).
+%).27
+%).
+
+  Processing /var/lib/kubelet/weihong/MS-Tools/PXD001197/OrbiElite04557.mgf (50%).
+  Processing /var/lib/kubelet/weihong/MS-Tools/PXD001197/OrbiElite04778.mgf (55%).
+  Processing /var/lib/kubelet/weihong/MS-Tools/PXD001197/OrbiElite04779.mgf (61%).
+  Processing /var/lib/kubelet/weihong/MS-Tools/PXD001197/OrbiElite04780.mgf (66%).
+  Processing /var/lib/kubelet/weihong/MS-Tools/PXD001197/OrbiElite04781.mgf (72%).
+  Processing /var/lib/kubelet/weihong/MS-Tools/PXD001197/OrbiElite04782.mgf (77%).
+  Processing /var/lib/kubelet/weihong/MS-Tools/PXD001197/OrbiElite04783.mgf (83%).
+  Processing /var/lib/kubelet/weihong/MS-Tools/PXD001197/OrbiElite04784.mgf (88%).
+  Processing /var/lib/kubelet/weihong/MS-Tools/PXD001197/OrbiElite04785.mgf (94%).
+  Processing /var/lib/kubelet/weihong/MS-Tools/PXD001197/OrbiElite04786.mgf (100%).
+Reading in spectra from /var/lib/kubelet/weihong/MS-Tools/maracluster/maracluster_output/300.dat
+Read 1196702 mass charge states.
+Inserting spectra into database
+Successfully inserted spectrum 1/1196702 (0%)
+  Elapsed time: 0 cpu seconds or 0 min 0 sec wall time.
+  Estimated time remaining: 0 min 0 sec wall time.
+Successfully inserted spectrum 50001/1196702 (4%)
+  Elapsed time: 23.74 cpu seconds or 0 min 3 sec wall time.
+  Estimated time remaining: 1 min 8 sec wall time.
+Successfully inserted spectrum 100001/1196702 (8%)
+  Elapsed time: 49.42 cpu seconds or 0 min 7 sec wall time.
+  Estimated time remaining: 1 min 16 sec wall time.
+Successfully inserted spectrum 150001/1196702 (12%)
+  Elapsed time: 76.59 cpu seconds or 0 min 11 sec wall time.
+  Estimated time remaining: 1 min 16 sec wall time.
+Successfully inserted spectrum 200001/1196702 (16%)
+  Elapsed time: 103.6 cpu seconds or 0 min 14 sec wall time.
+  Estimated time remaining: 1 min 9 sec wall time.
+Successfully inserted spectrum 250001/1196702 (20%)
+  Elapsed time: 132.07 cpu seconds or 0 min 18 sec wall time.
+  Estimated time remaining: 1 min 8 sec wall time.
+Successfully inserted spectrum 300001/1196702 (25%)
+  Elapsed time: 160.78 cpu seconds or 0 min 22 sec wall time.
+  Estimated time remaining: 1 min 5 sec wall time.
+Successfully inserted spectrum 350001/1196702 (29%)
+  Elapsed time: 189.48 cpu seconds or 0 min 26 sec wall time.
+  Estimated time remaining: 1 min 2 sec wall time.
+Successfully inserted spectrum 400001/1196702 (33%)
+  Elapsed time: 217.73 cpu seconds or 0 min 30 sec wall time.
+  Estimated time remaining: 0 min 59 sec wall time.
+Successfully inserted spectrum 450001/1196702 (37%)
+  Elapsed time: 246.91 cpu seconds or 0 min 34 sec wall time.
+  Estimated time remaining: 0 min 56 sec wall time.
+Successfully inserted spectrum 500001/1196702 (41%)
+  Elapsed time: 276.1 cpu seconds or 0 min 38 sec wall time.
+  Estimated time remaining: 0 min 52 sec wall time.
+Successfully inserted spectrum 550001/1196702 (45%)
+  Elapsed time: 305.28 cpu seconds or 0 min 42 sec wall time.
+  Estimated time remaining: 0 min 49 sec wall time.
+Successfully inserted spectrum 600001/1196702 (50%)
+  Elapsed time: 334.19 cpu seconds or 0 min 46 sec wall time.
+  Estimated time remaining: 0 min 45 sec wall time.
+Successfully inserted spectrum 650001/1196702 (54%)
+  Elapsed time: 363.02 cpu seconds or 0 min 50 sec wall time.
+  Estimated time remaining: 0 min 42 sec wall time.
+Successfully inserted spectrum 700001/1196702 (58%)
+  Elapsed time: 392.13 cpu seconds or 0 min 54 sec wall time.
+  Estimated time remaining: 0 min 38 sec wall time.
+Successfully inserted spectrum 750001/1196702 (62%)
+  Elapsed time: 421.69 cpu seconds or 0 min 58 sec wall time.
+  Estimated time remaining: 0 min 34 sec wall time.
+Successfully inserted spectrum 800001/1196702 (66%)
+  Elapsed time: 451.79 cpu seconds or 1 min 2 sec wall time.
+  Estimated time remaining: 0 min 30 sec wall time.
+Successfully inserted spectrum 850001/1196702 (71%)
+  Elapsed time: 481.66 cpu seconds or 1 min 6 sec wall time.
+  Estimated time remaining: 0 min 26 sec wall time.
+Successfully inserted spectrum 900001/1196702 (75%)
+  Elapsed time: 511.82 cpu seconds or 1 min 10 sec wall time.
+  Estimated time remaining: 0 min 23 sec wall time.
+Successfully inserted spectrum 950001/1196702 (79%)
+  Elapsed time: 542.24 cpu seconds or 1 min 15 sec wall time.
+  Estimated time remaining: 0 min 19 sec wall time.
+Successfully inserted spectrum 1000001/1196702 (83%)
+  Elapsed time: 573.29 cpu seconds or 1 min 19 sec wall time.
+  Estimated time remaining: 0 min 15 sec wall time.
+Successfully inserted spectrum 1050001/1196702 (87%)
+  Elapsed time: 604.69 cpu seconds or 1 min 23 sec wall time.
+  Estimated time remaining: 0 min 11 sec wall time.
+Successfully inserted spectrum 1100001/1196702 (91%)
+  Elapsed time: 636.03 cpu seconds or 1 min 28 sec wall time.
+  Estimated time remaining: 0 min 7 sec wall time.
+Successfully inserted spectrum 1150001/1196702 (96%)
+  Elapsed time: 668.31 cpu seconds or 1 min 32 sec wall time.
+  Estimated time remaining: 0 min 3 sec wall time.
+Sorting pvalue vectors
+Reloaded 1196702 pvalue vectors.
+Successfully inserted spectra into database
+Writing pvalue vectors
+Writing pvalue vector 0/1196702
+Writing pvalue vector 100000/1196702
+Writing pvalue vector 200000/1196702
+Writing pvalue vector 300000/1196702
+Writing pvalue vector 400000/1196702
+Writing pvalue vector 500000/1196702
+Writing pvalue vector 600000/1196702
+Writing pvalue vector 700000/1196702
+Writing pvalue vector 800000/1196702
+Writing pvalue vector 900000/1196702
+Writing pvalue vector 1000000/1196702
+Writing pvalue vector 1100000/1196702
+Finished writing pvalue vectors
+Calculating pvalues
+Reading precursor m/z limits.
+Processing pvalue vector Processing pvalue vector Processing pvalue vector Processing pvalue vector 50001/Processing pvalue vector 30001/1196702 (12Processing pvalue vector Processing pvalue vector Processing pvalue vector 2000110001/1196702 (4%).70001//11967021196702 (
+60001//11967021196702 ( (5%).1196702 (501%).
+%). (
+0%).%).
+40001/
+1196702
+%).
+ (3%).
+Processing pvalue vector 80001/1196702 (6%).
+Processing pvalue vector 90001/1196702 (7%).
+Processing pvalue vector 100001/1196702 (8%).
+Processing pvalue vector 110001/1196702 (9%).
+Processing pvalue vector 120001/1196702 (10%).
+Processing pvalue vector 130001/1196702 (10%).
+Processing pvalue vector 140001/1196702 (11%).
+Processing pvalue vector 150001/1196702 (12%).
+Processing pvalue vector 160001/1196702 (13%).
+Processing pvalue vector 170001/1196702 (14%).
+Processing pvalue vector 180001/1196702 (15%).
+Processing pvalue vector 190001/1196702 (15%).
+Processing pvalue vector 200001/1196702 (16%).
+Processing pvalue vector 210001/1196702 (17%).
+Processing pvalue vector 220001/1196702 (18%).
+Processing pvalue vector 230001/1196702 (19%).
+Processing pvalue vector 240001/1196702 (20%).
+Processing pvalue vector 250001/1196702 (20%).
+Processing pvalue vector 260001/1196702 (21%).
+Processing pvalue vector 270001/1196702 (22%).
+Processing pvalue vector 280001/1196702 (23%).
+Processing pvalue vector 290001/1196702 (24%).
+Processing pvalue vector 300001/1196702 (25%).
+Processing pvalue vector 310001/1196702 (25%).
+Processing pvalue vector 320001/1196702 (26%).
+Processing pvalue vector 330001/1196702 (27%).
+Processing pvalue vector 340001/1196702 (28%).
+Processing pvalue vector 350001/1196702 (29%).
+Processing pvalue vector 360001/1196702 (30%).
+Processing pvalue vector 370001/1196702 (30%).
+Processing pvalue vector 380001/1196702 (31%).
+Processing pvalue vector 390001/1196702 (32%).
+Processing pvalue vector 400001/1196702 (33%).
+Processing pvalue vector 410001/1196702 (34%).
+Processing pvalue vector 420001/1196702 (35%).
+Processing pvalue vector 430001/1196702 (35%).
+Processing pvalue vector 440001/1196702 (36%).
+Processing pvalue vector 450001/1196702 (37%).
+Processing pvalue vector 460001/1196702 (38%).
+Processing pvalue vector 470001/1196702 (39%).
+Processing pvalue vector 480001/1196702 (40%).
+Processing pvalue vector 490001/1196702 (40%).
+Processing pvalue vector 500001/1196702 (41%).
+Processing pvalue vector 510001/1196702 (42%).
+Processing pvalue vector 520001/1196702 (43%).
+Processing pvalue vector 530001/1196702 (44%).
+Processing pvalue vector 540001/1196702 (45%).
+Processing pvalue vector 550001/1196702 (45%).
+Processing pvalue vector 560001/1196702 (46%).
+Processing pvalue vector 570001/1196702 (47%).
+Processing pvalue vector 580001/1196702 (48%).
+Processing pvalue vector 590001/1196702 (49%).
+Processing pvalue vector 600001/1196702 (50%).
+Processing pvalue vector 610001/1196702 (50%).
+Processing pvalue vector 620001/1196702 (51%).
+Processing pvalue vector 630001/1196702 (52%).
+Processing pvalue vector 640001/1196702 (53%).
+Processing pvalue vector 650001/1196702 (54%).
+Processing pvalue vector 660001/1196702 (55%).
+Processing pvalue vector 670001/1196702 (55%).
+Processing pvalue vector 680001/1196702 (56%).
+Processing pvalue vector 690001/1196702 (57%).
+Processing pvalue vector 700001/1196702 (58%).
+Processing pvalue vector 710001/1196702 (59%).
+Processing pvalue vector 720001/1196702 (60%).
+Processing pvalue vector 730001/1196702 (61%).
+Processing pvalue vector 740001/1196702 (61%).
+Processing pvalue vector 750001/1196702 (62%).
+Processing pvalue vector 760001/1196702 (63%).
+Processing pvalue vector 770001/1196702 (64%).
+Processing pvalue vector 780001/1196702 (65%).
+Processing pvalue vector 790001/1196702 (66%).
+Processing pvalue vector 800001/1196702 (66%).
+Processing pvalue vector 810001/1196702 (67%).
+Processing pvalue vector 820001/1196702 (68%).
+Processing pvalue vector 830001/1196702 (69%).
+Processing pvalue vector 840001/1196702 (70%).
+Processing pvalue vector 850001/1196702 (71%).
+Processing pvalue vector 860001/1196702 (71%).
+Processing pvalue vector 870001/1196702 (72%).
+Processing pvalue vector 880001/1196702 (73%).
+Processing pvalue vector 890001/1196702 (74%).
+Processing pvalue vector 900001/1196702 (75%).
+Processing pvalue vector 910001/1196702 (76%).
+Processing pvalue vector 920001/1196702 (76%).
+Processing pvalue vector 930001/1196702 (77%).
+Processing pvalue vector 940001/1196702 (78%).
+Processing pvalue vector 950001/1196702 (79%).
+Processing pvalue vector 960001/1196702 (80%).
+Processing pvalue vector 970001/1196702 (81%).
+Processing pvalue vector 980001/1196702 (81%).
+Processing pvalue vector 990001/1196702 (82%).
+Processing pvalue vector 1000001/1196702 (83%).
+Processing pvalue vector 1010001/1196702 (84%).
+Processing pvalue vector 1020001/1196702 (85%).
+Processing pvalue vector 1030001/1196702 (86%).
+Processing pvalue vector 1040001/1196702 (86%).
+Processing pvalue vector 1050001/1196702 (87%).
+Processing pvalue vector 1060001/1196702 (88%).
+Processing pvalue vector 1070001/1196702 (89%).
+Processing pvalue vector 1080001/1196702 (90%).
+Processing pvalue vector 1090001/1196702 (91%).
+Processing pvalue vector 1100001/1196702 (91%).
+Processing pvalue vector 1110001/1196702 (92%).
+Processing pvalue vector 1120001/1196702 (93%).
+Processing pvalue vector 1130001/1196702 (94%).
+Processing pvalue vector 1140001/1196702 (95%).
+Processing pvalue vector 1150001/1196702 (96%).
+Processing pvalue vector 1160001/1196702 (96%).
+Processing pvalue vector 1170001/1196702 (97%).
+Processing pvalue vector 1180001/1196702 (98%).
+Processing pvalue vector 1190001/1196702 (99%).
+Starting clustering job: batches 0-119
+Clustering 13364832 pvalues
+Starting MinHeap clustering
+  Loading new edges.
+It. 0: minRow = 12 59152, minCol = 17 61496, minEl = -70.6434, edgesLeft = 13364830
+It. 10000: minRow = 9 42178, minCol = 17 41784, minEl = -47.7397, edgesLeft = 13577419
+It. 20000: minRow = 1 51484, minCol = 5 52196, minEl = -45.2735, edgesLeft = 13771697
+It. 30000: minRow = 3000000000 4378, minCol = 16 34512, minEl = -43.6088, edgesLeft = 13948791
+It. 40000: minRow = 3000000000 5538, minCol = 4 54037, minEl = -42.3362, edgesLeft = 14111485
+It. 50000: minRow = 0 36323, minCol = 4 36225, minEl = -41.2769, edgesLeft = 14257496
+It. 60000: minRow = 1 42867, minCol = 6 42434, minEl = -40.3466, edgesLeft = 14396212
+It. 70000: minRow = 3000000000 17588, minCol = 5 33698, minEl = -39.5293, edgesLeft = 14521351
+It. 80000: minRow = 3000000000 30920, minCol = 7 51345, minEl = -38.8035, edgesLeft = 14649078
+It. 90000: minRow = 10 39152, minCol = 11 39009, minEl = -38.1311, edgesLeft = 14767276
+It. 100000: minRow = 3000000000 61559, minCol = 3000000000 24272, minEl = -37.5043, edgesLeft = 14880773
+It. 110000: minRow = 3000000000 30442, minCol = 1 58266, minEl = -36.9193, edgesLeft = 14984755
+It. 120000: minRow = 3000000000 32766, minCol = 7 48196, minEl = -36.3721, edgesLeft = 15085117
+It. 130000: minRow = 3000000000 90600, minCol = 3000000000 32931, minEl = -35.8565, edgesLeft = 15186429
+It. 140000: minRow = 13 25765, minCol = 14 26012, minEl = -35.3713, edgesLeft = 15277975
+It. 150000: minRow = 12 20654, minCol = 15 20471, minEl = -34.9033, edgesLeft = 15367359
+It. 160000: minRow = 3000000000 142148, minCol = 15 6975, minEl = -34.457, edgesLeft = 15451301
+It. 170000: minRow = 3000000000 113622, minCol = 9 64610, minEl = -34.0399, edgesLeft = 15530385
+It. 180000: minRow = 4 10793, minCol = 7 10541, minEl = -33.6255, edgesLeft = 15607498
+It. 190000: minRow = 3000000000 141727, minCol = 0 17277, minEl = -33.2306, edgesLeft = 15681387
+It. 200000: minRow = 0 58751, minCol = 6 58459, minEl = -32.8463, edgesLeft = 15748280
+It. 210000: minRow = 2 59190, minCol = 4 58353, minEl = -32.4764, edgesLeft = 15809429
+It. 220000: minRow = 3000000000 153076, minCol = 11 21470, minEl = -32.116, edgesLeft = 15868334
+It. 230000: minRow = 1 61218, minCol = 2 61960, minEl = -31.7658, edgesLeft = 15923752
+It. 240000: minRow = 9 65570, minCol = 17 66220, minEl = -31.4257, edgesLeft = 15974383
+It. 250000: minRow = 10 67897, minCol = 11 67685, minEl = -31.0891, edgesLeft = 16019876
+It. 260000: minRow = 3000000000 136369, minCol = 2 68040, minEl = -30.7607, edgesLeft = 16058927
+It. 270000: minRow = 8 38117, minCol = 14 35914, minEl = -30.4403, edgesLeft = 16094579
+It. 280000: minRow = 3000000000 216055, minCol = 4 31409, minEl = -30.1263, edgesLeft = 16123365
+It. 290000: minRow = 1 12247, minCol = 2 12141, minEl = -29.8124, edgesLeft = 16150571
+It. 300000: minRow = 12 52852, minCol = 14 54715, minEl = -29.5067, edgesLeft = 16174272
+It. 310000: minRow = 2 52123, minCol = 9 49158, minEl = -29.2066, edgesLeft = 16193615
+It. 320000: minRow = 3000000000 177257, minCol = 3000000000 148332, minEl = -28.9128, edgesLeft = 16214589
+It. 330000: minRow = 2 22207, minCol = 8 22140, minEl = -28.624, edgesLeft = 16222293
+It. 340000: minRow = 1 29722, minCol = 4 29536, minEl = -28.3414, edgesLeft = 16224830
+It. 350000: minRow = 3000000000 222545, minCol = 2 30203, minEl = -28.0555, edgesLeft = 16225087
+It. 360000: minRow = 12 64001, minCol = 17 66746, minEl = -27.7768, edgesLeft = 16227576
+It. 370000: minRow = 3000000000 345206, minCol = 14 53926, minEl = -27.499, edgesLeft = 16215830
+It. 380000: minRow = 3000000000 237944, minCol = 8 1507, minEl = -27.2267, edgesLeft = 16201245
+It. 390000: minRow = 3000000000 127967, minCol = 13 20702, minEl = -26.9544, edgesLeft = 16184155
+It. 400000: minRow = 10 24510, minCol = 13 24138, minEl = -26.6834, edgesLeft = 16160543
+It. 410000: minRow = 3000000000 318161, minCol = 17 12748, minEl = -26.4128, edgesLeft = 16133067
+It. 420000: minRow = 3000000000 266198, minCol = 15 46608, minEl = -26.1422, edgesLeft = 16099571
+It. 430000: minRow = 3000000000 291579, minCol = 17 27962, minEl = -25.8799, edgesLeft = 16062722
+It. 440000: minRow = 3000000000 378473, minCol = 3000000000 306999, minEl = -25.6129, edgesLeft = 16015953
+It. 450000: minRow = 5 18479, minCol = 7 17760, minEl = -25.3521, edgesLeft = 15973170
+It. 460000: minRow = 5 6904, minCol = 9 7102, minEl = -25.0921, edgesLeft = 15922476
+It. 470000: minRow = 3000000000 305844, minCol = 13 55094, minEl = -24.8274, edgesLeft = 15862307
+It. 480000: minRow = 1 45022, minCol = 3 44786, minEl = -24.5676, edgesLeft = 15799441
+It. 490000: minRow = 2 26012, minCol = 8 25928, minEl = -24.3, edgesLeft = 15722231
+It. 500000: minRow = 3000000000 404959, minCol = 3000000000 314313, minEl = -24.0405, edgesLeft = 15642336
+It. 510000: minRow = 3000000000 400094, minCol = 3000000000 157669, minEl = -23.7837, edgesLeft = 15560585
+It. 520000: minRow = 3000000000 405162, minCol = 7 14627, minEl = -23.5204, edgesLeft = 15477720
+It. 530000: minRow = 2 67431, minCol = 4 66476, minEl = -23.2571, edgesLeft = 15384861
+It. 540000: minRow = 3000000000 488108, minCol = 3000000000 413054, minEl = -22.9964, edgesLeft = 15284289
+It. 550000: minRow = 3000000000 435301, minCol = 3000000000 294508, minEl = -22.7286, edgesLeft = 15176860
+It. 560000: minRow = 2 60282, minCol = 14 56661, minEl = -22.4658, edgesLeft = 15067099
+It. 570000: minRow = 3000000000 446116, minCol = 3000000000 179588, minEl = -22.195, edgesLeft = 14944519
+It. 580000: minRow = 4 44376, minCol = 14 42638, minEl = -21.9231, edgesLeft = 14818899
+It. 590000: minRow = 0 57355, minCol = 6 57077, minEl = -21.656, edgesLeft = 14692642
+It. 600000: minRow = 3000000000 415381, minCol = 11 46385, minEl = -21.3838, edgesLeft = 14555838
+It. 610000: minRow = 3000000000 474668, minCol = 3000000000 304487, minEl = -21.1064, edgesLeft = 14405351
+It. 620000: minRow = 3000000000 503619, minCol = 14 3513, minEl = -20.8308, edgesLeft = 14251720
+It. 630000: minRow = 3000000000 521430, minCol = 14 58889, minEl = -20.5515, edgesLeft = 14089686
+It. 640000: minRow = 11 67547, minCol = 14 67132, minEl = -20.2642, edgesLeft = 13913344
+It. 650000: minRow = 1 38340, minCol = 7 38214, minEl = -19.9766, edgesLeft = 13731648
+It. 660000: minRow = 0 65339, minCol = 14 62315, minEl = -19.6876, edgesLeft = 13548544
+It. 670000: minRow = 3000000000 564749, minCol = 3000000000 558576, minEl = -19.3926, edgesLeft = 13349359
+It. 680000: minRow = 3000000000 556599, minCol = 15 63773, minEl = -19.09, edgesLeft = 13139972
+It. 690000: minRow = 3000000000 596883, minCol = 3000000000 463899, minEl = -18.7849, edgesLeft = 12926907
+It. 700000: minRow = 3000000000 445893, minCol = 3000000000 326419, minEl = -18.4727, edgesLeft = 12700662
+It. 710000: minRow = 3000000000 659024, minCol = 3000000000 487256, minEl = -18.1542, edgesLeft = 12467017
+It. 720000: minRow = 3000000000 539386, minCol = 3000000000 524069, minEl = -17.834, edgesLeft = 12223287
+It. 730000: minRow = 3000000000 651566, minCol = 3000000000 615636, minEl = -17.5016, edgesLeft = 11961077
+It. 740000: minRow = 3000000000 526198, minCol = 3000000000 313267, minEl = -17.1615, edgesLeft = 11685737
+It. 750000: minRow = 3000000000 637142, minCol = 3000000000 610719, minEl = -16.8231, edgesLeft = 11405823
+It. 760000: minRow = 1 62072, minCol = 12 57380, minEl = -16.4746, edgesLeft = 11109877
+It. 770000: minRow = 3000000000 710130, minCol = 3000000000 709276, minEl = -16.1086, edgesLeft = 10794907
+It. 780000: minRow = 3000000000 725411, minCol = 5 2600, minEl = -15.7418, edgesLeft = 10474249
+It. 790000: minRow = 13 49917, minCol = 16 49851, minEl = -15.3589, edgesLeft = 10133877
+It. 800000: minRow = 3000000000 711557, minCol = 3000000000 658453, minEl = -14.9659, edgesLeft = 9775888
+It. 810000: minRow = 3000000000 601506, minCol = 16 3171, minEl = -14.5609, edgesLeft = 9402084
+It. 820000: minRow = 3000000000 759866, minCol = 2 71788, minEl = -14.1387, edgesLeft = 9007127
+It. 830000: minRow = 3000000000 763177, minCol = 14 6163, minEl = -13.6976, edgesLeft = 8588255
+It. 840000: minRow = 3000000000 704901, minCol = 3000000000 513111, minEl = -13.2393, edgesLeft = 8144857
+It. 850000: minRow = 3000000000 741864, minCol = 3000000000 662997, minEl = -12.7698, edgesLeft = 7689014
+It. 860000: minRow = 3000000000 821391, minCol = 12 8022, minEl = -12.2778, edgesLeft = 7204051
+It. 870000: minRow = 1 40212, minCol = 16 37982, minEl = -11.7673, edgesLeft = 6699317
+It. 880000: minRow = 3000000000 739859, minCol = 3000000000 599912, minEl = -11.2279, edgesLeft = 6161807
+It. 890000: minRow = 3000000000 718906, minCol = 3000000000 522359, minEl = -10.6543, edgesLeft = 5590143
+It. 900000: minRow = 3000000000 863372, minCol = 3000000000 824125, minEl = -10.0641, edgesLeft = 5001357
+It. 910000: minRow = 3000000000 707899, minCol = 3 45102, minEl = -9.43973, edgesLeft = 4381425
+It. 920000: minRow = 3000000000 790859, minCol = 3000000000 246569, minEl = -8.78527, edgesLeft = 3736326
+It. 930000: minRow = 3000000000 897907, minCol = 15 49718, minEl = -8.07903, edgesLeft = 3044698
+It. 940000: minRow = 3000000000 854350, minCol = 3000000000 618915, minEl = -7.34574, edgesLeft = 2331098
+It. 950000: minRow = 3 67117, minCol = 6 66648, minEl = -6.56031, edgesLeft = 1569420
+It. 960000: minRow = 3000000000 941936, minCol = 0 70871, minEl = -5.75349, edgesLeft = 774861
+Finished MinHeap clustering
+  Elapsed time: 42.96 cpu seconds or 0 min 43 sec wall time.
+Retained 1 pvalues
+  Elapsed time: 105.12 cpu seconds or 0 min 59 sec wall time.
+  Estimated time remaining: 0 min 0 sec wall time.
+Starting poisoned clustering job: batches 0-0
+Clustering 1 pvalues
+Starting MinHeap clustering
+  Loading new edges.
+Finished MinHeap clustering
+  Elapsed time: 0.02 cpu seconds or 0 min 0 sec wall time.
+Retained 0 pvalues
+Finished calculating pvalues.
+  Elapsed time: 105.18 cpu seconds or 0 min 59 sec wall time.
+  Estimated time remaining: 0 min 0 sec wall time.
+Starting p-value clustering.
+Estimated 1 p-values in this file
+Writing 1 part files
+  Elapsed time: 0 cpu seconds or 0 min 0 sec wall time.
+Sorting and filtering bin 1/1 (100%)
+  Elapsed time: 0 cpu seconds or 0 min 0 sec wall time.
+Writing p-value 1/1 (100%)
+  Elapsed time: 0.02 cpu seconds or 0 min 0 sec wall time.
+Starting MinHeap clustering
+  Creating cluster membership map.
+  Updating incomplete edges (0).
+  Loading new edges.
+  Sorting 1 edges.
+  Adding new edges.
+  Loaded new edges: new: 1, total: 1/1 (100%).
+It. 0: minRow = 6 6295, minCol = 14 6178, minEl = -14.9814
+Finished MinHeap clustering
+  Elapsed time: 0 cpu seconds or 0 min 0 sec wall time.
+Reading in p-value tree.
+Reading in p-value tree.
+Writing clusterings for 6 thresholds.
+Writing clusters to /var/lib/kubelet/weihong/MS-Tools/maracluster/maracluster_output/MaRaCluster.clusters_p30.tsv
+clust_size	#clusters	#spectra
+1	778607	778607
+2-3	105537	237962
+4-7	22523	109737
+8-15	4958	49277
+16-31	927	18145
+32-63	73	2800
+64-127	2	175
+128-255	0	0
+256-511	0	0
+512+	0	0
+total	912627	1196703
+
+Writing clusters to /var/lib/kubelet/weihong/MS-Tools/maracluster/maracluster_output/MaRaCluster.clusters_p25.tsv
+clust_size	#clusters	#spectra
+1	548418	548418
+2-3	134418	307824
+4-7	37776	186953
+8-15	10234	101170
+16-31	2210	43083
+32-63	216	8356
+64-127	11	899
+128-255	0	0
+256-511	0	0
+512+	0	0
+total	733283	1196703
+
+Writing clusters to /var/lib/kubelet/weihong/MS-Tools/maracluster/maracluster_output/MaRaCluster.clusters_p20.tsv
+clust_size	#clusters	#spectra
+1	341344	341344
+2-3	132422	308754
+4-7	50438	254160
+8-15	18216	180860
+16-31	4584	89116
+32-63	486	19056
+64-127	35	2719
+128-255	4	694
+256-511	0	0
+512+	0	0
+total	547529	1196703
+
+Writing clusters to /var/lib/kubelet/weihong/MS-Tools/maracluster/maracluster_output/MaRaCluster.clusters_p15.tsv
+clust_size	#clusters	#spectra
+1	204916	204916
+2-3	103522	245053
+4-7	53229	272528
+8-15	26418	264697
+16-31	8423	162686
+32-63	962	38087
+64-127	80	6407
+128-255	12	1984
+256-511	1	345
+512+	0	0
+total	397563	1196703
+
+Writing clusters to /var/lib/kubelet/weihong/MS-Tools/maracluster/maracluster_output/MaRaCluster.clusters_p10.tsv
+clust_size	#clusters	#spectra
+1	130696	130696
+2-3	73552	174888
+4-7	46162	239129
+8-15	30057	310088
+16-31	13401	258953
+32-63	1590	62786
+64-127	172	14295
+128-255	27	4429
+256-511	5	1439
+512+	0	0
+total	295662	1196703
+
+Writing clusters to /var/lib/kubelet/weihong/MS-Tools/maracluster/maracluster_output/MaRaCluster.clusters_p5.tsv
+clust_size	#clusters	#spectra
+1	85767	85767
+2-3	55447	131659
+4-7	37136	193210
+8-15	29111	311745
+16-31	17528	341162
+32-63	2385	95169
+64-127	285	23581
+128-255	53	8552
+256-511	18	5315
+512+	1	543
+total	227731	1196703
+
+Finished writing clusterings.
+Running MaRaCluster took: 4465.07 cpu seconds or 771 seconds wall time

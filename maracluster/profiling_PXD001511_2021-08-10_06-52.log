@@ -1,0 +1,87 @@
+Architecture:          x86_64
+CPU op-mode(s):        32-bit, 64-bit
+Byte Order:            Little Endian
+CPU(s):                48
+On-line CPU(s) list:   0-47
+Thread(s) per core:    2
+Core(s) per socket:    12
+Socket(s):             2
+NUMA node(s):          2
+Vendor ID:             GenuineIntel
+CPU family:            6
+Model:                 63
+Model name:            Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz
+Stepping:              2
+CPU MHz:               2900.198
+CPU max MHz:           3300.0000
+CPU min MHz:           1200.0000
+BogoMIPS:              5000.34
+Virtualization:        VT-x
+L1d cache:             32K
+L1i cache:             32K
+L2 cache:              256K
+L3 cache:              30720K
+NUMA node0 CPU(s):     0-11,24-35
+NUMA node1 CPU(s):     12-23,36-47
+Flags:                 fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand lahf_lm abm cpuid_fault epb invpcid_single pti intel_ppin tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid cqm xsaveopt cqm_llc cqm_occup_llc dtherm ida arat pln pts
+              total        used        free      shared  buff/cache   available
+Mem:           440G        3.0G         72G        1.1G        365G        433G
+Swap:            0B          0B          0B
+MaRaCluster version 1.01.1, Build Date Apr 23 2020 15:56:16
+Copyright (c) 2015-19 Matthew The. All rights reserved.
+Written by Matthew The (matthewt@kth.se) in the
+School of Biotechnology at the Royal Institute of Technology in Stockholm.
+Issued command:
+maracluster batch -b /var/lib/kubelet/weihong/MS-Tools/PXD001511/list.dat -t -15.0 -c -45.0,-40.0,-35.0,-30.0,-25.0,-20.0 -v 3
+Started Tue Aug 10 06:52:10 2021
+ on knuron.calit2.optiputer.net
+Splitting spectra by precursor Mz
+Accumulating peak counts and precursor Mzs
+  Processing   Processing   Processing /var/lib/kubelet/weihong/MS-Tools/PXD001511/A13-01214.mgf  Processing   Processing /var/lib/kubelet/weihong/MS-Tools/PXD001511/A13-01201.mgf  Processing /var/lib/kubelet/weihong/MS-Tools/PXD001511/A13-01212.mgf ( (  Processing   Processing  (112%)./var/lib/kubelet/weihong/MS-Tools/PXD001511/A13-01203.mgf/var/lib/kubelet/weihong/MS-Tools/PXD001511/A13-01202.mgf (10%).5
+%).
+/var/lib/kubelet/weihong/MS-Tools/PXD001511/A13-01210.mgf
+/var/lib/kubelet/weihong/MS-Tools/PXD001511/A13-01211.mgf ( (8%).
+/var/lib/kubelet/weihong/MS-Tools/PXD001511/A13-01215.mgf3%).%). (14%).
+
+
+ (7%).
+  Processing /var/lib/kubelet/weihong/MS-Tools/PXD001511/A13-01216.mgf (15%).
+  Processing /var/lib/kubelet/weihong/MS-Tools/PXD001511/A13-01218.mgf (17%).
+  Processing /var/lib/kubelet/weihong/MS-Tools/PXD001511/A13-01219.mgf (19%).
+  Processing /var/lib/kubelet/weihong/MS-Tools/PXD001511/A13-01220.mgf (21%).
+  Processing /var/lib/kubelet/weihong/MS-Tools/PXD001511/A13-01222.mgf (22%).
+  Processing /var/lib/kubelet/weihong/MS-Tools/PXD001511/A13-01223.mgf (24%).
+  Processing /var/lib/kubelet/weihong/MS-Tools/PXD001511/A13-01224.mgf (26%).
+  Processing /var/lib/kubelet/weihong/MS-Tools/PXD001511/A13-03223.mgf (28%).
+  Processing /var/lib/kubelet/weihong/MS-Tools/PXD001511/A13-03224.mgf (29%).
+  Processing /var/lib/kubelet/weihong/MS-Tools/PXD001511/A13-03225.mgf (31%).
+  Processing /var/lib/kubelet/weihong/MS-Tools/PXD001511/A13-03228.mgf (33%).
+  Processing /var/lib/kubelet/weihong/MS-Tools/PXD001511/A13-03229.mgf (35%).
+  Processing /var/lib/kubelet/weihong/MS-Tools/PXD001511/A13-03233.mgf (36%).
+  Processing /var/lib/kubelet/weihong/MS-Tools/PXD001511/A13-03234.mgf (38%).
+  Processing /var/lib/kubelet/weihong/MS-Tools/PXD001511/A13-03235.mgf (40%).
+  Processing /var/lib/kubelet/weihong/MS-Tools/PXD001511/A13-03239.mgf (42%).
+  Processing /var/lib/kubelet/weihong/MS-Tools/PXD001511/A13-03240.mgf (43%).
+  Processing /var/lib/kubelet/weihong/MS-Tools/PXD001511/A13-03243.mgf (45%).
+  Processing /var/lib/kubelet/weihong/MS-Tools/PXD001511/A13-03244.mgf (47%).
+  Processing /var/lib/kubelet/weihong/MS-Tools/PXD001511/A13-03245.mgf (49%).
+  Processing /var/lib/kubelet/weihong/MS-Tools/PXD001511/A13-03247.mgf (50%).
+  Processing /var/lib/kubelet/weihong/MS-Tools/PXD001511/A13-03249.mgf (52%).
+  Processing /var/lib/kubelet/weihong/MS-Tools/PXD001511/A13-03251.mgf (54%).
+  Processing /var/lib/kubelet/weihong/MS-Tools/PXD001511/A13-03252.mgf (56%).
+  Processing /var/lib/kubelet/weihong/MS-Tools/PXD001511/A13-03253.mgf (57%).
+  Processing /var/lib/kubelet/weihong/MS-Tools/PXD001511/A15-03059.mgf (59%).
+  Processing /var/lib/kubelet/weihong/MS-Tools/PXD001511/A15-03060.mgf (61%).
+  Processing /var/lib/kubelet/weihong/MS-Tools/PXD001511/A15-03061.mgf (63%).
+  Processing /var/lib/kubelet/weihong/MS-Tools/PXD001511/A15-03063.mgf (64%).
+  Processing /var/lib/kubelet/weihong/MS-Tools/PXD001511/A15-03064.mgf (66%).
+  Processing /var/lib/kubelet/weihong/MS-Tools/PXD001511/A15-03065.mgf (68%).
+  Processing /var/lib/kubelet/weihong/MS-Tools/PXD001511/A15-03067.mgf (70%).
+  Processing /var/lib/kubelet/weihong/MS-Tools/PXD001511/A15-03068.mgf (71%).
+  Processing /var/lib/kubelet/weihong/MS-Tools/PXD001511/A15-03069.mgf (73%).
+  Processing /var/lib/kubelet/weihong/MS-Tools/PXD001511/A15-03071.mgf (75%).
+  Processing /var/lib/kubelet/weihong/MS-Tools/PXD001511/A15-03072.mgf (77%).
+  Processing /var/lib/kubelet/weihong/MS-Tools/PXD001511/A15-03073.mgf (78%).
+  Processing /var/lib/kubelet/weihong/MS-Tools/PXD001511/A15-03125.mgf (80%).
+  Processing /var/lib/kubelet/weihong/MS-Tools/PXD001511/A15-03126.mgf (82%).
+  Processing /var/lib/kubelet/weihong/MS-Tools/PXD001511/A15-03127.mgf (84%).

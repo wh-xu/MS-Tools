@@ -1,0 +1,478 @@
+Architecture:          x86_64
+CPU op-mode(s):        32-bit, 64-bit
+Byte Order:            Little Endian
+CPU(s):                48
+On-line CPU(s) list:   0-47
+Thread(s) per core:    2
+Core(s) per socket:    12
+Socket(s):             2
+NUMA node(s):          2
+Vendor ID:             GenuineIntel
+CPU family:            6
+Model:                 63
+Model name:            Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz
+Stepping:              2
+CPU MHz:               2900.198
+CPU max MHz:           3300.0000
+CPU min MHz:           1200.0000
+BogoMIPS:              5000.34
+Virtualization:        VT-x
+L1d cache:             32K
+L1i cache:             32K
+L2 cache:              256K
+L3 cache:              30720K
+NUMA node0 CPU(s):     0-11,24-35
+NUMA node1 CPU(s):     12-23,36-47
+Flags:                 fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand lahf_lm abm cpuid_fault epb invpcid_single pti intel_ppin tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid cqm xsaveopt cqm_llc cqm_occup_llc dtherm ida arat pln pts
+              total        used        free      shared  buff/cache   available
+Mem:           440G        4.2G        212G        825M        224G        432G
+Swap:            0B          0B          0B
+MsCluster v2.0 
+Started job on: Thu Aug  5 05:21:03 2021
+
+Parameter values:
+-----------------
+outputName = test_results
+list	      = /var/lib/kubelet/weihong/MS-Tools/PXD001511/list.dat
+mixtureProb   = 0.1
+
+COMMAND LINE = ../MSCluster_bin --model LTQ_TRYP --list /var/lib/kubelet/weihong/MS-Tools/PXD001511/list.dat --output-name test_results --min-mz 200 --max-mz 2000 --memory-gb 16
+
+Pass 1: reading spectra files and writing to dat with 25 Da increments.
+----------------------------------------------------------------------
+
+Read 0 paths to spectra files.
+Converting data to DAT, using m/z increment of 25.00
+0	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD001511/A13-01201.mgf [0 : 0]
+	Found 68444 spectra... Wrote 68444 to dat files (this took 273.00 sec.)
+
+1	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD001511/A13-01202.mgf [0 : 1]
+	Found 68439 spectra... Wrote 68439 to dat files (this took 274.00 sec.)
+
+2	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD001511/A13-01203.mgf [0 : 2]
+	Found 68803 spectra... Wrote 68803 to dat files (this took 280.00 sec.)
+
+3	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD001511/A13-01210.mgf [0 : 3]
+	Found 68441 spectra... Wrote 68441 to dat files (this took 260.00 sec.)
+
+4	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD001511/A13-01211.mgf [0 : 4]
+	Found 68439 spectra... Wrote 68439 to dat files (this took 263.00 sec.)
+
+5	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD001511/A13-01212.mgf [0 : 5]
+	Found 68396 spectra... Wrote 68396 to dat files (this took 259.00 sec.)
+
+6	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD001511/A13-01214.mgf [0 : 6]
+	Found 69682 spectra... Wrote 69681 to dat files (this took 270.00 sec.)
+
+7	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD001511/A13-01215.mgf [0 : 7]
+	Found 67878 spectra... Wrote 67877 to dat files (this took 254.00 sec.)
+
+8	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD001511/A13-01216.mgf [0 : 8]
+	Found 67861 spectra... Wrote 67861 to dat files (this took 252.00 sec.)
+
+9	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD001511/A13-01218.mgf [0 : 9]
+	Found 67306 spectra... Wrote 67299 to dat files (this took 239.00 sec.)
+
+10	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD001511/A13-01219.mgf [0 : 10]
+	Found 67171 spectra... Wrote 67164 to dat files (this took 234.00 sec.)
+
+11	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD001511/A13-01220.mgf [0 : 11]
+	Found 67861 spectra... Wrote 67857 to dat files (this took 244.00 sec.)
+
+12	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD001511/A13-01222.mgf [0 : 12]
+	Found 68011 spectra... Wrote 67989 to dat files (this took 245.00 sec.)
+
+13	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD001511/A13-01223.mgf [0 : 13]
+	Found 68384 spectra... Wrote 68363 to dat files (this took 245.00 sec.)
+
+14	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD001511/A13-01224.mgf [0 : 14]
+	Found 68667 spectra... Wrote 68646 to dat files (this took 249.00 sec.)
+
+15	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD001511/A13-03223.mgf [0 : 15]
+	Found 64114 spectra... Wrote 64114 to dat files (this took 263.00 sec.)
+
+16	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD001511/A13-03224.mgf [0 : 16]
+	Found 69409 spectra... Wrote 69409 to dat files (this took 277.00 sec.)
+
+17	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD001511/A13-03225.mgf [0 : 17]
+	Found 70629 spectra... Wrote 70629 to dat files (this took 276.00 sec.)
+
+18	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD001511/A13-03228.mgf [0 : 18]
+	Found 70791 spectra... Wrote 70791 to dat files (this took 282.00 sec.)
+
+19	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD001511/A13-03229.mgf [0 : 19]
+	Found 71288 spectra... Wrote 71284 to dat files (this took 285.00 sec.)
+
+20	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD001511/A13-03233.mgf [0 : 20]
+	Found 71148 spectra... Wrote 71147 to dat files (this took 274.00 sec.)
+
+21	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD001511/A13-03234.mgf [0 : 21]
+	Found 71092 spectra... Wrote 71089 to dat files (this took 274.00 sec.)
+
+22	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD001511/A13-03235.mgf [0 : 22]
+	Found 71105 spectra... Wrote 71100 to dat files (this took 275.00 sec.)
+
+23	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD001511/A13-03239.mgf [0 : 23]
+	Found 69419 spectra... Wrote 69418 to dat files (this took 253.00 sec.)
+
+24	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD001511/A13-03240.mgf [0 : 24]
+	Found 68491 spectra... Wrote 68488 to dat files (this took 245.00 sec.)
+
+25	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD001511/A13-03243.mgf [0 : 25]
+	Found 69016 spectra... Wrote 69000 to dat files (this took 247.00 sec.)
+
+26	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD001511/A13-03244.mgf [0 : 26]
+	Found 69367 spectra... Wrote 69357 to dat files (this took 254.00 sec.)
+
+27	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD001511/A13-03245.mgf [0 : 27]
+	Found 67714 spectra... Wrote 67698 to dat files (this took 236.00 sec.)
+
+28	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD001511/A13-03247.mgf [0 : 28]
+	Found 70985 spectra... Wrote 70985 to dat files (this took 278.00 sec.)
+
+29	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD001511/A13-03249.mgf [0 : 29]
+	Found 69494 spectra... Wrote 69494 to dat files (this took 251.00 sec.)
+
+30	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD001511/A13-03251.mgf [0 : 30]
+	Found 68699 spectra... Wrote 68687 to dat files (this took 240.00 sec.)
+
+31	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD001511/A13-03252.mgf [0 : 31]
+	Found 68889 spectra... Wrote 68709 to dat files (this took 244.00 sec.)
+
+32	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD001511/A13-03253.mgf [0 : 32]
+	Found 68250 spectra... Wrote 68242 to dat files (this took 242.00 sec.)
+
+33	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD001511/A15-03059.mgf [0 : 33]
+	Found 82311 spectra... Wrote 82296 to dat files (this took 378.00 sec.)
+
+34	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD001511/A15-03060.mgf [0 : 34]
+	Found 81914 spectra... Wrote 81902 to dat files (this took 374.00 sec.)
+
+35	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD001511/A15-03061.mgf [0 : 35]
+	Found 82285 spectra... Wrote 82280 to dat files (this took 378.00 sec.)
+
+36	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD001511/A15-03063.mgf [0 : 36]
+	Found 83160 spectra... Wrote 83143 to dat files (this took 364.00 sec.)
+
+37	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD001511/A15-03064.mgf [0 : 37]
+	Found 83241 spectra... Wrote 83234 to dat files (this took 392.00 sec.)
+
+38	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD001511/A15-03065.mgf [0 : 38]
+	Found 81708 spectra... Wrote 81693 to dat files (this took 363.00 sec.)
+
+39	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD001511/A15-03067.mgf [0 : 39]
+	Found 81393 spectra... Wrote 81388 to dat files (this took 357.00 sec.)
+
+40	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD001511/A15-03068.mgf [0 : 40]
+	Found 81558 spectra... Wrote 81558 to dat files (this took 386.00 sec.)
+
+41	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD001511/A15-03069.mgf [0 : 41]
+	Found 82098 spectra... Wrote 82098 to dat files (this took 390.00 sec.)
+
+42	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD001511/A15-03071.mgf [0 : 42]
+	Found 80352 spectra... Wrote 80345 to dat files (this took 322.00 sec.)
+
+43	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD001511/A15-03072.mgf [0 : 43]
+	Found 84875 spectra... Wrote 84875 to dat files (this took 389.00 sec.)
+
+44	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD001511/A15-03073.mgf [0 : 44]
+	Found 84249 spectra... Wrote 84249 to dat files (this took 391.00 sec.)
+
+45	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD001511/A15-03125.mgf [0 : 45]
+	Found 81433 spectra... Wrote 81433 to dat files (this took 345.00 sec.)
+
+46	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD001511/A15-03126.mgf [0 : 46]
+	Found 79796 spectra... Wrote 79796 to dat files (this took 330.00 sec.)
+
+47	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD001511/A15-03127.mgf [0 : 47]
+	Found 80630 spectra... Wrote 80630 to dat files (this took 336.00 sec.)
+
+48	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD001511/A15-03129.mgf [0 : 48]
+	Found 82101 spectra... Wrote 82096 to dat files (this took 337.00 sec.)
+
+49	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD001511/A15-03130.mgf [0 : 49]
+	Found 81331 spectra... Wrote 81319 to dat files (this took 331.00 sec.)
+
+50	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD001511/A15-03131.mgf [0 : 50]
+	Found 81308 spectra... Wrote 81300 to dat files (this took 329.00 sec.)
+
+51	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD001511/A15-03138.mgf [0 : 51]
+	Found 77804 spectra... Wrote 77792 to dat files (this took 293.00 sec.)
+
+52	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD001511/A15-03139.mgf [0 : 52]
+	Found 77060 spectra... Wrote 77045 to dat files (this took 283.00 sec.)
+
+53	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD001511/A15-03140.mgf [0 : 53]
+	Found 76768 spectra... Wrote 76753 to dat files (this took 280.00 sec.)
+
+54	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD001511/A15-03142.mgf [0 : 54]
+	Found 82170 spectra... Wrote 82169 to dat files (this took 347.00 sec.)
+
+55	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD001511/A15-03144.mgf [0 : 55]
+	Found 81951 spectra... Wrote 81951 to dat files (this took 344.00 sec.)
+
+56	Extracting from: /var/lib/kubelet/weihong/MS-Tools/PXD001511/A15-03164.mgf [0 : 56]
+	Found 82067 spectra... Wrote 82066 to dat files (this took 343.00 sec.)
+
+
+SUMMARY (first pass):
+---------------------
+Wrote 54 dat files to tmp
+These files contain 4226751 spectra (from a total of 4226825 that were read)
+
+Pass 2: Splitting dat files into smaller files with 1 Da increments.
+--------------------------------------------------------------------
+
+0	1	tmp/test_results_R1_375_0.dat
+1	1	tmp/test_results_R1_400_0.dat
+2	1	tmp/test_results_R1_425_0.dat
+3	1	tmp/test_results_R1_450_0.dat
+4	1	tmp/test_results_R1_475_0.dat
+5	1	tmp/test_results_R1_500_0.dat
+6	1	tmp/test_results_R1_525_0.dat
+7	1	tmp/test_results_R1_550_0.dat
+8	1	tmp/test_results_R1_575_0.dat
+9	1	tmp/test_results_R1_600_0.dat
+9	2	tmp/test_results_R1_600_1.dat
+10	1	tmp/test_results_R1_625_0.dat
+10	2	tmp/test_results_R1_625_1.dat
+11	1	tmp/test_results_R1_650_0.dat
+11	2	tmp/test_results_R1_650_1.dat
+12	1	tmp/test_results_R1_675_0.dat
+12	2	tmp/test_results_R1_675_1.dat
+13	1	tmp/test_results_R1_700_0.dat
+13	2	tmp/test_results_R1_700_1.dat
+14	1	tmp/test_results_R1_725_0.dat
+15	1	tmp/test_results_R1_750_0.dat
+16	1	tmp/test_results_R1_775_0.dat
+17	1	tmp/test_results_R1_800_0.dat
+18	1	tmp/test_results_R1_825_0.dat
+19	1	tmp/test_results_R1_850_0.dat
+20	1	tmp/test_results_R1_875_0.dat
+21	1	tmp/test_results_R1_900_0.dat
+22	1	tmp/test_results_R1_925_0.dat
+23	1	tmp/test_results_R1_950_0.dat
+24	1	tmp/test_results_R1_975_0.dat
+25	1	tmp/test_results_R1_1000_0.dat
+26	1	tmp/test_results_R1_1025_0.dat
+27	1	tmp/test_results_R1_1050_0.dat
+28	1	tmp/test_results_R1_1075_0.dat
+29	1	tmp/test_results_R1_1100_0.dat
+30	1	tmp/test_results_R1_1125_0.dat
+31	1	tmp/test_results_R1_1150_0.dat
+32	1	tmp/test_results_R1_1175_0.dat
+33	1	tmp/test_results_R1_1200_0.dat
+34	1	tmp/test_results_R1_1225_0.dat
+35	1	tmp/test_results_R1_1250_0.dat
+36	1	tmp/test_results_R1_1275_0.dat
+37	1	tmp/test_results_R1_1300_0.dat
+38	1	tmp/test_results_R1_1325_0.dat
+39	1	tmp/test_results_R1_1350_0.dat
+40	1	tmp/test_results_R1_1375_0.dat
+41	1	tmp/test_results_R1_1400_0.dat
+42	1	tmp/test_results_R1_1425_0.dat
+43	1	tmp/test_results_R1_1450_0.dat
+44	1	tmp/test_results_R1_1475_0.dat
+45	1	tmp/test_results_R1_1500_0.dat
+46	1	tmp/test_results_R1_1525_0.dat
+47	1	tmp/test_results_R1_1550_0.dat
+48	1	tmp/test_results_R1_1575_0.dat
+
+
+
+SUMMARY (second pass):
+---------------------
+Read  4226825 spectra from original input files.
+Wrote 4226751 spectra into dat files in the first pass.
+Wrote 4226751 spectra to dat files in the second pass.
+The second pass spectra were written to 1225 dat files.
+(list of dat files written to tmp/test_results_dat_list.txt)
+Time required for dat file creation: 16939.00
+Allocating 16.000 GB.
+
+Bytes for data storage       = 14774687498
+sizeof(Peak)                 = 12
+sizeof(Cluster)              = 808
+sizeof(SingleSpectrumHeader) = 88
+Total cost per singleton     = 4192
+Allocating room for N = 3524496 singletons (14774687232 bytes)
+This means that up to 7048992 spectra can simlutaneously be evaluated.
+
+Allocated memory successfully...
+
+
+Initalizing storage, examining dat files...
+Max margin in dat files: 1.000
+
+Found 4226751 spectra, in 1225 dat files, precursor m/z range 375.01 - 1599.21
+
+1	#Freed 0	#Read 213668	#In memory 213668
+Clustering: [ 0 at 0 m/z = 375.01 ]	   to	 [ 213667 at 213667 m/z = 415.00 ]
+Writing clusters for 202499 singletons... written into 150437 clusters    Cumulative 150437 : 202499 ..done.
+
+2	#Freed 202499	#Read 244365	#In memory 255534
+Clustering: [ 213668 at 11169 m/z = 415.00 ]	   to	 [ 458032 at 255533 m/z = 455.00 ]
+Writing clusters for 242349 singletons... written into 158034 clusters    Cumulative 308471 : 444848 ..done.
+
+3	#Freed 242349	#Read 272044	#In memory 285229
+Clustering: [ 458033 at 13185 m/z = 455.00 ]	   to	 [ 730076 at 285228 m/z = 495.00 ]
+Writing clusters for 270596 singletons... written into 159173 clusters    Cumulative 467644 : 715444 ..done.
+
+4	#Freed 270596	#Read 292036	#In memory 306669
+Clustering: [ 730077 at 14633 m/z = 495.00 ]	   to	 [ 1022112 at 306668 m/z = 535.00 ]
+Writing clusters for 291920 singletons... written into 160806 clusters    Cumulative 628450 : 1007364 ..done.
+
+5	#Freed 291920	#Read 310621	#In memory 325370
+Clustering: [ 1022113 at 14749 m/z = 535.00 ]	   to	 [ 1332733 at 325369 m/z = 575.00 ]
+Writing clusters for 310540 singletons... written into 167520 clusters    Cumulative 795970 : 1317904 ..done.
+
+6	#Freed 310540	#Read 302769	#In memory 317599
+Clustering: [ 1332734 at 14830 m/z = 575.00 ]	   to	 [ 1635502 at 317598 m/z = 615.00 ]
+Writing clusters for 303361 singletons... written into 154708 clusters    Cumulative 950678 : 1621265 ..done.
+
+7	#Freed 303361	#Read 297754	#In memory 311992
+Clustering: [ 1635503 at 14238 m/z = 615.00 ]	   to	 [ 1933256 at 311991 m/z = 655.00 ]
+Writing clusters for 296959 singletons... written into 153330 clusters    Cumulative 1104008 : 1918224 ..done.
+
+8	#Freed 296959	#Read 286675	#In memory 301708
+Clustering: [ 1933257 at 15033 m/z = 655.00 ]	   to	 [ 2219931 at 301707 m/z = 695.00 ]
+Writing clusters for 286745 singletons... written into 148232 clusters    Cumulative 1252240 : 2204969 ..done.
+
+9	#Freed 286745	#Read 265697	#In memory 280660
+Clustering: [ 2219932 at 14963 m/z = 695.00 ]	   to	 [ 2485628 at 280659 m/z = 735.00 ]
+Writing clusters for 267058 singletons... written into 138660 clusters    Cumulative 1390900 : 2472027 ..done.
+
+10	#Freed 267058	#Read 242586	#In memory 256188
+Clustering: [ 2485629 at 13602 m/z = 735.00 ]	   to	 [ 2728214 at 256187 m/z = 775.00 ]
+Writing clusters for 245346 singletons... written into 123001 clusters    Cumulative 1513901 : 2717373 ..done.
+
+11	#Freed 245346	#Read 219443	#In memory 230285
+Clustering: [ 2728215 at 10842 m/z = 775.00 ]	   to	 [ 2947657 at 230284 m/z = 815.00 ]
+Writing clusters for 219414 singletons... written into 103620 clusters    Cumulative 1617521 : 2936787 ..done.
+
+12	#Freed 219414	#Read 202994	#In memory 213865
+Clustering: [ 2947658 at 10871 m/z = 815.00 ]	   to	 [ 3150651 at 213864 m/z = 855.00 ]
+Writing clusters for 203989 singletons... written into 91707 clusters    Cumulative 1709228 : 3140776 ..done.
+
+13	#Freed 203989	#Read 184884	#In memory 194760
+Clustering: [ 3150652 at 9876 m/z = 855.01 ]	   to	 [ 3335535 at 194759 m/z = 895.00 ]
+Writing clusters for 185626 singletons... written into 81211 clusters    Cumulative 1790439 : 3326402 ..done.
+
+14	#Freed 185626	#Read 157932	#In memory 167066
+Clustering: [ 3335536 at 9134 m/z = 895.00 ]	   to	 [ 3493467 at 167065 m/z = 935.00 ]
+Writing clusters for 160096 singletons... written into 69941 clusters    Cumulative 1860380 : 3486498 ..done.
+
+15	#Freed 160096	#Read 137325	#In memory 144295
+Clustering: [ 3493468 at 6970 m/z = 935.00 ]	   to	 [ 3630792 at 144294 m/z = 975.00 ]
+Writing clusters for 138166 singletons... written into 60275 clusters    Cumulative 1920655 : 3624664 ..done.
+
+16	#Freed 138166	#Read 121026	#In memory 127155
+Clustering: [ 3630793 at 6129 m/z = 975.00 ]	   to	 [ 3751818 at 127154 m/z = 1015.00 ]
+Writing clusters for 121961 singletons... written into 53185 clusters    Cumulative 1973840 : 3746625 ..done.
+
+17	#Freed 121961	#Read 102530	#In memory 107724
+Clustering: [ 3751819 at 5194 m/z = 1015.00 ]	   to	 [ 3854348 at 107723 m/z = 1055.00 ]
+Writing clusters for 103213 singletons... written into 47951 clusters    Cumulative 2021791 : 3849838 ..done.
+
+18	#Freed 103213	#Read 87331	#In memory 91842
+Clustering: [ 3854349 at 4511 m/z = 1055.00 ]	   to	 [ 3941679 at 91841 m/z = 1095.00 ]
+Writing clusters for 88053 singletons... written into 40525 clusters    Cumulative 2062316 : 3937891 ..done.
+
+19	#Freed 88053	#Read 67325	#In memory 71114
+Clustering: [ 3941680 at 3789 m/z = 1095.00 ]	   to	 [ 4009004 at 71113 m/z = 1135.00 ]
+Writing clusters for 67835 singletons... written into 32443 clusters    Cumulative 2094759 : 4005726 ..done.
+
+20	#Freed 67835	#Read 58412	#In memory 61691
+Clustering: [ 4009005 at 3279 m/z = 1135.00 ]	   to	 [ 4067416 at 61690 m/z = 1175.00 ]
+Writing clusters for 58719 singletons... written into 30789 clusters    Cumulative 2125548 : 4064445 ..done.
+
+21	#Freed 58719	#Read 44256	#In memory 47228
+Clustering: [ 4067417 at 2972 m/z = 1175.00 ]	   to	 [ 4111672 at 47227 m/z = 1214.99 ]
+Writing clusters for 45306 singletons... written into 23359 clusters    Cumulative 2148907 : 4109751 ..done.
+
+22	#Freed 45306	#Read 33711	#In memory 35633
+Clustering: [ 4111673 at 1922 m/z = 1215.00 ]	   to	 [ 4145383 at 35632 m/z = 1255.00 ]
+Writing clusters for 34024 singletons... written into 16759 clusters    Cumulative 2165666 : 4143775 ..done.
+
+23	#Freed 34024	#Read 25196	#In memory 26805
+Clustering: [ 4145384 at 1609 m/z = 1255.00 ]	   to	 [ 4170579 at 26804 m/z = 1295.00 ]
+Writing clusters for 25503 singletons... written into 13033 clusters    Cumulative 2178699 : 4169278 ..done.
+
+24	#Freed 25503	#Read 18018	#In memory 19320
+Clustering: [ 4170580 at 1302 m/z = 1295.00 ]	   to	 [ 4188597 at 19319 m/z = 1335.00 ]
+Writing clusters for 18600 singletons... written into 9742 clusters    Cumulative 2188441 : 4187878 ..done.
+
+25	#Freed 18600	#Read 12422	#In memory 13142
+Clustering: [ 4188598 at 720 m/z = 1335.00 ]	   to	 [ 4201019 at 13141 m/z = 1375.00 ]
+Writing clusters for 12584 singletons... written into 6738 clusters    Cumulative 2195179 : 4200462 ..done.
+
+26	#Freed 12584	#Read 8325	#In memory 8883
+Clustering: [ 4201020 at 558 m/z = 1375.02 ]	   to	 [ 4209344 at 8882 m/z = 1414.99 ]
+Writing clusters for 8474 singletons... written into 4341 clusters    Cumulative 2199520 : 4208936 ..done.
+
+27	#Freed 8474	#Read 6781	#In memory 7190
+Clustering: [ 4209345 at 409 m/z = 1415.01 ]	   to	 [ 4216125 at 7189 m/z = 1454.99 ]
+Writing clusters for 6945 singletons... written into 4006 clusters    Cumulative 2203526 : 4215881 ..done.
+
+28	#Freed 6945	#Read 4367	#In memory 4612
+Clustering: [ 4216126 at 245 m/z = 1455.04 ]	   to	 [ 4220492 at 4611 m/z = 1494.98 ]
+Writing clusters for 4491 singletons... written into 2926 clusters    Cumulative 2206452 : 4220372 ..done.
+
+29	#Freed 4491	#Read 3231	#In memory 3352
+Clustering: [ 4220493 at 121 m/z = 1495.00 ]	   to	 [ 4223723 at 3351 m/z = 1534.98 ]
+Writing clusters for 3187 singletons... written into 2052 clusters    Cumulative 2208504 : 4223559 ..done.
+
+30	#Freed 3187	#Read 2375	#In memory 2540
+Clustering: [ 4223724 at 165 m/z = 1535.02 ]	   to	 [ 4226098 at 2539 m/z = 1574.77 ]
+Writing clusters for 2471 singletons... written into 1505 clusters    Cumulative 2210009 : 4226030 ..done.
+
+31	#Freed 2471	#Read 652	#In memory 721
+Clustering: [ 4226099 at 69 m/z = 1575.10 ]	   to	 [ 4226750 at 720 m/z = 1599.21 ]
+Writing clusters for 721 singletons... written into 452 clusters    Cumulative 2210461 : 4226751 ..done.
+
+
+Done clustering files.
+Time (without dat creation): 3690.00
+
+Final statistics:
+-----------------
+
+Total similarity computations: 4571254762 average per spectrum 1081.51
+
+Breakdown of spectra joins:
+---------------------------
+Round	Thresh	#joins	% of total
+1	0.70	467678	(0.072)
+2	0.575	843102	(0.131)
+3	0.450	1233262	(0.191)
+4	0.325	1790401	(0.277)
+5	0.200	2124057	(0.329)
+
+
+Final clustering report:
+------------------------
+
+size	#clust	(%)	#sing	(%)
+1	1864961	(0.844)	1864961	(0.441)
+2	103497	(0.047)	206994	(0.049)
+3	54945	(0.025)	164835	(0.039)
+4	32576	(0.015)	130304	(0.031)
+5	23285	(0.011)	116425	(0.028)
+6	19884	(0.009)	119304	(0.028)
+7	14957	(0.007)	104699	(0.025)
+8	12804	(0.006)	102432	(0.024)
+9	9904	(0.004)	89136	(0.021)
+10	8936	(0.004)	89360	(0.021)
+11-15	30376	(0.014)	385439	(0.091)
+16-20	14111	(0.006)	250837	(0.059)
+21-30	14492	(0.007)	358968	(0.085)
+31-40	3741	(0.002)	127928	(0.030)
+41-50	1063	(0.000)	47486	(0.011)
+51-100	826	(0.000)	52796	(0.012)
+101-200	95	(0.000)	12520	(0.003)
+201-500	8	(0.000)	2327	(0.001)
+501+	0	(0.000)	0	(0.000)
+
+Total: 2210461	1.0	4226751	(1.0)
+
+Ended job on: Thu Aug  5 11:04:54 2021
