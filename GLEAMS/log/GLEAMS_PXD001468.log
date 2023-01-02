@@ -1,0 +1,8 @@
+2023-01-02 17:20:21,460 INFO [gleams/MainProcess] gleams.cli_embed : GLEAMS version 0.1.dev0
+2023-01-02 17:20:21,469 DEBUG [gleams/MainProcess] encoder.__init__ : Read the reference spectra
+2023-01-02 17:20:21,718 DEBUG [gleams/MainProcess] encoder.__init__ : Select 500 valid reference spectra
+2023-01-02 17:20:22,589 DEBUG [gleams/MainProcess] nn.embed : Load the stored GLEAMS neural network
+2023-01-02 17:20:23,101 DEBUG [gleams/MainProcess] embedder.__init__ : Running the embedder model on 1 GPU(s)
+2023-01-02 17:20:23,656 INFO [gleams/MainProcess] nn.embed : Embed all peak files for metadata file /tmp/tmp6g2um_0i/GLEAMS_PXD001468_emb.parquet
+2023-01-02 17:20:23,657 INFO [gleams/MainProcess] nn.embed : Process dataset GLEAMS [  1/  1] (1 files)
+2023-01-02 17:23:15,315 DEBUG [gleams/MainProcess] nn._embed_and_save : Embed 46903 spectrum encodings and save to file /tmp/tmp6g2um_0i/embed/GLEAMS_0.npy

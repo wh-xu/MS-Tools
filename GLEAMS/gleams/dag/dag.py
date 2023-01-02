@@ -1,0 +1,157 @@
+import os
+import sys
+# Make sure all code is in the PATH.
+sys.path.append(os.path.normpath(os.path.join(os.path.dirname(__file__),
+                                              os.pardir, os.pardir)))
+
+# Initialize logging.
+from gleams import logger
+logger.init()
+
+# Initialize all random seeds before importing any packages.
+from gleams import rndm
+rndm.set_seeds()
+
+import datetime
+from airflow import DAG
+from airflow.operators.python_operator import PythonOperator
+from airflow.utils import helpers
+
+from gleams import config
+from gleams.cluster import cluster
+from gleams.feature import feature
+from gleams.metadata import metadata
+from gleams.nn import nn
+
+
+default_args = {
+    'owner': 'gleams',
+    'depends_on_past': False,
+    'start_date': datetime.datetime(2020, 1, 1),
+    'email': ['wbittremieux@health.ucsd.edu'],
+    'email_on_failure': False,
+    'email_on_retry': False,
+    'retries': 3,
+    'retry_delay': datetime.timedelta(minutes=5)
+}
+
+with DAG('gleams', default_args=default_args,
+         schedule_interval=datetime.timedelta(weeks=1)) as dag:
+    suffixes = ['train', 'val', 'test']
+
+    t_metadata = PythonOperator(
+        task_id='convert_massivekb_metadata',
+        python_callable=metadata.convert_massivekb_metadata,
+        op_kwargs={'massivekb_filename': config.massivekb_filename,
+                   'metadata_filename': config.metadata_filename}
+    )
+    t_split_feat = PythonOperator(
+        task_id='split_metadata_train_val_test',
+        python_callable=metadata.split_metadata_train_val_test,
+        op_kwargs={'metadata_filename': config.metadata_filename,
+                   'val_ratio': config.val_ratio,
+                   'test_ratio': config.test_ratio,
+                   'rel_tol': config.split_ratio_tolerance}
+    )
+    t_download = PythonOperator(
+        task_id='download_massivekb_peaks',
+        python_callable=metadata.download_massivekb_peaks,
+        op_kwargs={'massivekb_filename': config.massivekb_filename}
+    )
+    t_enc_feat = PythonOperator(
+        task_id='convert_peaks_to_features',
+        python_callable=feature.convert_peaks_to_features,
+        op_kwargs={'metadata_filename': config.metadata_filename}
+    )
+    t_combine_feat = {
+        suffix: PythonOperator(
+            task_id=f'combine_features_{suffix}',
+            python_callable=feature.combine_features,
+            op_kwargs={'metadata_filename': config.metadata_filename.replace(
+                           '.parquet', f'_{suffix}.parquet')})
+        for suffix in suffixes
+    }
+    feat_dir = os.path.join(os.environ['GLEAMS_HOME'], 'data', 'feature')
+    t_pairs_pos = {
+        suffix: PythonOperator(
+            task_id=f'generate_pairs_positive_{suffix}',
+            python_callable=metadata.generate_pairs_positive,
+            op_kwargs={
+                'metadata_filename': os.path.join(
+                    feat_dir,
+                    f'feature_{config.massivekb_task_id}_{suffix}.parquet')})
+        for suffix in suffixes
+    }
+    t_pairs_neg = {
+        suffix: PythonOperator(
+            task_id=f'generate_pairs_negative_{suffix}',
+            python_callable=metadata.generate_pairs_negative,
+            op_kwargs={
+                'metadata_filename': os.path.join(
+                    feat_dir,
+                    f'feature_{config.massivekb_task_id}_{suffix}.parquet'),
+                'mz_tolerance': config.pair_mz_tolerance})
+        for suffix in suffixes
+    }
+    t_train = PythonOperator(
+        task_id='train_nn',
+        python_callable=nn.train_nn,
+        op_kwargs={'filename_model': config.model_filename,
+                   'filename_feat_train':
+                       os.path.join(feat_dir,
+                                    f'feature_{config.massivekb_task_id}_'
+                                    f'train.npy'),
+                   'filename_train_pairs_pos':
+                       os.path.join(feat_dir,
+                                    f'feature_{config.massivekb_task_id}_'
+                                    f'train_pairs_pos.npy'),
+                   'filename_train_pairs_neg':
+                       os.path.join(feat_dir,
+                                    f'feature_{config.massivekb_task_id}_'
+                                    f'train_pairs_neg.npy'),
+                   'filename_feat_val':
+                       os.path.join(feat_dir,
+                                    f'feature_{config.massivekb_task_id}_'
+                                    f'val.npy'),
+                   'filename_val_pairs_pos':
+                       os.path.join(feat_dir,
+                                    f'feature_{config.massivekb_task_id}_'
+                                    f'val_pairs_pos.npy'),
+                   'filename_val_pairs_neg':
+                       os.path.join(feat_dir,
+                                    f'feature_{config.massivekb_task_id}_'
+                                    f'val_pairs_neg.npy')}
+    )
+    t_embed = PythonOperator(
+        task_id='embed',
+        python_callable=nn.embed,
+        op_kwargs={'metadata_filename': config.metadata_filename,
+                   'model_filename': config.model_filename}
+    )
+    t_combine_embed = PythonOperator(
+        task_id='combine_embeddings',
+        python_callable=nn.combine_embeddings,
+        op_kwargs={'metadata_filename': config.metadata_filename}
+    )
+    embed_dir = os.path.join(os.environ['GLEAMS_HOME'], 'data', 'embed')
+    embed_filename = os.path.join(embed_dir, os.path.splitext(
+        os.path.basename(config.metadata_filename))[0]
+                                  .replace('metadata_', 'embed_'))
+    # dist_filename = (ann_filename.replace('ann_', 'dist_')
+    #                              .replace('.faiss', '.npz'))
+    # t_cluster = PythonOperator(
+    #     task_id='compute_pairwise_distances',
+    #     python_callable=cluster.cluster,
+    #     op_kwargs={'distances_filename': dist_filename}
+    # )
+
+    t_metadata >> t_split_feat
+    t_download >> t_enc_feat
+    helpers.cross_downstream([t_split_feat, t_enc_feat],
+                             t_combine_feat.values())
+    for suffix in suffixes:
+        t_combine_feat[suffix] >> [t_pairs_pos[suffix], t_pairs_neg[suffix]]
+    [t_pairs_pos['train'], t_pairs_neg['train'],
+     t_pairs_pos['val'], t_pairs_neg['val']] >> t_train
+    t_train >> t_embed
+    t_embed >> t_combine_embed

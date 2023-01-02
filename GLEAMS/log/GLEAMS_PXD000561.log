@@ -1,0 +1,14 @@
+2022-12-29 14:55:12,250 INFO [gleams/MainProcess] gleams.cli_embed : GLEAMS version 0.4.dev1+g8831ad6.d20221229
+2022-12-29 14:55:12,278 DEBUG [gleams/MainProcess] encoder.__init__ : Read the reference spectra
+2022-12-29 14:55:12,487 DEBUG [gleams/MainProcess] encoder.__init__ : Select 500 valid reference spectra
+2022-12-29 14:55:13,284 DEBUG [gleams/MainProcess] nn.embed : Load the stored GLEAMS neural network
+2022-12-29 14:55:14,320 DEBUG [gleams/MainProcess] embedder.__init__ : Running the embedder model on 1 GPU(s)
+2022-12-29 14:55:14,848 INFO [gleams/MainProcess] nn.embed : Embed all peak files for metadata file /tmp/tmptmexjm3u/GLEAMS_PXD000561_emb.parquet
+2022-12-29 14:55:14,858 INFO [gleams/MainProcess] nn.embed : Process dataset GLEAMS [  1/  1] (2210 files)
+2022-12-29 15:07:01,582 DEBUG [gleams/MainProcess] nn._embed_and_save : Embed 1454717 spectrum encodings and save to file /tmp/tmptmexjm3u/embed/GLEAMS_0.npy
+2022-12-29 15:07:52,559 DEBUG [gleams/MainProcess] nn._embed_and_save : Created data generator
+2022-12-29 15:16:03,062 DEBUG [gleams/MainProcess] nn._embed_and_save : Saving to /tmp/tmptmexjm3u/embed/GLEAMS_0.npy
+2022-12-29 15:27:24,648 DEBUG [gleams/MainProcess] nn._embed_and_save : Embed 1523584 spectrum encodings and save to file /tmp/tmptmexjm3u/embed/GLEAMS_1.npy
+2022-12-29 15:28:25,140 DEBUG [gleams/MainProcess] nn._embed_and_save : Created data generator
+2022-12-29 15:37:08,617 DEBUG [gleams/MainProcess] nn._embed_and_save : Saving to /tmp/tmptmexjm3u/embed/GLEAMS_1.npy
+2022-12-29 15:52:48,556 DEBUG [gleams/MainProcess] nn._embed_and_save : Embed 2069493 spectrum encodings and save to file /tmp/tmptmexjm3u/embed/GLEAMS_2.npy
