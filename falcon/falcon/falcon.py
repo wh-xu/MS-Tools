@@ -190,6 +190,7 @@ def main(args: Union[str, List[str]] = None) -> int:
         # Save cluster assignments.
         metadata['cluster'] = clusters
         clusters_all.append(metadata)
+
         # Extract identifiers for cluster representatives (medoids).
         if config.export_representatives:
             charge_repr = cluster.get_cluster_representatives(
@@ -251,6 +252,7 @@ def main(args: Union[str, List[str]] = None) -> int:
         f_out.write('#\n')
         # Cluster assignments.
         clusters_all.to_csv(f_out, index=False, chunksize=1000000)
+    
     if config.export_representatives:
         representative_info = pd.concat(representative_info, ignore_index=True)
         logger.info('Export %d cluster representative spectra %sto output '
@@ -258,6 +260,10 @@ def main(args: Union[str, List[str]] = None) -> int:
                     ('(including singletons) '
                      if config.export_include_singletons else ''),
                     f'{config.output_filename}.mgf')
+        
+        representative_info.to_parquet(f'{config.output_filename}_representatives.parquet', compression='snappy')
+        logger.info(f'Export representatives to {config.output_filename}_representatives.parquet!')
+        
         # Get the spectra corresponding to the cluster representatives.
         representative_info['filename'] = representative_info.apply(
             lambda row: os.path.join(
