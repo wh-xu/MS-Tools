@@ -265,21 +265,21 @@ def main(args: Union[str, List[str]] = None) -> int:
         logger.info(f'Export representatives to {config.output_filename}_representatives.parquet!')
         
         # Get the spectra corresponding to the cluster representatives.
-        representative_info['filename'] = representative_info.apply(
-            lambda row: os.path.join(
-                config.work_dir, 'spectra',
-                f"""{row.precursor_charge}_{_precursor_to_interval(
-                    row.precursor_mz, row.precursor_charge,
-                    config.mz_interval)}.pkl"""),
-            axis='columns')
-        representatives = []
-        for spectra in joblib.Parallel(n_jobs=-1)(
-                joblib.delayed(_find_spectra_pkl)(
-                    fn, spectra.set_index('identifier')['cluster'].to_dict())
-                for fn, spectra in representative_info.groupby('filename')):
-            representatives.extend(spectra)
-        representatives.sort(key=lambda spec: spec.cluster)
-        ms_io.write_spectra(f'{config.output_filename}.mgf', representatives)
+        # representative_info['filename'] = representative_info.apply(
+        #     lambda row: os.path.join(
+        #         config.work_dir, 'spectra',
+        #         f"""{row.precursor_charge}_{_precursor_to_interval(
+        #             row.precursor_mz, row.precursor_charge,
+        #             config.mz_interval)}.pkl"""),
+        #     axis='columns')
+        # representatives = []
+        # for spectra in joblib.Parallel(n_jobs=-1)(
+        #         joblib.delayed(_find_spectra_pkl)(
+        #             fn, spectra.set_index('identifier')['cluster'].to_dict())
+        #         for fn, spectra in representative_info.groupby('filename')):
+        #     representatives.extend(spectra)
+        # representatives.sort(key=lambda spec: spec.cluster)
+        # ms_io.write_spectra(f'{config.output_filename}.mgf', representatives)
 
     if rm_work_dir:
         shutil.rmtree(config.work_dir)
